@@ -62,6 +62,10 @@ document.addEventListener('DOMContentLoaded', async () => {
       campusData = FALLBACK_CAMPUS_DATA;
       populateRoutePickers();
     }
+    if (typeof FALLBACK_RAW_GEOJSON !== 'undefined') {
+      rawGeoJSON = FALLBACK_RAW_GEOJSON;
+      renderGeoJSONLayer();
+    }
     await loadData();
     setupLanguage();
     setupEventListeners();
@@ -131,6 +135,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         campusData = FALLBACK_CAMPUS_DATA;
         populateRoutePickers();
       }
+      if (typeof FALLBACK_RAW_GEOJSON !== 'undefined') {
+        rawGeoJSON = FALLBACK_RAW_GEOJSON;
+        renderGeoJSONLayer();
+      }
 
       const ts = Date.now();
       const res = await fetch(`data/campus_data.json?v=${ts}`);
@@ -142,16 +150,17 @@ document.addEventListener('DOMContentLoaded', async () => {
       const geoRes = await fetch(`data/Drawing.geojson?v=${ts}`);
       if (geoRes.ok) {
         rawGeoJSON = await geoRes.json();
+        renderGeoJSONLayer();
       }
 
       if (campusData && campusData.graph) {
         router = new CampusRouter(campusData.graph.nodes, campusData.graph.edges);
       }
-      renderGeoJSONLayer();
       await CMS.init();
     } catch (e) {
       console.warn('Using offline failsafe dataset:', e);
       if (campusData) populateRoutePickers();
+      renderGeoJSONLayer();
     }
   }
 
