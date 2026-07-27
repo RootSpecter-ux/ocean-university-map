@@ -269,12 +269,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   }
 
-  // 3. Render Vector Polygon Layers on Map
+  // 3. Render Vector Polygon Layers & Permanent Building Markers on Map
   function renderGeoJSONLayer() {
-    if (!rawGeoJSON) return;
+    if (!map) return;
 
     function getCategoryColor(name) {
-      if (name === 'Security Room' || name === 'REGIONAL CENTER MATTAKKULIYA') return '#ef4444';
+      if (name.includes('SECURITY') || name.includes('REGIONAL')) return '#ef4444';
       if (name.includes('MTL') || name.includes('CLASS') || name.includes('DRAWING')) return '#6366f1';
       if (name.includes('LAB') || name.includes('WORKSHOP')) return '#06b6d4';
       if (name.includes('DIVISION')) return '#a855f7';
@@ -284,31 +284,72 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     if (geojsonLayer) map.removeLayer(geojsonLayer);
 
-    geojsonLayer = L.geoJSON(rawGeoJSON, {
-      style: (feature) => {
-        const name = feature.properties.name || '';
-        const color = getCategoryColor(name);
-        return {
-          color: color,
-          weight: 2,
-          opacity: 0.85,
-          fillColor: color,
-          fillOpacity: 0.3
-        };
-      },
-      onEachFeature: (feature, layer) => {
-        const name = feature.properties.name;
-        if (!name) return;
+    if (rawGeoJSON) {
+      geojsonLayer = L.geoJSON(rawGeoJSON, {
+        style: (feature) => {
+          const name = feature.properties.name || '';
+          const color = getCategoryColor(name.toUpperCase());
+          return {
+            color: color,
+            weight: 2.5,
+            opacity: 0.9,
+            fillColor: color,
+            fillOpacity: 0.35
+          };
+        },
+        onEachFeature: (feature, layer) => {
+          const name = feature.properties.name;
+          if (!name) return;
 
-        const loc = campusData.locations.find(l => l.name.toUpperCase() === name.toUpperCase());
-        if (!loc) return;
+          const loc = campusData ? campusData.locations.find(l => l.name.toUpperCase() === name.toUpperCase() || name.toUpperCase().includes(l.name.toUpperCase())) : null;
+          const transName = loc ? (loc.translations[i18n.currentLang] || loc.name) : name;
+          const category = loc ? loc.category : 'Building';
 
+          const popupContent = `
+            <div style="font-family: var(--font-body); padding: 4px; min-width: 200px;">
+              <span style="font-size: 0.7rem; font-weight:700; color:${getCategoryColor(name.toUpperCase())}; text-transform:uppercase;">${category}</span>
+              <h4 style="margin: 4px 0 2px 0; font-size: 1rem; color: #0f172a;">${transName}</h4>
+              <p style="font-size: 0.72rem; color: #64748b; margin-bottom: 8px;"><i class="fa-solid fa-door-open"></i> Entrance Door</p>
+              <div style="display:flex; gap:6px; flex-direction:column;">
+                <button onclick="window.appSetStartLocation('${loc ? loc.id : ''}')" style="background:#0284c7; color:white; border:none; padding:7px 12px; border-radius:6px; font-weight:600; cursor:pointer; font-size:0.78rem;">
+                  <i class="fa-solid fa-circle-dot"></i> Set as Start Location
+                </button>
+                <button onclick="window.appNavigateTo('${loc ? loc.id : ''}')" style="background:#4f46e5; color:white; border:none; padding:8px 12px; border-radius:6px; font-weight:600; cursor:pointer; font-size:0.8rem;">
+                  <i class="fa-solid fa-diamond-turn-right"></i> ${i18n.t('navigateHere')}
+                </button>
+              </div>
+            </div>
+          `;
+          layer.bindPopup(popupContent);
+        }
+      }).addTo(map);
+    }
+
+    // Always render permanent prominent markers & tooltips for all 32 building locations
+    if (campusData && campusData.locations) {
+      campusData.locations.forEach(loc => {
+        const color = getCategoryColor(loc.name.toUpperCase());
         const transName = loc.translations[i18n.currentLang] || loc.name;
+
+        const bldgMarker = L.circleMarker([loc.lat, loc.lon], {
+          radius: 6,
+          fillColor: color,
+          color: '#ffffff',
+          weight: 2,
+          fillOpacity: 1
+        }).addTo(map);
+
+        bldgMarker.bindTooltip(`<b>${transName}</b>`, {
+          permanent: false,
+          direction: 'top',
+          className: 'bldg-tooltip'
+        });
+
         const popupContent = `
           <div style="font-family: var(--font-body); padding: 4px; min-width: 200px;">
-            <span style="font-size: 0.7rem; font-weight:700; color:${getCategoryColor(name)}; text-transform:uppercase;">${loc.category}</span>
+            <span style="font-size: 0.7rem; font-weight:700; color:${color}; text-transform:uppercase;">${loc.category}</span>
             <h4 style="margin: 4px 0 2px 0; font-size: 1rem; color: #0f172a;">${transName}</h4>
-            <p style="font-size: 0.72rem; color: #64748b; margin-bottom: 8px;"><i class="fa-solid fa-door-open"></i> Door: ${loc.doorName || 'Main Door'}</p>
+            <p style="font-size: 0.72rem; color: #64748b; margin-bottom: 8px;"><i class="fa-solid fa-door-open"></i> Entrance Door</p>
             <div style="display:flex; gap:6px; flex-direction:column;">
               <button onclick="window.appSetStartLocation('${loc.id}')" style="background:#0284c7; color:white; border:none; padding:7px 12px; border-radius:6px; font-weight:600; cursor:pointer; font-size:0.78rem;">
                 <i class="fa-solid fa-circle-dot"></i> Set as Start Location
@@ -319,10 +360,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             </div>
           </div>
         `;
-
-        layer.bindPopup(popupContent);
-      }
-    }).addTo(map);
+        bldgMarker.bindPopup(popupContent);
+      });
+    }
   }
 
   // 4. Real-Time Geolocation Tracking Engine
