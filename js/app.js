@@ -124,10 +124,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   async function loadData() {
     try {
       const ts = Date.now();
-      const res = await fetch(`/data/campus_data.json?v=${ts}`);
+      const res = await fetch(`data/campus_data.json?v=${ts}`);
       campusData = await res.json();
 
-      const geoRes = await fetch(`/data/Drawing.geojson?v=${ts}`);
+      const geoRes = await fetch(`data/Drawing.geojson?v=${ts}`);
       rawGeoJSON = await geoRes.json();
 
       router = new CampusRouter(campusData.graph.nodes, campusData.graph.edges);
