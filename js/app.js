@@ -58,6 +58,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Initialize Application
   async function init() {
     initMap();
+    if (typeof FALLBACK_CAMPUS_DATA !== 'undefined') {
+      campusData = FALLBACK_CAMPUS_DATA;
+      populateRoutePickers();
+    }
     await loadData();
     setupLanguage();
     setupEventListeners();
@@ -170,6 +174,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Default start location to Main Gate Security Room for university new comers
     originSelect.value = 'security_room';
     currentStartLoc = campusData.locations.find(l => l.id === 'security_room');
+
+    renderLocationList();
 
     originSelect.addEventListener('change', (e) => {
       const val = e.target.value;
