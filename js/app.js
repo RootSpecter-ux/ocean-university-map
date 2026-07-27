@@ -126,6 +126,16 @@ document.addEventListener('DOMContentLoaded', async () => {
         map.flyTo([userLivePos.lat, userLivePos.lon], 19, { duration: 0.6 });
       }
     });
+
+    const toggleMyMapsBtn = document.getElementById('btn-toggle-mymaps');
+    const myMapsContainer = document.getElementById('mymaps-iframe-container');
+    if (toggleMyMapsBtn && myMapsContainer) {
+      toggleMyMapsBtn.addEventListener('click', () => {
+        const isHidden = myMapsContainer.style.display === 'none';
+        myMapsContainer.style.display = isHidden ? 'block' : 'none';
+        toggleMyMapsBtn.style.background = isHidden ? '#10b981' : '#4285F4';
+      });
+    }
   }
 
   // 2. Load Data with Instant Failsafe Fallback
