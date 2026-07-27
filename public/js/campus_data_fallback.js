@@ -1,5 +1,5 @@
-// Fallback Embedded Campus Data & GeoJSON for 100% Instant CDN Reliability
-const FALLBACK_CAMPUS_DATA = {
+// Global Fallback Embedded Campus Data & GeoJSON attached to window
+window.FALLBACK_CAMPUS_DATA = {
   "info": {
     "title": "University Campus Navigation System",
     "center": [
@@ -2922,8 +2922,7 @@ const FALLBACK_CAMPUS_DATA = {
     ]
   }
 };
-
-const FALLBACK_RAW_GEOJSON = {
+window.FALLBACK_RAW_GEOJSON = {
   "type": "FeatureCollection",
   "features": [
     {

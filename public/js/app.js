@@ -58,12 +58,12 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Initialize Application
   async function init() {
     initMap();
-    if (typeof FALLBACK_CAMPUS_DATA !== 'undefined') {
-      campusData = FALLBACK_CAMPUS_DATA;
+    if (window.FALLBACK_CAMPUS_DATA) {
+      campusData = window.FALLBACK_CAMPUS_DATA;
       populateRoutePickers();
     }
-    if (typeof FALLBACK_RAW_GEOJSON !== 'undefined') {
-      rawGeoJSON = FALLBACK_RAW_GEOJSON;
+    if (window.FALLBACK_RAW_GEOJSON) {
+      rawGeoJSON = window.FALLBACK_RAW_GEOJSON;
       renderGeoJSONLayer();
     }
     await loadData();
@@ -141,12 +141,12 @@ document.addEventListener('DOMContentLoaded', async () => {
   // 2. Load Data with Instant Failsafe Fallback
   async function loadData() {
     try {
-      if (typeof FALLBACK_CAMPUS_DATA !== 'undefined') {
-        campusData = FALLBACK_CAMPUS_DATA;
+      if (window.FALLBACK_CAMPUS_DATA) {
+        campusData = window.FALLBACK_CAMPUS_DATA;
         populateRoutePickers();
       }
-      if (typeof FALLBACK_RAW_GEOJSON !== 'undefined') {
-        rawGeoJSON = FALLBACK_RAW_GEOJSON;
+      if (window.FALLBACK_RAW_GEOJSON) {
+        rawGeoJSON = window.FALLBACK_RAW_GEOJSON;
         renderGeoJSONLayer();
       }
 
@@ -169,8 +169,14 @@ document.addEventListener('DOMContentLoaded', async () => {
       await CMS.init();
     } catch (e) {
       console.warn('Using offline failsafe dataset:', e);
-      if (campusData) populateRoutePickers();
-      renderGeoJSONLayer();
+      if (window.FALLBACK_CAMPUS_DATA) {
+        campusData = window.FALLBACK_CAMPUS_DATA;
+        populateRoutePickers();
+      }
+      if (window.FALLBACK_RAW_GEOJSON) {
+        rawGeoJSON = window.FALLBACK_RAW_GEOJSON;
+        renderGeoJSONLayer();
+      }
     }
   }
 
