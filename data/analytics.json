@@ -1,0 +1,76 @@
+{
+  "totalScans": 159,
+  "gateScans": {
+    "security_room": 134,
+    "regional_center_mattakkuliya": 25
+  },
+  "popularDestinations": {
+    "mtl_hall_01": 42,
+    "it_lab": 35,
+    "canteen": 33,
+    "auditorium": 25,
+    "class_room_02": 15,
+    "class_room_07": 2
+  },
+  "recentScans": [
+    {
+      "gate": "security_room",
+      "dest": "class_room_07",
+      "timestamp": "2026-07-27T18:57:01.003Z"
+    },
+    {
+      "gate": "security_room",
+      "dest": "auditorium",
+      "timestamp": "2026-07-27T18:54:16.726Z"
+    },
+    {
+      "gate": "security_room",
+      "dest": "auditorium",
+      "timestamp": "2026-07-27T18:48:21.006Z"
+    },
+    {
+      "gate": "security_room",
+      "dest": "auditorium",
+      "timestamp": "2026-07-27T18:46:31.240Z"
+    },
+    {
+      "gate": "security_room",
+      "dest": "class_room_07",
+      "timestamp": "2026-07-27T17:19:23.858Z"
+    },
+    {
+      "gate": "security_room",
+      "dest": "canteen",
+      "timestamp": "2026-07-26T20:01:06.191Z"
+    },
+    {
+      "gate": "security_room",
+      "dest": "canteen",
+      "timestamp": "2026-07-26T19:54:35.655Z"
+    },
+    {
+      "gate": "security_room",
+      "dest": "canteen",
+      "timestamp": "2026-07-26T19:47:29.173Z"
+    },
+    {
+      "gate": "security_room",
+      "dest": "canteen",
+      "timestamp": "2026-07-26T19:41:19.986Z"
+    },
+    {
+      "gate": "regional_center_mattakkuliya",
+      "dest": null,
+      "timestamp": "2026-07-26T19:38:35.042Z"
+    },
+    {
+      "gate": "security_room",
+      "dest": null,
+      "timestamp": "2026-07-26T19:38:13.069Z"
+    },
+    {
+      "gate": "security_room",
+      "timestamp": "2026-07-26T19:31:44.036Z"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ann_1",
+    "locationId": "mtl_hall_02",
+    "title": "Semester Examination in Progress",
+    "message": "Quiet zone in effect around MTL Hall 02 between 9:00 AM - 12:00 PM.",
+    "type": "warning",
+    "date": "2026-07-26T19:31:44.029Z"
+  },
+  {
+    "id": "ann_2",
+    "locationId": "canteen",
+    "title": "Special Lunch Buffet Available Today",
+    "message": "Student canteen serving traditional lunch menu from 11:30 AM onwards.",
+    "type": "info",
+    "date": "2026-07-26T19:31:44.031Z"
+  }
+]

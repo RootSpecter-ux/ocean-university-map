@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Campus Navigator - Interactive University Map</title>
+  <meta name="description" content="Instant QR-based zero-app interactive campus navigation system for students, faculty, and university visitors.">
+  
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app-container">
+    
+    <!-- Top Navbar -->
+    <header class="navbar">
+      <div class="brand-section">
+        <div class="brand-logo">
+          <i class="fa-solid fa-compass"></i>
+        </div>
+        <div class="brand-title">
+          <h1 data-i18n="appName">Ocean University of Sri Lanka</h1>
+          <p data-i18n="appSub">Interactive Zero-App Campus Navigation System</p>
+        </div>
+      </div>
+
+      <div class="nav-actions">
+        <!-- Language Switcher -->
+        <select id="lang-select" class="lang-selector" aria-label="Select Language">
+          <option value="en">🌐 English</option>
+          <option value="si">🌐 සිංහල</option>
+          <option value="ta">🌐 தமிழ்</option>
+        </select>
+
+        <!-- Admin Portal Button -->
+        <button id="open-admin-btn" class="btn-icon" title="Admin CMS Portal">
+          <i class="fa-solid fa-user-gear"></i>
+          <span data-i18n="adminCMS">Admin</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- QR Scan Welcome Banner (Shown dynamically when scanned from gate) -->
+    <div id="qr-welcome-banner" class="qr-welcome-banner" style="display: none;">
+      <i class="fa-solid fa-qrcode"></i>
+      <span id="qr-welcome-text">Scanned from Main Gate. Starting point locked.</span>
+      <button id="close-banner-btn" style="background:none; border:none; color:white; cursor:pointer; margin-left:8px;">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <!-- Leaflet GIS Map -->
+    <div id="map"></div>
+
+    <!-- Quick Floating Map Action Controls -->
+    <div class="map-quick-controls">
+      <button id="btn-zoom-in" class="map-ctrl-btn" title="Zoom In"><i class="fa-solid fa-plus"></i></button>
+      <button id="btn-zoom-out" class="map-ctrl-btn" title="Zoom Out"><i class="fa-solid fa-minus"></i></button>
+      <button id="btn-recenter-campus" class="map-ctrl-btn" title="Focus University Campus"><i class="fa-solid fa-building-columns"></i></button>
+      <button id="btn-recenter-gps" class="map-ctrl-btn" title="Recenter Live Location"><i class="fa-solid fa-crosshairs"></i></button>
+    </div>
+
+    <!-- Floating Navigation & Search Drawer -->
+    <aside class="drawer">
+      <div class="drawer-header">
+        <!-- Google Maps Style Route Picker (Origin, Destination & Swap) -->
+        <div class="route-picker-box">
+          <div class="picker-column">
+            <div class="picker-row">
+              <i class="fa-solid fa-circle-dot origin-icon" style="color: #3b82f6;"></i>
+              <select id="origin-select" class="route-select">
+                <option value="live">📍 My Live GPS Location</option>
+              </select>
+            </div>
+            <div class="picker-row" style="margin-top: 6px;">
+              <i class="fa-solid fa-location-dot dest-icon" style="color: #ef4444;"></i>
+              <select id="dest-select" class="route-select">
+                <option value="">🎯 Choose Destination...</option>
+              </select>
+            </div>
+          </div>
+          <button id="swap-route-btn" class="swap-btn" title="Swap Start & Destination">
+            <i class="fa-solid fa-arrows-up-down"></i>
+          </button>
+        </div>
+
+        <!-- Search Field -->
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" id="search-input" class="search-input" data-i18n-placeholder="searchPlaceholder" placeholder="Search classrooms, halls, labs, canteen...">
+          <button id="clear-search-btn" class="clear-search-btn" style="display: none;">
+            <i class="fa-solid fa-circle-xmark"></i>
+          </button>
+        </div>
+
+        <!-- Category Chips -->
+        <div class="category-chips" id="category-chips">
+          <button class="chip active" data-category="all" data-i18n="allCategories">All Places</button>
+          <button class="chip" data-category="Academic & Lecture Halls" data-i18n="academic">Academic & Halls</button>
+          <button class="chip" data-category="Labs & Workshops" data-i18n="labs">Labs & Workshops</button>
+          <button class="chip" data-category="Administrative" data-i18n="admin">Administrative</button>
+          <button class="chip" data-category="Sports & Recreation" data-i18n="sports">Sports & Rec</button>
+          <button class="chip" data-category="Facilities & Dining" data-i18n="facilities">Facilities & Dining</button>
+          <button class="chip" data-category="Amenities" data-i18n="amenities">Amenities</button>
+        </div>
+      </div>
+
+      <div class="drawer-body">
+        <!-- Default: Location List View -->
+        <div id="location-list-view" class="location-list">
+          <!-- Populated dynamically via JS -->
+        </div>
+
+        <!-- Active Route Navigation View (Hidden by default) -->
+        <div id="route-navigation-view" class="route-panel" style="display: none;">
+          <div class="route-header">
+            <div class="route-stats">
+              <div class="stat-item">
+                <span id="route-distance" class="stat-value">0 m</span>
+                <span class="stat-label" data-i18n="distance">Distance</span>
+              </div>
+              <div class="stat-item">
+                <span id="route-time" class="stat-value">0 min</span>
+                <span class="stat-label" data-i18n="estTime">Est. Walk Time</span>
+              </div>
+            </div>
+
+            <button id="clear-route-btn" class="btn-icon" style="background: rgba(239, 68, 68, 0.2); border-color: rgba(239, 68, 68, 0.4); color: #fca5a5;">
+              <i class="fa-solid fa-xmark"></i> End Route
+            </button>
+          </div>
+
+          <!-- Accessible Route Toggle -->
+          <div class="accessible-toggle-bar">
+            <span><i class="fa-solid fa-wheelchair"></i> <span data-i18n="wheelchairOnly">Wheelchair Accessible Paths Only</span></span>
+            <label class="switch">
+              <input type="checkbox" id="accessible-toggle">
+              <span class="slider"></span>
+            </label>
+          </div>
+
+          <!-- Step-by-Step Directions List -->
+          <div id="turn-steps-list" class="turn-steps">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Indoor Floor Plan Modal -->
+    <div id="floor-plan-modal" class="modal-overlay">
+      <div class="modal-card">
+        <div class="modal-header">
+          <div>
+            <h3 id="modal-building-title">MTL HALL 01</h3>
+            <p id="modal-building-subtitle" style="font-size: 0.8rem; color: var(--text-secondary);">Indoor Floor Plan Layout</p>
+          </div>
+          <button class="modal-close-btn" id="close-floor-modal"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="modal-body">
+          <div id="floor-tabs" class="floor-selector">
+            <!-- Floor tabs injected dynamically -->
+          </div>
+
+          <div id="indoor-rooms-grid" class="indoor-grid">
+            <!-- Rooms grid injected dynamically -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Admin CMS & QR Code Generator Modal -->
+    <div id="admin-modal" class="modal-overlay">
+      <div class="modal-card" style="width: 760px;">
+        <div class="modal-header">
+          <h3><i class="fa-solid fa-sliders"></i> Admin CMS & QR Generator</h3>
+          <button class="modal-close-btn" id="close-admin-modal"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="modal-body">
+          <!-- Passcode verification section if not logged in -->
+          <div id="admin-login-section">
+            <div class="form-group">
+              <label for="admin-passcode">Enter Administrator Passcode (Default: <code>admin123</code>):</label>
+              <input type="password" id="admin-passcode" class="form-control" placeholder="Enter passcode">
+            </div>
+            <button id="admin-login-btn" class="btn-primary"><i class="fa-solid fa-key"></i> Unlock Admin Panel</button>
+          </div>
+
+          <!-- Admin Dashboard Section -->
+          <div id="admin-dashboard-section" style="display: none;">
+            <div style="display: flex; gap: 10px; margin-bottom: 20px; border-bottom: 1px solid var(--glass-border); padding-bottom: 10px;">
+              <button class="chip active" id="tab-cms-anns">Post Announcement</button>
+              <button class="chip" id="tab-cms-qr">QR Code Generator</button>
+              <button class="chip" id="tab-cms-analytics">Scan Analytics</button>
+            </div>
+
+            <!-- Tab 1: Post Announcement -->
+            <div id="panel-cms-anns">
+              <form id="announcement-form">
+                <div class="form-group">
+                  <label>Select Target Building / Location:</label>
+                  <select id="ann-location-select" class="form-control"></select>
+                </div>
+                <div class="form-group">
+                  <label>Notice Title:</label>
+                  <input type="text" id="ann-title" class="form-control" placeholder="e.g. Exam in Progress / Room Maintenance" required>
+                </div>
+                <div class="form-group">
+                  <label>Notice Message:</label>
+                  <textarea id="ann-message" class="form-control" rows="3" placeholder="Enter detailed notice for visitors..." required></textarea>
+                </div>
+                <div class="form-group">
+                  <label>Notice Type:</label>
+                  <select id="ann-type" class="form-control">
+                    <option value="info">Information (Blue)</option>
+                    <option value="warning">Warning / Exam (Amber)</option>
+                    <option value="alert">Closure / Alert (Red)</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn-primary"><i class="fa-solid fa-paper-plane"></i> Publish Announcement</button>
+              </form>
+
+              <h4 style="margin-top: 24px; margin-bottom: 10px; font-size: 0.95rem;">Active Campus Announcements</h4>
+              <div id="active-announcements-list" style="display: flex; flex-direction: column; gap: 8px;"></div>
+            </div>
+
+            <!-- Tab 2: QR Code Generator -->
+            <div id="panel-cms-qr" style="display: none;">
+              <div class="form-group">
+                <label>Select Campus Gate or Touchpoint:</label>
+                <select id="qr-gate-select" class="form-control"></select>
+              </div>
+              <div style="text-align: center; margin-top: 20px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: var(--radius-md);">
+                <img id="qr-image-display" src="" alt="QR Code" style="width: 180px; height: 180px; background: white; padding: 10px; border-radius: 12px; margin-bottom: 12px;">
+                <p id="qr-target-url" style="font-size: 0.8rem; color: var(--accent-cyan); word-break: break-all;"></p>
+                <button id="download-qr-btn" class="btn-primary" style="margin: 12px auto 0 auto;"><i class="fa-solid fa-download"></i> Download High-Res Printable QR Code</button>
+              </div>
+            </div>
+
+            <!-- Tab 3: Scan Analytics -->
+            <div id="panel-cms-analytics" style="display: none;">
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+                <div style="padding: 16px; background: rgba(99, 102, 241, 0.1); border-radius: var(--radius-md); text-align: center;">
+                  <h2 id="total-scans-val" style="font-size: 2rem; color: var(--accent-cyan);">148</h2>
+                  <p style="font-size: 0.8rem; color: var(--text-secondary);">Total Campus Scans</p>
+                </div>
+                <div style="padding: 16px; background: rgba(16, 185, 129, 0.1); border-radius: var(--radius-md); text-align: center;">
+                  <h2 id="main-gate-scans-val" style="font-size: 2rem; color: var(--accent-emerald);">124</h2>
+                  <p style="font-size: 0.8rem; color: var(--text-secondary);">Main South Gate Scans</p>
+                </div>
+              </div>
+              <h4 style="margin-top: 20px; margin-bottom: 10px; font-size: 0.9rem;">Popular Visitor Destinations</h4>
+              <div id="popular-dests-list" style="display: flex; flex-direction: column; gap: 6px;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  
+    <!-- Immediate QR Scan Welcome & Destination Modal ("Where do you want to go?") -->
+    <div id="welcome-modal" class="modal-overlay active">
+      <div class="modal-container" style="max-width: 440px; text-align: center;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+          <span style="font-size: 0.75rem; font-weight: 700; color: var(--primary-400); text-transform: uppercase;">🌐 Language</span>
+          <select class="lang-selector lang-select-global" aria-label="Select Language">
+            <option value="en">🌐 English</option>
+            <option value="si">🌐 සිංහල</option>
+            <option value="ta">🌐 தமிழ்</option>
+          </select>
+        </div>
+        <div style="width: 56px; height: 56px; background: rgba(99, 102, 241, 0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px auto; color: var(--primary-400); font-size: 1.6rem;">
+          <i class="fa-solid fa-compass"></i>
+        </div>
+        <h3 style="font-size: 1.3rem; color: #ffffff; font-weight: 700; margin-bottom: 6px;" data-i18n="welcomeTitle">Welcome to the Ocean University of Sri Lanka</h3>
+        <p style="font-size: 0.88rem; color: #94a3b8; margin-bottom: 20px;">Where do you want to go?</p>
+
+      <div style="text-align: left; margin-bottom: 16px;">
+        <label style="font-size: 0.75rem; font-weight: 700; color: #94a3b8; text-transform: uppercase; display: block; margin-bottom: 6px;">
+          <i class="fa-solid fa-map-pin" style="color: #ef4444;"></i> Select Campus Destination:
+        </label>
+        <select id="welcome-dest-select" class="form-control" style="width: 100%; padding: 12px; font-size: 0.95rem; background: #0f172a; border: 1px solid var(--primary-500); color: white; border-radius: 10px; font-weight: 600;">
+          <option value="">-- Choose Landmark / Classroom --</option>
+        </select>
+      </div>
+
+      <div id="gps-status-box" style="display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 0.78rem; color: var(--accent-emerald); background: rgba(16, 185, 129, 0.1); padding: 8px 12px; border-radius: 20px; margin-bottom: 20px;">
+        <i class="fa-solid fa-location-crosshairs fa-spin"></i> Acquiring High-Accuracy GPS Position...
+      </div>
+
+      <button id="start-welcome-nav-btn" class="btn-primary" style="width: 100%; padding: 14px; font-size: 1rem; font-weight: 700; justify-content: center;">
+        <i class="fa-solid fa-location-arrow"></i> Start Precise Navigation
+      </button>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/i18n.js"></script>
+  <script src="js/routing.js"></script>
+  <script src="js/cms.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
