@@ -300,11 +300,11 @@ document.addEventListener('DOMContentLoaded', async () => {
           const name = feature.properties.name || '';
           const color = getCategoryColor(name.toUpperCase());
           return {
-            color: color,
-            weight: 2.5,
-            opacity: 0.9,
+            color: '#1e293b',
+            weight: 3,
+            opacity: 0.95,
             fillColor: color,
-            fillOpacity: 0.35
+            fillOpacity: 0.55
           };
         },
         onEachFeature: (feature, layer) => {
@@ -314,6 +314,12 @@ document.addEventListener('DOMContentLoaded', async () => {
           const loc = campusData ? campusData.locations.find(l => l.name.toUpperCase() === name.toUpperCase() || name.toUpperCase().includes(l.name.toUpperCase())) : null;
           const transName = loc ? (loc.translations[i18n.currentLang] || loc.name) : name;
           const category = loc ? loc.category : 'Building';
+
+          layer.bindTooltip(`<b>${transName}</b>`, {
+            permanent: true,
+            direction: 'center',
+            className: 'bldg-tooltip'
+          });
 
           const popupContent = `
             <div style="font-family: var(--font-body); padding: 4px; min-width: 200px;">
