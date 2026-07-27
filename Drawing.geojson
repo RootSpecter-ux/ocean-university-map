@@ -1,0 +1,2865 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    79.871731,
+                    6.97497,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sport Room",
+                "styleUrl": "#icon-1519-0288D1-nodesc",
+                "label-scale": 0,
+                "icon-opacity": 1,
+                "icon-color": "#0288d1",
+                "icon-scale": 1,
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    79.871724,
+                    6.974923,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "UNION ROOM",
+                "styleUrl": "#icon-1739-0288D1-nodesc",
+                "label-scale": 0,
+                "icon-opacity": 1,
+                "icon-color": "#0288d1",
+                "icon-scale": 1,
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871805,
+                            6.974991,
+                            0
+                        ],
+                        [
+                            79.871822,
+                            6.974902,
+                            0
+                        ],
+                        [
+                            79.871864,
+                            6.974911,
+                            0
+                        ],
+                        [
+                            79.871847,
+                            6.974998,
+                            0
+                        ],
+                        [
+                            79.871805,
+                            6.974991,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "MTL HALL 04",
+                "styleUrl": "#poly-000000-2386-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 2.386
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.87172,
+                            6.974939,
+                            0
+                        ],
+                        [
+                            79.871726,
+                            6.974904,
+                            0
+                        ],
+                        [
+                            79.87179,
+                            6.974909,
+                            0
+                        ],
+                        [
+                            79.871787,
+                            6.974947,
+                            0
+                        ],
+                        [
+                            79.87172,
+                            6.974939,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "UNION ROOM",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.87172,
+                            6.974939,
+                            0
+                        ],
+                        [
+                            79.871787,
+                            6.974947,
+                            0
+                        ],
+                        [
+                            79.871785,
+                            6.974996,
+                            0
+                        ],
+                        [
+                            79.871712,
+                            6.974989,
+                            0
+                        ],
+                        [
+                            79.87172,
+                            6.974939,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SPORT ROOM",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872103,
+                            6.975055,
+                            0
+                        ],
+                        [
+                            79.872121,
+                            6.974971,
+                            0
+                        ],
+                        [
+                            79.87217,
+                            6.97498,
+                            0
+                        ],
+                        [
+                            79.87215,
+                            6.975063,
+                            0
+                        ],
+                        [
+                            79.872103,
+                            6.975055,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "MTL HALL 03",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.87215,
+                            6.975063,
+                            0
+                        ],
+                        [
+                            79.87217,
+                            6.97498,
+                            0
+                        ],
+                        [
+                            79.872211,
+                            6.974986,
+                            0
+                        ],
+                        [
+                            79.872192,
+                            6.97507,
+                            0
+                        ],
+                        [
+                            79.87215,
+                            6.975063,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "LECTURERS WASHROOM",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872192,
+                            6.97507,
+                            0
+                        ],
+                        [
+                            79.872211,
+                            6.974986,
+                            0
+                        ],
+                        [
+                            79.872265,
+                            6.974993,
+                            0
+                        ],
+                        [
+                            79.872246,
+                            6.975079,
+                            0
+                        ],
+                        [
+                            79.872192,
+                            6.97507,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CLASS ROOM 07",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872248,
+                            6.97511,
+                            0
+                        ],
+                        [
+                            79.872267,
+                            6.975026,
+                            0
+                        ],
+                        [
+                            79.872432,
+                            6.975052,
+                            0
+                        ],
+                        [
+                            79.87241,
+                            6.975136,
+                            0
+                        ],
+                        [
+                            79.872248,
+                            6.97511,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "VOLLY BALL COURT",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871933,
+                            6.975187,
+                            0
+                        ],
+                        [
+                            79.871959,
+                            6.975044,
+                            0
+                        ],
+                        [
+                            79.872034,
+                            6.975062,
+                            0
+                        ],
+                        [
+                            79.872004,
+                            6.975196,
+                            0
+                        ],
+                        [
+                            79.871933,
+                            6.975187,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "BADMINTON COURT",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871847,
+                            6.974998,
+                            0
+                        ],
+                        [
+                            79.871864,
+                            6.974911,
+                            0
+                        ],
+                        [
+                            79.872076,
+                            6.974952,
+                            0
+                        ],
+                        [
+                            79.872058,
+                            6.975039,
+                            0
+                        ],
+                        [
+                            79.871847,
+                            6.974998,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "LECTUERE'S ROOM",
+                "styleUrl": "#poly-673AB7-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#673ab7",
+                "stroke-opacity": 1,
+                "stroke": "#673ab7",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871687,
+                            6.975371,
+                            0
+                        ],
+                        [
+                            79.871713,
+                            6.975192,
+                            0
+                        ],
+                        [
+                            79.871756,
+                            6.975199,
+                            0
+                        ],
+                        [
+                            79.871815,
+                            6.975208,
+                            0
+                        ],
+                        [
+                            79.871776,
+                            6.975384,
+                            0
+                        ],
+                        [
+                            79.871687,
+                            6.975371,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "TRAINING AND ACCOUNT DIVISION",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871815,
+                            6.975208,
+                            0
+                        ],
+                        [
+                            79.871927,
+                            6.975232,
+                            0
+                        ],
+                        [
+                            79.871896,
+                            6.975406,
+                            0
+                        ],
+                        [
+                            79.871776,
+                            6.975384,
+                            0
+                        ],
+                        [
+                            79.871815,
+                            6.975208,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "AUDITORIUM",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871937,
+                            6.975323,
+                            0
+                        ],
+                        [
+                            79.871954,
+                            6.975235,
+                            0
+                        ],
+                        [
+                            79.872013,
+                            6.975243,
+                            0
+                        ],
+                        [
+                            79.871999,
+                            6.975336,
+                            0
+                        ],
+                        [
+                            79.871937,
+                            6.975323,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "MTL HALL 02",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871937,
+                            6.975323,
+                            0
+                        ],
+                        [
+                            79.871912,
+                            6.975319,
+                            0
+                        ],
+                        [
+                            79.871927,
+                            6.975232,
+                            0
+                        ],
+                        [
+                            79.871954,
+                            6.975235,
+                            0
+                        ],
+                        [
+                            79.871937,
+                            6.975323,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "STORAGE ROOM",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872418,
+                            6.975259,
+                            0
+                        ],
+                        [
+                            79.87244,
+                            6.975151,
+                            0
+                        ],
+                        [
+                            79.872561,
+                            6.975173,
+                            0
+                        ],
+                        [
+                            79.872537,
+                            6.975283,
+                            0
+                        ],
+                        [
+                            79.872418,
+                            6.975259,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "MTL HALL 01",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872418,
+                            6.975259,
+                            0
+                        ],
+                        [
+                            79.872344,
+                            6.975248,
+                            0
+                        ],
+                        [
+                            79.872364,
+                            6.975163,
+                            0
+                        ],
+                        [
+                            79.872437,
+                            6.975176,
+                            0
+                        ],
+                        [
+                            79.872418,
+                            6.975259,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CLASS ROOM 02",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872364,
+                            6.975163,
+                            0
+                        ],
+                        [
+                            79.872344,
+                            6.975248,
+                            0
+                        ],
+                        [
+                            79.872288,
+                            6.975239,
+                            0
+                        ],
+                        [
+                            79.872308,
+                            6.975152,
+                            0
+                        ],
+                        [
+                            79.872364,
+                            6.975163,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CLASS ROOM 03",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872288,
+                            6.975239,
+                            0
+                        ],
+                        [
+                            79.872166,
+                            6.975219,
+                            0
+                        ],
+                        [
+                            79.872185,
+                            6.975136,
+                            0
+                        ],
+                        [
+                            79.872308,
+                            6.975152,
+                            0
+                        ],
+                        [
+                            79.872288,
+                            6.975239,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "DRAWING ROOM",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872166,
+                            6.975219,
+                            0
+                        ],
+                        [
+                            79.872087,
+                            6.975208,
+                            0
+                        ],
+                        [
+                            79.872104,
+                            6.975124,
+                            0
+                        ],
+                        [
+                            79.872185,
+                            6.975136,
+                            0
+                        ],
+                        [
+                            79.872166,
+                            6.975219,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CLASS ROOM 04",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872095,
+                            6.975235,
+                            0
+                        ],
+                        [
+                            79.872154,
+                            6.975238,
+                            0
+                        ],
+                        [
+                            79.87215,
+                            6.97526,
+                            0
+                        ],
+                        [
+                            79.872095,
+                            6.975255,
+                            0
+                        ],
+                        [
+                            79.872095,
+                            6.975235,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "STUDENTS WASH ROOM",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872095,
+                            6.975255,
+                            0
+                        ],
+                        [
+                            79.87215,
+                            6.97526,
+                            0
+                        ],
+                        [
+                            79.872148,
+                            6.975289,
+                            0
+                        ],
+                        [
+                            79.872092,
+                            6.975284,
+                            0
+                        ],
+                        [
+                            79.872095,
+                            6.975255,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "TRANSPORT DIVISION",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872092,
+                            6.975284,
+                            0
+                        ],
+                        [
+                            79.872148,
+                            6.975289,
+                            0
+                        ],
+                        [
+                            79.87214,
+                            6.975342,
+                            0
+                        ],
+                        [
+                            79.872083,
+                            6.975336,
+                            0
+                        ],
+                        [
+                            79.872092,
+                            6.975284,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "IT LAB",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872083,
+                            6.975336,
+                            0
+                        ],
+                        [
+                            79.87214,
+                            6.975342,
+                            0
+                        ],
+                        [
+                            79.872128,
+                            6.975419,
+                            0
+                        ],
+                        [
+                            79.872071,
+                            6.975415,
+                            0
+                        ],
+                        [
+                            79.872083,
+                            6.975336,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CHART ROOM",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871758,
+                            6.97541,
+                            0
+                        ],
+                        [
+                            79.872257,
+                            6.975498,
+                            0
+                        ],
+                        [
+                            79.872229,
+                            6.975622,
+                            0
+                        ],
+                        [
+                            79.871729,
+                            6.975533,
+                            0
+                        ],
+                        [
+                            79.871758,
+                            6.97541,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "WORKSHOP",
+                "styleUrl": "#poly-558B2F-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#558b2f",
+                "stroke-opacity": 1,
+                "stroke": "#558b2f",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872102,
+                            6.97561,
+                            0
+                        ],
+                        [
+                            79.872218,
+                            6.975629,
+                            0
+                        ],
+                        [
+                            79.872204,
+                            6.975713,
+                            0
+                        ],
+                        [
+                            79.872088,
+                            6.975693,
+                            0
+                        ],
+                        [
+                            79.872102,
+                            6.97561,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "WELDING WORKSHOP",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871606,
+                            6.975585,
+                            0
+                        ],
+                        [
+                            79.871708,
+                            6.9756,
+                            0
+                        ],
+                        [
+                            79.871682,
+                            6.975755,
+                            0
+                        ],
+                        [
+                            79.871576,
+                            6.975741,
+                            0
+                        ],
+                        [
+                            79.871606,
+                            6.975585,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CANTEEN",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871556,
+                            6.975857,
+                            0
+                        ],
+                        [
+                            79.871568,
+                            6.975782,
+                            0
+                        ],
+                        [
+                            79.871678,
+                            6.975801,
+                            0
+                        ],
+                        [
+                            79.871663,
+                            6.975872,
+                            0
+                        ],
+                        [
+                            79.871556,
+                            6.975857,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "GYM",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871663,
+                            6.975872,
+                            0
+                        ],
+                        [
+                            79.871708,
+                            6.9756,
+                            0
+                        ],
+                        [
+                            79.871998,
+                            6.975654,
+                            0
+                        ],
+                        [
+                            79.871949,
+                            6.975923,
+                            0
+                        ],
+                        [
+                            79.871663,
+                            6.975872,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "BOYS HOSTALS",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871709,
+                            6.976063,
+                            0
+                        ],
+                        [
+                            79.871733,
+                            6.975962,
+                            0
+                        ],
+                        [
+                            79.871969,
+                            6.976005,
+                            0
+                        ],
+                        [
+                            79.87195,
+                            6.976106,
+                            0
+                        ],
+                        [
+                            79.871709,
+                            6.976063,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "REGIONAL CENTER MATTAKKULIYA",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872223,
+                            6.974955,
+                            0
+                        ],
+                        [
+                            79.872248,
+                            6.97488,
+                            0
+                        ],
+                        [
+                            79.87235,
+                            6.974903,
+                            0
+                        ],
+                        [
+                            79.872333,
+                            6.974974,
+                            0
+                        ],
+                        [
+                            79.872223,
+                            6.974955,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CLASS ROOM 08",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872223,
+                            6.974955,
+                            0
+                        ],
+                        [
+                            79.872038,
+                            6.974924,
+                            0
+                        ],
+                        [
+                            79.87205,
+                            6.974848,
+                            0
+                        ],
+                        [
+                            79.872248,
+                            6.97488,
+                            0
+                        ],
+                        [
+                            79.872223,
+                            6.974955,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "LAB",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871815,
+                            6.975208,
+                            0
+                        ],
+                        [
+                            79.871828,
+                            6.975024,
+                            0
+                        ],
+                        [
+                            79.871933,
+                            6.97504,
+                            0
+                        ],
+                        [
+                            79.871917,
+                            6.975231,
+                            0
+                        ],
+                        [
+                            79.871815,
+                            6.975208,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "classrooms",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    79.871836,
+                    6.974951,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "MTL HALL 04",
+                "description": "MTL LECTURE HALL 04",
+                "styleUrl": "#icon-1739-0288D1",
+                "label-scale": 0,
+                "icon-opacity": 1,
+                "icon-color": "#0288d1",
+                "icon-scale": 1,
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    79.871731,
+                    6.97497,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sport Room",
+                "styleUrl": "#icon-1519-0288D1-nodesc",
+                "label-scale": 0,
+                "icon-opacity": 1,
+                "icon-color": "#0288d1",
+                "icon-scale": 1,
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    79.871724,
+                    6.974923,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "UNION ROOM",
+                "styleUrl": "#icon-1739-0288D1-nodesc",
+                "label-scale": 0,
+                "icon-opacity": 1,
+                "icon-color": "#0288d1",
+                "icon-scale": 1,
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871805,
+                            6.974991,
+                            0
+                        ],
+                        [
+                            79.871822,
+                            6.974902,
+                            0
+                        ],
+                        [
+                            79.871864,
+                            6.974911,
+                            0
+                        ],
+                        [
+                            79.871847,
+                            6.974998,
+                            0
+                        ],
+                        [
+                            79.871805,
+                            6.974991,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "MTL HALL 04",
+                "styleUrl": "#poly-000000-2386-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 2.386
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.87172,
+                            6.974939,
+                            0
+                        ],
+                        [
+                            79.871726,
+                            6.974904,
+                            0
+                        ],
+                        [
+                            79.87179,
+                            6.974909,
+                            0
+                        ],
+                        [
+                            79.871787,
+                            6.974947,
+                            0
+                        ],
+                        [
+                            79.87172,
+                            6.974939,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "UNION ROOM",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.87172,
+                            6.974939,
+                            0
+                        ],
+                        [
+                            79.871787,
+                            6.974947,
+                            0
+                        ],
+                        [
+                            79.871785,
+                            6.974996,
+                            0
+                        ],
+                        [
+                            79.871712,
+                            6.974989,
+                            0
+                        ],
+                        [
+                            79.87172,
+                            6.974939,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "SPORT ROOM",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872103,
+                            6.975055,
+                            0
+                        ],
+                        [
+                            79.872121,
+                            6.974971,
+                            0
+                        ],
+                        [
+                            79.87217,
+                            6.97498,
+                            0
+                        ],
+                        [
+                            79.87215,
+                            6.975063,
+                            0
+                        ],
+                        [
+                            79.872103,
+                            6.975055,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "MTL HALL 03",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.87215,
+                            6.975063,
+                            0
+                        ],
+                        [
+                            79.87217,
+                            6.97498,
+                            0
+                        ],
+                        [
+                            79.872211,
+                            6.974986,
+                            0
+                        ],
+                        [
+                            79.872192,
+                            6.97507,
+                            0
+                        ],
+                        [
+                            79.87215,
+                            6.975063,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "LECTURERS WASHROOM",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872192,
+                            6.97507,
+                            0
+                        ],
+                        [
+                            79.872211,
+                            6.974986,
+                            0
+                        ],
+                        [
+                            79.872265,
+                            6.974993,
+                            0
+                        ],
+                        [
+                            79.872246,
+                            6.975079,
+                            0
+                        ],
+                        [
+                            79.872192,
+                            6.97507,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CLASS ROOM 07",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872248,
+                            6.97511,
+                            0
+                        ],
+                        [
+                            79.872267,
+                            6.975026,
+                            0
+                        ],
+                        [
+                            79.872432,
+                            6.975052,
+                            0
+                        ],
+                        [
+                            79.87241,
+                            6.975136,
+                            0
+                        ],
+                        [
+                            79.872248,
+                            6.97511,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "VOLLY BALL COURT",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871933,
+                            6.975187,
+                            0
+                        ],
+                        [
+                            79.871959,
+                            6.975044,
+                            0
+                        ],
+                        [
+                            79.872034,
+                            6.975062,
+                            0
+                        ],
+                        [
+                            79.872004,
+                            6.975196,
+                            0
+                        ],
+                        [
+                            79.871933,
+                            6.975187,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "BADMINTON COURT",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871847,
+                            6.974998,
+                            0
+                        ],
+                        [
+                            79.871864,
+                            6.974911,
+                            0
+                        ],
+                        [
+                            79.872076,
+                            6.974952,
+                            0
+                        ],
+                        [
+                            79.872058,
+                            6.975039,
+                            0
+                        ],
+                        [
+                            79.871847,
+                            6.974998,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "LECTUERE'S ROOM",
+                "styleUrl": "#poly-673AB7-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#673ab7",
+                "stroke-opacity": 1,
+                "stroke": "#673ab7",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871687,
+                            6.975371,
+                            0
+                        ],
+                        [
+                            79.871713,
+                            6.975192,
+                            0
+                        ],
+                        [
+                            79.871756,
+                            6.975199,
+                            0
+                        ],
+                        [
+                            79.871815,
+                            6.975208,
+                            0
+                        ],
+                        [
+                            79.871776,
+                            6.975384,
+                            0
+                        ],
+                        [
+                            79.871687,
+                            6.975371,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "TRAINING AND ACCOUNT DIVISION",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871815,
+                            6.975208,
+                            0
+                        ],
+                        [
+                            79.871927,
+                            6.975232,
+                            0
+                        ],
+                        [
+                            79.871896,
+                            6.975406,
+                            0
+                        ],
+                        [
+                            79.871776,
+                            6.975384,
+                            0
+                        ],
+                        [
+                            79.871815,
+                            6.975208,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "AUDITORIUM",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871937,
+                            6.975323,
+                            0
+                        ],
+                        [
+                            79.871954,
+                            6.975235,
+                            0
+                        ],
+                        [
+                            79.872013,
+                            6.975243,
+                            0
+                        ],
+                        [
+                            79.871999,
+                            6.975336,
+                            0
+                        ],
+                        [
+                            79.871937,
+                            6.975323,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "MTL HALL 02",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871937,
+                            6.975323,
+                            0
+                        ],
+                        [
+                            79.871912,
+                            6.975319,
+                            0
+                        ],
+                        [
+                            79.871927,
+                            6.975232,
+                            0
+                        ],
+                        [
+                            79.871954,
+                            6.975235,
+                            0
+                        ],
+                        [
+                            79.871937,
+                            6.975323,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "STORAGE ROOM",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872418,
+                            6.975259,
+                            0
+                        ],
+                        [
+                            79.87244,
+                            6.975151,
+                            0
+                        ],
+                        [
+                            79.872561,
+                            6.975173,
+                            0
+                        ],
+                        [
+                            79.872537,
+                            6.975283,
+                            0
+                        ],
+                        [
+                            79.872418,
+                            6.975259,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "MTL HALL 01",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872418,
+                            6.975259,
+                            0
+                        ],
+                        [
+                            79.872344,
+                            6.975248,
+                            0
+                        ],
+                        [
+                            79.872364,
+                            6.975163,
+                            0
+                        ],
+                        [
+                            79.872437,
+                            6.975176,
+                            0
+                        ],
+                        [
+                            79.872418,
+                            6.975259,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CLASS ROOM 02",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872364,
+                            6.975163,
+                            0
+                        ],
+                        [
+                            79.872344,
+                            6.975248,
+                            0
+                        ],
+                        [
+                            79.872288,
+                            6.975239,
+                            0
+                        ],
+                        [
+                            79.872308,
+                            6.975152,
+                            0
+                        ],
+                        [
+                            79.872364,
+                            6.975163,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CLASS ROOM 03",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872288,
+                            6.975239,
+                            0
+                        ],
+                        [
+                            79.872166,
+                            6.975219,
+                            0
+                        ],
+                        [
+                            79.872185,
+                            6.975136,
+                            0
+                        ],
+                        [
+                            79.872308,
+                            6.975152,
+                            0
+                        ],
+                        [
+                            79.872288,
+                            6.975239,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "DRAWING ROOM",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872166,
+                            6.975219,
+                            0
+                        ],
+                        [
+                            79.872087,
+                            6.975208,
+                            0
+                        ],
+                        [
+                            79.872104,
+                            6.975124,
+                            0
+                        ],
+                        [
+                            79.872185,
+                            6.975136,
+                            0
+                        ],
+                        [
+                            79.872166,
+                            6.975219,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CLASS ROOM 04",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872095,
+                            6.975235,
+                            0
+                        ],
+                        [
+                            79.872154,
+                            6.975238,
+                            0
+                        ],
+                        [
+                            79.87215,
+                            6.97526,
+                            0
+                        ],
+                        [
+                            79.872095,
+                            6.975255,
+                            0
+                        ],
+                        [
+                            79.872095,
+                            6.975235,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "STUDENTS WASH ROOM",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872095,
+                            6.975255,
+                            0
+                        ],
+                        [
+                            79.87215,
+                            6.97526,
+                            0
+                        ],
+                        [
+                            79.872148,
+                            6.975289,
+                            0
+                        ],
+                        [
+                            79.872092,
+                            6.975284,
+                            0
+                        ],
+                        [
+                            79.872095,
+                            6.975255,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "TRANSPORT DIVISION",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872092,
+                            6.975284,
+                            0
+                        ],
+                        [
+                            79.872148,
+                            6.975289,
+                            0
+                        ],
+                        [
+                            79.87214,
+                            6.975342,
+                            0
+                        ],
+                        [
+                            79.872083,
+                            6.975336,
+                            0
+                        ],
+                        [
+                            79.872092,
+                            6.975284,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "IT LAB",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872083,
+                            6.975336,
+                            0
+                        ],
+                        [
+                            79.87214,
+                            6.975342,
+                            0
+                        ],
+                        [
+                            79.872128,
+                            6.975419,
+                            0
+                        ],
+                        [
+                            79.872071,
+                            6.975415,
+                            0
+                        ],
+                        [
+                            79.872083,
+                            6.975336,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CHART ROOM",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871758,
+                            6.97541,
+                            0
+                        ],
+                        [
+                            79.872257,
+                            6.975498,
+                            0
+                        ],
+                        [
+                            79.872229,
+                            6.975622,
+                            0
+                        ],
+                        [
+                            79.871729,
+                            6.975533,
+                            0
+                        ],
+                        [
+                            79.871758,
+                            6.97541,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "WORKSHOP",
+                "styleUrl": "#poly-558B2F-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#558b2f",
+                "stroke-opacity": 1,
+                "stroke": "#558b2f",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872102,
+                            6.97561,
+                            0
+                        ],
+                        [
+                            79.872218,
+                            6.975629,
+                            0
+                        ],
+                        [
+                            79.872204,
+                            6.975713,
+                            0
+                        ],
+                        [
+                            79.872088,
+                            6.975693,
+                            0
+                        ],
+                        [
+                            79.872102,
+                            6.97561,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "WELDING WORKSHOP",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871606,
+                            6.975585,
+                            0
+                        ],
+                        [
+                            79.871708,
+                            6.9756,
+                            0
+                        ],
+                        [
+                            79.871682,
+                            6.975755,
+                            0
+                        ],
+                        [
+                            79.871576,
+                            6.975741,
+                            0
+                        ],
+                        [
+                            79.871606,
+                            6.975585,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CANTEEN",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871556,
+                            6.975857,
+                            0
+                        ],
+                        [
+                            79.871568,
+                            6.975782,
+                            0
+                        ],
+                        [
+                            79.871678,
+                            6.975801,
+                            0
+                        ],
+                        [
+                            79.871663,
+                            6.975872,
+                            0
+                        ],
+                        [
+                            79.871556,
+                            6.975857,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "GYM",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871709,
+                            6.976063,
+                            0
+                        ],
+                        [
+                            79.871733,
+                            6.975962,
+                            0
+                        ],
+                        [
+                            79.871969,
+                            6.976005,
+                            0
+                        ],
+                        [
+                            79.87195,
+                            6.976106,
+                            0
+                        ],
+                        [
+                            79.871709,
+                            6.976063,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "REGIONAL CENTER MATTAKKULIYA",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872223,
+                            6.974955,
+                            0
+                        ],
+                        [
+                            79.872248,
+                            6.97488,
+                            0
+                        ],
+                        [
+                            79.87235,
+                            6.974903,
+                            0
+                        ],
+                        [
+                            79.872333,
+                            6.974974,
+                            0
+                        ],
+                        [
+                            79.872223,
+                            6.974955,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "CLASS ROOM 08",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.872223,
+                            6.974955,
+                            0
+                        ],
+                        [
+                            79.872038,
+                            6.974924,
+                            0
+                        ],
+                        [
+                            79.87205,
+                            6.974848,
+                            0
+                        ],
+                        [
+                            79.872248,
+                            6.97488,
+                            0
+                        ],
+                        [
+                            79.872223,
+                            6.974955,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "LAB",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871815,
+                            6.975208,
+                            0
+                        ],
+                        [
+                            79.871828,
+                            6.975024,
+                            0
+                        ],
+                        [
+                            79.871933,
+                            6.97504,
+                            0
+                        ],
+                        [
+                            79.871917,
+                            6.975231,
+                            0
+                        ],
+                        [
+                            79.871815,
+                            6.975208,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "classrooms",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    79.871836,
+                    6.974951,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "MTL HALL 04",
+                "description": "MTL LECTURE HALL 04",
+                "styleUrl": "#icon-1739-0288D1",
+                "label-scale": 0,
+                "icon-opacity": 1,
+                "icon-color": "#0288d1",
+                "icon-scale": 1,
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            79.871773,
+                            6.974779,
+                            0
+                        ],
+                        [
+                            79.87181,
+                            6.974753,
+                            0
+                        ],
+                        [
+                            79.871833,
+                            6.974774,
+                            0
+                        ],
+                        [
+                            79.871794,
+                            6.974802,
+                            0
+                        ],
+                        [
+                            79.871773,
+                            6.974779,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Security Room",
+                "styleUrl": "#poly-000000-1200-77-nodesc",
+                "fill-opacity": 0.30196078431372547,
+                "fill": "#000000",
+                "stroke-opacity": 1,
+                "stroke": "#000000",
+                "stroke-width": 1.2
+            }
+        }
+    ]
+}
