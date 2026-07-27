@@ -16,10 +16,6 @@
       "dest": "/server.js"
     },
     {
-      "src": "/data/(.*)",
-      "dest": "/public/data/$1"
-    },
-    {
       "src": "/(.*)",
       "dest": "/public/$1"
     }

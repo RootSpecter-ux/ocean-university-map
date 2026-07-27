@@ -160,9 +160,10 @@ app.use((req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-app.listen(PORT, () => {
-  console.log(`Campus Navigation Server running on http://localhost:${PORT}`);
-});
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Campus Navigation Server running on http://localhost:${PORT}`);
+  });
+}
 
-// Keep event loop active in background
-setInterval(() => {}, 60000);
+module.exports = app;
