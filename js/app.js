@@ -350,7 +350,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         }).addTo(map);
 
         bldgMarker.bindTooltip(`<b>${transName}</b>`, {
-          permanent: false,
+          permanent: true,
           direction: 'top',
           className: 'bldg-tooltip'
         });
