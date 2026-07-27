@@ -463,6 +463,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     if (!routeResult) return;
 
+    const myMapsContainer = document.getElementById('mymaps-iframe-container');
+    if (myMapsContainer) myMapsContainer.style.display = 'none';
+
     locationListView.style.display = 'none';
     routeNavView.style.display = 'flex';
 
