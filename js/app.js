@@ -120,23 +120,34 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   }
 
-  // 2. Load Data
+  // 2. Load Data with Instant Failsafe Fallback
   async function loadData() {
     try {
+      if (typeof FALLBACK_CAMPUS_DATA !== 'undefined') {
+        campusData = FALLBACK_CAMPUS_DATA;
+        populateRoutePickers();
+      }
+
       const ts = Date.now();
       const res = await fetch(`data/campus_data.json?v=${ts}`);
-      campusData = await res.json();
+      if (res.ok) {
+        campusData = await res.json();
+        populateRoutePickers();
+      }
 
       const geoRes = await fetch(`data/Drawing.geojson?v=${ts}`);
-      rawGeoJSON = await geoRes.json();
+      if (geoRes.ok) {
+        rawGeoJSON = await geoRes.json();
+      }
 
-      router = new CampusRouter(campusData.graph.nodes, campusData.graph.edges);
-
+      if (campusData && campusData.graph) {
+        router = new CampusRouter(campusData.graph.nodes, campusData.graph.edges);
+      }
       renderGeoJSONLayer();
-      populateRoutePickers();
       await CMS.init();
     } catch (e) {
-      console.error('Failed to load campus data:', e);
+      console.warn('Using offline failsafe dataset:', e);
+      if (campusData) populateRoutePickers();
     }
   }
 
