@@ -322,11 +322,11 @@ document.addEventListener('DOMContentLoaded', async () => {
           const name = feature.properties.name || '';
           const color = getCategoryColor(name.toUpperCase());
           return {
-            color: '#1e293b',
-            weight: 3,
-            opacity: 0.95,
+            color: '#0f172a',
+            weight: 3.5,
+            opacity: 1.0,
             fillColor: color,
-            fillOpacity: 0.55
+            fillOpacity: 0.65
           };
         },
         onEachFeature: (feature, layer) => {
