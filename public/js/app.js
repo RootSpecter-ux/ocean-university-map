@@ -496,8 +496,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     if (!routeResult) return;
 
-    const myMapsContainer = document.getElementById('mymaps-iframe-container');
-    if (myMapsContainer) myMapsContainer.style.display = 'none';
+    const myMapsFrame = document.getElementById('mymaps-frame');
+    if (myMapsFrame) myMapsFrame.style.display = 'none';
 
     locationListView.style.display = 'none';
     routeNavView.style.display = 'flex';
@@ -611,6 +611,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const destSelect = document.getElementById('dest-select');
     if (destSelect) destSelect.value = '';
+
+    const myMapsFrame = document.getElementById('mymaps-frame');
+    if (myMapsFrame) myMapsFrame.style.display = 'block';
 
     routeNavView.style.display = 'none';
     locationListView.style.display = 'flex';

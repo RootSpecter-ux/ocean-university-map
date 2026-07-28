@@ -53,9 +53,14 @@
       </button>
     </div>
 
-    <!-- Leaflet GIS Map Container -->
+    <!-- Main Map Container with Direct Google My Maps Embed & Interactive GIS Overlay -->
     <div style="position: relative; flex: 1; height: 100%;">
-      <div id="map"></div>
+      <div id="map" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"></div>
+      
+      <!-- Direct Official Google My Maps Frame (Default Active View with All Custom Drawn Buildings) -->
+      <div id="mymaps-frame" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 2; background: white;">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1oYCxIl6BMTSHj_dm2-vHSO0ORf6v1gQ&ehbc=2E312F" width="100%" height="100%" style="border: 0;"></iframe>
+      </div>
     </div>
 
     <!-- Quick Floating Map Action Controls -->
@@ -311,10 +316,10 @@
   </div>
 
   <!-- Scripts -->
-  <script src="js/campus_data_fallback.js?v=9.0.0"></script>
-  <script src="js/i18n.js?v=9.0.0"></script>
-  <script src="js/routing.js?v=9.0.0"></script>
-  <script src="js/cms.js?v=9.0.0"></script>
-  <script src="js/app.js?v=9.0.0"></script>
+  <script src="js/campus_data_fallback.js?v=10.0.0"></script>
+  <script src="js/i18n.js?v=10.0.0"></script>
+  <script src="js/routing.js?v=10.0.0"></script>
+  <script src="js/cms.js?v=10.0.0"></script>
+  <script src="js/app.js?v=10.0.0"></script>
 </body>
 </html>
