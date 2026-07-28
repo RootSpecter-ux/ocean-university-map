@@ -60,18 +60,23 @@ document.addEventListener('DOMContentLoaded', async () => {
     initMap();
     if (window.FALLBACK_CAMPUS_DATA) {
       campusData = window.FALLBACK_CAMPUS_DATA;
+      if (campusData.graph) {
+        router = new CampusRouter(campusData.graph.nodes, campusData.graph.edges);
+      }
       populateRoutePickers();
     }
     if (window.FALLBACK_RAW_GEOJSON) {
       rawGeoJSON = window.FALLBACK_RAW_GEOJSON;
       renderGeoJSONLayer();
     }
-    await loadData();
     setupLanguage();
     setupEventListeners();
     initLiveGeolocation();
     checkURLParams();
     renderLocationList();
+
+    // Async background refresh if online
+    loadData().catch(e => console.log('Loaded from embedded dataset:', e));
   }
 
   // 1. Initialize Map with Google Maps Tiles & Strict University Bounds Lock
