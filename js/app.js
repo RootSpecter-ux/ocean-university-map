@@ -277,6 +277,14 @@ document.addEventListener('DOMContentLoaded', async () => {
       }
     });
 
+    const closeWelcomeModalBtn = document.getElementById('close-welcome-modal-btn');
+    if (closeWelcomeModalBtn) {
+      closeWelcomeModalBtn.addEventListener('click', () => {
+        welcomeModal.classList.remove('active');
+        welcomeModal.style.display = 'none';
+      });
+    }
+
     // Welcome Modal Action - Take Own Navigation Button Handler
     document.getElementById('welcome-custom-pin-btn').addEventListener('click', () => {
       welcomeModal.classList.remove('active');

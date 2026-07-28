@@ -278,8 +278,11 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   
     <!-- Immediate QR Scan Welcome & Destination Modal ("Where do you want to go?") -->
-    <div id="welcome-modal" class="modal-overlay active">
-      <div class="modal-container" style="max-width: 440px; text-align: center;">
+    <div id="welcome-modal" class="modal-overlay">
+      <div class="modal-container" style="max-width: 440px; text-align: center; position: relative;">
+        <button id="close-welcome-modal-btn" style="position: absolute; top: 12px; right: 12px; background: none; border: none; color: #94a3b8; font-size: 1.2rem; cursor: pointer;">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
           <span style="font-size: 0.75rem; font-weight: 700; color: var(--primary-400); text-transform: uppercase;">🌐 Language</span>
           <select class="lang-selector lang-select-global" aria-label="Select Language">
@@ -314,10 +317,10 @@
   </div>
 
   <!-- Scripts -->
-  <script src="js/campus_data_fallback.js?v=4.0.0"></script>
-  <script src="js/i18n.js?v=4.0.0"></script>
-  <script src="js/routing.js?v=4.0.0"></script>
-  <script src="js/cms.js?v=4.0.0"></script>
-  <script src="js/app.js?v=4.0.0"></script>
+  <script src="js/campus_data_fallback.js?v=5.0.0"></script>
+  <script src="js/i18n.js?v=5.0.0"></script>
+  <script src="js/routing.js?v=5.0.0"></script>
+  <script src="js/cms.js?v=5.0.0"></script>
+  <script src="js/app.js?v=5.0.0"></script>
 </body>
 </html>
