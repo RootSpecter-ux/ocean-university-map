@@ -499,6 +499,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     const myMapsFrame = document.getElementById('mymaps-frame');
     if (myMapsFrame) myMapsFrame.style.display = 'none';
 
+    if (map) {
+      setTimeout(() => {
+        map.invalidateSize();
+        renderGeoJSONLayer();
+      }, 50);
+    }
+
     locationListView.style.display = 'none';
     routeNavView.style.display = 'flex';
 
