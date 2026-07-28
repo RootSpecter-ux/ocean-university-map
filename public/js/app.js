@@ -136,6 +136,14 @@ document.addEventListener('DOMContentLoaded', async () => {
         toggleMyMapsBtn.style.background = isHidden ? '#10b981' : '#4285F4';
       });
     }
+
+    const drawerToggleBar = document.getElementById('drawer-toggle-bar');
+    const mobileDrawer = document.getElementById('mobile-drawer');
+    if (drawerToggleBar && mobileDrawer) {
+      drawerToggleBar.addEventListener('click', () => {
+        mobileDrawer.classList.toggle('expanded');
+      });
+    }
   }
 
   // 2. Load Data with Instant Failsafe Fallback
