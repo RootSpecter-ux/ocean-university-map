@@ -3,38 +3,36 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {
-        "name": "Sport Room",
-        "styleUrl": "#icon-1519-0288D1-nodesc"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           79.8717309,
           6.9749695
         ]
+      },
+      "properties": {
+        "name": "Sport Room",
+        "styleUrl": "#icon-1519-0288D1-nodesc",
+        "color": "#0288d1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "UNION ROOM",
-        "styleUrl": "#icon-1739-0288D1-nodesc"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           79.8717243,
           6.9749225
         ]
+      },
+      "properties": {
+        "name": "UNION ROOM",
+        "styleUrl": "#icon-1739-0288D1-nodesc",
+        "color": "#0288d1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "MTL HALL 04",
-        "styleUrl": "#poly-000000-2386-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -61,14 +59,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "MTL HALL 04",
+        "styleUrl": "#poly-000000-2386-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "UNION ROOM",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -95,14 +94,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "UNION ROOM",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "SPORT ROOM",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -129,14 +129,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "SPORT ROOM",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "MTL HALL 03",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -163,14 +164,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "MTL HALL 03",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "LECTURERS WASHROOM",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -197,14 +199,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "LECTURERS WASHROOM",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "CLASS ROOM 07",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -231,14 +234,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "CLASS ROOM 07",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "VOLLY BALL COURT",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -265,14 +269,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "VOLLY BALL COURT",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "BADMINTON COURT",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -299,14 +304,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "BADMINTON COURT",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "LECTUERE'S ROOM",
-        "styleUrl": "#poly-673AB7-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -333,14 +339,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "LECTUERE'S ROOM",
+        "styleUrl": "#poly-673AB7-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "TRAINING AND ACCOUNT DIVISION",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -371,14 +378,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "TRAINING AND ACCOUNT DIVISION",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "AUDITORIUM",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -405,14 +413,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "AUDITORIUM",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "MTL HALL 02",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -439,14 +448,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "MTL HALL 02",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "STORAGE ROOM",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -473,14 +483,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "STORAGE ROOM",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "MTL HALL 01",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -507,14 +518,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "MTL HALL 01",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "CLASS ROOM 02",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -541,14 +553,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "CLASS ROOM 02",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "CLASS ROOM 03",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -575,14 +588,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "CLASS ROOM 03",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "DRAWING ROOM",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -609,14 +623,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "DRAWING ROOM",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "CLASS ROOM 04",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -643,14 +658,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "CLASS ROOM 04",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "STUDENTS WASH ROOM",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -677,14 +693,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "STUDENTS WASH ROOM",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "TRANSPORT DIVISION",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -711,14 +728,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "TRANSPORT DIVISION",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "IT LAB",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -745,14 +763,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "IT LAB",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "CHART ROOM",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -779,14 +798,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "CHART ROOM",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "WORKSHOP",
-        "styleUrl": "#poly-558B2F-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -813,14 +833,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "WORKSHOP",
+        "styleUrl": "#poly-558B2F-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "WELDING WORKSHOP",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -847,14 +868,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "WELDING WORKSHOP",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "CANTEEN",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -881,14 +903,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "CANTEEN",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "GYM",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -915,14 +938,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "GYM",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "BOYS HOSTALS",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -949,14 +973,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "BOYS HOSTALS",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "REGIONAL CENTER MATTAKKULIYA",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -983,14 +1008,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "REGIONAL CENTER MATTAKKULIYA",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "CLASS ROOM 08",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1017,14 +1043,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "CLASS ROOM 08",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "LAB",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1051,14 +1078,15 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "LAB",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "classrooms",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1085,28 +1113,30 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "classrooms",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "MTL HALL 04",
-        "styleUrl": "#icon-1739-0288D1"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           79.8718357,
           6.9749505
         ]
+      },
+      "properties": {
+        "name": "MTL HALL 04",
+        "styleUrl": "#icon-1739-0288D1",
+        "color": "#0288d1"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "Security Room",
-        "styleUrl": "#poly-000000-1200-77-nodesc"
-      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1133,6 +1163,11 @@
             ]
           ]
         ]
+      },
+      "properties": {
+        "name": "Security Room",
+        "styleUrl": "#poly-000000-1200-77-nodesc",
+        "color": "#6366f1"
       }
     }
   ]
