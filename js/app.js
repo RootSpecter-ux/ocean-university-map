@@ -616,6 +616,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     locationListView.style.display = 'flex';
   }
 
+  window.appClearRoute = clearRoute;
+
   window.appSetStartLocation = function(locId) {
     const loc = campusData.locations.find(l => l.id === locId);
     if (loc) {
