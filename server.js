@@ -18,8 +18,20 @@ app.use('/data', (req, res, next) => {
 });
 
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(__dirname));
 
-// Data paths
+// Data File Routes
+app.get('/data/campus_data.json', (req, res) => {
+  const p1 = path.join(__dirname, 'public', 'data', 'campus_data.json');
+  if (fs.existsSync(p1)) return res.sendFile(p1);
+  res.sendFile(path.join(__dirname, 'campus_data.json'));
+});
+
+app.get('/data/Drawing.geojson', (req, res) => {
+  const p1 = path.join(__dirname, 'public', 'data', 'Drawing.geojson');
+  if (fs.existsSync(p1)) return res.sendFile(p1);
+  res.sendFile(path.join(__dirname, 'Drawing.geojson'));
+});
 const DATA_FILE = path.join(__dirname, 'public', 'data', 'campus_data.json');
 const ANNOUNCEMENTS_FILE = path.join(__dirname, 'public', 'data', 'announcements.json');
 const ANALYTICS_FILE = path.join(__dirname, 'public', 'data', 'analytics.json');
