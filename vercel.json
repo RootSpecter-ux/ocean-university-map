@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "public": true,
-  "cleanUrls": true,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@vercel/node"
+    }
+  ],
   "routes": [
     {
       "src": "/(.*)",
-      "headers": {
-        "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
-      }
+      "dest": "server.js"
     }
   ]
 }

@@ -1,10 +1,13 @@
 {
   "name": "ocean-university-map",
-  "version": "57.0.0",
+  "version": "62.0.0",
   "description": "Zero-App Interactive Campus Navigation System for Ocean University of Sri Lanka",
-  "private": true,
+  "main": "server.js",
   "scripts": {
-    "build": "echo 'Static Vercel Build Complete'",
-    "start": "echo 'Serving Vercel Static Site'"
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
   }
 }
