@@ -60,22 +60,23 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Initialize Application
   async function init() {
     initMap();
-    if (window.FALLBACK_CAMPUS_DATA) {
-      campusData = window.FALLBACK_CAMPUS_DATA;
-      if (campusData.graph) {
-        router = new CampusRouter(campusData.graph.nodes, campusData.graph.edges);
-      }
-      populateRoutePickers();
+    
+    // Always assign in-memory embedded dataset synchronously on startup
+    campusData = EMBEDDED_CAMPUS_DATA || window.FALLBACK_CAMPUS_DATA;
+    rawGeoJSON = EMBEDDED_GEOJSON_DRAWINGS || window.FALLBACK_RAW_GEOJSON;
+
+    if (campusData && campusData.graph) {
+      router = new CampusRouter(campusData.graph.nodes, campusData.graph.edges);
     }
-    if (window.FALLBACK_RAW_GEOJSON) {
-      rawGeoJSON = window.FALLBACK_RAW_GEOJSON;
-      renderGeoJSONLayer();
-    }
+    
+    populateRoutePickers();
+    renderGeoJSONLayer();
+    renderLocationList();
+
     setupLanguage();
     setupEventListeners();
     initLiveGeolocation();
     checkURLParams();
-    renderLocationList();
 
     // Async background refresh if online
     loadData().catch(e => console.log('Loaded from embedded dataset:', e));
