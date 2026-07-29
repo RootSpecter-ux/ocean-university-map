@@ -478,7 +478,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   }
 
-  // 4. Real-Time Geolocation Tracking Engine
+  // 4. Real-Time High-Accuracy Geolocation Tracking Engine
   function initLiveGeolocation() {
     if ('geolocation' in navigator) {
       navigator.geolocation.getCurrentPosition(
@@ -488,11 +488,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         (err) => {
           console.log('Initial geolocation prompt deferred:', err.message);
           if (gpsStatusBox) {
-            gpsStatusBox.innerHTML = `<i class="fa-solid fa-triangle-exclamation" style="color:#f59e0b;"></i> Live GPS Signal Pending. Click map to set position.`;
+            gpsStatusBox.innerHTML = `<i class="fa-solid fa-triangle-exclamation" style="color:#f59e0b;"></i> Live GPS Signal Pending. Enable device location permissions.`;
           }
         },
-        { enableHighAccuracy: true, timeout: 5000 }
+        { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
       );
+
+      if (watchPositionId) navigator.geolocation.clearWatch(watchPositionId);
 
       watchPositionId = navigator.geolocation.watchPosition(
         (pos) => {
@@ -500,14 +502,12 @@ document.addEventListener('DOMContentLoaded', async () => {
           const lon = pos.coords.longitude;
           const accuracy = pos.coords.accuracy;
           
-          if (lat >= 6.973 && lat <= 6.978 && lon >= 79.870 && lon <= 79.874) {
-            updateUserLivePosition(lat, lon, accuracy, false);
-          }
+          updateUserLivePosition(lat, lon, accuracy, false);
         },
         (err) => {
           console.warn('Geolocation watch notice:', err.message);
         },
-        { enableHighAccuracy: true, maximumAge: 1000, timeout: 10000 }
+        { enableHighAccuracy: true, maximumAge: 0, timeout: 15000 }
       );
     }
   }
