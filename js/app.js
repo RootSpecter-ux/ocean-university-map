@@ -124,34 +124,65 @@ document.addEventListener('DOMContentLoaded', async () => {
     }, 200);
 
     // Quick Map Action Control Handlers
-    document.getElementById('btn-zoom-in').addEventListener('click', () => map.zoomIn());
-    document.getElementById('btn-zoom-out').addEventListener('click', () => map.zoomOut());
-    document.getElementById('btn-recenter-campus').addEventListener('click', () => {
-      map.flyToBounds(campusBounds, { duration: 0.6 });
-    });
-    document.getElementById('btn-recenter-gps').addEventListener('click', () => {
-      if (userLivePos) {
-        map.flyTo([userLivePos.lat, userLivePos.lon], 19, { duration: 0.6 });
-      }
-    });
+    const zoomInBtn = document.getElementById('btn-zoom-in');
+    if (zoomInBtn) zoomInBtn.addEventListener('click', () => map.zoomIn());
 
-    const toggleMyMapsBtn = document.getElementById('btn-toggle-mymaps');
-    const myMapsContainer = document.getElementById('mymaps-iframe-container');
-    if (toggleMyMapsBtn && myMapsContainer) {
-      toggleMyMapsBtn.addEventListener('click', () => {
-        const isHidden = myMapsContainer.style.display === 'none';
-        myMapsContainer.style.display = isHidden ? 'block' : 'none';
-        toggleMyMapsBtn.style.background = isHidden ? '#10b981' : '#4285F4';
+    const zoomOutBtn = document.getElementById('btn-zoom-out');
+    if (zoomOutBtn) zoomOutBtn.addEventListener('click', () => map.zoomOut());
+
+    const centerCampusBtn = document.getElementById('btn-recenter-campus');
+    if (centerCampusBtn) {
+      centerCampusBtn.addEventListener('click', () => {
+        if (geojsonLayer && geojsonLayer.getBounds().isValid()) {
+          map.flyToBounds(geojsonLayer.getBounds(), { duration: 0.6, padding: [40, 40] });
+        } else {
+          map.flyToBounds(campusBounds, { duration: 0.6 });
+        }
       });
     }
 
-    const drawerToggleBar = document.getElementById('drawer-toggle-bar');
-    const mobileDrawer = document.getElementById('mobile-drawer');
-    if (drawerToggleBar && mobileDrawer) {
-      drawerToggleBar.addEventListener('click', () => {
-        mobileDrawer.classList.toggle('expanded');
+    const recenterGpsBtn = document.getElementById('btn-recenter-user') || document.getElementById('btn-recenter-gps');
+    if (recenterGpsBtn) {
+      recenterGpsBtn.addEventListener('click', () => {
+        if (userLivePos) {
+          map.flyTo([userLivePos.lat, userLivePos.lon], 19, { duration: 0.6 });
+        } else {
+          navigator.geolocation.getCurrentPosition(
+            (pos) => {
+              updateUserLivePosition(pos.coords.latitude, pos.coords.longitude, pos.coords.accuracy, true);
+              map.flyTo([pos.coords.latitude, pos.coords.longitude], 19, { duration: 0.6 });
+            },
+            () => alert('Please enable GPS location permissions on your phone.'),
+            { enableHighAccuracy: true }
+          );
+        }
       });
     }
+
+    // Map Tile Switcher Listeners
+    const layerToggleBtn = document.getElementById('btn-layer-toggle');
+    const layerMenu = document.getElementById('layer-menu');
+    if (layerToggleBtn && layerMenu) {
+      layerToggleBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        layerMenu.classList.toggle('active');
+      });
+      document.addEventListener('click', () => layerMenu.classList.remove('active'));
+    }
+
+    document.querySelectorAll('.layer-option').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const layerKey = btn.getAttribute('data-layer');
+        if (tileLayers[layerKey]) {
+          Object.keys(tileLayers).forEach(k => map.removeLayer(tileLayers[k]));
+          tileLayers[layerKey].addTo(map);
+          document.querySelectorAll('.layer-option').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          if (layerMenu) layerMenu.classList.remove('active');
+        }
+      });
+    });
   }
 
   // 2. Load Data with Instant Failsafe Fallback
