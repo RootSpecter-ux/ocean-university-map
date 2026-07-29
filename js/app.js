@@ -822,9 +822,6 @@ document.addEventListener('DOMContentLoaded', async () => {
           <p><i class="fa-solid fa-door-open" style="color:var(--primary-500); font-size:0.7rem;"></i> Entrance Door &bull; ${loc.category}</p>
         </div>
         <div style="display:flex; gap:6px; align-items:center;">
-          <button onclick="event.stopPropagation(); window.appOpenFloorPlan('${loc.id}')" style="background:rgba(99, 102, 241, 0.15); color:#818cf8; border:1px solid rgba(99, 102, 241, 0.3); padding:6px 10px; border-radius:6px; font-size:0.75rem; font-weight:600; cursor:pointer;">
-            <i class="fa-solid fa-layer-group"></i> Floor Plan
-          </button>
           <span class="location-badge" onclick="event.stopPropagation(); window.appNavigateTo('${loc.id}')"><i class="fa-solid fa-diamond-turn-right"></i> Go</span>
         </div>
       `;

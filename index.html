@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
   <!-- Custom Stylesheet -->
-  <link rel="stylesheet" href="css/style.css?v=33.0.0">
+  <link rel="stylesheet" href="css/style.css?v=34.0.0">
 </head>
 <body>
   <div id="app-container">
@@ -202,29 +202,6 @@
       </aside>
     </main>
 
-    <!-- Indoor Floor Plan Modal -->
-    <div id="floor-plan-modal" class="modal-overlay">
-      <div class="modal-card">
-        <div class="modal-header">
-          <div>
-            <span class="chip active" style="font-size:0.7rem; padding: 2px 8px;">Indoor Layout</span>
-            <h3 id="floor-modal-title" style="margin-top:4px;">Building Floor Plan</h3>
-          </div>
-          <button class="modal-close-btn" id="close-floor-modal"><i class="fa-solid fa-xmark"></i></button>
-        </div>
-        <div class="modal-body">
-          <div class="floor-selector" id="floor-buttons-group">
-            <button class="chip active" data-floor="0">Ground Floor (L0)</button>
-            <button class="chip" data-floor="1">1st Floor (L1)</button>
-            <button class="chip" data-floor="2">2nd Floor (L2)</button>
-          </div>
-          <div class="floor-canvas-container" id="floor-canvas-view">
-            <div id="indoor-rooms-grid" class="indoor-rooms-grid"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!-- Mobile-Optimized Building Quick Info Sheet -->
     <div id="bldg-info-modal" class="modal-overlay" style="align-items: flex-end; padding: 0;">
       <div class="modal-card" style="width: 100%; max-width: 500px; margin: 0 auto; border-radius: 20px 20px 0 0; background: rgba(15, 23, 42, 0.96); border-top: 1px solid rgba(255,255,255,0.15); box-shadow: 0 -10px 30px rgba(0,0,0,0.6); backdrop-filter: blur(16px);">
@@ -240,9 +217,6 @@
           <div style="display: flex; gap: 10px; flex-direction: column;">
             <button id="bldg-modal-nav-btn" class="btn-primary" style="width: 100%; justify-content: center; padding: 12px; font-size: 0.95rem;">
               <i class="fa-solid fa-diamond-turn-right"></i> <span data-i18n="navigateHere">Navigate Here</span>
-            </button>
-            <button id="bldg-modal-floor-btn" style="background: rgba(99, 102, 241, 0.2); color: #818cf8; border: 1px solid rgba(99, 102, 241, 0.4); padding: 10px; border-radius: 10px; font-weight: 600; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px;">
-              <i class="fa-solid fa-layer-group"></i> <span>View Indoor Floor Plan</span>
             </button>
             <button id="bldg-modal-start-btn" style="background: rgba(2, 132, 199, 0.2); color: #38bdf8; border: 1px solid rgba(2, 132, 199, 0.4); padding: 10px; border-radius: 10px; font-weight: 600; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px;">
               <i class="fa-solid fa-circle-dot"></i> <span data-i18n="selectStart">Set as Start Location</span>
@@ -382,10 +356,10 @@
   </div>
 
   <!-- Application Scripts -->
-  <script src="js/campus_data_fallback.js?v=33.0.0"></script>
-  <script src="js/i18n.js?v=33.0.0"></script>
-  <script src="js/routing.js?v=33.0.0"></script>
-  <script src="js/cms.js?v=33.0.0"></script>
-  <script src="js/app.js?v=33.0.0"></script>
+  <script src="js/campus_data_fallback.js?v=34.0.0"></script>
+  <script src="js/i18n.js?v=34.0.0"></script>
+  <script src="js/routing.js?v=34.0.0"></script>
+  <script src="js/cms.js?v=34.0.0"></script>
+  <script src="js/app.js?v=34.0.0"></script>
 </body>
 </html>
