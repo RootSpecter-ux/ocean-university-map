@@ -264,7 +264,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         (err) => {
           console.log('Initial geolocation prompt deferred:', err.message);
           if (gpsStatusBox) {
-            gpsStatusBox.innerHTML = `<i class="fa-solid fa-triangle-exclamation" style="color:#f59e0b;"></i> Live GPS Signal Pending. Enable device location permissions.`;
+            gpsStatusBox.innerHTML = `<i class="fa-solid fa-circle-info" style="color:#0284c7;"></i> Live GPS Ready. Start walking navigation anytime.`;
           }
         },
         { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
@@ -283,7 +283,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         (err) => {
           console.warn('Geolocation watch notice:', err.message);
         },
-        { enableHighAccuracy: true, maximumAge: 0, timeout: 15000 }
+        { enableHighAccuracy: true, maximumAge: 0, timeout: 10000 }
       );
     }
   }
@@ -306,8 +306,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
       userAccuracyCircle = L.circle([lat, lon], {
         radius: accuracy,
-        color: '#3b82f6',
-        fillColor: '#3b82f6',
+        color: '#1a73e8',
+        fillColor: '#4285f4',
         fillOpacity: 0.18,
         weight: 1.5
       }).addTo(map);
@@ -344,7 +344,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     if (map) {
       setTimeout(() => {
-        map.invalidateSize();
+        if (map) map.invalidateSize();
         renderGeoJSONLayer();
       }, 50);
     }
@@ -366,8 +366,8 @@ document.addEventListener('DOMContentLoaded', async () => {
       gmapsBar.style.padding = '6px 0';
       gmapsBar.style.marginBottom = '10px';
       gmapsBar.innerHTML = `
-        <a href="${gmapsUrl}" target="_blank" style="display:flex; align-items:center; justify-content:center; gap:8px; background:#4285F4; color:white; padding:10px 16px; border-radius:8px; font-weight:700; text-decoration:none; font-size:0.85rem; box-shadow:0 4px 12px rgba(66,133,244,0.3);">
-          <i class="fa-solid fa-map-location-dot"></i> Open Turn-by-Turn in Google Maps
+        <a href="${gmapsUrl}" target="_blank" style="display:flex; align-items:center; justify-content:center; gap:8px; background:#1a73e8; color:white; padding:10px 16px; border-radius:8px; font-weight:700; text-decoration:none; font-size:0.85rem; box-shadow:0 4px 12px rgba(26,115,232,0.3);">
+          <i class="fa-solid fa-map-location-dot"></i> Open Walking Route in Google Maps App
         </a>
       `;
       listElem.appendChild(gmapsBar);
@@ -391,8 +391,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     activeRouteMarkers.forEach(m => map.removeLayer(m));
     activeRouteMarkers = [];
 
+    // Check for Arrival (Within 10m of Destination)
+    const isArrived = routeResult.totalDistance <= 10;
+
     // Update Google Maps Top HUD Banner
     const gmapsNavHud = document.getElementById('gmaps-nav-hud');
+    const hudTurnIcon = document.getElementById('hud-turn-icon');
     const hudInstruction = document.getElementById('hud-instruction');
     const hudSubtext = document.getElementById('hud-subtext');
     const hudTime = document.getElementById('hud-time');
@@ -402,20 +406,34 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (gmapsNavHud && routeResult.steps && routeResult.steps.length > 0) {
       gmapsNavHud.style.display = 'flex';
       const firstStep = routeResult.steps[0];
-      if (hudInstruction) hudInstruction.textContent = firstStep.instruction;
-      if (hudSubtext) hudSubtext.textContent = `In ${firstStep.distanceMeters} meters`;
-      if (hudTime) hudTime.textContent = routeResult.timeFormatted;
-      if (hudDist) hudDist.textContent = `${routeResult.totalDistance} m`;
+      
+      if (isArrived) {
+        if (hudTurnIcon) hudTurnIcon.innerHTML = `<i class="fa-solid fa-flag-checkered" style="color:#34d399;"></i>`;
+        if (hudInstruction) hudInstruction.textContent = `🏁 You Have Arrived at ${currentDestLoc.name}!`;
+        if (hudSubtext) hudSubtext.textContent = `Destination Reached`;
+        if (hudTime) hudTime.textContent = `Arrived`;
+        if (hudDist) hudDist.textContent = `0 m`;
 
-      // Live Voice Guidance Audio
-      if ('speechSynthesis' in window) {
-        try {
-          window.speechSynthesis.cancel();
-          const utterance = new SpeechSynthesisUtterance(`Navigating to ${currentDestLoc.name}. ${firstStep.instruction}`);
-          utterance.rate = 1.0;
-          window.speechSynthesis.speak(utterance);
-        } catch (e) {
-          console.log('Voice guidance notice:', e);
+        if ('speechSynthesis' in window) {
+          try {
+            window.speechSynthesis.cancel();
+            const utterance = new SpeechSynthesisUtterance(`You have arrived at your destination, ${currentDestLoc.name}!`);
+            window.speechSynthesis.speak(utterance);
+          } catch (e) {}
+        }
+      } else {
+        if (hudTurnIcon) hudTurnIcon.innerHTML = `<i class="fa-solid fa-arrow-up"></i>`;
+        if (hudInstruction) hudInstruction.textContent = firstStep.instruction;
+        if (hudSubtext) hudSubtext.textContent = `In ${firstStep.distanceMeters} meters`;
+        if (hudTime) hudTime.textContent = routeResult.timeFormatted;
+        if (hudDist) hudDist.textContent = `${routeResult.totalDistance} m`;
+
+        if ('speechSynthesis' in window && !window.speechSynthesis.speaking) {
+          try {
+            const utterance = new SpeechSynthesisUtterance(`Navigating to ${currentDestLoc.name}. ${firstStep.instruction}`);
+            utterance.rate = 1.0;
+            window.speechSynthesis.speak(utterance);
+          } catch (e) {}
         }
       }
 
@@ -428,19 +446,19 @@ document.addEventListener('DOMContentLoaded', async () => {
       }
     }
 
+    // Google Maps Style Blue Navigation Path Polyline
     activeRouteOuterGlow = L.polyline(routeResult.coordinates, {
-      color: '#6366f1',
-      weight: 10,
+      color: '#4285f4',
+      weight: 12,
       opacity: 0.35,
       lineCap: 'round',
       lineJoin: 'round'
     }).addTo(map);
 
     activeRoutePolyline = L.polyline(routeResult.coordinates, {
-      color: '#06b6d4',
-      weight: 5,
+      color: '#1a73e8',
+      weight: 7,
       opacity: 0.95,
-      dashArray: '8, 8',
       lineCap: 'round',
       lineJoin: 'round'
     }).addTo(map);
