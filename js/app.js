@@ -397,9 +397,9 @@ document.addEventListener('DOMContentLoaded', async () => {
           const category = loc ? loc.category : 'Building';
 
           layer.bindTooltip(`<b>${transName}</b>`, {
-            permanent: false,
+            permanent: true,
             direction: 'center',
-            className: 'bldg-tooltip'
+            className: 'bldg-tooltip-permanent'
           });
 
           const popupContent = `
