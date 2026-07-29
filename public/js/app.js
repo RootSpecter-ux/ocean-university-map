@@ -281,52 +281,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     renderLocationList();
   }
 
-    // Welcome Modal Action - Start Precise Navigation Button Handler
-    startWelcomeNavBtn.addEventListener('click', () => {
-      let selectedId = welcomeDestSelect.value;
-      
-      if (!selectedId) {
-        welcomeDestSelect.style.border = '2px solid #ef4444';
-        welcomeDestSelect.style.boxShadow = '0 0 16px rgba(239, 68, 68, 0.6)';
-        welcomeDestSelect.focus();
-        return;
-      }
-
-      welcomeDestSelect.style.border = '1px solid var(--primary-500)';
-      welcomeDestSelect.style.boxShadow = 'none';
-
-      const targetLoc = campusData.locations.find(l => l.id === selectedId);
-      if (targetLoc) {
-        welcomeModal.classList.remove('active');
-        welcomeModal.style.display = 'none';
-        startRouteNavigation(targetLoc);
-      }
-    });
-
-    const closeWelcomeModalBtn = document.getElementById('close-welcome-modal-btn');
-    if (closeWelcomeModalBtn) {
-      closeWelcomeModalBtn.addEventListener('click', () => {
-        welcomeModal.classList.remove('active');
-        welcomeModal.style.display = 'none';
-      });
-    }
-
-    // Welcome Modal Action - Take Own Navigation Button Handler
-    document.getElementById('start-welcome-nav-btn').addEventListener('click', () => {
-      welcomeModal.classList.remove('active');
-      welcomeModal.style.display = 'none';
-      alert('📍 Custom Navigation Mode Active:\n\nTap ANY location on the Ocean University map to set your custom start point or destination!');
-    });
-
-    // Reset border styling on select change
-    welcomeDestSelect.addEventListener('change', () => {
-      if (welcomeDestSelect.value) {
-        welcomeDestSelect.style.border = '1px solid var(--primary-500)';
-        welcomeDestSelect.style.boxShadow = 'none';
-      }
-    });
-  }
-
   // 3. Render Vector Polygon Layers & Permanent Building Markings on Map
   function renderGeoJSONLayer() {
     if (!map) return;
