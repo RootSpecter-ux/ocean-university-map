@@ -4080,1222 +4080,1298 @@ window.FALLBACK_RAW_GEOJSON = {
   "features": [
     {
       "type": "Feature",
+      "properties": {
+        "Name": "MTL HALL 04",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8718048,
-              6.9749907
+              6.9749907,
+              0.0
             ],
             [
               79.8718223,
-              6.9749015
+              6.9749015,
+              0.0
             ],
             [
               79.8718638,
-              6.9749108
+              6.9749108,
+              0.0
             ],
             [
               79.8718471,
-              6.9749984
+              6.9749984,
+              0.0
             ],
             [
               79.8718048,
-              6.9749907
+              6.9749907,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "mtl_hall_04",
-        "name": "MTL HALL 04",
-        "category": "Academic & Lecture Halls",
-        "color": "#8b5cf6",
-        "center_lat": 6.97495035,
-        "center_lon": 79.8718345
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "UNION ROOM",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8717203,
-              6.9749385
+              6.9749385,
+              0.0
             ],
             [
               79.8717257,
-              6.9749039
+              6.9749039,
+              0.0
             ],
             [
               79.8717901,
-              6.9749093
+              6.9749093,
+              0.0
             ],
             [
               79.8717874,
-              6.9749465
+              6.9749465,
+              0.0
             ],
             [
               79.8717203,
-              6.9749385
+              6.9749385,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "union_room",
-        "name": "UNION ROOM",
-        "category": "Facilities & Dining",
-        "color": "#f59e0b",
-        "center_lat": 6.97492455,
-        "center_lon": 79.871755875
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "SPORT ROOM",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8717203,
-              6.9749385
+              6.9749385,
+              0.0
             ],
             [
               79.8717874,
-              6.9749465
+              6.9749465,
+              0.0
             ],
             [
               79.8717846,
-              6.9749958
+              6.9749958,
+              0.0
             ],
             [
               79.8717123,
-              6.9749891
+              6.9749891,
+              0.0
             ],
             [
               79.8717203,
-              6.9749385
+              6.9749385,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "sport_room",
-        "name": "SPORT ROOM",
-        "category": "Sports & Rec",
-        "color": "#10b981",
-        "center_lat": 6.974967475,
-        "center_lon": 79.87175115
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "MTL HALL 03",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8721033,
-              6.9750549
+              6.9750549,
+              0.0
             ],
             [
               79.8721214,
-              6.9749711
+              6.9749711,
+              0.0
             ],
             [
               79.8721703,
-              6.9749797
+              6.9749797,
+              0.0
             ],
             [
               79.8721502,
-              6.9750629
+              6.9750629,
+              0.0
             ],
             [
               79.8721033,
-              6.9750549
+              6.9750549,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "mtl_hall_03",
-        "name": "MTL HALL 03",
-        "category": "Academic & Lecture Halls",
-        "color": "#8b5cf6",
-        "center_lat": 6.97501715,
-        "center_lon": 79.8721363
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "LECTURERS WASHROOM",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8721502,
-              6.9750629
+              6.9750629,
+              0.0
             ],
             [
               79.8721703,
-              6.9749797
+              6.9749797,
+              0.0
             ],
             [
               79.8722106,
-              6.9749857
+              6.9749857,
+              0.0
             ],
             [
               79.8721919,
-              6.9750702
+              6.9750702,
+              0.0
             ],
             [
               79.8721502,
-              6.9750629
+              6.9750629,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "lecturers_washroom",
-        "name": "LECTURERS WASHROOM",
-        "category": "Amenities",
-        "color": "#3b82f6",
-        "center_lat": 6.975024625,
-        "center_lon": 79.87218075
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "CLASS ROOM 07",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8721919,
-              6.9750702
+              6.9750702,
+              0.0
             ],
             [
               79.8722106,
-              6.9749857
+              6.9749857,
+              0.0
             ],
             [
               79.8722649,
-              6.974993
+              6.974993,
+              0.0
             ],
             [
               79.8722455,
-              6.9750789
+              6.9750789,
+              0.0
             ],
             [
               79.8721919,
-              6.9750702
+              6.9750702,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "class_room_07",
-        "name": "CLASS ROOM 07",
-        "category": "Academic & Lecture Halls",
-        "color": "#8b5cf6",
-        "center_lat": 6.97503195,
-        "center_lon": 79.872228225
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "VOLLY BALL COURT",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8722482,
-              6.9751095
+              6.9751095,
+              0.0
             ],
             [
               79.8722669,
-              6.9750256
+              6.9750256,
+              0.0
             ],
             [
               79.8724319,
-              6.9750523
+              6.9750523,
+              0.0
             ],
             [
               79.8724104,
-              6.9751361
+              6.9751361,
+              0.0
             ],
             [
               79.8722482,
-              6.9751095
+              6.9751095,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "volly_ball_court",
-        "name": "VOLLY BALL COURT",
-        "category": "Sports & Rec",
-        "color": "#10b981",
-        "center_lat": 6.975080875,
-        "center_lon": 79.87233935
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "BADMINTON COURT",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.871933,
-              6.9751867
+              6.9751867,
+              0.0
             ],
             [
               79.8719585,
-              6.9750443
+              6.9750443,
+              0.0
             ],
             [
               79.8720336,
-              6.9750616
+              6.9750616,
+              0.0
             ],
             [
               79.8720041,
-              6.975196
+              6.975196,
+              0.0
             ],
             [
               79.871933,
-              6.9751867
+              6.9751867,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "badminton_court",
-        "name": "BADMINTON COURT",
-        "category": "Sports & Rec",
-        "color": "#10b981",
-        "center_lat": 6.975122150000001,
-        "center_lon": 79.8719823
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "LECTUERE'S ROOM",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8718471,
-              6.9749984
+              6.9749984,
+              0.0
             ],
             [
               79.8718638,
-              6.9749108
+              6.9749108,
+              0.0
             ],
             [
               79.8720759,
-              6.9749524
+              6.9749524,
+              0.0
             ],
             [
               79.8720577,
-              6.975039
+              6.975039,
+              0.0
             ],
             [
               79.8718471,
-              6.9749984
+              6.9749984,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "lectueres_room",
-        "name": "LECTUERE'S ROOM",
-        "category": "Academic & Lecture Halls",
-        "color": "#8b5cf6",
-        "center_lat": 6.97497515,
-        "center_lon": 79.871961125
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "TRAINING AND ACCOUNT DIVISION",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8716869,
-              6.975371
+              6.975371,
+              0.0
             ],
             [
               79.8717127,
-              6.975192
+              6.975192,
+              0.0
             ],
             [
               79.8717563,
-              6.9751987
+              6.9751987,
+              0.0
             ],
             [
               79.871815,
-              6.9752083
+              6.9752083,
+              0.0
             ],
             [
               79.8717761,
-              6.9753837
+              6.9753837,
+              0.0
             ],
             [
               79.8716869,
-              6.975371
+              6.975371,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "training_and_account_division",
-        "name": "TRAINING AND ACCOUNT DIVISION",
-        "category": "Administrative",
-        "color": "#a855f7",
-        "center_lat": 6.975270740000001,
-        "center_lon": 79.8717494
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "AUDITORIUM",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.871815,
-              6.9752083
+              6.9752083,
+              0.0
             ],
             [
               79.871927,
-              6.975232
+              6.975232,
+              0.0
             ],
             [
               79.8718955,
-              6.9754057
+              6.9754057,
+              0.0
             ],
             [
               79.8717761,
-              6.9753837
+              6.9753837,
+              0.0
             ],
             [
               79.871815,
-              6.9752083
+              6.9752083,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "auditorium",
-        "name": "AUDITORIUM",
-        "category": "Labs & Workshops",
-        "color": "#06b6d4",
-        "center_lat": 6.9753074250000004,
-        "center_lon": 79.87185339999999
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "MTL HALL 02",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.871937,
-              6.9753225
+              6.9753225,
+              0.0
             ],
             [
               79.8719538,
-              6.9752346
+              6.9752346,
+              0.0
             ],
             [
               79.8720128,
-              6.9752426
+              6.9752426,
+              0.0
             ],
             [
               79.8719987,
-              6.9753358
+              6.9753358,
+              0.0
             ],
             [
               79.871937,
-              6.9753225
+              6.9753225,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "mtl_hall_02",
-        "name": "MTL HALL 02",
-        "category": "Academic & Lecture Halls",
-        "color": "#8b5cf6",
-        "center_lat": 6.975283875,
-        "center_lon": 79.871975575
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "STORAGE ROOM",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.871937,
-              6.9753225
+              6.9753225,
+              0.0
             ],
             [
               79.8719116,
-              6.9753185
+              6.9753185,
+              0.0
             ],
             [
               79.871927,
-              6.975232
+              6.975232,
+              0.0
             ],
             [
               79.8719538,
-              6.9752346
+              6.9752346,
+              0.0
             ],
             [
               79.871937,
-              6.9753225
+              6.9753225,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "storage_room",
-        "name": "STORAGE ROOM",
-        "category": "Amenities",
-        "color": "#3b82f6",
-        "center_lat": 6.9752769,
-        "center_lon": 79.87193235000001
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "MTL HALL 01",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8724178,
-              6.9752586
+              6.9752586,
+              0.0
             ],
             [
               79.8724399,
-              6.9751514
+              6.9751514,
+              0.0
             ],
             [
               79.8725606,
-              6.9751727
+              6.9751727,
+              0.0
             ],
             [
               79.8725372,
-              6.9752832
+              6.9752832,
+              0.0
             ],
             [
               79.8724178,
-              6.9752586
+              6.9752586,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "mtl_hall_01",
-        "name": "MTL HALL 01",
-        "category": "Academic & Lecture Halls",
-        "color": "#8b5cf6",
-        "center_lat": 6.975216475,
-        "center_lon": 79.872488875
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "CLASS ROOM 02",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8724178,
-              6.9752586
+              6.9752586,
+              0.0
             ],
             [
               79.8723437,
-              6.9752476
+              6.9752476,
+              0.0
             ],
             [
               79.8723642,
-              6.9751627
+              6.9751627,
+              0.0
             ],
             [
               79.8724366,
-              6.9751761
+              6.9751761,
+              0.0
             ],
             [
               79.8724178,
-              6.9752586
+              6.9752586,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "class_room_02",
-        "name": "CLASS ROOM 02",
-        "category": "Academic & Lecture Halls",
-        "color": "#8b5cf6",
-        "center_lat": 6.97521125,
-        "center_lon": 79.872390575
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "CLASS ROOM 03",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8723642,
-              6.9751627
+              6.9751627,
+              0.0
             ],
             [
               79.8723437,
-              6.9752476
+              6.9752476,
+              0.0
             ],
             [
               79.8722878,
-              6.9752393
+              6.9752393,
+              0.0
             ],
             [
               79.8723078,
-              6.9751521
+              6.9751521,
+              0.0
             ],
             [
               79.8723642,
-              6.9751627
+              6.9751627,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "class_room_03",
-        "name": "CLASS ROOM 03",
-        "category": "Academic & Lecture Halls",
-        "color": "#8b5cf6",
-        "center_lat": 6.975200425000001,
-        "center_lon": 79.872325875
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "DRAWING ROOM",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8722878,
-              6.9752393
+              6.9752393,
+              0.0
             ],
             [
               79.8721657,
-              6.9752187
+              6.9752187,
+              0.0
             ],
             [
               79.8721845,
-              6.9751361
+              6.9751361,
+              0.0
             ],
             [
               79.8723078,
-              6.9751521
+              6.9751521,
+              0.0
             ],
             [
               79.8722878,
-              6.9752393
+              6.9752393,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "drawing_room",
-        "name": "DRAWING ROOM",
-        "category": "Academic & Lecture Halls",
-        "color": "#8b5cf6",
-        "center_lat": 6.97518655,
-        "center_lon": 79.87223645
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "CLASS ROOM 04",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8721657,
-              6.9752187
+              6.9752187,
+              0.0
             ],
             [
               79.8720866,
-              6.975208
+              6.975208,
+              0.0
             ],
             [
               79.872104,
-              6.9751241
+              6.9751241,
+              0.0
             ],
             [
               79.8721845,
-              6.9751361
+              6.9751361,
+              0.0
             ],
             [
               79.8721657,
-              6.9752187
+              6.9752187,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "class_room_04",
-        "name": "CLASS ROOM 04",
-        "category": "Academic & Lecture Halls",
-        "color": "#8b5cf6",
-        "center_lat": 6.975171725,
-        "center_lon": 79.8721352
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "STUDENTS WASH ROOM",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8720946,
-              6.9752346
+              6.9752346,
+              0.0
             ],
             [
               79.8721543,
-              6.9752379
+              6.9752379,
+              0.0
             ],
             [
               79.8721496,
-              6.9752599
+              6.9752599,
+              0.0
             ],
             [
               79.8720946,
-              6.9752546
+              6.9752546,
+              0.0
             ],
             [
               79.8720946,
-              6.9752346
+              6.9752346,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "students_wash_room",
-        "name": "STUDENTS WASH ROOM",
-        "category": "Amenities",
-        "color": "#3b82f6",
-        "center_lat": 6.97524675,
-        "center_lon": 79.872123275
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "TRANSPORT DIVISION",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8720946,
-              6.9752546
+              6.9752546,
+              0.0
             ],
             [
               79.8721496,
-              6.9752599
+              6.9752599,
+              0.0
             ],
             [
               79.8721483,
-              6.9752892
+              6.9752892,
+              0.0
             ],
             [
               79.8720919,
-              6.9752839
+              6.9752839,
+              0.0
             ],
             [
               79.8720946,
-              6.9752546
+              6.9752546,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "transport_division",
-        "name": "TRANSPORT DIVISION",
-        "category": "Administrative",
-        "color": "#a855f7",
-        "center_lat": 6.9752719,
-        "center_lon": 79.8721211
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "IT LAB",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8720919,
-              6.9752839
+              6.9752839,
+              0.0
             ],
             [
               79.8721483,
-              6.9752892
+              6.9752892,
+              0.0
             ],
             [
               79.8721402,
-              6.9753424
+              6.9753424,
+              0.0
             ],
             [
               79.8720825,
-              6.9753358
+              6.9753358,
+              0.0
             ],
             [
               79.8720919,
-              6.9752839
+              6.9752839,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "it_lab",
-        "name": "IT LAB",
-        "category": "Labs & Workshops",
-        "color": "#06b6d4",
-        "center_lat": 6.975312825,
-        "center_lon": 79.872115725
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "CHART ROOM",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8720825,
-              6.9753358
+              6.9753358,
+              0.0
             ],
             [
               79.8721402,
-              6.9753424
+              6.9753424,
+              0.0
             ],
             [
               79.8721281,
-              6.9754186
+              6.9754186,
+              0.0
             ],
             [
               79.8720705,
-              6.9754146
+              6.9754146,
+              0.0
             ],
             [
               79.8720825,
-              6.9753358
+              6.9753358,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "chart_room",
-        "name": "CHART ROOM",
-        "category": "Labs & Workshops",
-        "color": "#06b6d4",
-        "center_lat": 6.97537785,
-        "center_lon": 79.872105325
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "WORKSHOP",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8717583,
-              6.9754104
+              6.9754104,
+              0.0
             ],
             [
               79.8722571,
-              6.9754982
+              6.9754982,
+              0.0
             ],
             [
               79.872229,
-              6.975622
+              6.975622,
+              0.0
             ],
             [
               79.8717287,
-              6.9755328
+              6.9755328,
+              0.0
             ],
             [
               79.8717583,
-              6.9754104
+              6.9754104,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "workshop",
-        "name": "WORKSHOP",
-        "category": "Labs & Workshops",
-        "color": "#06b6d4",
-        "center_lat": 6.97551585,
-        "center_lon": 79.871993275
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "WELDING WORKSHOP",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8721016,
-              6.9756104
+              6.9756104,
+              0.0
             ],
             [
               79.8722183,
-              6.975629
+              6.975629,
+              0.0
             ],
             [
               79.8722035,
-              6.9757129
+              6.9757129,
+              0.0
             ],
             [
               79.8720882,
-              6.9756929
+              6.9756929,
+              0.0
             ],
             [
               79.8721016,
-              6.9756104
+              6.9756104,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "welding_workshop",
-        "name": "WELDING WORKSHOP",
-        "category": "Labs & Workshops",
-        "color": "#06b6d4",
-        "center_lat": 6.9756613000000005,
-        "center_lon": 79.8721529
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "CANTEEN",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8716057,
-              6.9755854
+              6.9755854,
+              0.0
             ],
             [
               79.8717077,
-              6.9756001
+              6.9756001,
+              0.0
             ],
             [
               79.8716822,
-              6.9757545
+              6.9757545,
+              0.0
             ],
             [
               79.8715762,
-              6.9757412
+              6.9757412,
+              0.0
             ],
             [
               79.8716057,
-              6.9755854
+              6.9755854,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "canteen",
-        "name": "CANTEEN",
-        "category": "Facilities & Dining",
-        "color": "#f59e0b",
-        "center_lat": 6.9756703,
-        "center_lon": 79.87164295
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "GYM",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8715561,
-              6.975857
+              6.975857,
+              0.0
             ],
             [
               79.8715682,
-              6.9757824
+              6.9757824,
+              0.0
             ],
             [
               79.8716781,
-              6.9758011
+              6.9758011,
+              0.0
             ],
             [
               79.8716634,
-              6.9758716
+              6.9758716,
+              0.0
             ],
             [
               79.8715561,
-              6.975857
+              6.975857,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "gym",
-        "name": "GYM",
-        "category": "Sports & Rec",
-        "color": "#10b981",
-        "center_lat": 6.975828025,
-        "center_lon": 79.87161645
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "BOYS HOSTALS",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8716634,
-              6.9758716
+              6.9758716,
+              0.0
             ],
             [
               79.8717077,
-              6.9756001
+              6.9756001,
+              0.0
             ],
             [
               79.8719984,
-              6.9756537
+              6.9756537,
+              0.0
             ],
             [
               79.8719489,
-              6.9759228
+              6.9759228,
+              0.0
             ],
             [
               79.8716634,
-              6.9758716
+              6.9758716,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "boys_hostals",
-        "name": "BOYS HOSTALS",
-        "category": "Facilities & Dining",
-        "color": "#f59e0b",
-        "center_lat": 6.97576205,
-        "center_lon": 79.8718296
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "REGIONAL CENTER MATTAKKULIYA",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8717089,
-              6.9760632
+              6.9760632,
+              0.0
             ],
             [
               79.8717331,
-              6.975962
+              6.975962,
+              0.0
             ],
             [
               79.8719691,
-              6.9760046
+              6.9760046,
+              0.0
             ],
             [
               79.8719503,
-              6.9761058
+              6.9761058,
+              0.0
             ],
             [
               79.8717089,
-              6.9760632
+              6.9760632,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "regional_center_mattakkuliya",
-        "name": "REGIONAL CENTER MATTAKKULIYA",
-        "category": "Administrative",
-        "color": "#a855f7",
-        "center_lat": 6.9760339,
-        "center_lon": 79.87184035
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "CLASS ROOM 08",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8722234,
-              6.9749549
+              6.9749549,
+              0.0
             ],
             [
               79.8722476,
-              6.9748804
+              6.9748804,
+              0.0
             ],
             [
               79.8723495,
-              6.974903
+              6.974903,
+              0.0
             ],
             [
               79.8723334,
-              6.9749735
+              6.9749735,
+              0.0
             ],
             [
               79.8722234,
-              6.9749549
+              6.9749549,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "class_room_08",
-        "name": "CLASS ROOM 08",
-        "category": "Academic & Lecture Halls",
-        "color": "#8b5cf6",
-        "center_lat": 6.97492795,
-        "center_lon": 79.872288475
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "LAB",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8722234,
-              6.9749549
+              6.9749549,
+              0.0
             ],
             [
               79.8720377,
-              6.9749243
+              6.9749243,
+              0.0
             ],
             [
               79.8720498,
-              6.9748484
+              6.9748484,
+              0.0
             ],
             [
               79.8722476,
-              6.9748804
+              6.9748804,
+              0.0
             ],
             [
               79.8722234,
-              6.9749549
+              6.9749549,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "lab",
-        "name": "LAB",
-        "category": "Labs & Workshops",
-        "color": "#06b6d4",
-        "center_lat": 6.974902,
-        "center_lon": 79.872139625
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "classrooms",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.871815,
-              6.9752083
+              6.9752083,
+              0.0
             ],
             [
               79.8718275,
-              6.9750235
+              6.9750235,
+              0.0
             ],
             [
               79.8719334,
-              6.9750395
+              6.9750395,
+              0.0
             ],
             [
               79.8719173,
-              6.9752312
+              6.9752312,
+              0.0
             ],
             [
               79.871815,
-              6.9752083
+              6.9752083,
+              0.0
             ]
           ]
         ]
-      },
-      "properties": {
-        "id": "classrooms",
-        "name": "classrooms",
-        "category": "Academic & Lecture Halls",
-        "color": "#8b5cf6",
-        "center_lat": 6.975125625,
-        "center_lon": 79.8718733
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "Name": "MTL HALL 04",
+        "description": "MTL LECTURE HALL 04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.8718357,
+          6.9749505,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Security Room",
+        "description": null
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
               79.8717728,
-              6.9747794
+              6.9747794,
+              0.0
             ],
             [
               79.8718103,
-              6.9747528
+              6.9747528,
+              0.0
             ],
             [
               79.8718331,
-              6.9747741
+              6.9747741,
+              0.0
             ],
             [
               79.8717942,
-              6.974802
+              6.974802,
+              0.0
             ],
             [
               79.8717728,
-              6.9747794
+              6.9747794,
+              0.0
             ]
           ]
         ]
-      },
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {
-        "id": "security_room",
-        "name": "Security Room",
-        "category": "Security & Entry",
-        "color": "#ef4444",
-        "center_lat": 6.974777075,
-        "center_lon": 79.8718026
+        "Name": "Sport Room"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.8717309,
+          6.9749695,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "UNION ROOM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.8717243,
+          6.9749225,
+          0.0
+        ]
       }
     }
   ]
