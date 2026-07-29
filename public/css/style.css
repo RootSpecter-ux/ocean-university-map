@@ -1034,21 +1034,71 @@ input:checked + .slider:before {
   font-size: 1.2rem !important;
 }
 
-/* Drawer Pull-Handle Bar for Mobile Bottom Sheet */
-.drawer-handle-bar {
-  display: none;
-  width: 100%;
-  padding: 8px 0 4px 0;
+/* Drawer Header Title & Collapse Toggle Button */
+.drawer-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 4px 6px 4px;
+}
+
+.drawer-title {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.drawer-collapse-btn {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--glass-border);
+  color: var(--text-primary);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   touch-action: manipulation;
 }
 
-.drawer-pill {
-  width: 40px;
-  height: 5px;
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 3px;
-  margin: 0 auto;
+.drawer-collapse-btn:hover,
+.drawer-collapse-btn:active {
+  background: var(--primary-500);
+  color: #ffffff;
+  border-color: var(--primary-400);
+  transform: scale(1.08);
+}
+
+/* Drawer Collapsed State for Clean Full-Screen Map View */
+.nav-drawer.collapsed {
+  transform: translateY(calc(100% - 24px)) !important;
+  max-height: 24px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  opacity: 0.85 !important;
+}
+
+.nav-drawer.collapsed:hover {
+  opacity: 1.0 !important;
+}
+
+.nav-drawer.collapsed .drawer-header,
+.nav-drawer.collapsed .drawer-body {
+  display: none !important;
+}
+
+.nav-drawer.collapsed .drawer-handle-bar {
+  display: flex !important;
+  padding: 8px 0 !important;
+  justify-content: center !important;
 }
 
 /* Ultra-Fluid Desktop & Mobile Responsive Media Queries */

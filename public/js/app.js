@@ -726,6 +726,53 @@ document.addEventListener('DOMContentLoaded', async () => {
     const swapRouteBtn = document.getElementById('swap-route-btn');
     const startNavBtn = document.getElementById('btn-start-navigation');
 
+    const navDrawer = document.getElementById('nav-drawer');
+    const collapseBtn = document.getElementById('btn-collapse-drawer');
+    const drawerHandle = document.getElementById('drawer-handle-bar');
+    const toggleDrawerBtn = document.getElementById('toggle-drawer-btn');
+
+    function toggleDrawerCollapse(forceState) {
+      if (!navDrawer) return;
+      let isCollapsed;
+      if (forceState !== undefined) {
+        if (forceState) navDrawer.classList.add('collapsed');
+        else navDrawer.classList.remove('collapsed');
+        isCollapsed = forceState;
+      } else {
+        isCollapsed = navDrawer.classList.toggle('collapsed');
+      }
+      if (collapseBtn) {
+        collapseBtn.innerHTML = isCollapsed ? '<i class="fa-solid fa-chevron-up"></i>' : '<i class="fa-solid fa-chevron-down"></i>';
+      }
+      setTimeout(() => {
+        if (map) map.invalidateSize();
+      }, 300);
+    }
+
+    if (collapseBtn) {
+      collapseBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        toggleDrawerCollapse();
+      });
+    }
+
+    if (drawerHandle) {
+      drawerHandle.addEventListener('click', () => {
+        toggleDrawerCollapse();
+      });
+    }
+
+    if (toggleDrawerBtn) {
+      toggleDrawerBtn.addEventListener('click', () => {
+        if (navDrawer.classList.contains('collapsed')) {
+          toggleDrawerCollapse(false);
+        } else {
+          toggleDrawerCollapse(true);
+        }
+      });
+    }
+    const startNavBtn = document.getElementById('btn-start-navigation');
+
     if (startNavBtn) {
       startNavBtn.addEventListener('click', () => {
         if (!destSelect || !destSelect.value) {

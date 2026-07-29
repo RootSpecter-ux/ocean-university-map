@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
   <!-- Custom Stylesheet -->
-  <link rel="stylesheet" href="css/style.css?v=74.0.0">
+  <link rel="stylesheet" href="css/style.css?v=75.0.0">
 </head>
 <body>
   <div id="app-container">
@@ -105,7 +105,18 @@
 
       <!-- Dynamic Navigation Drawer (Search + Google Maps Route Controls) -->
       <aside class="nav-drawer" id="nav-drawer">
+        <div class="drawer-handle-bar" id="drawer-handle-bar" title="Tap to Collapse / Expand Menu">
+          <div class="drawer-pill"></div>
+        </div>
+
         <div class="drawer-header">
+          <!-- Compact Header Row with Collapse Button -->
+          <div class="drawer-title-row">
+            <span class="drawer-title"><i class="fa-solid fa-compass" style="color:var(--primary-400);"></i> Navigation & Search</span>
+            <button id="btn-collapse-drawer" class="drawer-collapse-btn" title="Collapse Menu for Clean Map View">
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+          </div>
           
           <!-- Google Maps Style Dual Route Picker (Start Point & Destination Point) -->
           <div class="gmaps-route-box">
@@ -375,11 +386,11 @@
   </div>
 
   <!-- Application Scripts -->
-  <script src="js/leaflet.js?v=74.0.0"></script>
-  <script src="js/campus_data_fallback.js?v=74.0.0"></script>
-  <script src="js/i18n.js?v=74.0.0"></script>
-  <script src="js/routing.js?v=74.0.0"></script>
-  <script src="js/cms.js?v=74.0.0"></script>
-  <script src="js/app.js?v=74.0.0"></script>
+  <script src="js/leaflet.js?v=75.0.0"></script>
+  <script src="js/campus_data_fallback.js?v=75.0.0"></script>
+  <script src="js/i18n.js?v=75.0.0"></script>
+  <script src="js/routing.js?v=75.0.0"></script>
+  <script src="js/cms.js?v=75.0.0"></script>
+  <script src="js/app.js?v=75.0.0"></script>
 </body>
 </html>
