@@ -31,10 +31,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   const routeNavView = document.getElementById('route-nav-view');
   const routeDistanceEl = document.getElementById('route-distance');
   const routeTimeEl = document.getElementById('route-time');
-  const turnStepsList = document.getElementById('turn-steps-list');
-  const clearRouteBtn = document.getElementById('clear-route-btn');
+  const turnStepsList = document.getElementById('directions-list') || document.getElementById('turn-instructions-list') || document.getElementById('turn-steps-list');
+  const clearRouteBtn = document.getElementById('cancel-route-btn') || document.getElementById('end-route-action-btn') || document.getElementById('clear-route-btn');
   const accessibleToggle = document.getElementById('accessible-toggle');
-  const qrBanner = document.getElementById('qr-welcome-banner');
+  const qrBanner = document.getElementById('qr-scan-banner') || document.getElementById('welcome-qr-banner');
   const qrBannerText = document.getElementById('qr-welcome-text');
   const langSelect = document.getElementById('lang-select');
 
@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const zoomOutBtn = document.getElementById('btn-zoom-out');
     if (zoomOutBtn) zoomOutBtn.addEventListener('click', () => map.zoomOut());
 
-    const centerCampusBtn = document.getElementById('btn-recenter-campus');
+    const centerCampusBtn = document.getElementById('btn-recenter-user');
     if (centerCampusBtn) {
       centerCampusBtn.addEventListener('click', () => {
         if (geojsonLayer && geojsonLayer.getBounds().isValid()) {
@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       });
     }
 
-    const recenterGpsBtn = document.getElementById('btn-recenter-user') || document.getElementById('btn-recenter-gps');
+    const recenterGpsBtn = document.getElementById('btn-recenter-user') || document.getElementById('btn-recenter-user');
     if (recenterGpsBtn) {
       recenterGpsBtn.addEventListener('click', () => {
         if (userLivePos) {
@@ -313,7 +313,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     // Welcome Modal Action - Take Own Navigation Button Handler
-    document.getElementById('welcome-custom-pin-btn').addEventListener('click', () => {
+    document.getElementById('start-welcome-nav-btn').addEventListener('click', () => {
       welcomeModal.classList.remove('active');
       welcomeModal.style.display = 'none';
       alert('📍 Custom Navigation Mode Active:\n\nTap ANY location on the Ocean University map to set your custom start point or destination!');
@@ -512,33 +512,36 @@ document.addEventListener('DOMContentLoaded', async () => {
     routeDistanceEl.textContent = `${routeResult.totalDistance} m`;
     routeTimeEl.textContent = routeResult.timeFormatted;
 
-    turnStepsList.innerHTML = '';
+    const listElem = document.getElementById('directions-list') || document.getElementById('turn-instructions-list') || turnStepsList;
+    if (listElem) {
+      listElem.innerHTML = '';
 
-    const startCoordStr = currentStartLoc ? `${currentStartLoc.lat},${currentStartLoc.lon}` : userLivePos ? `${userLivePos.lat},${userLivePos.lon}` : '6.97475,79.87170';
-    const gmapsUrl = `https://www.google.com/maps/dir/?api=1&origin=${startCoordStr}&destination=${currentDestLoc.lat},${currentDestLoc.lon}&travelmode=walking`;
+      const startCoordStr = currentStartLoc ? `${currentStartLoc.lat},${currentStartLoc.lon}` : userLivePos ? `${userLivePos.lat},${userLivePos.lon}` : '6.97475,79.87170';
+      const gmapsUrl = `https://www.google.com/maps/dir/?api=1&origin=${startCoordStr}&destination=${currentDestLoc.lat},${currentDestLoc.lon}&travelmode=walking`;
 
-    const gmapsBar = document.createElement('div');
-    gmapsBar.style.padding = '6px 0';
-    gmapsBar.style.marginBottom = '10px';
-    gmapsBar.innerHTML = `
-      <a href="${gmapsUrl}" target="_blank" style="display:flex; align-items:center; justify-content:center; gap:8px; background:#4285F4; color:white; padding:10px 16px; border-radius:8px; font-weight:700; text-decoration:none; font-size:0.85rem; box-shadow:0 4px 12px rgba(66,133,244,0.3);">
-        <i class="fa-solid fa-map-location-dot"></i> Open Turn-by-Turn in Google Maps
-      </a>
-    `;
-    turnStepsList.appendChild(gmapsBar);
-
-    routeResult.steps.forEach(step => {
-      const item = document.createElement('div');
-      item.className = 'turn-step-item';
-      item.innerHTML = `
-        <div class="step-icon">${step.stepNum}</div>
-        <div class="step-content">
-          <p>${step.instruction}</p>
-          <span>${step.distanceMeters} meters</span>
-        </div>
+      const gmapsBar = document.createElement('div');
+      gmapsBar.style.padding = '6px 0';
+      gmapsBar.style.marginBottom = '10px';
+      gmapsBar.innerHTML = `
+        <a href="${gmapsUrl}" target="_blank" style="display:flex; align-items:center; justify-content:center; gap:8px; background:#4285F4; color:white; padding:10px 16px; border-radius:8px; font-weight:700; text-decoration:none; font-size:0.85rem; box-shadow:0 4px 12px rgba(66,133,244,0.3);">
+          <i class="fa-solid fa-map-location-dot"></i> Open Turn-by-Turn in Google Maps
+        </a>
       `;
-      turnStepsList.appendChild(item);
-    });
+      listElem.appendChild(gmapsBar);
+
+      routeResult.steps.forEach(step => {
+        const item = document.createElement('div');
+        item.className = 'turn-step-item';
+        item.innerHTML = `
+          <div class="step-icon">${step.stepNum}</div>
+          <div class="step-content">
+            <p>${step.instruction}</p>
+            <span>${step.distanceMeters} meters</span>
+          </div>
+        `;
+        listElem.appendChild(item);
+      });
+    }
 
     if (activeRoutePolyline) map.removeLayer(activeRoutePolyline);
     if (activeRouteOuterGlow) map.removeLayer(activeRouteOuterGlow);
@@ -908,7 +911,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       });
     }
 
-    const closeBannerBtn = document.getElementById('close-banner-btn');
+    const closeBannerBtn = document.getElementById('close-qr-banner');
     if (closeBannerBtn && qrBanner) {
       closeBannerBtn.addEventListener('click', () => {
         qrBanner.style.display = 'none';
