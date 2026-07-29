@@ -84,24 +84,20 @@ document.addEventListener('DOMContentLoaded', async () => {
     loadData().catch(e => console.log('Loaded from embedded dataset:', e));
   }
 
-  // 1. Initialize Map with Google Maps Tiles & Strict University Bounds Lock
+  // 1. Initialize Map with Google Maps Tiles & Reliable Screen Bounds
   function initMap() {
     const campusBounds = L.latLngBounds(
-      [6.9735, 79.8700], // South-West corner
-      [6.9768, 79.8735]  // North-East corner
+      [6.9720, 79.8680], // SW
+      [6.9780, 79.8750]  // NE
     );
 
     map = L.map('map', {
       center: [6.975235, 79.872020],
       zoom: 18,
-      minZoom: 16,
+      minZoom: 15,
       maxZoom: 21,
-      maxBounds: campusBounds,
-      maxBoundsViscosity: 1.0,
       zoomControl: false
     });
-
-    L.control.zoom({ position: 'topright' }).addTo(map);
 
     // Google Maps Tile Layers Integration
     tileLayers['Google Streets'] = L.tileLayer('https://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
@@ -127,9 +123,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Immediately render embedded GeoJSON building polygon drawings
     renderGeoJSONLayer();
 
-    setTimeout(() => {
-      if (map) map.invalidateSize();
-    }, 200);
+    // Trigger sequential resize updates so map tiles render instantly on all mobile & desktop screens
+    [50, 200, 500, 1000].forEach(delay => {
+      setTimeout(() => {
+        if (map) map.invalidateSize();
+      }, delay);
+    });
 
     // Quick Map Action Control Handlers
     const zoomInBtn = document.getElementById('btn-zoom-in');
@@ -138,18 +137,18 @@ document.addEventListener('DOMContentLoaded', async () => {
     const zoomOutBtn = document.getElementById('btn-zoom-out');
     if (zoomOutBtn) zoomOutBtn.addEventListener('click', () => map.zoomOut());
 
-    const centerCampusBtn = document.getElementById('btn-recenter-user');
+    const centerCampusBtn = document.getElementById('btn-center-campus');
     if (centerCampusBtn) {
       centerCampusBtn.addEventListener('click', () => {
         if (geojsonLayer && geojsonLayer.getBounds().isValid()) {
           map.flyToBounds(geojsonLayer.getBounds(), { duration: 0.6, padding: [40, 40] });
         } else {
-          map.flyToBounds(campusBounds, { duration: 0.6 });
+          map.flyTo([6.975235, 79.872020], 18, { duration: 0.6 });
         }
       });
     }
 
-    const recenterGpsBtn = document.getElementById('btn-recenter-user') || document.getElementById('btn-recenter-user');
+    const recenterGpsBtn = document.getElementById('btn-recenter-user');
     if (recenterGpsBtn) {
       recenterGpsBtn.addEventListener('click', () => {
         if (userLivePos) {
