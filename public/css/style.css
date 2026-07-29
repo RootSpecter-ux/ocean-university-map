@@ -1077,63 +1077,20 @@ input:checked + .slider:before {
   transform: scale(1.08);
 }
 
-/* Drawer Collapsed State for Clean Full-Screen Map View */
-.nav-drawer.collapsed {
-  transform: translateY(calc(100% - 24px)) !important;
-  max-height: 24px !important;
-  overflow: hidden !important;
-  padding: 0 !important;
-  opacity: 0.85 !important;
-}
-
-.nav-drawer.collapsed:hover {
-  opacity: 1.0 !important;
-}
-
-.nav-drawer.collapsed .drawer-header,
-.nav-drawer.collapsed .drawer-body {
-  display: none !important;
-}
-
-.nav-drawer.collapsed .drawer-handle-bar {
-  display: flex !important;
-  padding: 8px 0 !important;
-  justify-content: center !important;
-}
-
-/* Ultra-Fluid Desktop & Mobile Responsive Media Queries */
-
-/* 💻 Large Desktop Screens (width >= 1200px) */
-@media (min-width: 1200px) {
-  .navbar {
-    left: 20px !important;
-    right: 20px !important;
-    top: 16px !important;
-    padding: 12px 24px !important;
-  }
-
-  .drawer,
-  .nav-drawer {
-    left: 24px !important;
-    bottom: 24px !important;
-    width: 440px !important;
-  }
-
-  .map-overlay-controls {
-    top: 95px !important;
-    right: 24px !important;
-  }
-}
-
-/* 📱 Mobile & Tablet Responsive UI Enhancements (width <= 768px) */
+/* 📱 Google Maps Native App Mobile UI System (width <= 768px) */
 @media (max-width: 768px) {
+  /* Floating Top Search Pill Navbar */
   .navbar {
-    left: 8px !important;
-    right: 8px !important;
-    top: 8px !important;
-    padding: 8px 12px !important;
-    gap: 6px !important;
-    border-radius: 16px !important;
+    left: 10px !important;
+    right: 10px !important;
+    top: 10px !important;
+    padding: 8px 14px !important;
+    gap: 8px !important;
+    background: rgba(15, 23, 42, 0.92) !important;
+    backdrop-filter: blur(16px) !important;
+    border-radius: 25px !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4) !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
   }
 
   .brand-logo {
@@ -1143,12 +1100,12 @@ input:checked + .slider:before {
   }
 
   .brand-title h1 {
-    font-size: 0.9rem !important;
+    font-size: 0.88rem !important;
     line-height: 1.2 !important;
   }
 
   .brand-title p {
-    display: none !important; /* Hide subtitle on small mobile screens to keep header clean */
+    display: none !important;
   }
 
   .navbar-actions {
@@ -1157,6 +1114,7 @@ input:checked + .slider:before {
 
   .lang-selector-wrapper {
     padding: 2px 6px !important;
+    border-radius: 12px !important;
   }
 
   .lang-selector {
@@ -1167,24 +1125,59 @@ input:checked + .slider:before {
   .btn-secondary {
     font-size: 0.78rem !important;
     padding: 5px 10px !important;
+    border-radius: 12px !important;
   }
 
   /* Mobile Bottom Sheet Drawer Styling */
   .drawer-handle-bar {
     display: flex !important;
     justify-content: center !important;
+    align-items: center !important;
+    padding: 10px 0 !important;
+    cursor: pointer !important;
+  }
+
+  .drawer-pill {
+    width: 44px !important;
+    height: 5px !important;
+    background: rgba(255, 255, 255, 0.4) !important;
+    border-radius: 3px !important;
   }
 
   .drawer,
   .nav-drawer {
-    left: 8px !important;
-    right: 8px !important;
-    width: calc(100vw - 16px) !important;
-    bottom: 8px !important;
-    max-height: 55vh !important;
+    left: 10px !important;
+    right: 10px !important;
+    width: calc(100vw - 20px) !important;
+    bottom: 10px !important;
+    max-height: 52vh !important;
     border-radius: 24px !important;
     box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.6) !important;
-    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), max-height 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    z-index: 1000 !important;
+  }
+
+  /* Collapsed Mobile State - Compact 50px Bottom Bar for Clean 90%+ Map Visibility */
+  .nav-drawer.collapsed {
+    transform: translateY(calc(100% - 50px)) !important;
+    max-height: 50px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    border-radius: 24px 24px 0 0 !important;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.4) !important;
+  }
+
+  .nav-drawer.collapsed .drawer-header,
+  .nav-drawer.collapsed .drawer-body {
+    display: none !important;
+  }
+
+  .nav-drawer.collapsed .drawer-handle-bar {
+    display: flex !important;
+    height: 50px !important;
+    padding: 0 !important;
+    align-items: center !important;
+    justify-content: center !important;
   }
 
   .drawer-header {
@@ -1264,6 +1257,8 @@ input:checked + .slider:before {
     height: 44px !important;
     font-size: 1.15rem !important;
     border-radius: 14px !important;
+    background: rgba(15, 23, 42, 0.9) !important;
+    backdrop-filter: blur(12px) !important;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4) !important;
   }
 
@@ -1275,10 +1270,11 @@ input:checked + .slider:before {
   /* Google Maps Navigation HUD Banner on Mobile */
   .gmaps-nav-hud {
     top: 62px !important;
-    width: calc(100vw - 16px) !important;
+    width: calc(100vw - 20px) !important;
     padding: 10px 14px !important;
-    border-radius: 14px !important;
+    border-radius: 16px !important;
     gap: 8px !important;
+    z-index: 2000 !important;
   }
 
   .gmaps-nav-hud .hud-turn-icon {
@@ -1311,7 +1307,7 @@ input:checked + .slider:before {
   }
 
   .nav-drawer {
-    max-height: 50vh !important;
+    max-height: 48vh !important;
   }
 
   .gmaps-nav-hud {
