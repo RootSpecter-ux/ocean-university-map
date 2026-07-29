@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
   <!-- Custom Stylesheet -->
-  <link rel="stylesheet" href="css/style.css?v=37.0.0">
+  <link rel="stylesheet" href="css/style.css?v=38.0.0">
 </head>
 <body>
   <div id="app-container">
@@ -97,12 +97,37 @@
         <button id="close-qr-banner" class="qr-banner-close"><i class="fa-solid fa-xmark"></i></button>
       </div>
 
-      <!-- Dynamic Navigation Drawer (Search + Route Controls) -->
+      <!-- Dynamic Navigation Drawer (Search + Google Maps Route Controls) -->
       <aside class="nav-drawer" id="nav-drawer">
         <div class="drawer-header">
+          
+          <!-- Google Maps Style Dual Route Picker (Start Point & Destination Point) -->
+          <div class="gmaps-route-box">
+            <div class="gmaps-route-row">
+              <i class="fa-solid fa-circle-dot" style="color: #4285F4; font-size: 0.9rem;"></i>
+              <span class="route-label">START:</span>
+              <select id="origin-select" class="gmaps-select">
+                <option value="live">📍 My Actual Live GPS Position</option>
+              </select>
+            </div>
+
+            <button id="swap-route-btn" class="gmaps-swap-btn" title="Swap Start & Destination">
+              <i class="fa-solid fa-arrow-down-up-across-line"></i>
+            </button>
+
+            <div class="gmaps-route-row">
+              <i class="fa-solid fa-location-dot" style="color: #ea4335; font-size: 0.95rem;"></i>
+              <span class="route-label">DEST:</span>
+              <select id="dest-select" class="gmaps-select">
+                <option value="">🎯 Choose Destination Location...</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Search Filter Input -->
           <div class="search-box">
             <i class="fa-solid fa-magnifying-glass search-icon"></i>
-            <input type="text" id="search-input" placeholder="Search classrooms, halls, labs, canteen..." autocomplete="off">
+            <input type="text" id="search-input" placeholder="Filter classrooms, halls, labs, canteen..." autocomplete="off">
             <button id="clear-search-btn" class="clear-search"><i class="fa-solid fa-xmark"></i></button>
           </div>
 
@@ -130,23 +155,6 @@
             <div class="route-header">
               <span class="chip active" style="font-size:0.7rem; padding: 2px 8px; text-transform: uppercase;">Active Turn-by-Turn Navigation</span>
               <button id="cancel-route-btn" class="close-route-btn"><i class="fa-solid fa-xmark"></i></button>
-            </div>
-
-            <!-- Origin & Destination Inputs -->
-            <div class="route-inputs-card">
-              <div class="route-input-group">
-                <i class="fa-solid fa-circle-dot origin-dot"></i>
-                <select id="origin-select" class="form-control route-select">
-                  <option value="live">📍 My Actual Live GPS Position</option>
-                </select>
-              </div>
-              <button id="swap-route-btn" class="swap-btn" title="Swap Origin & Destination"><i class="fa-solid fa-arrow-down-up-across-line"></i></button>
-              <div class="route-input-group">
-                <i class="fa-solid fa-location-dot dest-dot"></i>
-                <select id="dest-select" class="form-control route-select">
-                  <option value="">🎯 Choose Destination...</option>
-                </select>
-              </div>
             </div>
 
             <!-- Accessibility & Wheelchair Ramps Mode Toggle -->
@@ -356,10 +364,10 @@
   </div>
 
   <!-- Application Scripts -->
-  <script src="js/campus_data_fallback.js?v=37.0.0"></script>
-  <script src="js/i18n.js?v=37.0.0"></script>
-  <script src="js/routing.js?v=37.0.0"></script>
-  <script src="js/cms.js?v=37.0.0"></script>
-  <script src="js/app.js?v=37.0.0"></script>
+  <script src="js/campus_data_fallback.js?v=38.0.0"></script>
+  <script src="js/i18n.js?v=38.0.0"></script>
+  <script src="js/routing.js?v=38.0.0"></script>
+  <script src="js/cms.js?v=38.0.0"></script>
+  <script src="js/app.js?v=38.0.0"></script>
 </body>
 </html>
