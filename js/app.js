@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const clearSearchBtn = document.getElementById('clear-search-btn');
   const categoryChips = document.getElementById('category-chips');
   const locationListView = document.getElementById('location-list-view');
-  const routeNavView = document.getElementById('route-navigation-view');
+  const routeNavView = document.getElementById('route-nav-view');
   const routeDistanceEl = document.getElementById('route-distance');
   const routeTimeEl = document.getElementById('route-time');
   const turnStepsList = document.getElementById('turn-steps-list');
@@ -789,6 +789,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // 8. Render Location List in Drawer
   function renderLocationList() {
+    if (!campusData || !campusData.locations) {
+      locationListView.innerHTML = `<p style="color:var(--text-muted); font-size:0.85rem; text-align:center; padding:20px;"><i class="fa-solid fa-circle-notch fa-spin"></i> Loading locations...</p>`;
+      return;
+    }
+
     const query = searchInput.value.toLowerCase().trim();
     locationListView.innerHTML = '';
 
