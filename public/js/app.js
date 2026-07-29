@@ -80,6 +80,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     initLiveGeolocation();
     checkURLParams();
 
+    // Force places list rendering synchronously on startup
+    renderLocationList();
+
     // Async background refresh if online
     loadData().catch(e => console.log('Loaded from embedded dataset:', e));
   }
@@ -237,6 +240,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (window.FALLBACK_CAMPUS_DATA) {
         campusData = window.FALLBACK_CAMPUS_DATA;
         populateRoutePickers();
+        renderLocationList();
       }
       if (window.FALLBACK_RAW_GEOJSON) {
         rawGeoJSON = window.FALLBACK_RAW_GEOJSON;
@@ -248,6 +252,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (res.ok) {
         campusData = await res.json();
         populateRoutePickers();
+        renderLocationList();
       }
 
       const geoRes = await fetch(`data/Drawing.geojson?v=${ts}`);
@@ -259,12 +264,14 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (campusData && campusData.graph) {
         router = new CampusRouter(campusData.graph.nodes, campusData.graph.edges);
       }
+      renderLocationList();
       await CMS.init();
     } catch (e) {
       console.warn('Using offline failsafe dataset:', e);
       if (window.FALLBACK_CAMPUS_DATA) {
         campusData = window.FALLBACK_CAMPUS_DATA;
         populateRoutePickers();
+        renderLocationList();
       }
       if (window.FALLBACK_RAW_GEOJSON) {
         rawGeoJSON = window.FALLBACK_RAW_GEOJSON;
