@@ -798,12 +798,12 @@ document.addEventListener('DOMContentLoaded', async () => {
           <button onclick="event.stopPropagation(); window.appOpenFloorPlan('${loc.id}')" style="background:rgba(99, 102, 241, 0.15); color:#818cf8; border:1px solid rgba(99, 102, 241, 0.3); padding:6px 10px; border-radius:6px; font-size:0.75rem; font-weight:600; cursor:pointer;">
             <i class="fa-solid fa-layer-group"></i> Floor Plan
           </button>
-          <span class="location-badge"><i class="fa-solid fa-diamond-turn-right"></i> Go</span>
+          <span class="location-badge" onclick="event.stopPropagation(); window.appNavigateTo('${loc.id}')"><i class="fa-solid fa-diamond-turn-right"></i> Go</span>
         </div>
       `;
       card.addEventListener('click', () => {
         map.flyTo([loc.lat, loc.lon], 19, { duration: 1 });
-        startRouteNavigation(loc);
+        window.openBuildingInfoModal(loc);
       });
       locationListView.appendChild(card);
     });
