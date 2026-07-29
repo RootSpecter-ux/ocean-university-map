@@ -73,6 +73,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     renderGeoJSONLayer();
     renderLocationList();
 
+    if (window.i18n) window.i18n.updateDOM();
+
     setupLanguage();
     setupEventListeners();
     initLiveGeolocation();
@@ -793,6 +795,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   function renderLocationList() {
     const dataObj = campusData || EMBEDDED_CAMPUS_DATA || window.FALLBACK_CAMPUS_DATA;
     if (!dataObj || !dataObj.locations || !locationListView) return;
+
+    locationListView.style.display = 'flex';
 
     const query = (searchInput && searchInput.value) ? searchInput.value.toLowerCase().trim() : '';
     locationListView.innerHTML = '';
