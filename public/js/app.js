@@ -197,21 +197,24 @@ document.addEventListener('DOMContentLoaded', async () => {
   function populateRoutePickers() {
     const originSelect = document.getElementById('origin-select');
     const destSelect = document.getElementById('dest-select');
+    const welcomeDestSelect = document.getElementById('welcome-dest-select');
 
-    originSelect.innerHTML = `<option value="live">📍 My Actual Live GPS Position</option>`;
-    destSelect.innerHTML = `<option value="">🎯 Choose Destination...</option>`;
-    welcomeDestSelect.innerHTML = `<option value="">-- Choose Landmark / Classroom --</option>`;
+    if (!campusData || !campusData.locations) return;
+
+    if (originSelect) originSelect.innerHTML = `<option value="live">📍 My Actual Live GPS Position</option>`;
+    if (destSelect) destSelect.innerHTML = `<option value="">🎯 Choose Destination...</option>`;
+    if (welcomeDestSelect) welcomeDestSelect.innerHTML = `<option value="">-- Choose Landmark / Classroom --</option>`;
 
     campusData.locations.forEach(loc => {
-      const transName = loc.translations[i18n.currentLang] || loc.name;
-      originSelect.innerHTML += `<option value="${loc.id}">${transName}</option>`;
-      destSelect.innerHTML += `<option value="${loc.id}">${transName}</option>`;
-      welcomeDestSelect.innerHTML += `<option value="${loc.id}">${transName}</option>`;
+      const transName = loc.translations ? (loc.translations[i18n.currentLang] || loc.name) : loc.name;
+      if (originSelect) originSelect.innerHTML += `<option value="${loc.id}">${transName}</option>`;
+      if (destSelect) destSelect.innerHTML += `<option value="${loc.id}">${transName}</option>`;
+      if (welcomeDestSelect) welcomeDestSelect.innerHTML += `<option value="${loc.id}">${transName}</option>`;
     });
 
-    // Default start location to Main Gate Security Room for university new comers
-    originSelect.value = 'security_room';
-    currentStartLoc = campusData.locations.find(l => l.id === 'security_room');
+    const defaultStart = campusData.locations.find(l => l.id === 'security_room') || campusData.locations[0];
+    if (originSelect && defaultStart) originSelect.value = defaultStart.id;
+    currentStartLoc = defaultStart;
 
     renderLocationList();
 
