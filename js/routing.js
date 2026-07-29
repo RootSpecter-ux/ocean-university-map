@@ -3,8 +3,12 @@
 class CampusRouter {
   constructor(nodes, edges) {
     this.nodes = {};
-    nodes.forEach(n => { this.nodes[n.id] = n; });
-    this.edges = edges;
+    if (Array.isArray(nodes)) {
+      nodes.forEach(n => { this.nodes[n.id] = n; });
+    } else if (nodes && typeof nodes === 'object') {
+      this.nodes = nodes;
+    }
+    this.edges = edges || [];
     this.adjacency = {};
     this.buildAdjacency();
   }
@@ -15,17 +19,24 @@ class CampusRouter {
       this.adjacency[id] = [];
     });
 
+    if (!Array.isArray(this.edges)) return;
+
     this.edges.forEach(edge => {
-      if (this.nodes[edge.source] && this.nodes[edge.target]) {
-        this.adjacency[edge.source].push({
-          target: edge.target,
-          distance: edge.distance,
-          isAccessible: edge.isAccessible
+      const from = edge.from || edge.source;
+      const to = edge.to || edge.target;
+      const dist = edge.weight || edge.distance || 10;
+      const acc = edge.accessible !== false && edge.isAccessible !== false;
+
+      if (this.nodes[from] && this.nodes[to]) {
+        this.adjacency[from].push({
+          target: to,
+          distance: dist,
+          isAccessible: acc
         });
-        this.adjacency[edge.target].push({
-          target: edge.source,
-          distance: edge.distance,
-          isAccessible: edge.isAccessible
+        this.adjacency[to].push({
+          target: from,
+          distance: dist,
+          isAccessible: acc
         });
       }
     });
