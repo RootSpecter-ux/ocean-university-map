@@ -917,6 +917,38 @@ input:checked + .slider:before {
   border-color: var(--primary-400);
 }
 
+/* Google Maps Floating Directions Action Button (FAB) */
+.gmaps-fab-btn {
+  position: absolute;
+  bottom: 24px;
+  right: 16px;
+  z-index: 1000;
+  background: linear-gradient(135deg, #1a73e8, #1557b0);
+  color: #ffffff;
+  border: none;
+  border-radius: 28px;
+  padding: 12px 22px;
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 6px 22px rgba(26, 115, 232, 0.5), 0 2px 8px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gmaps-fab-btn:hover {
+  background: linear-gradient(135deg, #1557b0, #0d47a1);
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 8px 28px rgba(26, 115, 232, 0.7);
+}
+
+.gmaps-fab-btn i {
+  font-size: 1.15rem;
+}
+
 /* Drawer Pull-Handle Bar for Mobile Bottom Sheet */
 .drawer-handle-bar {
   display: none;

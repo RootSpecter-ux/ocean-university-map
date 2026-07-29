@@ -183,6 +183,21 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
       });
     });
+
+    // Google Maps Style Directions FAB Listener
+    const gmapsFabBtn = document.getElementById('btn-gmaps-directions');
+    if (gmapsFabBtn) {
+      gmapsFabBtn.addEventListener('click', () => {
+        locationListView.style.display = 'none';
+        routeNavView.style.display = 'flex';
+        const destSelect = document.getElementById('dest-select');
+        if (destSelect && destSelect.options.length > 1) {
+          if (!destSelect.value) destSelect.selectedIndex = 1;
+          const loc = campusData.locations.find(l => l.id === destSelect.value);
+          if (loc) startRouteNavigation(loc);
+        }
+      });
+    }
   }
 
   // 2. Load Data with Instant Failsafe Fallback
