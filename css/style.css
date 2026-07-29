@@ -191,12 +191,26 @@ body, html {
   box-shadow: 0 6px 20px var(--primary-glow);
 }
 
-/* Map Container */
-#map {
+/* Main Content & Map Container */
+.main-content {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  flex: 1;
+  overflow: hidden;
+}
+
+#map,
+.map-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   width: 100%;
   height: 100%;
   z-index: 1;
-  background: var(--bg-primary);
+  background: #0f172a;
 }
 
 /* QR Gate Welcome Banner */

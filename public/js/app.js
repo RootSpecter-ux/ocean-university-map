@@ -118,7 +118,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     tileLayers['Google Streets'].addTo(map);
-    L.control.layers(tileLayers, null, { position: 'topright' }).addTo(map);
+
+    setTimeout(() => {
+      if (map) map.invalidateSize();
+    }, 200);
 
     // Quick Map Action Control Handlers
     document.getElementById('btn-zoom-in').addEventListener('click', () => map.zoomIn());
