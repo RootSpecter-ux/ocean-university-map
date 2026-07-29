@@ -374,6 +374,14 @@ document.addEventListener('DOMContentLoaded', async () => {
           });
         }
       }).addTo(map);
+
+      try {
+        if (geojsonLayer.getBounds().isValid()) {
+          map.fitBounds(geojsonLayer.getBounds(), { padding: [40, 40] });
+        }
+      } catch (e) {
+        console.log('fitBounds info:', e);
+      }
     }
 
     // Always render prominent markers for building locations
