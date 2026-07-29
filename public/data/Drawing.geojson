@@ -4,11 +4,36 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "MTL HALL 04",
-        "description": null,
+        "name": "Sport Room",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.8717309,
+          6.9749695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNION ROOM",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.8717243,
+          6.9749225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "MTL HALL 04",
-        "category": "Academic & Lecture Halls",
-        "id": "mtl_hall_04"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -41,11 +66,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "UNION ROOM",
-        "description": null,
         "name": "UNION ROOM",
-        "category": "Facilities & Dining",
-        "id": "union_room"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -78,11 +100,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "SPORT ROOM",
-        "description": null,
         "name": "SPORT ROOM",
-        "category": "Sports & Rec",
-        "id": "sport_room"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -115,11 +134,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "MTL HALL 03",
-        "description": null,
         "name": "MTL HALL 03",
-        "category": "Academic & Lecture Halls",
-        "id": "mtl_hall_03"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -152,11 +168,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "LECTURERS WASHROOM",
-        "description": null,
         "name": "LECTURERS WASHROOM",
-        "category": "Amenities",
-        "id": "lecturers_washroom"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -189,11 +202,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "CLASS ROOM 07",
-        "description": null,
         "name": "CLASS ROOM 07",
-        "category": "Academic & Lecture Halls",
-        "id": "class_room_07"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -226,11 +236,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "VOLLY BALL COURT",
-        "description": null,
         "name": "VOLLY BALL COURT",
-        "category": "Sports & Rec",
-        "id": "volly_ball_court"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -263,11 +270,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "BADMINTON COURT",
-        "description": null,
         "name": "BADMINTON COURT",
-        "category": "Sports & Rec",
-        "id": "badminton_court"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -300,11 +304,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "LECTUERE'S ROOM",
-        "description": null,
         "name": "LECTUERE'S ROOM",
-        "category": "Academic & Lecture Halls",
-        "id": "lectueres_room"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -337,11 +338,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "TRAINING AND ACCOUNT DIVISION",
-        "description": null,
         "name": "TRAINING AND ACCOUNT DIVISION",
-        "category": "Administrative",
-        "id": "training_and_account_division"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -378,11 +376,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "AUDITORIUM",
-        "description": null,
         "name": "AUDITORIUM",
-        "category": "Labs & Workshops",
-        "id": "auditorium"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -415,11 +410,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "MTL HALL 02",
-        "description": null,
         "name": "MTL HALL 02",
-        "category": "Academic & Lecture Halls",
-        "id": "mtl_hall_02"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -452,11 +444,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "STORAGE ROOM",
-        "description": null,
         "name": "STORAGE ROOM",
-        "category": "Amenities",
-        "id": "storage_room"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -489,11 +478,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "MTL HALL 01",
-        "description": null,
         "name": "MTL HALL 01",
-        "category": "Academic & Lecture Halls",
-        "id": "mtl_hall_01"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -526,11 +512,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "CLASS ROOM 02",
-        "description": null,
         "name": "CLASS ROOM 02",
-        "category": "Academic & Lecture Halls",
-        "id": "class_room_02"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -563,11 +546,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "CLASS ROOM 03",
-        "description": null,
         "name": "CLASS ROOM 03",
-        "category": "Academic & Lecture Halls",
-        "id": "class_room_03"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -600,11 +580,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "DRAWING ROOM",
-        "description": null,
         "name": "DRAWING ROOM",
-        "category": "Academic & Lecture Halls",
-        "id": "drawing_room"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -637,11 +614,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "CLASS ROOM 04",
-        "description": null,
         "name": "CLASS ROOM 04",
-        "category": "Academic & Lecture Halls",
-        "id": "class_room_04"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -674,11 +648,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "STUDENTS WASH ROOM",
-        "description": null,
         "name": "STUDENTS WASH ROOM",
-        "category": "Amenities",
-        "id": "students_wash_room"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -711,11 +682,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "TRANSPORT DIVISION",
-        "description": null,
         "name": "TRANSPORT DIVISION",
-        "category": "Administrative",
-        "id": "transport_division"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -748,11 +716,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "IT LAB",
-        "description": null,
         "name": "IT LAB",
-        "category": "Labs & Workshops",
-        "id": "it_lab"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -785,11 +750,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "CHART ROOM",
-        "description": null,
         "name": "CHART ROOM",
-        "category": "Labs & Workshops",
-        "id": "chart_room"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -822,11 +784,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "WORKSHOP",
-        "description": null,
         "name": "WORKSHOP",
-        "category": "Labs & Workshops",
-        "id": "workshop"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -859,11 +818,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "WELDING WORKSHOP",
-        "description": null,
         "name": "WELDING WORKSHOP",
-        "category": "Labs & Workshops",
-        "id": "welding_workshop"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -896,11 +852,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "CANTEEN",
-        "description": null,
         "name": "CANTEEN",
-        "category": "Facilities & Dining",
-        "id": "canteen"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -933,11 +886,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "GYM",
-        "description": null,
         "name": "GYM",
-        "category": "Sports & Rec",
-        "id": "gym"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -970,11 +920,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "BOYS HOSTALS",
-        "description": null,
         "name": "BOYS HOSTALS",
-        "category": "Facilities & Dining",
-        "id": "boys_hostals"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -1007,11 +954,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "REGIONAL CENTER MATTAKKULIYA",
-        "description": null,
         "name": "REGIONAL CENTER MATTAKKULIYA",
-        "category": "Administrative",
-        "id": "regional_center_mattakkuliya"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -1044,11 +988,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "CLASS ROOM 08",
-        "description": null,
         "name": "CLASS ROOM 08",
-        "category": "Academic & Lecture Halls",
-        "id": "class_room_08"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -1081,11 +1022,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "LAB",
-        "description": null,
         "name": "LAB",
-        "category": "Labs & Workshops",
-        "id": "lab"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -1118,11 +1056,8 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "classrooms",
-        "description": null,
         "name": "classrooms",
-        "category": "Academic & Lecture Halls",
-        "id": "classrooms"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -1155,29 +1090,22 @@
     {
       "type": "Feature",
       "properties": {
-        "Name": "MTL HALL 04",
-        "description": "MTL LECTURE HALL 04",
         "name": "MTL HALL 04",
-        "category": "Academic & Lecture Halls",
-        "id": "mtl_hall_04"
+        "description": "MTL LECTURE HALL 04"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           79.8718357,
-          6.9749505,
-          0.0
+          6.9749505
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "Name": "Security Room",
-        "description": null,
         "name": "Security Room",
-        "category": "Security & Entry",
-        "id": "security_room"
+        "description": ""
       },
       "geometry": {
         "type": "Polygon",
@@ -1204,40 +1132,6 @@
               6.9747794
             ]
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "Sport Room",
-        "name": "Sport Room",
-        "category": "Sports & Rec",
-        "id": "sport_room"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.8717309,
-          6.9749695,
-          0.0
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "UNION ROOM",
-        "name": "UNION ROOM",
-        "category": "Facilities & Dining",
-        "id": "union_room"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.8717243,
-          6.9749225,
-          0.0
         ]
       }
     }
