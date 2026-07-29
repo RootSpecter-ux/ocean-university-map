@@ -504,7 +504,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (!routeResult) return;
 
     const myMapsFrame = document.getElementById('mymaps-frame');
-    if (myMapsFrame) myMapsFrame.style.display = 'none';
+    if (myMapsFrame) myMapsFrame.style.display = 'block';
 
     if (map) {
       setTimeout(() => {
