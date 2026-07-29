@@ -190,16 +190,28 @@ document.addEventListener('DOMContentLoaded', async () => {
       document.addEventListener('click', () => layerMenu.classList.remove('active'));
     }
 
+    const gmapsIframeContainer = document.getElementById('gmaps-iframe-container');
+    const mapElement = document.getElementById('map');
+
     document.querySelectorAll('.layer-option').forEach(btn => {
       addInstantClickListener(btn, () => {
         const layerKey = btn.getAttribute('data-layer');
-        if (tileLayers[layerKey]) {
-          Object.keys(tileLayers).forEach(k => map.removeLayer(tileLayers[k]));
-          tileLayers[layerKey].addTo(map);
-          document.querySelectorAll('.layer-option').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-          if (layerMenu) layerMenu.classList.remove('active');
+        
+        if (layerKey === 'Google My Maps') {
+          if (mapElement) mapElement.style.display = 'none';
+          if (gmapsIframeContainer) gmapsIframeContainer.style.display = 'block';
+        } else {
+          if (gmapsIframeContainer) gmapsIframeContainer.style.display = 'none';
+          if (mapElement) mapElement.style.display = 'block';
+          if (tileLayers[layerKey]) {
+            Object.keys(tileLayers).forEach(k => map.removeLayer(tileLayers[k]));
+            tileLayers[layerKey].addTo(map);
+          }
         }
+        
+        document.querySelectorAll('.layer-option').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        if (layerMenu) layerMenu.classList.remove('active');
       });
     });
 
