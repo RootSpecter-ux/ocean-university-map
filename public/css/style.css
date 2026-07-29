@@ -325,6 +325,33 @@ body, html {
   min-width: 170px;
 }
 
+.gmaps-navigate-btn {
+  width: 100%;
+  margin-top: 10px;
+  background: linear-gradient(135deg, #1a73e8, #4285f4);
+  color: #ffffff;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: 12px 16px;
+  font-size: 1rem;
+  font-weight: 800;
+  font-family: var(--font-body);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(26, 115, 232, 0.4);
+  transition: all 0.2s ease;
+  touch-action: manipulation;
+}
+
+.gmaps-navigate-btn:hover {
+  background: linear-gradient(135deg, #1557b0, #1a73e8);
+  box-shadow: 0 6px 18px rgba(26, 115, 232, 0.6);
+  transform: translateY(-1px);
+}
+
 .layer-control-popover:hover .layer-dropdown,
 .layer-dropdown.active {
   display: flex;

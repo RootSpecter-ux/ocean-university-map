@@ -706,6 +706,29 @@ document.addEventListener('DOMContentLoaded', async () => {
     const originSelect = document.getElementById('origin-select');
     const destSelect = document.getElementById('dest-select');
     const swapRouteBtn = document.getElementById('swap-route-btn');
+    const startNavBtn = document.getElementById('btn-start-navigation');
+
+    if (startNavBtn) {
+      startNavBtn.addEventListener('click', () => {
+        if (!destSelect || !destSelect.value) {
+          alert('Please select a Destination location first!');
+          return;
+        }
+
+        const dataObj = campusData || EMBEDDED_CAMPUS_DATA || window.FALLBACK_CAMPUS_DATA;
+        if (dataObj && dataObj.locations) {
+          const destLoc = dataObj.locations.find(l => l.id === destSelect.value);
+          if (destLoc) {
+            if (originSelect && originSelect.value && originSelect.value !== 'live') {
+              currentStartLoc = dataObj.locations.find(l => l.id === originSelect.value);
+            } else {
+              currentStartLoc = null;
+            }
+            startRouteNavigation(destLoc);
+          }
+        }
+      });
+    }
 
     if (originSelect) {
       originSelect.addEventListener('change', (e) => {
@@ -716,7 +739,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         } else if (dataObj && dataObj.locations) {
           currentStartLoc = dataObj.locations.find(l => l.id === val);
         }
-        if (currentDestLoc) recalculateLiveRoute();
       });
     }
 
