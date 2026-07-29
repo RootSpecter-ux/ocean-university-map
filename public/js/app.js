@@ -503,9 +503,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     if (!routeResult) return;
 
-    const myMapsFrame = document.getElementById('mymaps-frame');
-    if (myMapsFrame) myMapsFrame.style.display = 'block';
-
     if (map) {
       setTimeout(() => {
         map.invalidateSize();
@@ -625,9 +622,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const destSelect = document.getElementById('dest-select');
     if (destSelect) destSelect.value = '';
-
-    const myMapsFrame = document.getElementById('mymaps-frame');
-    if (myMapsFrame) myMapsFrame.style.display = 'block';
 
     routeNavView.style.display = 'none';
     locationListView.style.display = 'flex';
