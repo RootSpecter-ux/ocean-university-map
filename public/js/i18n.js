@@ -109,6 +109,7 @@ const i18n = {
         sel.value = lang;
       });
       this.updateDOM();
+      if (window.appOnLanguageChange) window.appOnLanguageChange(lang);
     }
   },
 

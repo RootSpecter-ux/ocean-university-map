@@ -364,11 +364,14 @@ document.addEventListener('DOMContentLoaded', async () => {
             </div>
           `;
           layer.bindPopup(popupContent);
+          layer.on('click', () => {
+            if (loc) window.openBuildingInfoModal(loc);
+          });
         }
       }).addTo(map);
     }
 
-    // Always render permanent prominent markers & tooltips for all 32 building locations
+    // Always render prominent markers for building locations
     if (campusData && campusData.locations) {
       campusData.locations.forEach(loc => {
         const color = getCategoryColor(loc.name.toUpperCase());
@@ -386,6 +389,10 @@ document.addEventListener('DOMContentLoaded', async () => {
           permanent: false,
           direction: 'top',
           className: 'bldg-tooltip'
+        });
+
+        bldgMarker.on('click', () => {
+          window.openBuildingInfoModal(loc);
         });
 
         const popupContent = `
@@ -627,6 +634,40 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   window.appClearRoute = clearRoute;
+
+  window.appOnLanguageChange = function(lang) {
+    renderLocationList();
+    populateRoutePickers();
+    renderGeoJSONLayer();
+    if (currentDestLoc) recalculateLiveRoute();
+  };
+
+  window.openBuildingInfoModal = function(loc) {
+    if (!loc) return;
+    const modal = document.getElementById('bldg-info-modal');
+    const titleEl = document.getElementById('bldg-modal-title');
+    const catEl = document.getElementById('bldg-modal-category');
+    const navBtn = document.getElementById('bldg-modal-nav-btn');
+    const startBtn = document.getElementById('bldg-modal-start-btn');
+
+    if (titleEl) titleEl.textContent = loc.translations[i18n.currentLang] || loc.name;
+    if (catEl) catEl.textContent = loc.category || 'Building';
+
+    if (navBtn) {
+      navBtn.onclick = function() {
+        if (modal) modal.classList.remove('active');
+        window.appNavigateTo(loc.id);
+      };
+    }
+    if (startBtn) {
+      startBtn.onclick = function() {
+        if (modal) modal.classList.remove('active');
+        window.appSetStartLocation(loc.id);
+      };
+    }
+
+    if (modal) modal.classList.add('active');
+  };
 
   window.appSetStartLocation = function(locId) {
     const loc = campusData.locations.find(l => l.id === locId);
