@@ -656,6 +656,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const titleEl = document.getElementById('bldg-modal-title');
     const catEl = document.getElementById('bldg-modal-category');
     const navBtn = document.getElementById('bldg-modal-nav-btn');
+    const floorBtn = document.getElementById('bldg-modal-floor-btn');
     const startBtn = document.getElementById('bldg-modal-start-btn');
 
     if (titleEl) titleEl.textContent = loc.translations[i18n.currentLang] || loc.name;
@@ -665,6 +666,12 @@ document.addEventListener('DOMContentLoaded', async () => {
       navBtn.onclick = function() {
         if (modal) modal.classList.remove('active');
         window.appNavigateTo(loc.id);
+      };
+    }
+    if (floorBtn) {
+      floorBtn.onclick = function() {
+        if (modal) modal.classList.remove('active');
+        window.appOpenFloorPlan(loc.id);
       };
     }
     if (startBtn) {
@@ -753,7 +760,12 @@ document.addEventListener('DOMContentLoaded', async () => {
           <h4>${transName}</h4>
           <p><i class="fa-solid fa-door-open" style="color:var(--primary-500); font-size:0.7rem;"></i> Entrance Door &bull; ${loc.category}</p>
         </div>
-        <span class="location-badge"><i class="fa-solid fa-diamond-turn-right"></i> Go</span>
+        <div style="display:flex; gap:6px; align-items:center;">
+          <button onclick="event.stopPropagation(); window.appOpenFloorPlan('${loc.id}')" style="background:rgba(99, 102, 241, 0.15); color:#818cf8; border:1px solid rgba(99, 102, 241, 0.3); padding:6px 10px; border-radius:6px; font-size:0.75rem; font-weight:600; cursor:pointer;">
+            <i class="fa-solid fa-layer-group"></i> Floor Plan
+          </button>
+          <span class="location-badge"><i class="fa-solid fa-diamond-turn-right"></i> Go</span>
+        </div>
       `;
       card.addEventListener('click', () => {
         map.flyTo([loc.lat, loc.lon], 19, { duration: 1 });
