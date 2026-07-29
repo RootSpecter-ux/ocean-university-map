@@ -130,56 +130,68 @@ document.addEventListener('DOMContentLoaded', async () => {
       }, delay);
     });
 
+    // Helper function for instant touch + click handling
+    function addInstantClickListener(elem, handler) {
+      if (!elem) return;
+      let handled = false;
+      elem.addEventListener('touchend', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        handled = true;
+        handler(e);
+        setTimeout(() => handled = false, 300);
+      }, { passive: false });
+      elem.addEventListener('click', (e) => {
+        if (handled) return;
+        e.stopPropagation();
+        handler(e);
+      });
+    }
+
     // Quick Map Action Control Handlers
     const zoomInBtn = document.getElementById('btn-zoom-in');
-    if (zoomInBtn) zoomInBtn.addEventListener('click', () => map.zoomIn());
+    addInstantClickListener(zoomInBtn, () => map.zoomIn());
 
     const zoomOutBtn = document.getElementById('btn-zoom-out');
-    if (zoomOutBtn) zoomOutBtn.addEventListener('click', () => map.zoomOut());
+    addInstantClickListener(zoomOutBtn, () => map.zoomOut());
 
     const centerCampusBtn = document.getElementById('btn-center-campus');
-    if (centerCampusBtn) {
-      centerCampusBtn.addEventListener('click', () => {
-        if (geojsonLayer && geojsonLayer.getBounds().isValid()) {
-          map.flyToBounds(geojsonLayer.getBounds(), { duration: 0.6, padding: [40, 40] });
-        } else {
-          map.flyTo([6.975235, 79.872020], 18, { duration: 0.6 });
-        }
-      });
-    }
+    addInstantClickListener(centerCampusBtn, () => {
+      if (geojsonLayer && geojsonLayer.getBounds().isValid()) {
+        map.flyToBounds(geojsonLayer.getBounds(), { duration: 0.6, padding: [40, 40] });
+      } else {
+        map.flyTo([6.975235, 79.872020], 18, { duration: 0.6 });
+      }
+    });
 
     const recenterGpsBtn = document.getElementById('btn-recenter-user');
-    if (recenterGpsBtn) {
-      recenterGpsBtn.addEventListener('click', () => {
-        if (userLivePos) {
-          map.flyTo([userLivePos.lat, userLivePos.lon], 19, { duration: 0.6 });
-        } else {
-          navigator.geolocation.getCurrentPosition(
-            (pos) => {
-              updateUserLivePosition(pos.coords.latitude, pos.coords.longitude, pos.coords.accuracy, true);
-              map.flyTo([pos.coords.latitude, pos.coords.longitude], 19, { duration: 0.6 });
-            },
-            () => alert('Please enable GPS location permissions on your phone.'),
-            { enableHighAccuracy: true }
-          );
-        }
-      });
-    }
+    addInstantClickListener(recenterGpsBtn, () => {
+      if (userLivePos) {
+        map.flyTo([userLivePos.lat, userLivePos.lon], 19, { duration: 0.6 });
+      } else {
+        navigator.geolocation.getCurrentPosition(
+          (pos) => {
+            updateUserLivePosition(pos.coords.latitude, pos.coords.longitude, pos.coords.accuracy, true);
+            map.flyTo([pos.coords.latitude, pos.coords.longitude], 19, { duration: 0.6 });
+          },
+          () => alert('Please enable GPS location permissions on your phone.'),
+          { enableHighAccuracy: true }
+        );
+      }
+    });
 
     // Map Tile Switcher Listeners
     const layerToggleBtn = document.getElementById('btn-layer-toggle');
     const layerMenu = document.getElementById('layer-menu');
     if (layerToggleBtn && layerMenu) {
-      layerToggleBtn.addEventListener('click', (e) => {
-        e.stopPropagation();
+      addInstantClickListener(layerToggleBtn, () => {
         layerMenu.classList.toggle('active');
       });
       document.addEventListener('click', () => layerMenu.classList.remove('active'));
     }
 
     document.querySelectorAll('.layer-option').forEach(btn => {
-      btn.addEventListener('click', (e) => {
-        e.stopPropagation();
+      addInstantClickListener(btn, () => {
         const layerKey = btn.getAttribute('data-layer');
         if (tileLayers[layerKey]) {
           Object.keys(tileLayers).forEach(k => map.removeLayer(tileLayers[k]));
