@@ -886,56 +886,77 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // 10. Event Listeners Setup
   function setupEventListeners() {
-    searchInput.addEventListener('input', () => {
-      clearSearchBtn.style.display = searchInput.value ? 'block' : 'none';
-      renderLocationList();
-    });
-
-    clearSearchBtn.addEventListener('click', () => {
-      searchInput.value = '';
-      clearSearchBtn.style.display = 'none';
-      renderLocationList();
-    });
-
-    categoryChips.addEventListener('click', (e) => {
-      if (e.target.classList.contains('chip')) {
-        document.querySelectorAll('.category-chips .chip').forEach(c => c.classList.remove('active'));
-        e.target.classList.add('active');
-        activeCategory = e.target.getAttribute('data-category');
+    if (searchInput) {
+      searchInput.addEventListener('input', () => {
+        if (clearSearchBtn) clearSearchBtn.style.display = searchInput.value ? 'block' : 'none';
         renderLocationList();
-      }
-    });
+      });
+    }
 
-    clearRouteBtn.addEventListener('click', clearRoute);
-    accessibleToggle.addEventListener('change', () => {
-      if (currentDestLoc) recalculateLiveRoute();
-    });
+    if (clearSearchBtn) {
+      clearSearchBtn.addEventListener('click', () => {
+        if (searchInput) searchInput.value = '';
+        clearSearchBtn.style.display = 'none';
+        renderLocationList();
+      });
+    }
 
-    document.getElementById('close-banner-btn').addEventListener('click', () => {
-      qrBanner.style.display = 'none';
-    });
+    if (categoryChips) {
+      categoryChips.addEventListener('click', (e) => {
+        if (e.target.classList.contains('chip')) {
+          document.querySelectorAll('.category-chips .chip').forEach(c => c.classList.remove('active'));
+          e.target.classList.add('active');
+          activeCategory = e.target.getAttribute('data-category');
+          renderLocationList();
+        }
+      });
+    }
 
-    closeFloorModalBtn.addEventListener('click', () => {
-      floorModal.classList.remove('active');
-    });
+    if (clearRouteBtn) clearRouteBtn.addEventListener('click', clearRoute);
+    if (accessibleToggle) {
+      accessibleToggle.addEventListener('change', () => {
+        if (currentDestLoc) recalculateLiveRoute();
+      });
+    }
 
-    openAdminBtn.addEventListener('click', () => {
-      adminModal.classList.add('active');
-    });
+    const closeBannerBtn = document.getElementById('close-banner-btn');
+    if (closeBannerBtn && qrBanner) {
+      closeBannerBtn.addEventListener('click', () => {
+        qrBanner.style.display = 'none';
+      });
+    }
 
-    closeAdminModalBtn.addEventListener('click', () => {
-      adminModal.classList.remove('active');
-    });
+    if (closeFloorModalBtn && floorModal) {
+      closeFloorModalBtn.addEventListener('click', () => {
+        floorModal.classList.remove('active');
+      });
+    }
 
-    adminLoginBtn.addEventListener('click', () => {
-      if (adminPasscode.value === 'admin123' || adminPasscode.value === '') {
-        document.getElementById('admin-login-section').style.display = 'none';
-        document.getElementById('admin-dashboard-section').style.display = 'block';
-        setupAdminDashboard();
-      } else {
-        alert('Invalid Passcode! Try admin123');
-      }
-    });
+    if (openAdminBtn && adminModal) {
+      openAdminBtn.addEventListener('click', () => {
+        adminModal.classList.add('active');
+      });
+    }
+
+    if (closeAdminModalBtn && adminModal) {
+      closeAdminModalBtn.addEventListener('click', () => {
+        adminModal.classList.remove('active');
+      });
+    }
+
+    if (adminLoginBtn && adminPasscode) {
+      adminLoginBtn.addEventListener('click', () => {
+        if (adminPasscode.value === 'admin123' || adminPasscode.value === '') {
+          const sec1 = document.getElementById('admin-login-section');
+          const sec2 = document.getElementById('admin-dashboard-section');
+          if (sec1) sec1.style.display = 'none';
+          if (sec2) sec2.style.display = 'block';
+          setupAdminDashboard();
+        } else {
+          alert('Invalid Passcode! Try admin123');
+        }
+      });
+    }
   }
 
   function setupAdminDashboard() {
