@@ -657,13 +657,27 @@ document.addEventListener('DOMContentLoaded', async () => {
           <p><i class="fa-solid fa-door-open" style="color:var(--primary-500); font-size:0.7rem;"></i> Entrance Door &bull; ${loc.category}</p>
         </div>
         <div style="display:flex; gap:6px; align-items:center;">
-          <span class="location-badge" onclick="event.stopPropagation(); window.appNavigateTo('${loc.id}')"><i class="fa-solid fa-diamond-turn-right"></i> Go</span>
+          <span class="location-badge"><i class="fa-solid fa-diamond-turn-right"></i> Navigate</span>
         </div>
       `;
-      card.addEventListener('click', () => {
-        if (map) map.flyTo([loc.lat, loc.lon], 19, { duration: 1 });
-        if (window.openBuildingInfoModal) window.openBuildingInfoModal(loc);
+      
+      let touchHandled = false;
+      card.addEventListener('touchend', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        touchHandled = true;
+        map.closePopup();
+        startRouteNavigation(loc);
+        setTimeout(() => touchHandled = false, 350);
+      }, { passive: false });
+
+      card.addEventListener('click', (e) => {
+        if (touchHandled) return;
+        e.stopPropagation();
+        map.closePopup();
+        startRouteNavigation(loc);
       });
+
       locationListView.appendChild(card);
     });
   }
@@ -730,6 +744,31 @@ document.addEventListener('DOMContentLoaded', async () => {
     const collapseBtn = document.getElementById('btn-collapse-drawer');
     const drawerHandle = document.getElementById('drawer-handle-bar');
     const toggleDrawerBtn = document.getElementById('toggle-drawer-btn');
+    const searchInput = document.getElementById('search-input');
+    const clearSearchBtn = document.getElementById('clear-search-btn');
+
+    // Prevent Leaflet map touch events from swallowing menu clicks
+    if (navDrawer && window.L && L.DomEvent) {
+      L.DomEvent.disableClickPropagation(navDrawer);
+      L.DomEvent.disableScrollPropagation(navDrawer);
+    }
+
+    function addTouchAndClickListener(elem, handler) {
+      if (!elem) return;
+      let handled = false;
+      elem.addEventListener('touchend', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        handled = true;
+        handler(e);
+        setTimeout(() => handled = false, 350);
+      }, { passive: false });
+      elem.addEventListener('click', (e) => {
+        if (handled) return;
+        e.stopPropagation();
+        handler(e);
+      });
+    }
 
     function toggleDrawerCollapse(forceState) {
       if (!navDrawer) return;
@@ -750,20 +789,15 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     if (collapseBtn) {
-      collapseBtn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        toggleDrawerCollapse();
-      });
+      addTouchAndClickListener(collapseBtn, () => toggleDrawerCollapse());
     }
 
     if (drawerHandle) {
-      drawerHandle.addEventListener('click', () => {
-        toggleDrawerCollapse();
-      });
+      addTouchAndClickListener(drawerHandle, () => toggleDrawerCollapse());
     }
 
     if (toggleDrawerBtn) {
-      toggleDrawerBtn.addEventListener('click', () => {
+      addTouchAndClickListener(toggleDrawerBtn, () => {
         if (navDrawer.classList.contains('collapsed')) {
           toggleDrawerCollapse(false);
         } else {
@@ -771,10 +805,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
       });
     }
-    const startNavBtn = document.getElementById('btn-start-navigation');
 
     if (startNavBtn) {
-      startNavBtn.addEventListener('click', () => {
+      addTouchAndClickListener(startNavBtn, () => {
         if (!destSelect || !destSelect.value) {
           alert('Please select a Destination location first!');
           return;
@@ -821,7 +854,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     if (swapRouteBtn && originSelect && destSelect) {
-      swapRouteBtn.addEventListener('click', () => {
+      addTouchAndClickListener(swapRouteBtn, () => {
         const origVal = originSelect.value;
         const destVal = destSelect.value;
         const dataObj = campusData || EMBEDDED_CAMPUS_DATA || window.FALLBACK_CAMPUS_DATA;
@@ -850,8 +883,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     if (searchInput) {
+      searchInput.addEventListener('focus', () => {
+        toggleDrawerCollapse(false);
+      });
       searchInput.addEventListener('input', () => {
         if (clearSearchBtn) clearSearchBtn.style.display = searchInput.value ? 'block' : 'none';
+        toggleDrawerCollapse(false);
         renderLocationList();
       });
     }
