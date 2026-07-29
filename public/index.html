@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
   <!-- Custom Stylesheet -->
-  <link rel="stylesheet" href="css/style.css?v=62.0.0">
+  <link rel="stylesheet" href="css/style.css?v=63.0.0">
 </head>
 <body>
   <div id="app-container">
@@ -61,34 +61,19 @@
       </div>
     </header>
 
-    <!-- Main Content Area: Floating Drawer + Map Container -->
+    <!-- Main Content Area: Floating Drawer + Google My Maps Exclusive Container -->
     <main class="main-content">
       
-      <!-- Interactive Leaflet Map Layer -->
-      <div id="map" class="map-container"></div>
-
-      <!-- Embedded Google My Maps Official Iframe Container -->
-      <div id="gmaps-iframe-container" class="map-container" style="display: none; z-index: 2; width: 100%; height: 100%;">
-        <iframe src="https://www.google.com/maps/d/embed?mid=1oYCxIl6BMTSHj_dm2-vHSO0ORf6v1gQ&ehbc=2E312F" width="100%" height="100%" style="border:0; width: 100%; height: 100%;" allowfullscreen="" loading="lazy"></iframe>
+      <!-- Official Exclusive Google My Maps Primary Container -->
+      <div id="map" class="map-container" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;">
+        <iframe id="gmaps-iframe" src="https://www.google.com/maps/d/embed?mid=1oYCxIl6BMTSHj_dm2-vHSO0ORf6v1gQ&ehbc=2E312F" width="100%" height="100%" style="border:0; width: 100%; height: 100%; position: absolute; top:0; left:0; right:0; bottom:0;" allowfullscreen="" loading="lazy"></iframe>
       </div>
 
       <!-- Quick Action Floating Map Controls -->
       <div class="map-overlay-controls">
-        <button id="btn-zoom-in" class="map-action-btn" title="Zoom In"><i class="fa-solid fa-plus"></i></button>
-        <button id="btn-zoom-out" class="map-action-btn" title="Zoom Out"><i class="fa-solid fa-minus"></i></button>
-        <button id="btn-center-campus" class="map-action-btn" title="Center Campus View"><i class="fa-solid fa-building-columns"></i></button>
-
-        <div class="layer-control-popover">
-          <button id="btn-layer-toggle" class="map-action-btn" title="Switch Map Tiles"><i class="fa-solid fa-layer-group"></i></button>
-          <div class="layer-dropdown" id="layer-menu">
-            <button class="layer-option active" data-layer="Google Streets"><i class="fa-solid fa-map"></i> Google Streets</button>
-            <button class="layer-option" data-layer="Google Hybrid Satellite"><i class="fa-solid fa-satellite"></i> Satellite Mode</button>
-            <button class="layer-option" data-layer="Google My Maps"><i class="fa-solid fa-map-location-dot" style="color:#4285F4;"></i> Google My Maps Embed</button>
-            <button class="layer-option" data-layer="Positron Clean"><i class="fa-solid fa-border-all"></i> Clean Light Mode</button>
-          </div>
-        </div>
-
-        <button id="btn-recenter-user" class="map-action-btn accent-btn" title="Recenter My Location"><i class="fa-solid fa-location-crosshairs"></i></button>
+        <button id="btn-open-gmaps" class="map-action-btn accent-btn" title="Open Full Google Maps Walking Navigation" onclick="window.open('https://www.google.com/maps/d/u/0/viewer?mid=1oYCxIl6BMTSHj_dm2-vHSO0ORf6v1gQ', '_blank')">
+          <i class="fa-solid fa-map-location-dot"></i>
+        </button>
       </div>
 
       <!-- Live Floating QR Scan Notice Banner -->
@@ -370,11 +355,11 @@
   </div>
 
   <!-- Application Scripts -->
-  <script src="js/leaflet.js?v=62.0.0"></script>
-  <script src="js/campus_data_fallback.js?v=62.0.0"></script>
-  <script src="js/i18n.js?v=62.0.0"></script>
-  <script src="js/routing.js?v=62.0.0"></script>
-  <script src="js/cms.js?v=62.0.0"></script>
-  <script src="js/app.js?v=62.0.0"></script>
+  <script src="js/leaflet.js?v=63.0.0"></script>
+  <script src="js/campus_data_fallback.js?v=63.0.0"></script>
+  <script src="js/i18n.js?v=63.0.0"></script>
+  <script src="js/routing.js?v=63.0.0"></script>
+  <script src="js/cms.js?v=63.0.0"></script>
+  <script src="js/app.js?v=63.0.0"></script>
 </body>
 </html>
