@@ -1108,20 +1108,21 @@ input:checked + .slider:before {
   }
 }
 
-/* Permanent Building Label Badge for Map View */
-.bldg-tooltip-permanent {
+/* Non-blocking Building Label Hover Tooltip */
+.bldg-tooltip-hover {
   background: rgba(15, 23, 42, 0.95) !important;
-  border: 1.5px solid rgba(99, 102, 241, 0.7) !important;
+  border: 1.5px solid rgba(99, 102, 241, 0.8) !important;
   color: #ffffff !important;
   font-size: 0.75rem !important;
-  font-weight: 800 !important;
-  padding: 4px 8px !important;
+  font-weight: 700 !important;
+  padding: 4px 10px !important;
   border-radius: 6px !important;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5) !important;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6) !important;
   white-space: nowrap !important;
   pointer-events: none !important;
+  z-index: 1000 !important;
 }
 
-.bldg-tooltip-permanent::before {
+.bldg-tooltip-hover::before {
   display: none !important;
 }

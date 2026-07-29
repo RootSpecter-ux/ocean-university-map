@@ -321,10 +321,11 @@ document.addEventListener('DOMContentLoaded', async () => {
           const category = loc ? loc.category : 'Building';
           const color = getCategoryColor(name);
 
+          // Clean, non-blocking interactive tooltip on hover
           layer.bindTooltip(`<b>${transName}</b>`, {
-            permanent: true,
-            direction: 'center',
-            className: 'bldg-tooltip-permanent'
+            permanent: false,
+            direction: 'top',
+            className: 'bldg-tooltip-hover'
           });
 
           const popupContent = `
@@ -333,10 +334,10 @@ document.addEventListener('DOMContentLoaded', async () => {
               <h4 style="margin: 4px 0 2px 0; font-size: 1rem; color: #0f172a; font-weight: 700;">${transName}</h4>
               <p style="font-size: 0.75rem; color: #64748b; margin-bottom: 10px;"><i class="fa-solid fa-door-open" style="color:var(--primary-500);"></i> Entrance Door &bull; Ocean University</p>
               <div style="display:flex; gap:6px; flex-direction:column;">
-                <button onclick="window.appSetStartLocation('${loc ? loc.id : ''}')" style="background:#0284c7; color:white; border:none; padding:8px 12px; border-radius:6px; font-weight:600; cursor:pointer; font-size:0.8rem; text-align:left;">
+                <button onclick="window.appSetStartLocation('${loc ? loc.id : ''}')" style="background:#0284c7; color:white; border:none; padding:8px 12px; border-radius:6px; font-weight:600; cursor:pointer; font-size:0.8rem; text-align:left; touch-action:manipulation;">
                   <i class="fa-solid fa-circle-dot"></i> Set as Start Location
                 </button>
-                <button onclick="window.appNavigateTo('${loc ? loc.id : ''}')" style="background:#4f46e5; color:white; border:none; padding:8px 12px; border-radius:6px; font-weight:600; cursor:pointer; font-size:0.82rem; text-align:left;">
+                <button onclick="window.appNavigateTo('${loc ? loc.id : ''}')" style="background:#4f46e5; color:white; border:none; padding:8px 12px; border-radius:6px; font-weight:600; cursor:pointer; font-size:0.82rem; text-align:left; touch-action:manipulation;">
                   <i class="fa-solid fa-diamond-turn-right"></i> Navigate Here
                 </button>
               </div>
@@ -346,7 +347,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           
           layer.on('mouseover', () => {
             if (layer.setStyle) {
-              layer.setStyle({ weight: 4, color: '#f59e0b', fillOpacity: 0.85 });
+              layer.setStyle({ weight: 4, color: '#f59e0b', fillOpacity: 0.9 });
             }
           });
           
