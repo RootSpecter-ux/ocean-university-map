@@ -183,6 +183,26 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
       });
     });
+
+    // Drawer View Mode Tab Switcher Listeners
+    const tabShowList = document.getElementById('tab-show-list');
+    const tabShowNav = document.getElementById('tab-show-nav');
+
+    if (tabShowList && tabShowNav) {
+      tabShowList.addEventListener('click', () => {
+        locationListView.style.display = 'flex';
+        routeNavView.style.display = 'none';
+        tabShowList.classList.add('active');
+        tabShowNav.classList.remove('active');
+      });
+
+      tabShowNav.addEventListener('click', () => {
+        locationListView.style.display = 'none';
+        routeNavView.style.display = 'flex';
+        tabShowNav.classList.add('active');
+        tabShowList.classList.remove('active');
+      });
+    }
   }
 
   // 2. Load Data with Instant Failsafe Fallback
@@ -560,6 +580,13 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     locationListView.style.display = 'none';
     routeNavView.style.display = 'flex';
+
+    const tabShowList = document.getElementById('tab-show-list');
+    const tabShowNav = document.getElementById('tab-show-nav');
+    if (tabShowList && tabShowNav) {
+      tabShowNav.classList.add('active');
+      tabShowList.classList.remove('active');
+    }
 
     routeDistanceEl.textContent = `${routeResult.totalDistance} m`;
     routeTimeEl.textContent = routeResult.timeFormatted;
