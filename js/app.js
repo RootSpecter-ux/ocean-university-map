@@ -256,69 +256,31 @@ document.addEventListener('DOMContentLoaded', async () => {
     const destSelect = document.getElementById('dest-select');
     const welcomeDestSelect = document.getElementById('welcome-dest-select');
 
-    if (!campusData || !campusData.locations) return;
+    const dataObj = campusData || EMBEDDED_CAMPUS_DATA || window.FALLBACK_CAMPUS_DATA;
+    if (!dataObj || !dataObj.locations) return;
+
+    const currentLang = (window.i18n && window.i18n.currentLang) ? window.i18n.currentLang : 'en';
 
     if (originSelect) originSelect.innerHTML = `<option value="live">📍 My Actual Live GPS Position</option>`;
     if (destSelect) destSelect.innerHTML = `<option value="">🎯 Choose Destination...</option>`;
     if (welcomeDestSelect) welcomeDestSelect.innerHTML = `<option value="">-- Choose Landmark / Classroom --</option>`;
 
-    campusData.locations.forEach(loc => {
-      const transName = loc.translations ? (loc.translations[i18n.currentLang] || loc.name) : loc.name;
+    dataObj.locations.forEach(loc => {
+      if (!loc || !loc.id) return;
+      const transName = (loc.translations && loc.translations[currentLang]) ? loc.translations[currentLang] : loc.name;
       if (originSelect) originSelect.innerHTML += `<option value="${loc.id}">${transName}</option>`;
       if (destSelect) destSelect.innerHTML += `<option value="${loc.id}">${transName}</option>`;
       if (welcomeDestSelect) welcomeDestSelect.innerHTML += `<option value="${loc.id}">${transName}</option>`;
     });
 
-    const defaultStart = campusData.locations.find(l => l.id === 'security_room') || campusData.locations[0];
-    if (originSelect && defaultStart) originSelect.value = defaultStart.id;
-    currentStartLoc = defaultStart;
+    const defaultStart = dataObj.locations.find(l => l.id === 'security_room') || dataObj.locations[0];
+    if (originSelect && defaultStart && (originSelect.value === '' || originSelect.value === 'live')) {
+      originSelect.value = defaultStart.id;
+      currentStartLoc = defaultStart;
+    }
 
     renderLocationList();
-
-    originSelect.addEventListener('change', (e) => {
-      const val = e.target.value;
-      if (val === 'live') {
-        currentStartLoc = null;
-      } else {
-        currentStartLoc = campusData.locations.find(l => l.id === val);
-      }
-      if (currentDestLoc) recalculateLiveRoute();
-    });
-
-    destSelect.addEventListener('change', (e) => {
-      const val = e.target.value;
-      if (!val) {
-        clearRoute();
-      } else {
-        const loc = campusData.locations.find(l => l.id === val);
-        if (loc) startRouteNavigation(loc);
-      }
-    });
-
-    // Swap Origin & Destination
-    document.getElementById('swap-route-btn').addEventListener('click', () => {
-      const origVal = originSelect.value;
-      const destVal = destSelect.value;
-
-      if (!destVal) {
-        alert('Please select a destination first to swap!');
-        return;
-      }
-
-      if (origVal === 'live') {
-        originSelect.value = destVal;
-        destSelect.value = 'security_room';
-        currentStartLoc = campusData.locations.find(l => l.id === destVal);
-        const newDest = campusData.locations.find(l => l.id === 'security_room');
-        if (newDest) startRouteNavigation(newDest);
-      } else {
-        originSelect.value = destVal;
-        destSelect.value = origVal;
-        currentStartLoc = campusData.locations.find(l => l.id === destVal);
-        const newDest = campusData.locations.find(l => l.id === origVal);
-        if (newDest) startRouteNavigation(newDest);
-      }
-    });
+  }
 
     // Welcome Modal Action - Start Precise Navigation Button Handler
     startWelcomeNavBtn.addEventListener('click', () => {
@@ -854,6 +816,65 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // 10. Event Listeners Setup
   function setupEventListeners() {
+    const originSelect = document.getElementById('origin-select');
+    const destSelect = document.getElementById('dest-select');
+    const swapRouteBtn = document.getElementById('swap-route-btn');
+
+    if (originSelect) {
+      originSelect.addEventListener('change', (e) => {
+        const val = e.target.value;
+        const dataObj = campusData || EMBEDDED_CAMPUS_DATA || window.FALLBACK_CAMPUS_DATA;
+        if (val === 'live') {
+          currentStartLoc = null;
+        } else if (dataObj && dataObj.locations) {
+          currentStartLoc = dataObj.locations.find(l => l.id === val);
+        }
+        if (currentDestLoc) recalculateLiveRoute();
+      });
+    }
+
+    if (destSelect) {
+      destSelect.addEventListener('change', (e) => {
+        const val = e.target.value;
+        const dataObj = campusData || EMBEDDED_CAMPUS_DATA || window.FALLBACK_CAMPUS_DATA;
+        if (!val) {
+          clearRoute();
+        } else if (dataObj && dataObj.locations) {
+          const loc = dataObj.locations.find(l => l.id === val);
+          if (loc) startRouteNavigation(loc);
+        }
+      });
+    }
+
+    if (swapRouteBtn && originSelect && destSelect) {
+      swapRouteBtn.addEventListener('click', () => {
+        const origVal = originSelect.value;
+        const destVal = destSelect.value;
+        const dataObj = campusData || EMBEDDED_CAMPUS_DATA || window.FALLBACK_CAMPUS_DATA;
+
+        if (!destVal) {
+          alert('Please select a destination location first to swap!');
+          return;
+        }
+
+        if (!dataObj || !dataObj.locations) return;
+
+        if (origVal === 'live') {
+          originSelect.value = destVal;
+          destSelect.value = 'security_room';
+          currentStartLoc = dataObj.locations.find(l => l.id === destVal);
+          const newDest = dataObj.locations.find(l => l.id === 'security_room');
+          if (newDest) startRouteNavigation(newDest);
+        } else {
+          originSelect.value = destVal;
+          destSelect.value = origVal;
+          currentStartLoc = dataObj.locations.find(l => l.id === destVal);
+          const newDest = dataObj.locations.find(l => l.id === origVal);
+          if (newDest) startRouteNavigation(newDest);
+        }
+      });
+    }
+
     if (searchInput) {
       searchInput.addEventListener('input', () => {
         if (clearSearchBtn) clearSearchBtn.style.display = searchInput.value ? 'block' : 'none';
