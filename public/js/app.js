@@ -343,7 +343,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           const category = loc ? loc.category : 'Building';
 
           layer.bindTooltip(`<b>${transName}</b>`, {
-            permanent: true,
+            permanent: false,
             direction: 'center',
             className: 'bldg-tooltip'
           });
@@ -383,7 +383,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         }).addTo(map);
 
         bldgMarker.bindTooltip(`<b>${transName}</b>`, {
-          permanent: true,
+          permanent: false,
           direction: 'top',
           className: 'bldg-tooltip'
         });
