@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
   <!-- Custom Stylesheet -->
-  <link rel="stylesheet" href="css/style.css?v=69.0.0">
+  <link rel="stylesheet" href="css/style.css?v=70.0.0">
 </head>
 <body>
   <div id="app-container">
@@ -67,6 +67,28 @@
       <!-- Official Exclusive Google My Maps Primary Container -->
       <div id="map" class="map-container" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;">
         <iframe id="gmaps-iframe" src="https://www.google.com/maps/d/embed?mid=1oYCxIl6BMTSHj_dm2-vHSO0ORf6v1gQ&ehbc=2E312F" width="100%" height="100%" style="border:0; width: 100%; height: 100%; position: absolute; top:0; left:0; right:0; bottom:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+      <!-- Real-Time Google Maps Navigation HUD Top Banner -->
+      <div id="gmaps-nav-hud" class="gmaps-nav-hud" style="display: none;">
+        <div class="hud-left">
+          <div class="hud-turn-icon" id="hud-turn-icon">
+            <i class="fa-solid fa-arrow-up"></i>
+          </div>
+          <div class="hud-text-details">
+            <div class="hud-instruction" id="hud-instruction">Head North towards destination</div>
+            <div class="hud-subtext" id="hud-subtext">In 35 meters</div>
+          </div>
+        </div>
+        <div class="hud-right">
+          <div class="hud-eta-badge">
+            <span class="hud-time" id="hud-time">2 min</span>
+            <span class="hud-dist" id="hud-dist">140 m</span>
+          </div>
+          <button id="btn-end-navigation" class="hud-end-btn" title="End Navigation">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
       </div>
 
       <!-- Live Floating QR Scan Notice Banner -->
@@ -348,11 +370,11 @@
   </div>
 
   <!-- Application Scripts -->
-  <script src="js/leaflet.js?v=69.0.0"></script>
-  <script src="js/campus_data_fallback.js?v=69.0.0"></script>
-  <script src="js/i18n.js?v=69.0.0"></script>
-  <script src="js/routing.js?v=69.0.0"></script>
-  <script src="js/cms.js?v=69.0.0"></script>
-  <script src="js/app.js?v=69.0.0"></script>
+  <script src="js/leaflet.js?v=70.0.0"></script>
+  <script src="js/campus_data_fallback.js?v=70.0.0"></script>
+  <script src="js/i18n.js?v=70.0.0"></script>
+  <script src="js/routing.js?v=70.0.0"></script>
+  <script src="js/cms.js?v=70.0.0"></script>
+  <script src="js/app.js?v=70.0.0"></script>
 </body>
 </html>

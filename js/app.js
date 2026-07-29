@@ -391,6 +391,43 @@ document.addEventListener('DOMContentLoaded', async () => {
     activeRouteMarkers.forEach(m => map.removeLayer(m));
     activeRouteMarkers = [];
 
+    // Update Google Maps Top HUD Banner
+    const gmapsNavHud = document.getElementById('gmaps-nav-hud');
+    const hudInstruction = document.getElementById('hud-instruction');
+    const hudSubtext = document.getElementById('hud-subtext');
+    const hudTime = document.getElementById('hud-time');
+    const hudDist = document.getElementById('hud-dist');
+    const btnEndNav = document.getElementById('btn-end-navigation');
+
+    if (gmapsNavHud && routeResult.steps && routeResult.steps.length > 0) {
+      gmapsNavHud.style.display = 'flex';
+      const firstStep = routeResult.steps[0];
+      if (hudInstruction) hudInstruction.textContent = firstStep.instruction;
+      if (hudSubtext) hudSubtext.textContent = `In ${firstStep.distanceMeters} meters`;
+      if (hudTime) hudTime.textContent = routeResult.timeFormatted;
+      if (hudDist) hudDist.textContent = `${routeResult.totalDistance} m`;
+
+      // Live Voice Guidance Audio
+      if ('speechSynthesis' in window) {
+        try {
+          window.speechSynthesis.cancel();
+          const utterance = new SpeechSynthesisUtterance(`Navigating to ${currentDestLoc.name}. ${firstStep.instruction}`);
+          utterance.rate = 1.0;
+          window.speechSynthesis.speak(utterance);
+        } catch (e) {
+          console.log('Voice guidance notice:', e);
+        }
+      }
+
+      if (btnEndNav) {
+        btnEndNav.onclick = () => {
+          gmapsNavHud.style.display = 'none';
+          clearRoute();
+          if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+        };
+      }
+    }
+
     activeRouteOuterGlow = L.polyline(routeResult.coordinates, {
       color: '#6366f1',
       weight: 10,
@@ -461,6 +498,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (activeRouteOuterGlow) map.removeLayer(activeRouteOuterGlow);
     activeRouteMarkers.forEach(m => map.removeLayer(m));
     activeRouteMarkers = [];
+
+    const gmapsNavHud = document.getElementById('gmaps-nav-hud');
+    if (gmapsNavHud) gmapsNavHud.style.display = 'none';
+    if ('speechSynthesis' in window) window.speechSynthesis.cancel();
 
     const destSelect = document.getElementById('dest-select');
     if (destSelect) destSelect.value = '';
