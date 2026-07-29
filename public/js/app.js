@@ -389,10 +389,8 @@ document.addEventListener('DOMContentLoaded', async () => {
           };
         },
         onEachFeature: (feature, layer) => {
-          const name = feature.properties.name;
-          if (!name) return;
-
-          const loc = campusData ? campusData.locations.find(l => l.name.toUpperCase() === name.toUpperCase() || name.toUpperCase().includes(l.name.toUpperCase())) : null;
+          const name = feature.properties.name || 'Campus Building';
+          const loc = campusData ? campusData.locations.find(l => l.name.toUpperCase() === name.toUpperCase() || name.toUpperCase().includes(l.name.toUpperCase()) || l.name.toUpperCase().includes(name.toUpperCase())) : null;
           const transName = loc ? (loc.translations[i18n.currentLang] || loc.name) : name;
           const category = loc ? loc.category : 'Building';
 
