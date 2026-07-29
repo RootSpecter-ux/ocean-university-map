@@ -912,7 +912,13 @@ document.addEventListener('DOMContentLoaded', async () => {
       });
     }
 
-    if (clearRouteBtn) clearRouteBtn.addEventListener('click', clearRoute);
+    const cancelRouteBtn = document.getElementById('cancel-route-btn');
+    const endRouteActionBtn = document.getElementById('end-route-action-btn');
+
+    if (cancelRouteBtn) addTouchAndClickListener(cancelRouteBtn, clearRoute);
+    if (endRouteActionBtn) addTouchAndClickListener(endRouteActionBtn, clearRoute);
+    if (clearRouteBtn) addTouchAndClickListener(clearRouteBtn, clearRoute);
+
     if (accessibleToggle) {
       accessibleToggle.addEventListener('change', () => {
         if (currentDestLoc) recalculateLiveRoute();
@@ -921,25 +927,25 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const closeBannerBtn = document.getElementById('close-qr-banner');
     if (closeBannerBtn && qrBanner) {
-      closeBannerBtn.addEventListener('click', () => {
+      addTouchAndClickListener(closeBannerBtn, () => {
         qrBanner.style.display = 'none';
       });
     }
 
     if (closeFloorModalBtn && floorModal) {
-      closeFloorModalBtn.addEventListener('click', () => {
+      addTouchAndClickListener(closeFloorModalBtn, () => {
         floorModal.classList.remove('active');
       });
     }
 
     if (openAdminBtn && adminModal) {
-      openAdminBtn.addEventListener('click', () => {
+      addTouchAndClickListener(openAdminBtn, () => {
         adminModal.classList.add('active');
       });
     }
 
     if (closeAdminModalBtn && adminModal) {
-      closeAdminModalBtn.addEventListener('click', () => {
+      addTouchAndClickListener(closeAdminModalBtn, () => {
         adminModal.classList.remove('active');
       });
     }
