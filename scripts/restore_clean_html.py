@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+import os
+import shutil
+
+html_template = """<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -369,3 +372,12 @@
   <script src="js/app.js?v=25.0.0"></script>
 </body>
 </html>
+"""
+
+with open('index.html', 'w', encoding='utf-8') as f:
+    f.write(html_template)
+
+with open('public/index.html', 'w', encoding='utf-8') as f:
+    f.write(html_template)
+
+print("Restored clean HTML template across index.html and public/index.html!")
