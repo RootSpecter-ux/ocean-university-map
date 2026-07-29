@@ -320,6 +320,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     if (geojsonLayer) map.removeLayer(geojsonLayer);
+    bldgMarkers.forEach(m => map.removeLayer(m));
+    bldgMarkers = [];
 
     if (rawGeoJSON) {
       geojsonLayer = L.geoJSON(rawGeoJSON, {
@@ -384,6 +386,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           weight: 2,
           fillOpacity: 1
         }).addTo(map);
+        bldgMarkers.push(bldgMarker);
 
         bldgMarker.bindTooltip(`<b>${transName}</b>`, {
           permanent: false,

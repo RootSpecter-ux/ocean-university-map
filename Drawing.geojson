@@ -4,36 +4,6 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.8717309,
-          6.9749695
-        ]
-      },
-      "properties": {
-        "name": "Sport Room",
-        "styleUrl": "#icon-1519-0288D1-nodesc",
-        "color": "#0288d1"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.8717243,
-          6.9749225
-        ]
-      },
-      "properties": {
-        "name": "UNION ROOM",
-        "styleUrl": "#icon-1739-0288D1-nodesc",
-        "color": "#0288d1"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -61,9 +31,12 @@
         ]
       },
       "properties": {
+        "id": "mtl_hall_04",
         "name": "MTL HALL 04",
-        "styleUrl": "#poly-000000-2386-77-nodesc",
-        "color": "#6366f1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.97495035,
+        "center_lon": 79.8718345
       }
     },
     {
@@ -96,9 +69,12 @@
         ]
       },
       "properties": {
+        "id": "union_room",
         "name": "UNION ROOM",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Facilities & Dining",
+        "color": "#f59e0b",
+        "center_lat": 6.97492455,
+        "center_lon": 79.871755875
       }
     },
     {
@@ -131,9 +107,12 @@
         ]
       },
       "properties": {
+        "id": "sport_room",
         "name": "SPORT ROOM",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Sports & Rec",
+        "color": "#10b981",
+        "center_lat": 6.974967475,
+        "center_lon": 79.87175115
       }
     },
     {
@@ -166,9 +145,12 @@
         ]
       },
       "properties": {
+        "id": "mtl_hall_03",
         "name": "MTL HALL 03",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.97501715,
+        "center_lon": 79.8721363
       }
     },
     {
@@ -201,9 +183,12 @@
         ]
       },
       "properties": {
+        "id": "lecturers_washroom",
         "name": "LECTURERS WASHROOM",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Amenities",
+        "color": "#3b82f6",
+        "center_lat": 6.975024625,
+        "center_lon": 79.87218075
       }
     },
     {
@@ -236,9 +221,12 @@
         ]
       },
       "properties": {
+        "id": "class_room_07",
         "name": "CLASS ROOM 07",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.97503195,
+        "center_lon": 79.872228225
       }
     },
     {
@@ -271,9 +259,12 @@
         ]
       },
       "properties": {
+        "id": "volly_ball_court",
         "name": "VOLLY BALL COURT",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Sports & Rec",
+        "color": "#10b981",
+        "center_lat": 6.975080875,
+        "center_lon": 79.87233935
       }
     },
     {
@@ -306,9 +297,12 @@
         ]
       },
       "properties": {
+        "id": "badminton_court",
         "name": "BADMINTON COURT",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Sports & Rec",
+        "color": "#10b981",
+        "center_lat": 6.975122150000001,
+        "center_lon": 79.8719823
       }
     },
     {
@@ -341,9 +335,12 @@
         ]
       },
       "properties": {
+        "id": "lectueres_room",
         "name": "LECTUERE'S ROOM",
-        "styleUrl": "#poly-673AB7-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.97497515,
+        "center_lon": 79.871961125
       }
     },
     {
@@ -380,9 +377,12 @@
         ]
       },
       "properties": {
+        "id": "training_and_account_division",
         "name": "TRAINING AND ACCOUNT DIVISION",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Administrative",
+        "color": "#a855f7",
+        "center_lat": 6.975270740000001,
+        "center_lon": 79.8717494
       }
     },
     {
@@ -415,9 +415,12 @@
         ]
       },
       "properties": {
+        "id": "auditorium",
         "name": "AUDITORIUM",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Labs & Workshops",
+        "color": "#06b6d4",
+        "center_lat": 6.9753074250000004,
+        "center_lon": 79.87185339999999
       }
     },
     {
@@ -450,9 +453,12 @@
         ]
       },
       "properties": {
+        "id": "mtl_hall_02",
         "name": "MTL HALL 02",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.975283875,
+        "center_lon": 79.871975575
       }
     },
     {
@@ -485,9 +491,12 @@
         ]
       },
       "properties": {
+        "id": "storage_room",
         "name": "STORAGE ROOM",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Amenities",
+        "color": "#3b82f6",
+        "center_lat": 6.9752769,
+        "center_lon": 79.87193235000001
       }
     },
     {
@@ -520,9 +529,12 @@
         ]
       },
       "properties": {
+        "id": "mtl_hall_01",
         "name": "MTL HALL 01",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.975216475,
+        "center_lon": 79.872488875
       }
     },
     {
@@ -555,9 +567,12 @@
         ]
       },
       "properties": {
+        "id": "class_room_02",
         "name": "CLASS ROOM 02",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.97521125,
+        "center_lon": 79.872390575
       }
     },
     {
@@ -590,9 +605,12 @@
         ]
       },
       "properties": {
+        "id": "class_room_03",
         "name": "CLASS ROOM 03",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.975200425000001,
+        "center_lon": 79.872325875
       }
     },
     {
@@ -625,9 +643,12 @@
         ]
       },
       "properties": {
+        "id": "drawing_room",
         "name": "DRAWING ROOM",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.97518655,
+        "center_lon": 79.87223645
       }
     },
     {
@@ -660,9 +681,12 @@
         ]
       },
       "properties": {
+        "id": "class_room_04",
         "name": "CLASS ROOM 04",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.975171725,
+        "center_lon": 79.8721352
       }
     },
     {
@@ -695,9 +719,12 @@
         ]
       },
       "properties": {
+        "id": "students_wash_room",
         "name": "STUDENTS WASH ROOM",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Amenities",
+        "color": "#3b82f6",
+        "center_lat": 6.97524675,
+        "center_lon": 79.872123275
       }
     },
     {
@@ -730,9 +757,12 @@
         ]
       },
       "properties": {
+        "id": "transport_division",
         "name": "TRANSPORT DIVISION",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Administrative",
+        "color": "#a855f7",
+        "center_lat": 6.9752719,
+        "center_lon": 79.8721211
       }
     },
     {
@@ -765,9 +795,12 @@
         ]
       },
       "properties": {
+        "id": "it_lab",
         "name": "IT LAB",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Labs & Workshops",
+        "color": "#06b6d4",
+        "center_lat": 6.975312825,
+        "center_lon": 79.872115725
       }
     },
     {
@@ -800,9 +833,12 @@
         ]
       },
       "properties": {
+        "id": "chart_room",
         "name": "CHART ROOM",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Labs & Workshops",
+        "color": "#06b6d4",
+        "center_lat": 6.97537785,
+        "center_lon": 79.872105325
       }
     },
     {
@@ -835,9 +871,12 @@
         ]
       },
       "properties": {
+        "id": "workshop",
         "name": "WORKSHOP",
-        "styleUrl": "#poly-558B2F-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Labs & Workshops",
+        "color": "#06b6d4",
+        "center_lat": 6.97551585,
+        "center_lon": 79.871993275
       }
     },
     {
@@ -870,9 +909,12 @@
         ]
       },
       "properties": {
+        "id": "welding_workshop",
         "name": "WELDING WORKSHOP",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Labs & Workshops",
+        "color": "#06b6d4",
+        "center_lat": 6.9756613000000005,
+        "center_lon": 79.8721529
       }
     },
     {
@@ -905,9 +947,12 @@
         ]
       },
       "properties": {
+        "id": "canteen",
         "name": "CANTEEN",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Facilities & Dining",
+        "color": "#f59e0b",
+        "center_lat": 6.9756703,
+        "center_lon": 79.87164295
       }
     },
     {
@@ -940,9 +985,12 @@
         ]
       },
       "properties": {
+        "id": "gym",
         "name": "GYM",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Sports & Rec",
+        "color": "#10b981",
+        "center_lat": 6.975828025,
+        "center_lon": 79.87161645
       }
     },
     {
@@ -975,9 +1023,12 @@
         ]
       },
       "properties": {
+        "id": "boys_hostals",
         "name": "BOYS HOSTALS",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Facilities & Dining",
+        "color": "#f59e0b",
+        "center_lat": 6.97576205,
+        "center_lon": 79.8718296
       }
     },
     {
@@ -1010,9 +1061,12 @@
         ]
       },
       "properties": {
+        "id": "regional_center_mattakkuliya",
         "name": "REGIONAL CENTER MATTAKKULIYA",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Administrative",
+        "color": "#a855f7",
+        "center_lat": 6.9760339,
+        "center_lon": 79.87184035
       }
     },
     {
@@ -1045,9 +1099,12 @@
         ]
       },
       "properties": {
+        "id": "class_room_08",
         "name": "CLASS ROOM 08",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.97492795,
+        "center_lon": 79.872288475
       }
     },
     {
@@ -1080,9 +1137,12 @@
         ]
       },
       "properties": {
+        "id": "lab",
         "name": "LAB",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Labs & Workshops",
+        "color": "#06b6d4",
+        "center_lat": 6.974902,
+        "center_lon": 79.872139625
       }
     },
     {
@@ -1115,24 +1175,12 @@
         ]
       },
       "properties": {
+        "id": "classrooms",
         "name": "classrooms",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.8718357,
-          6.9749505
-        ]
-      },
-      "properties": {
-        "name": "MTL HALL 04",
-        "styleUrl": "#icon-1739-0288D1",
-        "color": "#0288d1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.975125625,
+        "center_lon": 79.8718733
       }
     },
     {
@@ -1165,9 +1213,12 @@
         ]
       },
       "properties": {
+        "id": "security_room",
         "name": "Security Room",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Security & Entry",
+        "color": "#ef4444",
+        "center_lat": 6.974777075,
+        "center_lon": 79.8718026
       }
     }
   ]

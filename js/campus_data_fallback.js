@@ -1,2923 +1,3658 @@
-// Global Fallback Embedded Campus Data & GeoJSON from OCU.kml
+// Global Failsafe Synchronous Embedded Dataset from OCU.kml
 window.FALLBACK_CAMPUS_DATA = {
-  "info": {
-    "title": "University Campus Navigation System",
-    "center": [
-      6.975235,
-      79.87202
-    ],
-    "defaultZoom": 18,
-    "gates": [
-      {
-        "id": "security_room",
-        "name": "Main South Gate (Security Room)",
-        "lat": 6.974777,
-        "lon": 79.871797
-      },
-      {
-        "id": "regional_center_mattakkuliya",
-        "name": "North Gate (Regional Center)",
-        "lat": 6.97604,
-        "lon": 79.871814
-      }
-    ]
-  },
   "locations": [
     {
-      "id": "sport_room",
-      "name": "SPORT ROOM",
-      "category": "Facilities & Dining",
-      "lat": 6.97494,
-      "lon": 79.87171,
+      "id": "mtl_hall_04",
+      "name": "MTL HALL 04",
+      "category": "Academic & Lecture Halls",
+      "lat": 6.97495,
+      "lon": 79.871835,
+      "door_lat": 6.974991,
+      "door_lon": 79.871805,
       "translations": {
-        "en": "SPORT ROOM",
-        "si": "ක්‍රීඩා කාමරය",
-        "ta": "விளையாட்டு அறை"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.87172,
-          6.974939,
-          0
-        ],
-        [
-          79.871787,
-          6.974947,
-          0
-        ],
-        [
-          79.871785,
-          6.974996,
-          0
-        ],
-        [
-          79.871712,
-          6.974989,
-          0
-        ],
-        [
-          79.87172,
-          6.974939,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "SPO-G01",
-              "title": "SPORT ROOM Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "SPO-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "West Door"
+        "en": "MTL HALL 04",
+        "si": "MTL HALL 04",
+        "ta": "MTL HALL 04"
+      }
     },
     {
       "id": "union_room",
       "name": "UNION ROOM",
       "category": "Facilities & Dining",
-      "lat": 6.9749,
-      "lon": 79.87172,
+      "lat": 6.974925,
+      "lon": 79.871756,
+      "door_lat": 6.974939,
+      "door_lon": 79.87172,
       "translations": {
         "en": "UNION ROOM",
-        "si": "ශිෂ්‍ය සංගම් කාමරය",
-        "ta": "மாணவர் சங்க அறை"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.87172,
-          6.974939,
-          0
-        ],
-        [
-          79.871726,
-          6.974904,
-          0
-        ],
-        [
-          79.87179,
-          6.974909,
-          0
-        ],
-        [
-          79.871787,
-          6.974947,
-          0
-        ],
-        [
-          79.87172,
-          6.974939,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "UNI-G01",
-              "title": "UNION ROOM Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "UNI-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "West Door"
+        "si": "UNION ROOM",
+        "ta": "UNION ROOM"
+      }
     },
     {
-      "id": "mtl_hall_04",
-      "name": "MTL HALL 04",
-      "category": "Academic & Lecture Halls",
-      "lat": 6.97488,
-      "lon": 79.87175,
+      "id": "sport_room",
+      "name": "SPORT ROOM",
+      "category": "Sports & Rec",
+      "lat": 6.974967,
+      "lon": 79.871751,
+      "door_lat": 6.974939,
+      "door_lon": 79.87172,
       "translations": {
-        "en": "MTL HALL 04",
-        "si": "MTL ශාලාව 04",
-        "ta": "MTL அரங்கு 04"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.871805,
-          6.974991,
-          0
-        ],
-        [
-          79.871822,
-          6.974902,
-          0
-        ],
-        [
-          79.871864,
-          6.974911,
-          0
-        ],
-        [
-          79.871847,
-          6.974998,
-          0
-        ],
-        [
-          79.871805,
-          6.974991,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "MTL-G01",
-              "title": "Main Entrance & Lobby",
-              "type": "lobby",
-              "accessible": true
-            },
-            {
-              "code": "MTL-G02",
-              "title": "Lecture Hall Section A",
-              "type": "classroom",
-              "accessible": true
-            },
-            {
-              "code": "MTL-G03",
-              "title": "Staff Office / Control Room",
-              "type": "office",
-              "accessible": true
-            },
-            {
-              "code": "MTL-WC",
-              "title": "Accessible Washroom",
-              "type": "amenity",
-              "accessible": true
-            }
-          ]
-        },
-        {
-          "floor": 1,
-          "label": "1st Floor",
-          "rooms": [
-            {
-              "code": "MTL-101",
-              "title": "Advanced Lab / Gallery",
-              "type": "lab",
-              "accessible": true
-            },
-            {
-              "code": "MTL-102",
-              "title": "Presentation Theatre",
-              "type": "classroom",
-              "accessible": true
-            },
-            {
-              "code": "MTL-103",
-              "title": "Faculty Meeting Room",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "South Door"
+        "en": "SPORT ROOM",
+        "si": "SPORT ROOM",
+        "ta": "SPORT ROOM"
+      }
     },
     {
       "id": "mtl_hall_03",
       "name": "MTL HALL 03",
       "category": "Academic & Lecture Halls",
-      "lat": 6.97495,
-      "lon": 79.87213,
+      "lat": 6.975017,
+      "lon": 79.872136,
+      "door_lat": 6.975055,
+      "door_lon": 79.872103,
       "translations": {
         "en": "MTL HALL 03",
-        "si": "MTL ශාලාව 03",
-        "ta": "MTL அரங்கு 03"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.872103,
-          6.975055,
-          0
-        ],
-        [
-          79.872121,
-          6.974971,
-          0
-        ],
-        [
-          79.87217,
-          6.97498,
-          0
-        ],
-        [
-          79.87215,
-          6.975063,
-          0
-        ],
-        [
-          79.872103,
-          6.975055,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "MTL-G01",
-              "title": "Main Entrance & Lobby",
-              "type": "lobby",
-              "accessible": true
-            },
-            {
-              "code": "MTL-G02",
-              "title": "Lecture Hall Section A",
-              "type": "classroom",
-              "accessible": true
-            },
-            {
-              "code": "MTL-G03",
-              "title": "Staff Office / Control Room",
-              "type": "office",
-              "accessible": true
-            },
-            {
-              "code": "MTL-WC",
-              "title": "Accessible Washroom",
-              "type": "amenity",
-              "accessible": true
-            }
-          ]
-        },
-        {
-          "floor": 1,
-          "label": "1st Floor",
-          "rooms": [
-            {
-              "code": "MTL-101",
-              "title": "Advanced Lab / Gallery",
-              "type": "lab",
-              "accessible": true
-            },
-            {
-              "code": "MTL-102",
-              "title": "Presentation Theatre",
-              "type": "classroom",
-              "accessible": true
-            },
-            {
-              "code": "MTL-103",
-              "title": "Faculty Meeting Room",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "South Door"
+        "si": "MTL HALL 03",
+        "ta": "MTL HALL 03"
+      }
     },
     {
       "id": "lecturers_washroom",
       "name": "LECTURERS WASHROOM",
       "category": "Amenities",
-      "lat": 6.97496,
-      "lon": 79.87218,
+      "lat": 6.975025,
+      "lon": 79.872181,
+      "door_lat": 6.975063,
+      "door_lon": 79.87215,
       "translations": {
         "en": "LECTURERS WASHROOM",
-        "si": "දේශක වැසිකිලි සංකීර්ණය",
-        "ta": "விரிவுரையாளர்கள் கழிப்பறை"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.87215,
-          6.975063,
-          0
-        ],
-        [
-          79.87217,
-          6.97498,
-          0
-        ],
-        [
-          79.872211,
-          6.974986,
-          0
-        ],
-        [
-          79.872192,
-          6.97507,
-          0
-        ],
-        [
-          79.87215,
-          6.975063,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "LEC-G01",
-              "title": "LECTURERS WASHROOM Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "LEC-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "South Door"
+        "si": "LECTURERS WASHROOM",
+        "ta": "LECTURERS WASHROOM"
+      }
     },
     {
       "id": "class_room_07",
       "name": "CLASS ROOM 07",
       "category": "Academic & Lecture Halls",
-      "lat": 6.97497,
-      "lon": 79.87222,
+      "lat": 6.975032,
+      "lon": 79.872228,
+      "door_lat": 6.97507,
+      "door_lon": 79.872192,
       "translations": {
         "en": "CLASS ROOM 07",
-        "si": "දේශන කාමරය 07",
-        "ta": "வகுப்பறை 07"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.872192,
-          6.97507,
-          0
-        ],
-        [
-          79.872211,
-          6.974986,
-          0
-        ],
-        [
-          79.872265,
-          6.974993,
-          0
-        ],
-        [
-          79.872246,
-          6.975079,
-          0
-        ],
-        [
-          79.872192,
-          6.97507,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "CLA-G01",
-              "title": "CLASS ROOM 07 Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "CLA-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "South Door"
+        "si": "CLASS ROOM 07",
+        "ta": "CLASS ROOM 07"
+      }
     },
     {
       "id": "volly_ball_court",
       "name": "VOLLY BALL COURT",
-      "category": "Sports & Recreation",
-      "lat": 6.97509,
-      "lon": 79.87245,
+      "category": "Sports & Rec",
+      "lat": 6.975081,
+      "lon": 79.872339,
+      "door_lat": 6.97511,
+      "door_lon": 79.872248,
       "translations": {
         "en": "VOLLY BALL COURT",
-        "si": "වොලිබෝල් ක්‍රීඩාංගනය",
-        "ta": "வொலிபோல் மைதானம்"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.872248,
-          6.97511,
-          0
-        ],
-        [
-          79.872267,
-          6.975026,
-          0
-        ],
-        [
-          79.872432,
-          6.975052,
-          0
-        ],
-        [
-          79.87241,
-          6.975136,
-          0
-        ],
-        [
-          79.872248,
-          6.97511,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "VOL-G01",
-              "title": "VOLLY BALL COURT Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "VOL-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "East Access"
+        "si": "VOLLY BALL COURT",
+        "ta": "VOLLY BALL COURT"
+      }
     },
     {
       "id": "badminton_court",
       "name": "BADMINTON COURT",
-      "category": "Sports & Recreation",
-      "lat": 6.97521,
-      "lon": 79.87258,
+      "category": "Sports & Rec",
+      "lat": 6.975122,
+      "lon": 79.871982,
+      "door_lat": 6.975187,
+      "door_lon": 79.871933,
       "translations": {
         "en": "BADMINTON COURT",
-        "si": "බැඩ්මින්ටන් ක්‍රීඩාංගනය",
-        "ta": "பேட்மிண்டன் மைதானம்"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.871933,
-          6.975187,
-          0
-        ],
-        [
-          79.871959,
-          6.975044,
-          0
-        ],
-        [
-          79.872034,
-          6.975062,
-          0
-        ],
-        [
-          79.872004,
-          6.975196,
-          0
-        ],
-        [
-          79.871933,
-          6.975187,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "BAD-G01",
-              "title": "BADMINTON COURT Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "BAD-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "North Access"
+        "si": "BADMINTON COURT",
+        "ta": "BADMINTON COURT"
+      }
     },
     {
       "id": "lectueres_room",
       "name": "LECTUERE'S ROOM",
       "category": "Academic & Lecture Halls",
-      "lat": 6.97488,
-      "lon": 79.87185,
+      "lat": 6.974975,
+      "lon": 79.871961,
+      "door_lat": 6.974998,
+      "door_lon": 79.871847,
       "translations": {
         "en": "LECTUERE'S ROOM",
-        "si": "දේශකවරුන්ගේ කාමරය",
-        "ta": "விரிவுரையாளர்கள் அறை"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.871847,
-          6.974998,
-          0
-        ],
-        [
-          79.871864,
-          6.974911,
-          0
-        ],
-        [
-          79.872076,
-          6.974952,
-          0
-        ],
-        [
-          79.872058,
-          6.975039,
-          0
-        ],
-        [
-          79.871847,
-          6.974998,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "LEC-G01",
-              "title": "LECTUERE'S ROOM Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "LEC-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "South Entrance"
+        "si": "LECTUERE'S ROOM",
+        "ta": "LECTUERE'S ROOM"
+      }
     },
     {
       "id": "training_and_account_division",
       "name": "TRAINING AND ACCOUNT DIVISION",
       "category": "Administrative",
-      "lat": 6.97528,
-      "lon": 79.8717,
+      "lat": 6.975271,
+      "lon": 79.871749,
+      "door_lat": 6.975371,
+      "door_lon": 79.871687,
       "translations": {
         "en": "TRAINING AND ACCOUNT DIVISION",
-        "si": "පුහුණු හා ගිණුම් අංශය",
-        "ta": "பயிற்சி மற்றும் கணக்கு பிரிவு"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.871687,
-          6.975371,
-          0
-        ],
-        [
-          79.871713,
-          6.975192,
-          0
-        ],
-        [
-          79.871756,
-          6.975199,
-          0
-        ],
-        [
-          79.871815,
-          6.975208,
-          0
-        ],
-        [
-          79.871776,
-          6.975384,
-          0
-        ],
-        [
-          79.871687,
-          6.975371,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "TRA-G01",
-              "title": "TRAINING AND ACCOUNT DIVISION Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "TRA-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "West Door"
+        "si": "TRAINING AND ACCOUNT DIVISION",
+        "ta": "TRAINING AND ACCOUNT DIVISION"
+      }
     },
     {
       "id": "auditorium",
       "name": "AUDITORIUM",
-      "category": "Facilities & Dining",
-      "lat": 6.97543,
-      "lon": 79.87174,
+      "category": "Labs & Workshops",
+      "lat": 6.975307,
+      "lon": 79.871853,
+      "door_lat": 6.975208,
+      "door_lon": 79.871815,
       "translations": {
         "en": "AUDITORIUM",
-        "si": "ප්‍රධාන ශ්‍රවණාගාරය",
-        "ta": "பிரதான அரங்கம்"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.871815,
-          6.975208,
-          0
-        ],
-        [
-          79.871927,
-          6.975232,
-          0
-        ],
-        [
-          79.871896,
-          6.975406,
-          0
-        ],
-        [
-          79.871776,
-          6.975384,
-          0
-        ],
-        [
-          79.871815,
-          6.975208,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "AUD-G01",
-              "title": "Main Entrance & Lobby",
-              "type": "lobby",
-              "accessible": true
-            },
-            {
-              "code": "AUD-G02",
-              "title": "Lecture Hall Section A",
-              "type": "classroom",
-              "accessible": true
-            },
-            {
-              "code": "AUD-G03",
-              "title": "Staff Office / Control Room",
-              "type": "office",
-              "accessible": true
-            },
-            {
-              "code": "AUD-WC",
-              "title": "Accessible Washroom",
-              "type": "amenity",
-              "accessible": true
-            }
-          ]
-        },
-        {
-          "floor": 1,
-          "label": "1st Floor",
-          "rooms": [
-            {
-              "code": "AUD-101",
-              "title": "Advanced Lab / Gallery",
-              "type": "lab",
-              "accessible": true
-            },
-            {
-              "code": "AUD-102",
-              "title": "Presentation Theatre",
-              "type": "classroom",
-              "accessible": true
-            },
-            {
-              "code": "AUD-103",
-              "title": "Faculty Meeting Room",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "North Entrance"
+        "si": "AUDITORIUM",
+        "ta": "AUDITORIUM"
+      }
     },
     {
       "id": "mtl_hall_02",
       "name": "MTL HALL 02",
       "category": "Academic & Lecture Halls",
-      "lat": 6.97529,
-      "lon": 79.87218,
+      "lat": 6.975284,
+      "lon": 79.871976,
+      "door_lat": 6.975322,
+      "door_lon": 79.871937,
       "translations": {
         "en": "MTL HALL 02",
-        "si": "MTL ශාලාව 02",
-        "ta": "MTL அரங்கு 02"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.871937,
-          6.975323,
-          0
-        ],
-        [
-          79.871954,
-          6.975235,
-          0
-        ],
-        [
-          79.872013,
-          6.975243,
-          0
-        ],
-        [
-          79.871999,
-          6.975336,
-          0
-        ],
-        [
-          79.871937,
-          6.975323,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "MTL-G01",
-              "title": "Main Entrance & Lobby",
-              "type": "lobby",
-              "accessible": true
-            },
-            {
-              "code": "MTL-G02",
-              "title": "Lecture Hall Section A",
-              "type": "classroom",
-              "accessible": true
-            },
-            {
-              "code": "MTL-G03",
-              "title": "Staff Office / Control Room",
-              "type": "office",
-              "accessible": true
-            },
-            {
-              "code": "MTL-WC",
-              "title": "Accessible Washroom",
-              "type": "amenity",
-              "accessible": true
-            }
-          ]
-        },
-        {
-          "floor": 1,
-          "label": "1st Floor",
-          "rooms": [
-            {
-              "code": "MTL-101",
-              "title": "Advanced Lab / Gallery",
-              "type": "lab",
-              "accessible": true
-            },
-            {
-              "code": "MTL-102",
-              "title": "Presentation Theatre",
-              "type": "classroom",
-              "accessible": true
-            },
-            {
-              "code": "MTL-103",
-              "title": "Faculty Meeting Room",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "East Door"
+        "si": "MTL HALL 02",
+        "ta": "MTL HALL 02"
+      }
     },
     {
       "id": "storage_room",
       "name": "STORAGE ROOM",
       "category": "Amenities",
-      "lat": 6.97529,
-      "lon": 79.87218,
+      "lat": 6.975277,
+      "lon": 79.871932,
+      "door_lat": 6.975322,
+      "door_lon": 79.871937,
       "translations": {
         "en": "STORAGE ROOM",
-        "si": "ගබඩා කාමරය",
-        "ta": "சேமிப்பு அறை"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.871937,
-          6.975323,
-          0
-        ],
-        [
-          79.871912,
-          6.975319,
-          0
-        ],
-        [
-          79.871927,
-          6.975232,
-          0
-        ],
-        [
-          79.871954,
-          6.975235,
-          0
-        ],
-        [
-          79.871937,
-          6.975323,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "STO-G01",
-              "title": "STORAGE ROOM Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "STO-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "East Door"
+        "si": "STORAGE ROOM",
+        "ta": "STORAGE ROOM"
+      }
     },
     {
       "id": "mtl_hall_01",
       "name": "MTL HALL 01",
       "category": "Academic & Lecture Halls",
-      "lat": 6.97529,
-      "lon": 79.87258,
+      "lat": 6.975216,
+      "lon": 79.872489,
+      "door_lat": 6.975259,
+      "door_lon": 79.872418,
       "translations": {
         "en": "MTL HALL 01",
-        "si": "MTL ශාලාව 01",
-        "ta": "MTL அரங்கு 01"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.872418,
-          6.975259,
-          0
-        ],
-        [
-          79.87244,
-          6.975151,
-          0
-        ],
-        [
-          79.872561,
-          6.975173,
-          0
-        ],
-        [
-          79.872537,
-          6.975283,
-          0
-        ],
-        [
-          79.872418,
-          6.975259,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "MTL-G01",
-              "title": "Main Entrance & Lobby",
-              "type": "lobby",
-              "accessible": true
-            },
-            {
-              "code": "MTL-G02",
-              "title": "Lecture Hall Section A",
-              "type": "classroom",
-              "accessible": true
-            },
-            {
-              "code": "MTL-G03",
-              "title": "Staff Office / Control Room",
-              "type": "office",
-              "accessible": true
-            },
-            {
-              "code": "MTL-WC",
-              "title": "Accessible Washroom",
-              "type": "amenity",
-              "accessible": true
-            }
-          ]
-        },
-        {
-          "floor": 1,
-          "label": "1st Floor",
-          "rooms": [
-            {
-              "code": "MTL-101",
-              "title": "Advanced Lab / Gallery",
-              "type": "lab",
-              "accessible": true
-            },
-            {
-              "code": "MTL-102",
-              "title": "Presentation Theatre",
-              "type": "classroom",
-              "accessible": true
-            },
-            {
-              "code": "MTL-103",
-              "title": "Faculty Meeting Room",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "North Door"
+        "si": "MTL HALL 01",
+        "ta": "MTL HALL 01"
+      }
     },
     {
       "id": "class_room_02",
       "name": "CLASS ROOM 02",
       "category": "Academic & Lecture Halls",
-      "lat": 6.97527,
-      "lon": 79.87258,
+      "lat": 6.975211,
+      "lon": 79.872391,
+      "door_lat": 6.975259,
+      "door_lon": 79.872418,
       "translations": {
         "en": "CLASS ROOM 02",
-        "si": "දේශන කාමරය 02",
-        "ta": "வகுப்பறை 02"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.872418,
-          6.975259,
-          0
-        ],
-        [
-          79.872344,
-          6.975248,
-          0
-        ],
-        [
-          79.872364,
-          6.975163,
-          0
-        ],
-        [
-          79.872437,
-          6.975176,
-          0
-        ],
-        [
-          79.872418,
-          6.975259,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "CLA-G01",
-              "title": "CLASS ROOM 02 Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "CLA-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "North Door"
+        "si": "CLASS ROOM 02",
+        "ta": "CLASS ROOM 02"
+      }
     },
     {
       "id": "class_room_03",
       "name": "CLASS ROOM 03",
       "category": "Academic & Lecture Halls",
-      "lat": 6.97526,
-      "lon": 79.87258,
+      "lat": 6.9752,
+      "lon": 79.872326,
+      "door_lat": 6.975163,
+      "door_lon": 79.872364,
       "translations": {
         "en": "CLASS ROOM 03",
-        "si": "දේශන කාමරය 03",
-        "ta": "வகுப்பறை 03"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.872364,
-          6.975163,
-          0
-        ],
-        [
-          79.872344,
-          6.975248,
-          0
-        ],
-        [
-          79.872288,
-          6.975239,
-          0
-        ],
-        [
-          79.872308,
-          6.975152,
-          0
-        ],
-        [
-          79.872364,
-          6.975163,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "CLA-G01",
-              "title": "CLASS ROOM 03 Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "CLA-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "North Door"
+        "si": "CLASS ROOM 03",
+        "ta": "CLASS ROOM 03"
+      }
     },
     {
       "id": "drawing_room",
       "name": "DRAWING ROOM",
       "category": "Academic & Lecture Halls",
-      "lat": 6.97525,
-      "lon": 79.87258,
+      "lat": 6.975187,
+      "lon": 79.872236,
+      "door_lat": 6.975239,
+      "door_lon": 79.872288,
       "translations": {
         "en": "DRAWING ROOM",
-        "si": "ඇඳීම් ශාලාව",
-        "ta": "வரைபட அறை"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.872288,
-          6.975239,
-          0
-        ],
-        [
-          79.872166,
-          6.975219,
-          0
-        ],
-        [
-          79.872185,
-          6.975136,
-          0
-        ],
-        [
-          79.872308,
-          6.975152,
-          0
-        ],
-        [
-          79.872288,
-          6.975239,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "DRA-G01",
-              "title": "DRAWING ROOM Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "DRA-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "North Door"
+        "si": "DRAWING ROOM",
+        "ta": "DRAWING ROOM"
+      }
     },
     {
       "id": "class_room_04",
       "name": "CLASS ROOM 04",
       "category": "Academic & Lecture Halls",
-      "lat": 6.97523,
-      "lon": 79.87258,
+      "lat": 6.975172,
+      "lon": 79.872135,
+      "door_lat": 6.975219,
+      "door_lon": 79.872166,
       "translations": {
         "en": "CLASS ROOM 04",
-        "si": "දේශන කාමරය 04",
-        "ta": "வகுப்பறை 04"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.872166,
-          6.975219,
-          0
-        ],
-        [
-          79.872087,
-          6.975208,
-          0
-        ],
-        [
-          79.872104,
-          6.975124,
-          0
-        ],
-        [
-          79.872185,
-          6.975136,
-          0
-        ],
-        [
-          79.872166,
-          6.975219,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "CLA-G01",
-              "title": "CLASS ROOM 04 Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "CLA-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "North Door"
+        "si": "CLASS ROOM 04",
+        "ta": "CLASS ROOM 04"
+      }
     },
     {
       "id": "students_wash_room",
       "name": "STUDENTS WASH ROOM",
       "category": "Amenities",
-      "lat": 6.97527,
-      "lon": 79.87218,
+      "lat": 6.975247,
+      "lon": 79.872123,
+      "door_lat": 6.975235,
+      "door_lon": 79.872095,
       "translations": {
         "en": "STUDENTS WASH ROOM",
-        "si": "ශිෂ්‍ය වැසිකිලි සංකීර්ණය",
-        "ta": "மாணவர்கள் கழிப்பறை"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.872095,
-          6.975235,
-          0
-        ],
-        [
-          79.872154,
-          6.975238,
-          0
-        ],
-        [
-          79.87215,
-          6.97526,
-          0
-        ],
-        [
-          79.872095,
-          6.975255,
-          0
-        ],
-        [
-          79.872095,
-          6.975235,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "STU-G01",
-              "title": "STUDENTS WASH ROOM Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "STU-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "North Door"
+        "si": "STUDENTS WASH ROOM",
+        "ta": "STUDENTS WASH ROOM"
+      }
     },
     {
       "id": "transport_division",
       "name": "TRANSPORT DIVISION",
       "category": "Administrative",
-      "lat": 6.97529,
-      "lon": 79.87218,
+      "lat": 6.975272,
+      "lon": 79.872121,
+      "door_lat": 6.975255,
+      "door_lon": 79.872095,
       "translations": {
         "en": "TRANSPORT DIVISION",
-        "si": "ප්‍රවාහන අංශය",
-        "ta": "போக்குவரத்து பிரிவு"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.872095,
-          6.975255,
-          0
-        ],
-        [
-          79.87215,
-          6.97526,
-          0
-        ],
-        [
-          79.872148,
-          6.975289,
-          0
-        ],
-        [
-          79.872092,
-          6.975284,
-          0
-        ],
-        [
-          79.872095,
-          6.975255,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "TRA-G01",
-              "title": "TRANSPORT DIVISION Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "TRA-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "North Door"
+        "si": "TRANSPORT DIVISION",
+        "ta": "TRANSPORT DIVISION"
+      }
     },
     {
       "id": "it_lab",
       "name": "IT LAB",
       "category": "Labs & Workshops",
-      "lat": 6.97535,
-      "lon": 79.87218,
+      "lat": 6.975313,
+      "lon": 79.872116,
+      "door_lat": 6.975284,
+      "door_lon": 79.872092,
       "translations": {
         "en": "IT LAB",
-        "si": "තොරතුරු තාක්ෂණ රසායනාගාරය",
-        "ta": "தகவல் தொழில்நுட்ப ஆய்வகம்"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.872092,
-          6.975284,
-          0
-        ],
-        [
-          79.872148,
-          6.975289,
-          0
-        ],
-        [
-          79.87214,
-          6.975342,
-          0
-        ],
-        [
-          79.872083,
-          6.975336,
-          0
-        ],
-        [
-          79.872092,
-          6.975284,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "IT -G01",
-              "title": "Main Entrance & Lobby",
-              "type": "lobby",
-              "accessible": true
-            },
-            {
-              "code": "IT -G02",
-              "title": "Lecture Hall Section A",
-              "type": "classroom",
-              "accessible": true
-            },
-            {
-              "code": "IT -G03",
-              "title": "Staff Office / Control Room",
-              "type": "office",
-              "accessible": true
-            },
-            {
-              "code": "IT -WC",
-              "title": "Accessible Washroom",
-              "type": "amenity",
-              "accessible": true
-            }
-          ]
-        },
-        {
-          "floor": 1,
-          "label": "1st Floor",
-          "rooms": [
-            {
-              "code": "IT -101",
-              "title": "Advanced Lab / Gallery",
-              "type": "lab",
-              "accessible": true
-            },
-            {
-              "code": "IT -102",
-              "title": "Presentation Theatre",
-              "type": "classroom",
-              "accessible": true
-            },
-            {
-              "code": "IT -103",
-              "title": "Faculty Meeting Room",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "North Entrance"
+        "si": "IT LAB",
+        "ta": "IT LAB"
+      }
     },
     {
       "id": "chart_room",
       "name": "CHART ROOM",
       "category": "Labs & Workshops",
-      "lat": 6.97543,
-      "lon": 79.87211,
+      "lat": 6.975378,
+      "lon": 79.872105,
+      "door_lat": 6.975336,
+      "door_lon": 79.872083,
       "translations": {
         "en": "CHART ROOM",
-        "si": "සිතියම් හා සටහන් කාමරය",
-        "ta": "வரைபட அறை"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.872083,
-          6.975336,
-          0
-        ],
-        [
-          79.87214,
-          6.975342,
-          0
-        ],
-        [
-          79.872128,
-          6.975419,
-          0
-        ],
-        [
-          79.872071,
-          6.975415,
-          0
-        ],
-        [
-          79.872083,
-          6.975336,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "CHA-G01",
-              "title": "CHART ROOM Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "CHA-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "North Door"
+        "si": "CHART ROOM",
+        "ta": "CHART ROOM"
+      }
     },
     {
       "id": "workshop",
       "name": "WORKSHOP",
       "category": "Labs & Workshops",
-      "lat": 6.97555,
-      "lon": 79.87172,
+      "lat": 6.975516,
+      "lon": 79.871993,
+      "door_lat": 6.97541,
+      "door_lon": 79.871758,
       "translations": {
         "en": "WORKSHOP",
-        "si": "ඉංජිනේරු වැඩපල",
-        "ta": "பொறியியல் பட்டறை"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.871758,
-          6.97541,
-          0
-        ],
-        [
-          79.872257,
-          6.975498,
-          0
-        ],
-        [
-          79.872229,
-          6.975622,
-          0
-        ],
-        [
-          79.871729,
-          6.975533,
-          0
-        ],
-        [
-          79.871758,
-          6.97541,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "WOR-G01",
-              "title": "WORKSHOP Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "WOR-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "West Gate Door"
+        "si": "WORKSHOP",
+        "ta": "WORKSHOP"
+      }
     },
     {
       "id": "welding_workshop",
       "name": "WELDING WORKSHOP",
       "category": "Labs & Workshops",
-      "lat": 6.97572,
-      "lon": 79.87208,
+      "lat": 6.975661,
+      "lon": 79.872153,
+      "door_lat": 6.97561,
+      "door_lon": 79.872102,
       "translations": {
         "en": "WELDING WORKSHOP",
-        "si": "වෙල්ඩින් වැඩපල",
-        "ta": "வெல்டிங் பட்டறை"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.872102,
-          6.97561,
-          0
-        ],
-        [
-          79.872218,
-          6.975629,
-          0
-        ],
-        [
-          79.872204,
-          6.975713,
-          0
-        ],
-        [
-          79.872088,
-          6.975693,
-          0
-        ],
-        [
-          79.872102,
-          6.97561,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "WEL-G01",
-              "title": "WELDING WORKSHOP Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "WEL-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "North Door"
+        "si": "WELDING WORKSHOP",
+        "ta": "WELDING WORKSHOP"
+      }
     },
     {
       "id": "canteen",
       "name": "CANTEEN",
       "category": "Facilities & Dining",
-      "lat": 6.97565,
-      "lon": 79.87157,
+      "lat": 6.97567,
+      "lon": 79.871643,
+      "door_lat": 6.975585,
+      "door_lon": 79.871606,
       "translations": {
         "en": "CANTEEN",
-        "si": "ශිෂ්‍ය ආපනශාලාව",
-        "ta": "மாணவர் உணவகம்"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.871606,
-          6.975585,
-          0
-        ],
-        [
-          79.871708,
-          6.9756,
-          0
-        ],
-        [
-          79.871682,
-          6.975755,
-          0
-        ],
-        [
-          79.871576,
-          6.975741,
-          0
-        ],
-        [
-          79.871606,
-          6.975585,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "CAN-G01",
-              "title": "CANTEEN Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "CAN-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "Main Canteen Door"
+        "si": "CANTEEN",
+        "ta": "CANTEEN"
+      }
     },
     {
       "id": "gym",
       "name": "GYM",
-      "category": "Facilities & Dining",
-      "lat": 6.97584,
-      "lon": 79.87155,
+      "category": "Sports & Rec",
+      "lat": 6.975828,
+      "lon": 79.871616,
+      "door_lat": 6.975857,
+      "door_lon": 79.871556,
       "translations": {
         "en": "GYM",
-        "si": "ශාරීරික යෝග්‍යතා මධ්‍යස්ථානය (Gym)",
-        "ta": "உடற்பயிற்சிகූடம்"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.871556,
-          6.975857,
-          0
-        ],
-        [
-          79.871568,
-          6.975782,
-          0
-        ],
-        [
-          79.871678,
-          6.975801,
-          0
-        ],
-        [
-          79.871663,
-          6.975872,
-          0
-        ],
-        [
-          79.871556,
-          6.975857,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "GYM-G01",
-              "title": "GYM Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "GYM-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "Gym Entrance"
+        "si": "GYM",
+        "ta": "GYM"
+      }
     },
     {
       "id": "boys_hostals",
       "name": "BOYS HOSTALS",
       "category": "Facilities & Dining",
-      "lat": 6.97593,
-      "lon": 79.87165,
+      "lat": 6.975762,
+      "lon": 79.87183,
+      "door_lat": 6.975872,
+      "door_lon": 79.871663,
       "translations": {
         "en": "BOYS HOSTALS",
-        "si": "පිරිමි නේවාසිකාගාරය",
-        "ta": "மாணவர்கள் விடுதி"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.871663,
-          6.975872,
-          0
-        ],
-        [
-          79.871708,
-          6.9756,
-          0
-        ],
-        [
-          79.871998,
-          6.975654,
-          0
-        ],
-        [
-          79.871949,
-          6.975923,
-          0
-        ],
-        [
-          79.871663,
-          6.975872,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "BOY-G01",
-              "title": "BOYS HOSTALS Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "BOY-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "Hostel Gate Door"
+        "si": "BOYS HOSTALS",
+        "ta": "BOYS HOSTALS"
+      }
     },
     {
       "id": "regional_center_mattakkuliya",
       "name": "REGIONAL CENTER MATTAKKULIYA",
-      "category": "Entrance / Gates",
-      "lat": 6.97612,
-      "lon": 79.87165,
+      "category": "Administrative",
+      "lat": 6.976034,
+      "lon": 79.87184,
+      "door_lat": 6.976063,
+      "door_lon": 79.871709,
       "translations": {
         "en": "REGIONAL CENTER MATTAKKULIYA",
-        "si": "මට්ටක්කුලිය ප්‍රාදේශීය මධ්‍යස්ථානය",
-        "ta": "மட்டக்குளி பிராந்திய மையம்"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.871709,
-          6.976063,
-          0
-        ],
-        [
-          79.871733,
-          6.975962,
-          0
-        ],
-        [
-          79.871969,
-          6.976005,
-          0
-        ],
-        [
-          79.87195,
-          6.976106,
-          0
-        ],
-        [
-          79.871709,
-          6.976063,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "REG-G01",
-              "title": "Main Entrance & Lobby",
-              "type": "lobby",
-              "accessible": true
-            },
-            {
-              "code": "REG-G02",
-              "title": "Lecture Hall Section A",
-              "type": "classroom",
-              "accessible": true
-            },
-            {
-              "code": "REG-G03",
-              "title": "Staff Office / Control Room",
-              "type": "office",
-              "accessible": true
-            },
-            {
-              "code": "REG-WC",
-              "title": "Accessible Washroom",
-              "type": "amenity",
-              "accessible": true
-            }
-          ]
-        },
-        {
-          "floor": 1,
-          "label": "1st Floor",
-          "rooms": [
-            {
-              "code": "REG-101",
-              "title": "Advanced Lab / Gallery",
-              "type": "lab",
-              "accessible": true
-            },
-            {
-              "code": "REG-102",
-              "title": "Presentation Theatre",
-              "type": "classroom",
-              "accessible": true
-            },
-            {
-              "code": "REG-103",
-              "title": "Faculty Meeting Room",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "North Gate Door"
+        "si": "REGIONAL CENTER MATTAKKULIYA",
+        "ta": "REGIONAL CENTER MATTAKKULIYA"
+      }
     },
     {
       "id": "class_room_08",
       "name": "CLASS ROOM 08",
       "category": "Academic & Lecture Halls",
-      "lat": 6.97482,
-      "lon": 79.87228,
+      "lat": 6.974928,
+      "lon": 79.872288,
+      "door_lat": 6.974955,
+      "door_lon": 79.872223,
       "translations": {
         "en": "CLASS ROOM 08",
-        "si": "දේශන කාමරය 08",
-        "ta": "வகுப்பறை 08"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.872223,
-          6.974955,
-          0
-        ],
-        [
-          79.872248,
-          6.97488,
-          0
-        ],
-        [
-          79.87235,
-          6.974903,
-          0
-        ],
-        [
-          79.872333,
-          6.974974,
-          0
-        ],
-        [
-          79.872223,
-          6.974955,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "CLA-G01",
-              "title": "CLASS ROOM 08 Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "CLA-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "South Door"
+        "si": "CLASS ROOM 08",
+        "ta": "CLASS ROOM 08"
+      }
     },
     {
       "id": "lab",
       "name": "LAB",
       "category": "Labs & Workshops",
-      "lat": 6.97482,
-      "lon": 79.87204,
+      "lat": 6.974902,
+      "lon": 79.87214,
+      "door_lat": 6.974955,
+      "door_lon": 79.872223,
       "translations": {
         "en": "LAB",
-        "si": "විද්‍යාගාරය",
-        "ta": "ஆய்வகம்"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.872223,
-          6.974955,
-          0
-        ],
-        [
-          79.872038,
-          6.974924,
-          0
-        ],
-        [
-          79.87205,
-          6.974848,
-          0
-        ],
-        [
-          79.872248,
-          6.97488,
-          0
-        ],
-        [
-          79.872223,
-          6.974955,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "LAB-G01",
-              "title": "LAB Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "LAB-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "South Door"
+        "si": "LAB",
+        "ta": "LAB"
+      }
     },
     {
       "id": "classrooms",
       "name": "classrooms",
       "category": "Academic & Lecture Halls",
-      "lat": 6.97501,
-      "lon": 79.871815,
+      "lat": 6.975126,
+      "lon": 79.871873,
+      "door_lat": 6.975208,
+      "door_lon": 79.871815,
       "translations": {
         "en": "classrooms",
-        "si": "ප්‍රධාන දේශන කාමර සංකීර්ණය",
-        "ta": "முதன்மை வகுப்பறை வளாகம்"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.871815,
-          6.975208,
-          0
-        ],
-        [
-          79.871828,
-          6.975024,
-          0
-        ],
-        [
-          79.871933,
-          6.97504,
-          0
-        ],
-        [
-          79.871917,
-          6.975231,
-          0
-        ],
-        [
-          79.871815,
-          6.975208,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "cla-G01",
-              "title": "classrooms Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "cla-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "South Entrance"
+        "si": "classrooms",
+        "ta": "classrooms"
+      }
     },
     {
       "id": "security_room",
       "name": "Security Room",
-      "category": "Entrance / Gates",
-      "lat": 6.974779,
-      "lon": 79.871773,
+      "category": "Security & Entry",
+      "lat": 6.974777,
+      "lon": 79.871803,
+      "door_lat": 6.974779,
+      "door_lon": 79.871773,
       "translations": {
         "en": "Security Room",
-        "si": "ආරක්ෂක කුටිය (ප්‍රධාන ද්වාරය)",
-        "ta": "பாதுகாப்பு அறை (முதன்மை வாயில்)"
-      },
-      "accessible": true,
-      "status": "Open",
-      "polygon": [
-        [
-          79.871773,
-          6.974779,
-          0
-        ],
-        [
-          79.87181,
-          6.974753,
-          0
-        ],
-        [
-          79.871833,
-          6.974774,
-          0
-        ],
-        [
-          79.871794,
-          6.974802,
-          0
-        ],
-        [
-          79.871773,
-          6.974779,
-          0
-        ]
-      ],
-      "floors": [
-        {
-          "floor": 0,
-          "label": "Ground Floor",
-          "rooms": [
-            {
-              "code": "Sec-G01",
-              "title": "Security Room Main Area",
-              "type": "facility",
-              "accessible": true
-            },
-            {
-              "code": "Sec-INFO",
-              "title": "Information Desk",
-              "type": "office",
-              "accessible": true
-            }
-          ]
-        }
-      ],
-      "doorName": "Main South Gate"
+        "si": "Security Room",
+        "ta": "Security Room"
+      }
     }
   ],
   "graph": {
-    "nodes": [
-      {
-        "id": "sport_room",
-        "name": "SPORT ROOM",
-        "lat": 6.97494,
-        "lon": 79.87171,
-        "isBuilding": true
-      },
-      {
-        "id": "union_room",
-        "name": "UNION ROOM",
-        "lat": 6.9749,
-        "lon": 79.87172,
-        "isBuilding": true
-      },
-      {
+    "nodes": {
+      "mtl_hall_04": {
         "id": "mtl_hall_04",
         "name": "MTL HALL 04",
-        "lat": 6.97488,
-        "lon": 79.87175,
-        "isBuilding": true
+        "lat": 6.97495,
+        "lon": 79.871835,
+        "accessible": true
       },
-      {
+      "union_room": {
+        "id": "union_room",
+        "name": "UNION ROOM",
+        "lat": 6.974925,
+        "lon": 79.871756,
+        "accessible": true
+      },
+      "sport_room": {
+        "id": "sport_room",
+        "name": "SPORT ROOM",
+        "lat": 6.974967,
+        "lon": 79.871751,
+        "accessible": true
+      },
+      "mtl_hall_03": {
         "id": "mtl_hall_03",
         "name": "MTL HALL 03",
-        "lat": 6.97495,
-        "lon": 79.87213,
-        "isBuilding": true
+        "lat": 6.975017,
+        "lon": 79.872136,
+        "accessible": true
       },
-      {
+      "lecturers_washroom": {
         "id": "lecturers_washroom",
         "name": "LECTURERS WASHROOM",
-        "lat": 6.97496,
-        "lon": 79.87218,
-        "isBuilding": true
+        "lat": 6.975025,
+        "lon": 79.872181,
+        "accessible": true
       },
-      {
+      "class_room_07": {
         "id": "class_room_07",
         "name": "CLASS ROOM 07",
-        "lat": 6.97497,
-        "lon": 79.87222,
-        "isBuilding": true
+        "lat": 6.975032,
+        "lon": 79.872228,
+        "accessible": true
       },
-      {
+      "volly_ball_court": {
         "id": "volly_ball_court",
         "name": "VOLLY BALL COURT",
-        "lat": 6.97509,
-        "lon": 79.87245,
-        "isBuilding": true
+        "lat": 6.975081,
+        "lon": 79.872339,
+        "accessible": true
       },
-      {
+      "badminton_court": {
         "id": "badminton_court",
         "name": "BADMINTON COURT",
-        "lat": 6.97521,
-        "lon": 79.87258,
-        "isBuilding": true
+        "lat": 6.975122,
+        "lon": 79.871982,
+        "accessible": true
       },
-      {
+      "lectueres_room": {
         "id": "lectueres_room",
         "name": "LECTUERE'S ROOM",
-        "lat": 6.97488,
-        "lon": 79.87185,
-        "isBuilding": true
+        "lat": 6.974975,
+        "lon": 79.871961,
+        "accessible": true
       },
-      {
+      "training_and_account_division": {
         "id": "training_and_account_division",
         "name": "TRAINING AND ACCOUNT DIVISION",
-        "lat": 6.97528,
-        "lon": 79.8717,
-        "isBuilding": true
+        "lat": 6.975271,
+        "lon": 79.871749,
+        "accessible": true
       },
-      {
+      "auditorium": {
         "id": "auditorium",
         "name": "AUDITORIUM",
-        "lat": 6.97543,
-        "lon": 79.87174,
-        "isBuilding": true
+        "lat": 6.975307,
+        "lon": 79.871853,
+        "accessible": true
       },
-      {
+      "mtl_hall_02": {
         "id": "mtl_hall_02",
         "name": "MTL HALL 02",
-        "lat": 6.97529,
-        "lon": 79.87218,
-        "isBuilding": true
+        "lat": 6.975284,
+        "lon": 79.871976,
+        "accessible": true
       },
-      {
+      "storage_room": {
         "id": "storage_room",
         "name": "STORAGE ROOM",
-        "lat": 6.97529,
-        "lon": 79.87218,
-        "isBuilding": true
+        "lat": 6.975277,
+        "lon": 79.871932,
+        "accessible": true
       },
-      {
+      "mtl_hall_01": {
         "id": "mtl_hall_01",
         "name": "MTL HALL 01",
-        "lat": 6.97529,
-        "lon": 79.87258,
-        "isBuilding": true
+        "lat": 6.975216,
+        "lon": 79.872489,
+        "accessible": true
       },
-      {
+      "class_room_02": {
         "id": "class_room_02",
         "name": "CLASS ROOM 02",
-        "lat": 6.97527,
-        "lon": 79.87258,
-        "isBuilding": true
+        "lat": 6.975211,
+        "lon": 79.872391,
+        "accessible": true
       },
-      {
+      "class_room_03": {
         "id": "class_room_03",
         "name": "CLASS ROOM 03",
-        "lat": 6.97526,
-        "lon": 79.87258,
-        "isBuilding": true
+        "lat": 6.9752,
+        "lon": 79.872326,
+        "accessible": true
       },
-      {
+      "drawing_room": {
         "id": "drawing_room",
         "name": "DRAWING ROOM",
-        "lat": 6.97525,
-        "lon": 79.87258,
-        "isBuilding": true
+        "lat": 6.975187,
+        "lon": 79.872236,
+        "accessible": true
       },
-      {
+      "class_room_04": {
         "id": "class_room_04",
         "name": "CLASS ROOM 04",
-        "lat": 6.97523,
-        "lon": 79.87258,
-        "isBuilding": true
+        "lat": 6.975172,
+        "lon": 79.872135,
+        "accessible": true
       },
-      {
+      "students_wash_room": {
         "id": "students_wash_room",
         "name": "STUDENTS WASH ROOM",
-        "lat": 6.97527,
-        "lon": 79.87218,
-        "isBuilding": true
+        "lat": 6.975247,
+        "lon": 79.872123,
+        "accessible": true
       },
-      {
+      "transport_division": {
         "id": "transport_division",
         "name": "TRANSPORT DIVISION",
-        "lat": 6.97529,
-        "lon": 79.87218,
-        "isBuilding": true
+        "lat": 6.975272,
+        "lon": 79.872121,
+        "accessible": true
       },
-      {
+      "it_lab": {
         "id": "it_lab",
         "name": "IT LAB",
-        "lat": 6.97535,
-        "lon": 79.87218,
-        "isBuilding": true
+        "lat": 6.975313,
+        "lon": 79.872116,
+        "accessible": true
       },
-      {
+      "chart_room": {
         "id": "chart_room",
         "name": "CHART ROOM",
-        "lat": 6.97543,
-        "lon": 79.87211,
-        "isBuilding": true
+        "lat": 6.975378,
+        "lon": 79.872105,
+        "accessible": true
       },
-      {
+      "workshop": {
         "id": "workshop",
         "name": "WORKSHOP",
-        "lat": 6.97555,
-        "lon": 79.87172,
-        "isBuilding": true
+        "lat": 6.975516,
+        "lon": 79.871993,
+        "accessible": true
       },
-      {
+      "welding_workshop": {
         "id": "welding_workshop",
         "name": "WELDING WORKSHOP",
-        "lat": 6.97572,
-        "lon": 79.87208,
-        "isBuilding": true
+        "lat": 6.975661,
+        "lon": 79.872153,
+        "accessible": true
       },
-      {
+      "canteen": {
         "id": "canteen",
         "name": "CANTEEN",
-        "lat": 6.97565,
-        "lon": 79.87157,
-        "isBuilding": true
+        "lat": 6.97567,
+        "lon": 79.871643,
+        "accessible": true
       },
-      {
+      "gym": {
         "id": "gym",
         "name": "GYM",
-        "lat": 6.97584,
-        "lon": 79.87155,
-        "isBuilding": true
+        "lat": 6.975828,
+        "lon": 79.871616,
+        "accessible": true
       },
-      {
+      "boys_hostals": {
         "id": "boys_hostals",
         "name": "BOYS HOSTALS",
-        "lat": 6.97593,
-        "lon": 79.87165,
-        "isBuilding": true
+        "lat": 6.975762,
+        "lon": 79.87183,
+        "accessible": true
       },
-      {
+      "regional_center_mattakkuliya": {
         "id": "regional_center_mattakkuliya",
         "name": "REGIONAL CENTER MATTAKKULIYA",
-        "lat": 6.97612,
-        "lon": 79.87165,
-        "isBuilding": true
+        "lat": 6.976034,
+        "lon": 79.87184,
+        "accessible": true
       },
-      {
+      "class_room_08": {
         "id": "class_room_08",
         "name": "CLASS ROOM 08",
-        "lat": 6.97482,
-        "lon": 79.87228,
-        "isBuilding": true
+        "lat": 6.974928,
+        "lon": 79.872288,
+        "accessible": true
       },
-      {
+      "lab": {
         "id": "lab",
         "name": "LAB",
-        "lat": 6.97482,
-        "lon": 79.87204,
-        "isBuilding": true
+        "lat": 6.974902,
+        "lon": 79.87214,
+        "accessible": true
       },
-      {
+      "classrooms": {
         "id": "classrooms",
         "name": "classrooms",
-        "lat": 6.97501,
-        "lon": 79.871815,
-        "isBuilding": true
+        "lat": 6.975126,
+        "lon": 79.871873,
+        "accessible": true
       },
-      {
+      "security_room": {
         "id": "security_room",
         "name": "Security Room",
-        "lat": 6.974779,
-        "lon": 79.871773,
-        "isBuilding": true
-      },
-      {
-        "id": "w_west_01",
-        "name": "Main Gate West Walkway",
-        "lat": 6.9747,
-        "lon": 79.87165,
-        "isBuilding": false
-      },
-      {
-        "id": "w_west_02",
-        "name": "Internal West Walkway (Sport/Union)",
-        "lat": 6.97494,
-        "lon": 79.87165,
-        "isBuilding": false
-      },
-      {
-        "id": "w_west_03",
-        "name": "Internal West Walkway (Training Division)",
-        "lat": 6.97528,
-        "lon": 79.87165,
-        "isBuilding": false
-      },
-      {
-        "id": "w_west_auditorium",
-        "name": "Internal West Walkway (Auditorium Entry)",
-        "lat": 6.97543,
-        "lon": 79.87165,
-        "isBuilding": false
-      },
-      {
-        "id": "w_west_04",
-        "name": "Internal West Walkway (Canteen)",
-        "lat": 6.97565,
-        "lon": 79.87155,
-        "isBuilding": false
-      },
-      {
-        "id": "w_west_05",
-        "name": "Internal West Walkway (Gym & Hostels)",
-        "lat": 6.97593,
-        "lon": 79.87155,
-        "isBuilding": false
-      },
-      {
-        "id": "w_west_06",
-        "name": "Internal West Walkway (Regional Center)",
-        "lat": 6.97612,
-        "lon": 79.87155,
-        "isBuilding": false
-      },
-      {
-        "id": "w_south_gate_corner",
-        "name": "Security Room Main Gate Entry",
-        "lat": 6.9747,
-        "lon": 79.871773,
-        "isBuilding": false
-      },
-      {
-        "id": "w_south_01",
-        "name": "South Internal Walkway (Lab)",
-        "lat": 6.9747,
-        "lon": 79.87204,
-        "isBuilding": false
-      },
-      {
-        "id": "w_south_02",
-        "name": "South Internal Walkway (Classroom 08)",
-        "lat": 6.9747,
-        "lon": 79.87228,
-        "isBuilding": false
-      },
-      {
-        "id": "w_south_03",
-        "name": "South-East Internal Walkway Junction",
-        "lat": 6.9747,
-        "lon": 79.87258,
-        "isBuilding": false
-      },
-      {
-        "id": "w_mid_courtyard_01",
-        "name": "Mid-Campus Open Courtyard",
-        "lat": 6.9749,
-        "lon": 79.8724,
-        "isBuilding": false
-      },
-      {
-        "id": "w_central_alley_01",
-        "name": "Central Internal Courtyard",
-        "lat": 6.97529,
-        "lon": 79.87218,
-        "isBuilding": false
-      },
-      {
-        "id": "w_central_alley_02",
-        "name": "Central Internal Courtyard North",
-        "lat": 6.97543,
-        "lon": 79.87218,
-        "isBuilding": false
-      },
-      {
-        "id": "w_east_01",
-        "name": "East Internal Walkway (Courts)",
-        "lat": 6.97509,
-        "lon": 79.87258,
-        "isBuilding": false
-      },
-      {
-        "id": "w_east_02",
-        "name": "East Internal Walkway (Classrooms)",
-        "lat": 6.97529,
-        "lon": 79.87258,
-        "isBuilding": false
-      },
-      {
-        "id": "w_east_03",
-        "name": "East Internal Walkway (Workshop Alley)",
-        "lat": 6.97572,
-        "lon": 79.87258,
-        "isBuilding": false
-      },
-      {
-        "id": "w_north_01",
-        "name": "North Workshop Internal Alley",
-        "lat": 6.97572,
-        "lon": 79.87208,
-        "isBuilding": false
+        "lat": 6.974777,
+        "lon": 79.871803,
+        "accessible": true
       }
-    ],
+    },
     "edges": [
       {
-        "source": "security_room",
-        "target": "w_south_gate_corner",
-        "distance": 8.8,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "union_room",
+        "weight": 9.2,
+        "accessible": true
       },
       {
-        "source": "w_south_gate_corner",
-        "target": "w_west_01",
-        "distance": 13.6,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "sport_room",
+        "weight": 9.5,
+        "accessible": true
       },
       {
-        "source": "w_west_01",
-        "target": "w_west_02",
-        "distance": 26.7,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "mtl_hall_03",
+        "weight": 34.2,
+        "accessible": true
       },
       {
-        "source": "w_west_02",
-        "target": "sport_room",
-        "distance": 6.6,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "lecturers_washroom",
+        "weight": 39.3,
+        "accessible": true
       },
       {
-        "source": "w_west_02",
-        "target": "union_room",
-        "distance": 8.9,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "class_room_07",
+        "weight": 44.6,
+        "accessible": true
       },
       {
-        "source": "w_west_02",
-        "target": "mtl_hall_04",
-        "distance": 12.9,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "volly_ball_court",
+        "weight": 57.8,
+        "accessible": true
       },
       {
-        "source": "w_west_01",
-        "target": "lectueres_room",
-        "distance": 29.8,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "badminton_court",
+        "weight": 25.1,
+        "accessible": true
       },
       {
-        "source": "w_west_02",
-        "target": "w_west_03",
-        "distance": 37.8,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "lectueres_room",
+        "weight": 14.3,
+        "accessible": true
       },
       {
-        "source": "w_west_03",
-        "target": "classrooms",
-        "distance": 35.1,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "training_and_account_division",
+        "weight": 36.9,
+        "accessible": true
       },
       {
-        "source": "w_west_03",
-        "target": "training_and_account_division",
-        "distance": 5.5,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "auditorium",
+        "weight": 39.7,
+        "accessible": true
       },
       {
-        "source": "w_west_03",
-        "target": "w_west_auditorium",
-        "distance": 16.7,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "mtl_hall_02",
+        "weight": 40.2,
+        "accessible": true
       },
       {
-        "source": "w_west_auditorium",
-        "target": "auditorium",
-        "distance": 9.9,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "storage_room",
+        "weight": 37.9,
+        "accessible": true
       },
       {
-        "source": "w_west_auditorium",
-        "target": "workshop",
-        "distance": 15.4,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "mtl_hall_01",
+        "weight": 78.4,
+        "accessible": true
       },
       {
-        "source": "w_west_auditorium",
-        "target": "w_west_04",
-        "distance": 26.8,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "class_room_02",
+        "weight": 68.2,
+        "accessible": true
       },
       {
-        "source": "w_west_04",
-        "target": "canteen",
-        "distance": 2.2,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "class_room_03",
+        "weight": 61.2,
+        "accessible": true
       },
       {
-        "source": "w_west_04",
-        "target": "w_west_05",
-        "distance": 31.1,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "drawing_room",
+        "weight": 51.7,
+        "accessible": true
       },
       {
-        "source": "w_west_05",
-        "target": "gym",
-        "distance": 10.0,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "class_room_04",
+        "weight": 41.4,
+        "accessible": true
       },
       {
-        "source": "w_west_05",
-        "target": "boys_hostals",
-        "distance": 11.0,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "students_wash_room",
+        "weight": 45.9,
+        "accessible": true
       },
       {
-        "source": "w_west_05",
-        "target": "w_west_06",
-        "distance": 21.1,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "transport_division",
+        "weight": 47.8,
+        "accessible": true
       },
       {
-        "source": "w_west_06",
-        "target": "regional_center_mattakkuliya",
-        "distance": 11.0,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "it_lab",
+        "weight": 51.0,
+        "accessible": true
       },
       {
-        "source": "w_south_gate_corner",
-        "target": "w_south_01",
-        "distance": 29.5,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "chart_room",
+        "weight": 56.2,
+        "accessible": true
       },
       {
-        "source": "w_south_01",
-        "target": "lab",
-        "distance": 13.3,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "workshop",
+        "weight": 65.2,
+        "accessible": true
       },
       {
-        "source": "w_south_01",
-        "target": "w_south_02",
-        "distance": 26.5,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "welding_workshop",
+        "weight": 86.5,
+        "accessible": true
       },
       {
-        "source": "w_south_02",
-        "target": "class_room_08",
-        "distance": 13.3,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "canteen",
+        "weight": 82.7,
+        "accessible": true
       },
       {
-        "source": "w_south_02",
-        "target": "w_south_03",
-        "distance": 33.1,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "gym",
+        "weight": 100.4,
+        "accessible": true
       },
       {
-        "source": "w_south_02",
-        "target": "w_mid_courtyard_01",
-        "distance": 25.9,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "boys_hostals",
+        "weight": 90.1,
+        "accessible": true
       },
       {
-        "source": "w_mid_courtyard_01",
-        "target": "w_east_01",
-        "distance": 29.0,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "regional_center_mattakkuliya",
+        "weight": 120.3,
+        "accessible": true
       },
       {
-        "source": "w_central_alley_01",
-        "target": "mtl_hall_02",
-        "distance": 0.0,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "class_room_08",
+        "weight": 50.3,
+        "accessible": true
       },
       {
-        "source": "w_central_alley_01",
-        "target": "storage_room",
-        "distance": 0.0,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "lab",
+        "weight": 34.3,
+        "accessible": true
       },
       {
-        "source": "w_central_alley_01",
-        "target": "students_wash_room",
-        "distance": 2.2,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "classrooms",
+        "weight": 20.0,
+        "accessible": true
       },
       {
-        "source": "w_central_alley_01",
-        "target": "transport_division",
-        "distance": 0.0,
-        "isAccessible": true
+        "from": "mtl_hall_04",
+        "to": "security_room",
+        "weight": 19.5,
+        "accessible": true
       },
       {
-        "source": "w_central_alley_01",
-        "target": "it_lab",
-        "distance": 6.7,
-        "isAccessible": true
+        "from": "union_room",
+        "to": "sport_room",
+        "weight": 4.7,
+        "accessible": true
       },
       {
-        "source": "w_central_alley_01",
-        "target": "w_central_alley_02",
-        "distance": 15.6,
-        "isAccessible": true
+        "from": "union_room",
+        "to": "mtl_hall_03",
+        "weight": 43.4,
+        "accessible": true
       },
       {
-        "source": "w_central_alley_01",
-        "target": "w_east_02",
-        "distance": 44.1,
-        "isAccessible": true
+        "from": "union_room",
+        "to": "lecturers_washroom",
+        "weight": 48.5,
+        "accessible": true
       },
       {
-        "source": "w_central_alley_02",
-        "target": "chart_room",
-        "distance": 7.7,
-        "isAccessible": true
+        "from": "union_room",
+        "to": "class_room_07",
+        "weight": 53.7,
+        "accessible": true
       },
       {
-        "source": "w_south_03",
-        "target": "w_east_01",
-        "distance": 43.4,
-        "isAccessible": true
+        "from": "union_room",
+        "to": "volly_ball_court",
+        "weight": 67.0,
+        "accessible": true
       },
       {
-        "source": "w_east_01",
-        "target": "volly_ball_court",
-        "distance": 14.3,
-        "isAccessible": true
+        "from": "union_room",
+        "to": "badminton_court",
+        "weight": 33.3,
+        "accessible": true
       },
       {
-        "source": "w_east_01",
-        "target": "class_room_07",
-        "distance": 41.9,
-        "isAccessible": true
+        "from": "union_room",
+        "to": "lectueres_room",
+        "weight": 23.4,
+        "accessible": true
       },
       {
-        "source": "w_east_01",
-        "target": "lecturers_washroom",
-        "distance": 46.5,
-        "isAccessible": true
+        "from": "union_room",
+        "to": "training_and_account_division",
+        "weight": 38.4,
+        "accessible": true
       },
       {
-        "source": "w_east_01",
-        "target": "mtl_hall_03",
-        "distance": 52.0,
-        "isAccessible": true
+        "from": "union_room",
+        "to": "auditorium",
+        "weight": 43.7,
+        "accessible": true
       },
       {
-        "source": "w_east_01",
-        "target": "badminton_court",
-        "distance": 13.3,
-        "isAccessible": true
+        "from": "union_room",
+        "to": "mtl_hall_02",
+        "weight": 46.7,
+        "accessible": true
       },
       {
-        "source": "w_east_01",
-        "target": "w_east_02",
-        "distance": 22.2,
-        "isAccessible": true
+        "from": "union_room",
+        "to": "storage_room",
+        "weight": 43.7,
+        "accessible": true
       },
       {
-        "source": "w_east_02",
-        "target": "mtl_hall_01",
-        "distance": 0.0,
-        "isAccessible": true
+        "from": "union_room",
+        "to": "mtl_hall_01",
+        "weight": 87.5,
+        "accessible": true
       },
       {
-        "source": "w_east_02",
-        "target": "class_room_02",
-        "distance": 2.2,
-        "isAccessible": true
+        "from": "union_room",
+        "to": "class_room_02",
+        "weight": 77.3,
+        "accessible": true
       },
       {
-        "source": "w_east_02",
-        "target": "class_room_03",
-        "distance": 3.3,
-        "isAccessible": true
+        "from": "union_room",
+        "to": "class_room_03",
+        "weight": 70.2,
+        "accessible": true
       },
       {
-        "source": "w_east_02",
-        "target": "drawing_room",
-        "distance": 4.4,
-        "isAccessible": true
+        "from": "union_room",
+        "to": "drawing_room",
+        "weight": 60.7,
+        "accessible": true
       },
       {
-        "source": "w_east_02",
-        "target": "class_room_04",
-        "distance": 6.7,
-        "isAccessible": true
+        "from": "union_room",
+        "to": "class_room_04",
+        "weight": 50.2,
+        "accessible": true
       },
       {
-        "source": "w_east_02",
-        "target": "w_east_03",
-        "distance": 47.8,
-        "isAccessible": true
+        "from": "union_room",
+        "to": "students_wash_room",
+        "weight": 54.2,
+        "accessible": true
       },
       {
-        "source": "w_east_03",
-        "target": "w_north_01",
-        "distance": 55.2,
-        "isAccessible": true
+        "from": "union_room",
+        "to": "transport_division",
+        "weight": 55.9,
+        "accessible": true
       },
       {
-        "source": "w_north_01",
-        "target": "welding_workshop",
-        "distance": 0.0,
-        "isAccessible": true
+        "from": "union_room",
+        "to": "it_lab",
+        "weight": 58.8,
+        "accessible": true
+      },
+      {
+        "from": "union_room",
+        "to": "chart_room",
+        "weight": 63.5,
+        "accessible": true
+      },
+      {
+        "from": "union_room",
+        "to": "workshop",
+        "weight": 70.7,
+        "accessible": true
+      },
+      {
+        "from": "union_room",
+        "to": "welding_workshop",
+        "weight": 92.8,
+        "accessible": true
+      },
+      {
+        "from": "union_room",
+        "to": "canteen",
+        "weight": 83.6,
+        "accessible": true
+      },
+      {
+        "from": "union_room",
+        "to": "gym",
+        "weight": 101.4,
+        "accessible": true
+      },
+      {
+        "from": "union_room",
+        "to": "boys_hostals",
+        "weight": 93.3,
+        "accessible": true
+      },
+      {
+        "from": "union_room",
+        "to": "regional_center_mattakkuliya",
+        "weight": 123.5,
+        "accessible": true
+      },
+      {
+        "from": "union_room",
+        "to": "class_room_08",
+        "weight": 59.1,
+        "accessible": true
+      },
+      {
+        "from": "union_room",
+        "to": "lab",
+        "weight": 42.7,
+        "accessible": true
+      },
+      {
+        "from": "union_room",
+        "to": "classrooms",
+        "weight": 25.8,
+        "accessible": true
+      },
+      {
+        "from": "union_room",
+        "to": "security_room",
+        "weight": 17.2,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "mtl_hall_03",
+        "weight": 43.1,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "lecturers_washroom",
+        "weight": 48.2,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "class_room_07",
+        "weight": 53.4,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "volly_ball_court",
+        "weight": 66.5,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "badminton_court",
+        "weight": 30.9,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "lectueres_room",
+        "weight": 23.3,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "training_and_account_division",
+        "weight": 33.7,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "auditorium",
+        "weight": 39.4,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "mtl_hall_02",
+        "weight": 43.1,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "storage_room",
+        "weight": 39.8,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "mtl_hall_01",
+        "weight": 86.5,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "class_room_02",
+        "weight": 76.0,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "class_room_03",
+        "weight": 68.9,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "drawing_room",
+        "weight": 59.1,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "class_room_04",
+        "weight": 48.3,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "students_wash_room",
+        "weight": 51.7,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "transport_division",
+        "weight": 53.2,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "it_lab",
+        "weight": 55.8,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "chart_room",
+        "weight": 60.2,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "workshop",
+        "weight": 66.6,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "welding_workshop",
+        "weight": 89.0,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "canteen",
+        "weight": 78.9,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "gym",
+        "weight": 96.7,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "boys_hostals",
+        "weight": 88.7,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "regional_center_mattakkuliya",
+        "weight": 118.8,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "class_room_08",
+        "weight": 59.8,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "lab",
+        "weight": 43.8,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "classrooms",
+        "weight": 22.2,
+        "accessible": true
+      },
+      {
+        "from": "sport_room",
+        "to": "security_room",
+        "weight": 21.9,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "lecturers_washroom",
+        "weight": 5.1,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "class_room_07",
+        "weight": 10.3,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "volly_ball_court",
+        "weight": 23.6,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "badminton_court",
+        "weight": 20.7,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "lectueres_room",
+        "weight": 20.0,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "training_and_account_division",
+        "weight": 51.4,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "auditorium",
+        "weight": 45.0,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "mtl_hall_02",
+        "weight": 34.6,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "storage_room",
+        "weight": 36.7,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "mtl_hall_01",
+        "weight": 45.0,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "class_room_02",
+        "weight": 35.6,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "class_room_03",
+        "weight": 29.3,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "drawing_room",
+        "weight": 21.9,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "class_room_04",
+        "weight": 17.2,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "students_wash_room",
+        "weight": 25.6,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "transport_division",
+        "weight": 28.4,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "it_lab",
+        "weight": 32.9,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "chart_room",
+        "weight": 40.2,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "workshop",
+        "weight": 57.6,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "welding_workshop",
+        "weight": 71.5,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "canteen",
+        "weight": 90.8,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "gym",
+        "weight": 106.9,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "boys_hostals",
+        "weight": 89.4,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "regional_center_mattakkuliya",
+        "weight": 117.6,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "class_room_08",
+        "weight": 19.6,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "lab",
+        "weight": 12.8,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "classrooms",
+        "weight": 31.6,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_03",
+        "to": "security_room",
+        "weight": 45.6,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "class_room_07",
+        "weight": 5.3,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "volly_ball_court",
+        "weight": 18.6,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "badminton_court",
+        "weight": 24.6,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "lectueres_room",
+        "weight": 25.0,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "training_and_account_division",
+        "weight": 55.2,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "auditorium",
+        "weight": 48.0,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "mtl_hall_02",
+        "weight": 36.7,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "storage_room",
+        "weight": 39.3,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "mtl_hall_01",
+        "weight": 40.2,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "class_room_02",
+        "weight": 31.1,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "class_room_03",
+        "weight": 25.2,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "drawing_room",
+        "weight": 19.0,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "class_room_04",
+        "weight": 17.1,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "students_wash_room",
+        "weight": 25.5,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "transport_division",
+        "weight": 28.2,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "it_lab",
+        "weight": 32.8,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "chart_room",
+        "weight": 40.1,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "workshop",
+        "weight": 58.4,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "welding_workshop",
+        "weight": 70.7,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "canteen",
+        "weight": 93.2,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "gym",
+        "weight": 109.0,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "boys_hostals",
+        "weight": 90.6,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "regional_center_mattakkuliya",
+        "weight": 118.2,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "class_room_08",
+        "weight": 16.0,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "lab",
+        "weight": 14.4,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "classrooms",
+        "weight": 36.0,
+        "accessible": true
+      },
+      {
+        "from": "lecturers_washroom",
+        "to": "security_room",
+        "weight": 50.2,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "volly_ball_court",
+        "weight": 13.5,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "badminton_court",
+        "weight": 29.1,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "lectueres_room",
+        "weight": 30.3,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "training_and_account_division",
+        "weight": 59.4,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "auditorium",
+        "weight": 51.6,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "mtl_hall_02",
+        "weight": 39.6,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "storage_room",
+        "weight": 42.7,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "mtl_hall_01",
+        "weight": 35.4,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "class_room_02",
+        "weight": 26.9,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "class_room_03",
+        "weight": 21.6,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "drawing_room",
+        "weight": 17.2,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "class_room_04",
+        "weight": 18.7,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "students_wash_room",
+        "weight": 26.6,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "transport_division",
+        "weight": 29.2,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "it_lab",
+        "weight": 33.6,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "chart_room",
+        "weight": 40.8,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "workshop",
+        "weight": 59.7,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "welding_workshop",
+        "weight": 70.3,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "canteen",
+        "weight": 96.1,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "gym",
+        "weight": 111.5,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "boys_hostals",
+        "weight": 92.3,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "regional_center_mattakkuliya",
+        "weight": 119.3,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "class_room_08",
+        "weight": 13.3,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "lab",
+        "weight": 17.4,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "classrooms",
+        "weight": 40.8,
+        "accessible": true
+      },
+      {
+        "from": "class_room_07",
+        "to": "security_room",
+        "weight": 55.0,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "badminton_court",
+        "weight": 39.9,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "lectueres_room",
+        "weight": 43.6,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "training_and_account_division",
+        "weight": 68.8,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "auditorium",
+        "weight": 59.5,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "mtl_hall_02",
+        "weight": 46.2,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "storage_room",
+        "weight": 50.1,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "mtl_hall_01",
+        "weight": 22.4,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "class_room_02",
+        "weight": 15.5,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "class_room_03",
+        "weight": 13.3,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "drawing_room",
+        "weight": 16.4,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "class_room_04",
+        "weight": 24.8,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "students_wash_room",
+        "weight": 30.2,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "transport_division",
+        "weight": 32.2,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "it_lab",
+        "weight": 35.7,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "chart_room",
+        "weight": 42.0,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "workshop",
+        "weight": 61.7,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "welding_workshop",
+        "weight": 67.6,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "canteen",
+        "weight": 101.2,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "gym",
+        "weight": 115.4,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "boys_hostals",
+        "weight": 94.4,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "regional_center_mattakkuliya",
+        "weight": 119.4,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "class_room_08",
+        "weight": 17.9,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "lab",
+        "weight": 29.7,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "classrooms",
+        "weight": 52.0,
+        "accessible": true
+      },
+      {
+        "from": "volly_ball_court",
+        "to": "security_room",
+        "weight": 68.4,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "lectueres_room",
+        "weight": 16.5,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "training_and_account_division",
+        "weight": 30.7,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "auditorium",
+        "weight": 25.0,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "mtl_hall_02",
+        "weight": 18.0,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "storage_room",
+        "weight": 18.1,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "mtl_hall_01",
+        "weight": 57.2,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "class_room_02",
+        "weight": 46.5,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "class_room_03",
+        "weight": 39.2,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "drawing_room",
+        "weight": 29.1,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "class_room_04",
+        "weight": 17.9,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "students_wash_room",
+        "weight": 20.9,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "transport_division",
+        "weight": 22.7,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "it_lab",
+        "weight": 25.9,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "chart_room",
+        "weight": 31.5,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "workshop",
+        "weight": 43.8,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "welding_workshop",
+        "weight": 62.8,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "canteen",
+        "weight": 71.5,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "gym",
+        "weight": 88.3,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "boys_hostals",
+        "weight": 73.0,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "regional_center_mattakkuliya",
+        "weight": 102.5,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "class_room_08",
+        "weight": 40.2,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "lab",
+        "weight": 30.1,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "classrooms",
+        "weight": 12.1,
+        "accessible": true
+      },
+      {
+        "from": "badminton_court",
+        "to": "security_room",
+        "weight": 43.1,
+        "accessible": true
+      },
+      {
+        "from": "lectueres_room",
+        "to": "training_and_account_division",
+        "weight": 40.4,
+        "accessible": true
+      },
+      {
+        "from": "lectueres_room",
+        "to": "auditorium",
+        "weight": 38.8,
+        "accessible": true
+      },
+      {
+        "from": "lectueres_room",
+        "to": "mtl_hall_02",
+        "weight": 34.3,
+        "accessible": true
+      },
+      {
+        "from": "lectueres_room",
+        "to": "storage_room",
+        "weight": 33.7,
+        "accessible": true
+      },
+      {
+        "from": "lectueres_room",
+        "to": "mtl_hall_01",
+        "weight": 64.4,
+        "accessible": true
+      },
+      {
+        "from": "lectueres_room",
+        "to": "class_room_02",
+        "weight": 54.4,
+        "accessible": true
+      },
+      {
+        "from": "lectueres_room",
+        "to": "class_room_03",
+        "weight": 47.6,
+        "accessible": true
+      },
+      {
+        "from": "lectueres_room",
+        "to": "drawing_room",
+        "weight": 38.5,
+        "accessible": true
+      },
+      {
+        "from": "lectueres_room",
+        "to": "class_room_04",
+        "weight": 29.2,
+        "accessible": true
+      },
+      {
+        "from": "lectueres_room",
+        "to": "students_wash_room",
+        "weight": 35.1,
+        "accessible": true
+      },
+      {
+        "from": "lectueres_room",
+        "to": "transport_division",
+        "weight": 37.4,
+        "accessible": true
+      },
+      {
+        "from": "lectueres_room",
+        "to": "it_lab",
+        "weight": 41.3,
+        "accessible": true
+      },
+      {
+        "from": "lectueres_room",
+        "to": "chart_room",
+        "weight": 47.5,
+        "accessible": true
+      },
+      {
+        "from": "lectueres_room",
+        "to": "workshop",
+        "weight": 60.2,
+        "accessible": true
+      },
+      {
+        "from": "lectueres_room",
+        "to": "welding_workshop",
+        "weight": 79.1,
+        "accessible": true
+      },
+      {
+        "from": "lectueres_room",
+        "to": "canteen",
+        "weight": 84.8,
+        "accessible": true
+      },
+      {
+        "from": "lectueres_room",
+        "to": "gym",
+        "weight": 102.1,
+        "accessible": true
+      },
+      {
+        "from": "lectueres_room",
+        "to": "boys_hostals",
+        "weight": 88.6,
+        "accessible": true
+      },
+      {
+        "from": "lectueres_room",
+        "to": "regional_center_mattakkuliya",
+        "weight": 118.3,
+        "accessible": true
+      },
+      {
+        "from": "lectueres_room",
+        "to": "class_room_08",
+        "weight": 36.7,
+        "accessible": true
+      },
+      {
+        "from": "lectueres_room",
+        "to": "lab",
+        "weight": 21.5,
+        "accessible": true
+      },
+      {
+        "from": "lectueres_room",
+        "to": "classrooms",
+        "weight": 19.4,
+        "accessible": true
+      },
+      {
+        "from": "lectueres_room",
+        "to": "security_room",
+        "weight": 28.1,
+        "accessible": true
+      },
+      {
+        "from": "training_and_account_division",
+        "to": "auditorium",
+        "weight": 12.2,
+        "accessible": true
+      },
+      {
+        "from": "training_and_account_division",
+        "to": "mtl_hall_02",
+        "weight": 25.2,
+        "accessible": true
+      },
+      {
+        "from": "training_and_account_division",
+        "to": "storage_room",
+        "weight": 20.3,
+        "accessible": true
+      },
+      {
+        "from": "training_and_account_division",
+        "to": "mtl_hall_01",
+        "weight": 82.4,
+        "accessible": true
+      },
+      {
+        "from": "training_and_account_division",
+        "to": "class_room_02",
+        "weight": 71.6,
+        "accessible": true
+      },
+      {
+        "from": "training_and_account_division",
+        "to": "class_room_03",
+        "weight": 64.5,
+        "accessible": true
+      },
+      {
+        "from": "training_and_account_division",
+        "to": "drawing_room",
+        "weight": 54.9,
+        "accessible": true
+      },
+      {
+        "from": "training_and_account_division",
+        "to": "class_room_04",
+        "weight": 44.2,
+        "accessible": true
+      },
+      {
+        "from": "training_and_account_division",
+        "to": "students_wash_room",
+        "weight": 41.6,
+        "accessible": true
+      },
+      {
+        "from": "training_and_account_division",
+        "to": "transport_division",
+        "weight": 41.3,
+        "accessible": true
+      },
+      {
+        "from": "training_and_account_division",
+        "to": "it_lab",
+        "weight": 41.0,
+        "accessible": true
+      },
+      {
+        "from": "training_and_account_division",
+        "to": "chart_room",
+        "weight": 41.3,
+        "accessible": true
+      },
+      {
+        "from": "training_and_account_division",
+        "to": "workshop",
+        "weight": 38.4,
+        "accessible": true
+      },
+      {
+        "from": "training_and_account_division",
+        "to": "welding_workshop",
+        "weight": 62.3,
+        "accessible": true
+      },
+      {
+        "from": "training_and_account_division",
+        "to": "canteen",
+        "weight": 45.8,
+        "accessible": true
+      },
+      {
+        "from": "training_and_account_division",
+        "to": "gym",
+        "weight": 63.6,
+        "accessible": true
+      },
+      {
+        "from": "training_and_account_division",
+        "to": "boys_hostals",
+        "weight": 55.2,
+        "accessible": true
+      },
+      {
+        "from": "training_and_account_division",
+        "to": "regional_center_mattakkuliya",
+        "weight": 85.3,
+        "accessible": true
+      },
+      {
+        "from": "training_and_account_division",
+        "to": "class_room_08",
+        "weight": 70.9,
+        "accessible": true
+      },
+      {
+        "from": "training_and_account_division",
+        "to": "lab",
+        "weight": 59.7,
+        "accessible": true
+      },
+      {
+        "from": "training_and_account_division",
+        "to": "classrooms",
+        "weight": 21.2,
+        "accessible": true
+      },
+      {
+        "from": "training_and_account_division",
+        "to": "security_room",
+        "weight": 55.2,
+        "accessible": true
+      },
+      {
+        "from": "auditorium",
+        "to": "mtl_hall_02",
+        "weight": 13.9,
+        "accessible": true
+      },
+      {
+        "from": "auditorium",
+        "to": "storage_room",
+        "weight": 9.4,
+        "accessible": true
+      },
+      {
+        "from": "auditorium",
+        "to": "mtl_hall_01",
+        "weight": 71.3,
+        "accessible": true
+      },
+      {
+        "from": "auditorium",
+        "to": "class_room_02",
+        "weight": 60.7,
+        "accessible": true
+      },
+      {
+        "from": "auditorium",
+        "to": "class_room_03",
+        "weight": 53.8,
+        "accessible": true
+      },
+      {
+        "from": "auditorium",
+        "to": "drawing_room",
+        "weight": 44.6,
+        "accessible": true
+      },
+      {
+        "from": "auditorium",
+        "to": "class_room_04",
+        "weight": 34.7,
+        "accessible": true
+      },
+      {
+        "from": "auditorium",
+        "to": "students_wash_room",
+        "weight": 30.7,
+        "accessible": true
+      },
+      {
+        "from": "auditorium",
+        "to": "transport_division",
+        "weight": 30.0,
+        "accessible": true
+      },
+      {
+        "from": "auditorium",
+        "to": "it_lab",
+        "weight": 29.2,
+        "accessible": true
+      },
+      {
+        "from": "auditorium",
+        "to": "chart_room",
+        "weight": 29.1,
+        "accessible": true
+      },
+      {
+        "from": "auditorium",
+        "to": "workshop",
+        "weight": 27.9,
+        "accessible": true
+      },
+      {
+        "from": "auditorium",
+        "to": "welding_workshop",
+        "weight": 51.5,
+        "accessible": true
+      },
+      {
+        "from": "auditorium",
+        "to": "canteen",
+        "weight": 46.5,
+        "accessible": true
+      },
+      {
+        "from": "auditorium",
+        "to": "gym",
+        "weight": 63.5,
+        "accessible": true
+      },
+      {
+        "from": "auditorium",
+        "to": "boys_hostals",
+        "weight": 50.6,
+        "accessible": true
+      },
+      {
+        "from": "auditorium",
+        "to": "regional_center_mattakkuliya",
+        "weight": 80.7,
+        "accessible": true
+      },
+      {
+        "from": "auditorium",
+        "to": "class_room_08",
+        "weight": 64.0,
+        "accessible": true
+      },
+      {
+        "from": "auditorium",
+        "to": "lab",
+        "weight": 55.1,
+        "accessible": true
+      },
+      {
+        "from": "auditorium",
+        "to": "classrooms",
+        "weight": 20.2,
+        "accessible": true
+      },
+      {
+        "from": "auditorium",
+        "to": "security_room",
+        "weight": 59.1,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_02",
+        "to": "storage_room",
+        "weight": 4.9,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_02",
+        "to": "mtl_hall_01",
+        "weight": 57.4,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_02",
+        "to": "class_room_02",
+        "weight": 46.8,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_02",
+        "to": "class_room_03",
+        "weight": 40.0,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_02",
+        "to": "drawing_room",
+        "weight": 30.8,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_02",
+        "to": "class_room_04",
+        "weight": 21.6,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_02",
+        "to": "students_wash_room",
+        "weight": 16.8,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_02",
+        "to": "transport_division",
+        "weight": 16.2,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_02",
+        "to": "it_lab",
+        "weight": 15.9,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_02",
+        "to": "chart_room",
+        "weight": 17.7,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_02",
+        "to": "workshop",
+        "weight": 25.8,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_02",
+        "to": "welding_workshop",
+        "weight": 46.2,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_02",
+        "to": "canteen",
+        "weight": 56.6,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_02",
+        "to": "gym",
+        "weight": 72.4,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_02",
+        "to": "boys_hostals",
+        "weight": 55.5,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_02",
+        "to": "regional_center_mattakkuliya",
+        "weight": 84.6,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_02",
+        "to": "class_room_08",
+        "weight": 52.5,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_02",
+        "to": "lab",
+        "weight": 46.1,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_02",
+        "to": "classrooms",
+        "weight": 20.9,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_02",
+        "to": "security_room",
+        "weight": 59.5,
+        "accessible": true
+      },
+      {
+        "from": "storage_room",
+        "to": "mtl_hall_01",
+        "weight": 62.2,
+        "accessible": true
+      },
+      {
+        "from": "storage_room",
+        "to": "class_room_02",
+        "weight": 51.5,
+        "accessible": true
+      },
+      {
+        "from": "storage_room",
+        "to": "class_room_03",
+        "weight": 44.6,
+        "accessible": true
+      },
+      {
+        "from": "storage_room",
+        "to": "drawing_room",
+        "weight": 35.2,
+        "accessible": true
+      },
+      {
+        "from": "storage_room",
+        "to": "class_room_04",
+        "weight": 25.4,
+        "accessible": true
+      },
+      {
+        "from": "storage_room",
+        "to": "students_wash_room",
+        "weight": 21.5,
+        "accessible": true
+      },
+      {
+        "from": "storage_room",
+        "to": "transport_division",
+        "weight": 21.0,
+        "accessible": true
+      },
+      {
+        "from": "storage_room",
+        "to": "it_lab",
+        "weight": 20.8,
+        "accessible": true
+      },
+      {
+        "from": "storage_room",
+        "to": "chart_room",
+        "weight": 22.2,
+        "accessible": true
+      },
+      {
+        "from": "storage_room",
+        "to": "workshop",
+        "weight": 27.4,
+        "accessible": true
+      },
+      {
+        "from": "storage_room",
+        "to": "welding_workshop",
+        "weight": 49.2,
+        "accessible": true
+      },
+      {
+        "from": "storage_room",
+        "to": "canteen",
+        "weight": 54.1,
+        "accessible": true
+      },
+      {
+        "from": "storage_room",
+        "to": "gym",
+        "weight": 70.5,
+        "accessible": true
+      },
+      {
+        "from": "storage_room",
+        "to": "boys_hostals",
+        "weight": 55.0,
+        "accessible": true
+      },
+      {
+        "from": "storage_room",
+        "to": "regional_center_mattakkuliya",
+        "weight": 84.6,
+        "accessible": true
+      },
+      {
+        "from": "storage_room",
+        "to": "class_room_08",
+        "weight": 55.3,
+        "accessible": true
+      },
+      {
+        "from": "storage_room",
+        "to": "lab",
+        "weight": 47.6,
+        "accessible": true
+      },
+      {
+        "from": "storage_room",
+        "to": "classrooms",
+        "weight": 18.0,
+        "accessible": true
+      },
+      {
+        "from": "storage_room",
+        "to": "security_room",
+        "weight": 57.3,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_01",
+        "to": "class_room_02",
+        "weight": 10.9,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_01",
+        "to": "class_room_03",
+        "weight": 18.2,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_01",
+        "to": "drawing_room",
+        "weight": 28.3,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_01",
+        "to": "class_room_04",
+        "weight": 39.6,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_01",
+        "to": "students_wash_room",
+        "weight": 40.8,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_01",
+        "to": "transport_division",
+        "weight": 41.3,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_01",
+        "to": "it_lab",
+        "weight": 42.8,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_01",
+        "to": "chart_room",
+        "weight": 46.3,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_01",
+        "to": "workshop",
+        "weight": 64.3,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_01",
+        "to": "welding_workshop",
+        "weight": 61.9,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_01",
+        "to": "canteen",
+        "weight": 106.6,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_01",
+        "to": "gym",
+        "weight": 118.3,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_01",
+        "to": "boys_hostals",
+        "weight": 95.0,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_01",
+        "to": "regional_center_mattakkuliya",
+        "weight": 115.9,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_01",
+        "to": "class_room_08",
+        "weight": 39.0,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_01",
+        "to": "lab",
+        "weight": 52.1,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_01",
+        "to": "classrooms",
+        "weight": 69.1,
+        "accessible": true
+      },
+      {
+        "from": "mtl_hall_01",
+        "to": "security_room",
+        "weight": 90.4,
+        "accessible": true
+      },
+      {
+        "from": "class_room_02",
+        "to": "class_room_03",
+        "weight": 7.3,
+        "accessible": true
+      },
+      {
+        "from": "class_room_02",
+        "to": "drawing_room",
+        "weight": 17.4,
+        "accessible": true
+      },
+      {
+        "from": "class_room_02",
+        "to": "class_room_04",
+        "weight": 28.7,
+        "accessible": true
+      },
+      {
+        "from": "class_room_02",
+        "to": "students_wash_room",
+        "weight": 30.0,
+        "accessible": true
+      },
+      {
+        "from": "class_room_02",
+        "to": "transport_division",
+        "weight": 30.7,
+        "accessible": true
+      },
+      {
+        "from": "class_room_02",
+        "to": "it_lab",
+        "weight": 32.6,
+        "accessible": true
+      },
+      {
+        "from": "class_room_02",
+        "to": "chart_room",
+        "weight": 36.8,
+        "accessible": true
+      },
+      {
+        "from": "class_room_02",
+        "to": "workshop",
+        "weight": 55.7,
+        "accessible": true
+      },
+      {
+        "from": "class_room_02",
+        "to": "welding_workshop",
+        "weight": 56.5,
+        "accessible": true
+      },
+      {
+        "from": "class_room_02",
+        "to": "canteen",
+        "weight": 97.4,
+        "accessible": true
+      },
+      {
+        "from": "class_room_02",
+        "to": "gym",
+        "weight": 110.0,
+        "accessible": true
+      },
+      {
+        "from": "class_room_02",
+        "to": "boys_hostals",
+        "weight": 87.3,
+        "accessible": true
+      },
+      {
+        "from": "class_room_02",
+        "to": "regional_center_mattakkuliya",
+        "weight": 109.9,
+        "accessible": true
+      },
+      {
+        "from": "class_room_02",
+        "to": "class_room_08",
+        "weight": 33.4,
+        "accessible": true
+      },
+      {
+        "from": "class_room_02",
+        "to": "lab",
+        "weight": 44.2,
+        "accessible": true
+      },
+      {
+        "from": "class_room_02",
+        "to": "classrooms",
+        "weight": 58.3,
+        "accessible": true
+      },
+      {
+        "from": "class_room_02",
+        "to": "security_room",
+        "weight": 81.1,
+        "accessible": true
+      },
+      {
+        "from": "class_room_03",
+        "to": "drawing_room",
+        "weight": 10.1,
+        "accessible": true
+      },
+      {
+        "from": "class_room_03",
+        "to": "class_room_04",
+        "weight": 21.4,
+        "accessible": true
+      },
+      {
+        "from": "class_room_03",
+        "to": "students_wash_room",
+        "weight": 23.1,
+        "accessible": true
+      },
+      {
+        "from": "class_room_03",
+        "to": "transport_division",
+        "weight": 24.1,
+        "accessible": true
+      },
+      {
+        "from": "class_room_03",
+        "to": "it_lab",
+        "weight": 26.5,
+        "accessible": true
+      },
+      {
+        "from": "class_room_03",
+        "to": "chart_room",
+        "weight": 31.5,
+        "accessible": true
+      },
+      {
+        "from": "class_room_03",
+        "to": "workshop",
+        "weight": 51.0,
+        "accessible": true
+      },
+      {
+        "from": "class_room_03",
+        "to": "welding_workshop",
+        "weight": 54.7,
+        "accessible": true
+      },
+      {
+        "from": "class_room_03",
+        "to": "canteen",
+        "weight": 92.0,
+        "accessible": true
+      },
+      {
+        "from": "class_room_03",
+        "to": "gym",
+        "weight": 105.2,
+        "accessible": true
+      },
+      {
+        "from": "class_room_03",
+        "to": "boys_hostals",
+        "weight": 83.2,
+        "accessible": true
+      },
+      {
+        "from": "class_room_03",
+        "to": "regional_center_mattakkuliya",
+        "weight": 107.1,
+        "accessible": true
+      },
+      {
+        "from": "class_room_03",
+        "to": "class_room_08",
+        "weight": 30.5,
+        "accessible": true
+      },
+      {
+        "from": "class_room_03",
+        "to": "lab",
+        "weight": 39.0,
+        "accessible": true
+      },
+      {
+        "from": "class_room_03",
+        "to": "classrooms",
+        "weight": 50.9,
+        "accessible": true
+      },
+      {
+        "from": "class_room_03",
+        "to": "security_room",
+        "weight": 74.7,
+        "accessible": true
+      },
+      {
+        "from": "drawing_room",
+        "to": "class_room_04",
+        "weight": 11.3,
+        "accessible": true
+      },
+      {
+        "from": "drawing_room",
+        "to": "students_wash_room",
+        "weight": 14.2,
+        "accessible": true
+      },
+      {
+        "from": "drawing_room",
+        "to": "transport_division",
+        "weight": 15.9,
+        "accessible": true
+      },
+      {
+        "from": "drawing_room",
+        "to": "it_lab",
+        "weight": 19.3,
+        "accessible": true
+      },
+      {
+        "from": "drawing_room",
+        "to": "chart_room",
+        "weight": 25.7,
+        "accessible": true
+      },
+      {
+        "from": "drawing_room",
+        "to": "workshop",
+        "weight": 45.4,
+        "accessible": true
+      },
+      {
+        "from": "drawing_room",
+        "to": "welding_workshop",
+        "weight": 53.4,
+        "accessible": true
+      },
+      {
+        "from": "drawing_room",
+        "to": "canteen",
+        "weight": 84.9,
+        "accessible": true
+      },
+      {
+        "from": "drawing_room",
+        "to": "gym",
+        "weight": 99.0,
+        "accessible": true
+      },
+      {
+        "from": "drawing_room",
+        "to": "boys_hostals",
+        "weight": 78.1,
+        "accessible": true
+      },
+      {
+        "from": "drawing_room",
+        "to": "regional_center_mattakkuliya",
+        "weight": 103.8,
+        "accessible": true
+      },
+      {
+        "from": "drawing_room",
+        "to": "class_room_08",
+        "weight": 29.3,
+        "accessible": true
+      },
+      {
+        "from": "drawing_room",
+        "to": "lab",
+        "weight": 33.4,
+        "accessible": true
+      },
+      {
+        "from": "drawing_room",
+        "to": "classrooms",
+        "weight": 40.9,
+        "accessible": true
+      },
+      {
+        "from": "drawing_room",
+        "to": "security_room",
+        "weight": 66.2,
+        "accessible": true
+      },
+      {
+        "from": "class_room_04",
+        "to": "students_wash_room",
+        "weight": 8.4,
+        "accessible": true
+      },
+      {
+        "from": "class_room_04",
+        "to": "transport_division",
+        "weight": 11.2,
+        "accessible": true
+      },
+      {
+        "from": "class_room_04",
+        "to": "it_lab",
+        "weight": 15.8,
+        "accessible": true
+      },
+      {
+        "from": "class_room_04",
+        "to": "chart_room",
+        "weight": 23.1,
+        "accessible": true
+      },
+      {
+        "from": "class_room_04",
+        "to": "workshop",
+        "weight": 41.3,
+        "accessible": true
+      },
+      {
+        "from": "class_room_04",
+        "to": "welding_workshop",
+        "weight": 54.3,
+        "accessible": true
+      },
+      {
+        "from": "class_room_04",
+        "to": "canteen",
+        "weight": 77.7,
+        "accessible": true
+      },
+      {
+        "from": "class_room_04",
+        "to": "gym",
+        "weight": 92.8,
+        "accessible": true
+      },
+      {
+        "from": "class_room_04",
+        "to": "boys_hostals",
+        "weight": 73.7,
+        "accessible": true
+      },
+      {
+        "from": "class_room_04",
+        "to": "regional_center_mattakkuliya",
+        "weight": 101.1,
+        "accessible": true
+      },
+      {
+        "from": "class_room_04",
+        "to": "class_room_08",
+        "weight": 32.0,
+        "accessible": true
+      },
+      {
+        "from": "class_room_04",
+        "to": "lab",
+        "weight": 30.0,
+        "accessible": true
+      },
+      {
+        "from": "class_room_04",
+        "to": "classrooms",
+        "weight": 29.5,
+        "accessible": true
+      },
+      {
+        "from": "class_room_04",
+        "to": "security_room",
+        "weight": 57.3,
+        "accessible": true
+      },
+      {
+        "from": "students_wash_room",
+        "to": "transport_division",
+        "weight": 2.8,
+        "accessible": true
+      },
+      {
+        "from": "students_wash_room",
+        "to": "it_lab",
+        "weight": 7.4,
+        "accessible": true
+      },
+      {
+        "from": "students_wash_room",
+        "to": "chart_room",
+        "weight": 14.7,
+        "accessible": true
+      },
+      {
+        "from": "students_wash_room",
+        "to": "workshop",
+        "weight": 33.2,
+        "accessible": true
+      },
+      {
+        "from": "students_wash_room",
+        "to": "welding_workshop",
+        "weight": 46.1,
+        "accessible": true
+      },
+      {
+        "from": "students_wash_room",
+        "to": "canteen",
+        "weight": 71.0,
+        "accessible": true
+      },
+      {
+        "from": "students_wash_room",
+        "to": "gym",
+        "weight": 85.6,
+        "accessible": true
+      },
+      {
+        "from": "students_wash_room",
+        "to": "boys_hostals",
+        "weight": 65.8,
+        "accessible": true
+      },
+      {
+        "from": "students_wash_room",
+        "to": "regional_center_mattakkuliya",
+        "weight": 92.8,
+        "accessible": true
+      },
+      {
+        "from": "students_wash_room",
+        "to": "class_room_08",
+        "weight": 39.9,
+        "accessible": true
+      },
+      {
+        "from": "students_wash_room",
+        "to": "lab",
+        "weight": 38.3,
+        "accessible": true
+      },
+      {
+        "from": "students_wash_room",
+        "to": "classrooms",
+        "weight": 30.8,
+        "accessible": true
+      },
+      {
+        "from": "students_wash_room",
+        "to": "security_room",
+        "weight": 63.1,
+        "accessible": true
+      },
+      {
+        "from": "transport_division",
+        "to": "it_lab",
+        "weight": 4.6,
+        "accessible": true
+      },
+      {
+        "from": "transport_division",
+        "to": "chart_room",
+        "weight": 11.9,
+        "accessible": true
+      },
+      {
+        "from": "transport_division",
+        "to": "workshop",
+        "weight": 30.6,
+        "accessible": true
+      },
+      {
+        "from": "transport_division",
+        "to": "welding_workshop",
+        "weight": 43.3,
+        "accessible": true
+      },
+      {
+        "from": "transport_division",
+        "to": "canteen",
+        "weight": 69.0,
+        "accessible": true
+      },
+      {
+        "from": "transport_division",
+        "to": "gym",
+        "weight": 83.4,
+        "accessible": true
+      },
+      {
+        "from": "transport_division",
+        "to": "boys_hostals",
+        "weight": 63.3,
+        "accessible": true
+      },
+      {
+        "from": "transport_division",
+        "to": "regional_center_mattakkuliya",
+        "weight": 90.1,
+        "accessible": true
+      },
+      {
+        "from": "transport_division",
+        "to": "class_room_08",
+        "weight": 42.4,
+        "accessible": true
+      },
+      {
+        "from": "transport_division",
+        "to": "lab",
+        "weight": 41.1,
+        "accessible": true
+      },
+      {
+        "from": "transport_division",
+        "to": "classrooms",
+        "weight": 31.9,
+        "accessible": true
+      },
+      {
+        "from": "transport_division",
+        "to": "security_room",
+        "weight": 65.3,
+        "accessible": true
+      },
+      {
+        "from": "it_lab",
+        "to": "chart_room",
+        "weight": 7.3,
+        "accessible": true
+      },
+      {
+        "from": "it_lab",
+        "to": "workshop",
+        "weight": 26.3,
+        "accessible": true
+      },
+      {
+        "from": "it_lab",
+        "to": "welding_workshop",
+        "weight": 38.8,
+        "accessible": true
+      },
+      {
+        "from": "it_lab",
+        "to": "canteen",
+        "weight": 65.8,
+        "accessible": true
+      },
+      {
+        "from": "it_lab",
+        "to": "gym",
+        "weight": 79.7,
+        "accessible": true
+      },
+      {
+        "from": "it_lab",
+        "to": "boys_hostals",
+        "weight": 59.1,
+        "accessible": true
+      },
+      {
+        "from": "it_lab",
+        "to": "regional_center_mattakkuliya",
+        "weight": 85.7,
+        "accessible": true
+      },
+      {
+        "from": "it_lab",
+        "to": "class_room_08",
+        "weight": 46.8,
+        "accessible": true
+      },
+      {
+        "from": "it_lab",
+        "to": "lab",
+        "weight": 45.7,
+        "accessible": true
+      },
+      {
+        "from": "it_lab",
+        "to": "classrooms",
+        "weight": 34.0,
+        "accessible": true
+      },
+      {
+        "from": "it_lab",
+        "to": "security_room",
+        "weight": 68.9,
+        "accessible": true
+      },
+      {
+        "from": "chart_room",
+        "to": "workshop",
+        "weight": 19.7,
+        "accessible": true
+      },
+      {
+        "from": "chart_room",
+        "to": "welding_workshop",
+        "weight": 31.9,
+        "accessible": true
+      },
+      {
+        "from": "chart_room",
+        "to": "canteen",
+        "weight": 60.7,
+        "accessible": true
+      },
+      {
+        "from": "chart_room",
+        "to": "gym",
+        "weight": 73.8,
+        "accessible": true
+      },
+      {
+        "from": "chart_room",
+        "to": "boys_hostals",
+        "weight": 52.4,
+        "accessible": true
+      },
+      {
+        "from": "chart_room",
+        "to": "regional_center_mattakkuliya",
+        "weight": 78.5,
+        "accessible": true
+      },
+      {
+        "from": "chart_room",
+        "to": "class_room_08",
+        "weight": 53.9,
+        "accessible": true
+      },
+      {
+        "from": "chart_room",
+        "to": "lab",
+        "weight": 53.0,
+        "accessible": true
+      },
+      {
+        "from": "chart_room",
+        "to": "classrooms",
+        "weight": 38.0,
+        "accessible": true
+      },
+      {
+        "from": "chart_room",
+        "to": "security_room",
+        "weight": 74.7,
+        "accessible": true
+      },
+      {
+        "from": "workshop",
+        "to": "welding_workshop",
+        "weight": 24.0,
+        "accessible": true
+      },
+      {
+        "from": "workshop",
+        "to": "canteen",
+        "weight": 42.4,
+        "accessible": true
+      },
+      {
+        "from": "workshop",
+        "to": "gym",
+        "weight": 54.3,
+        "accessible": true
+      },
+      {
+        "from": "workshop",
+        "to": "boys_hostals",
+        "weight": 32.8,
+        "accessible": true
+      },
+      {
+        "from": "workshop",
+        "to": "regional_center_mattakkuliya",
+        "weight": 60.0,
+        "accessible": true
+      },
+      {
+        "from": "workshop",
+        "to": "class_room_08",
+        "weight": 73.0,
+        "accessible": true
+      },
+      {
+        "from": "workshop",
+        "to": "lab",
+        "weight": 70.1,
+        "accessible": true
+      },
+      {
+        "from": "workshop",
+        "to": "classrooms",
+        "weight": 45.3,
+        "accessible": true
+      },
+      {
+        "from": "workshop",
+        "to": "security_room",
+        "weight": 84.7,
+        "accessible": true
+      },
+      {
+        "from": "welding_workshop",
+        "to": "canteen",
+        "weight": 56.6,
+        "accessible": true
+      },
+      {
+        "from": "welding_workshop",
+        "to": "gym",
+        "weight": 62.4,
+        "accessible": true
+      },
+      {
+        "from": "welding_workshop",
+        "to": "boys_hostals",
+        "weight": 37.6,
+        "accessible": true
+      },
+      {
+        "from": "welding_workshop",
+        "to": "regional_center_mattakkuliya",
+        "weight": 54.0,
+        "accessible": true
+      },
+      {
+        "from": "welding_workshop",
+        "to": "class_room_08",
+        "weight": 82.7,
+        "accessible": true
+      },
+      {
+        "from": "welding_workshop",
+        "to": "lab",
+        "weight": 84.3,
+        "accessible": true
+      },
+      {
+        "from": "welding_workshop",
+        "to": "classrooms",
+        "weight": 67.0,
+        "accessible": true
+      },
+      {
+        "from": "welding_workshop",
+        "to": "security_room",
+        "weight": 105.5,
+        "accessible": true
+      },
+      {
+        "from": "canteen",
+        "to": "gym",
+        "weight": 17.8,
+        "accessible": true
+      },
+      {
+        "from": "canteen",
+        "to": "boys_hostals",
+        "weight": 23.1,
+        "accessible": true
+      },
+      {
+        "from": "canteen",
+        "to": "regional_center_mattakkuliya",
+        "weight": 45.9,
+        "accessible": true
+      },
+      {
+        "from": "canteen",
+        "to": "class_room_08",
+        "weight": 109.1,
+        "accessible": true
+      },
+      {
+        "from": "canteen",
+        "to": "lab",
+        "weight": 101.5,
+        "accessible": true
+      },
+      {
+        "from": "canteen",
+        "to": "classrooms",
+        "weight": 65.6,
+        "accessible": true
+      },
+      {
+        "from": "canteen",
+        "to": "security_room",
+        "weight": 100.7,
+        "accessible": true
+      },
+      {
+        "from": "gym",
+        "to": "boys_hostals",
+        "weight": 24.9,
+        "accessible": true
+      },
+      {
+        "from": "gym",
+        "to": "regional_center_mattakkuliya",
+        "weight": 33.8,
+        "accessible": true
+      },
+      {
+        "from": "gym",
+        "to": "class_room_08",
+        "weight": 124.7,
+        "accessible": true
+      },
+      {
+        "from": "gym",
+        "to": "lab",
+        "weight": 118.1,
+        "accessible": true
+      },
+      {
+        "from": "gym",
+        "to": "classrooms",
+        "weight": 83.0,
+        "accessible": true
+      },
+      {
+        "from": "gym",
+        "to": "security_room",
+        "weight": 118.5,
+        "accessible": true
+      },
+      {
+        "from": "boys_hostals",
+        "to": "regional_center_mattakkuliya",
+        "weight": 30.2,
+        "accessible": true
+      },
+      {
+        "from": "boys_hostals",
+        "to": "class_room_08",
+        "weight": 105.6,
+        "accessible": true
+      },
+      {
+        "from": "boys_hostals",
+        "to": "lab",
+        "weight": 101.5,
+        "accessible": true
+      },
+      {
+        "from": "boys_hostals",
+        "to": "classrooms",
+        "weight": 70.8,
+        "accessible": true
+      },
+      {
+        "from": "boys_hostals",
+        "to": "security_room",
+        "weight": 109.4,
+        "accessible": true
+      },
+      {
+        "from": "regional_center_mattakkuliya",
+        "to": "class_room_08",
+        "weight": 132.5,
+        "accessible": true
+      },
+      {
+        "from": "regional_center_mattakkuliya",
+        "to": "lab",
+        "weight": 130.0,
+        "accessible": true
+      },
+      {
+        "from": "regional_center_mattakkuliya",
+        "to": "classrooms",
+        "weight": 100.9,
+        "accessible": true
+      },
+      {
+        "from": "regional_center_mattakkuliya",
+        "to": "security_room",
+        "weight": 139.6,
+        "accessible": true
+      },
+      {
+        "from": "class_room_08",
+        "to": "lab",
+        "weight": 16.7,
+        "accessible": true
+      },
+      {
+        "from": "class_room_08",
+        "to": "classrooms",
+        "weight": 51.0,
+        "accessible": true
+      },
+      {
+        "from": "class_room_08",
+        "to": "security_room",
+        "weight": 56.4,
+        "accessible": true
+      },
+      {
+        "from": "lab",
+        "to": "classrooms",
+        "weight": 38.7,
+        "accessible": true
+      },
+      {
+        "from": "lab",
+        "to": "security_room",
+        "weight": 39.9,
+        "accessible": true
+      },
+      {
+        "from": "classrooms",
+        "to": "security_room",
+        "weight": 39.5,
+        "accessible": true
       }
     ]
   }
@@ -2925,36 +3660,6 @@ window.FALLBACK_CAMPUS_DATA = {
 window.FALLBACK_RAW_GEOJSON = {
   "type": "FeatureCollection",
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.8717309,
-          6.9749695
-        ]
-      },
-      "properties": {
-        "name": "Sport Room",
-        "styleUrl": "#icon-1519-0288D1-nodesc",
-        "color": "#0288d1"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.8717243,
-          6.9749225
-        ]
-      },
-      "properties": {
-        "name": "UNION ROOM",
-        "styleUrl": "#icon-1739-0288D1-nodesc",
-        "color": "#0288d1"
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -2985,9 +3690,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "mtl_hall_04",
         "name": "MTL HALL 04",
-        "styleUrl": "#poly-000000-2386-77-nodesc",
-        "color": "#6366f1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.97495035,
+        "center_lon": 79.8718345
       }
     },
     {
@@ -3020,9 +3728,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "union_room",
         "name": "UNION ROOM",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Facilities & Dining",
+        "color": "#f59e0b",
+        "center_lat": 6.97492455,
+        "center_lon": 79.871755875
       }
     },
     {
@@ -3055,9 +3766,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "sport_room",
         "name": "SPORT ROOM",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Sports & Rec",
+        "color": "#10b981",
+        "center_lat": 6.974967475,
+        "center_lon": 79.87175115
       }
     },
     {
@@ -3090,9 +3804,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "mtl_hall_03",
         "name": "MTL HALL 03",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.97501715,
+        "center_lon": 79.8721363
       }
     },
     {
@@ -3125,9 +3842,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "lecturers_washroom",
         "name": "LECTURERS WASHROOM",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Amenities",
+        "color": "#3b82f6",
+        "center_lat": 6.975024625,
+        "center_lon": 79.87218075
       }
     },
     {
@@ -3160,9 +3880,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "class_room_07",
         "name": "CLASS ROOM 07",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.97503195,
+        "center_lon": 79.872228225
       }
     },
     {
@@ -3195,9 +3918,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "volly_ball_court",
         "name": "VOLLY BALL COURT",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Sports & Rec",
+        "color": "#10b981",
+        "center_lat": 6.975080875,
+        "center_lon": 79.87233935
       }
     },
     {
@@ -3230,9 +3956,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "badminton_court",
         "name": "BADMINTON COURT",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Sports & Rec",
+        "color": "#10b981",
+        "center_lat": 6.975122150000001,
+        "center_lon": 79.8719823
       }
     },
     {
@@ -3265,9 +3994,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "lectueres_room",
         "name": "LECTUERE'S ROOM",
-        "styleUrl": "#poly-673AB7-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.97497515,
+        "center_lon": 79.871961125
       }
     },
     {
@@ -3304,9 +4036,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "training_and_account_division",
         "name": "TRAINING AND ACCOUNT DIVISION",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Administrative",
+        "color": "#a855f7",
+        "center_lat": 6.975270740000001,
+        "center_lon": 79.8717494
       }
     },
     {
@@ -3339,9 +4074,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "auditorium",
         "name": "AUDITORIUM",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Labs & Workshops",
+        "color": "#06b6d4",
+        "center_lat": 6.9753074250000004,
+        "center_lon": 79.87185339999999
       }
     },
     {
@@ -3374,9 +4112,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "mtl_hall_02",
         "name": "MTL HALL 02",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.975283875,
+        "center_lon": 79.871975575
       }
     },
     {
@@ -3409,9 +4150,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "storage_room",
         "name": "STORAGE ROOM",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Amenities",
+        "color": "#3b82f6",
+        "center_lat": 6.9752769,
+        "center_lon": 79.87193235000001
       }
     },
     {
@@ -3444,9 +4188,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "mtl_hall_01",
         "name": "MTL HALL 01",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.975216475,
+        "center_lon": 79.872488875
       }
     },
     {
@@ -3479,9 +4226,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "class_room_02",
         "name": "CLASS ROOM 02",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.97521125,
+        "center_lon": 79.872390575
       }
     },
     {
@@ -3514,9 +4264,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "class_room_03",
         "name": "CLASS ROOM 03",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.975200425000001,
+        "center_lon": 79.872325875
       }
     },
     {
@@ -3549,9 +4302,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "drawing_room",
         "name": "DRAWING ROOM",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.97518655,
+        "center_lon": 79.87223645
       }
     },
     {
@@ -3584,9 +4340,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "class_room_04",
         "name": "CLASS ROOM 04",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.975171725,
+        "center_lon": 79.8721352
       }
     },
     {
@@ -3619,9 +4378,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "students_wash_room",
         "name": "STUDENTS WASH ROOM",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Amenities",
+        "color": "#3b82f6",
+        "center_lat": 6.97524675,
+        "center_lon": 79.872123275
       }
     },
     {
@@ -3654,9 +4416,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "transport_division",
         "name": "TRANSPORT DIVISION",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Administrative",
+        "color": "#a855f7",
+        "center_lat": 6.9752719,
+        "center_lon": 79.8721211
       }
     },
     {
@@ -3689,9 +4454,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "it_lab",
         "name": "IT LAB",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Labs & Workshops",
+        "color": "#06b6d4",
+        "center_lat": 6.975312825,
+        "center_lon": 79.872115725
       }
     },
     {
@@ -3724,9 +4492,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "chart_room",
         "name": "CHART ROOM",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Labs & Workshops",
+        "color": "#06b6d4",
+        "center_lat": 6.97537785,
+        "center_lon": 79.872105325
       }
     },
     {
@@ -3759,9 +4530,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "workshop",
         "name": "WORKSHOP",
-        "styleUrl": "#poly-558B2F-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Labs & Workshops",
+        "color": "#06b6d4",
+        "center_lat": 6.97551585,
+        "center_lon": 79.871993275
       }
     },
     {
@@ -3794,9 +4568,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "welding_workshop",
         "name": "WELDING WORKSHOP",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Labs & Workshops",
+        "color": "#06b6d4",
+        "center_lat": 6.9756613000000005,
+        "center_lon": 79.8721529
       }
     },
     {
@@ -3829,9 +4606,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "canteen",
         "name": "CANTEEN",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Facilities & Dining",
+        "color": "#f59e0b",
+        "center_lat": 6.9756703,
+        "center_lon": 79.87164295
       }
     },
     {
@@ -3864,9 +4644,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "gym",
         "name": "GYM",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Sports & Rec",
+        "color": "#10b981",
+        "center_lat": 6.975828025,
+        "center_lon": 79.87161645
       }
     },
     {
@@ -3899,9 +4682,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "boys_hostals",
         "name": "BOYS HOSTALS",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Facilities & Dining",
+        "color": "#f59e0b",
+        "center_lat": 6.97576205,
+        "center_lon": 79.8718296
       }
     },
     {
@@ -3934,9 +4720,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "regional_center_mattakkuliya",
         "name": "REGIONAL CENTER MATTAKKULIYA",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Administrative",
+        "color": "#a855f7",
+        "center_lat": 6.9760339,
+        "center_lon": 79.87184035
       }
     },
     {
@@ -3969,9 +4758,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "class_room_08",
         "name": "CLASS ROOM 08",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.97492795,
+        "center_lon": 79.872288475
       }
     },
     {
@@ -4004,9 +4796,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "lab",
         "name": "LAB",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Labs & Workshops",
+        "color": "#06b6d4",
+        "center_lat": 6.974902,
+        "center_lon": 79.872139625
       }
     },
     {
@@ -4039,24 +4834,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "classrooms",
         "name": "classrooms",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          79.8718357,
-          6.9749505
-        ]
-      },
-      "properties": {
-        "name": "MTL HALL 04",
-        "styleUrl": "#icon-1739-0288D1",
-        "color": "#0288d1"
+        "category": "Academic & Lecture Halls",
+        "color": "#8b5cf6",
+        "center_lat": 6.975125625,
+        "center_lon": 79.8718733
       }
     },
     {
@@ -4089,9 +4872,12 @@ window.FALLBACK_RAW_GEOJSON = {
         ]
       },
       "properties": {
+        "id": "security_room",
         "name": "Security Room",
-        "styleUrl": "#poly-000000-1200-77-nodesc",
-        "color": "#6366f1"
+        "category": "Security & Entry",
+        "color": "#ef4444",
+        "center_lat": 6.974777075,
+        "center_lon": 79.8718026
       }
     }
   ]
