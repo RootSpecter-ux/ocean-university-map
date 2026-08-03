@@ -272,16 +272,29 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   // 4. Real-Time High-Accuracy Geolocation Tracking Engine
+  let isInitialLiveCenterDone = false;
+
   function initLiveGeolocation() {
     if ('geolocation' in navigator) {
+      // Immediately request real-time high-accuracy location upon user entry
       navigator.geolocation.getCurrentPosition(
         (pos) => {
-          updateUserLivePosition(pos.coords.latitude, pos.coords.longitude, pos.coords.accuracy, false);
+          const lat = pos.coords.latitude;
+          const lon = pos.coords.longitude;
+          const accuracy = pos.coords.accuracy;
+
+          updateUserLivePosition(lat, lon, accuracy, false);
+
+          // Automatically center map on user's live position on initial entry
+          if (!isInitialLiveCenterDone && map) {
+            map.flyTo([lat, lon], 18, { animate: true, duration: 1.2 });
+            isInitialLiveCenterDone = true;
+          }
         },
         (err) => {
-          console.log('Initial geolocation prompt deferred:', err.message);
+          console.log('Geolocation prompt status:', err.message);
           if (gpsStatusBox) {
-            gpsStatusBox.innerHTML = `<i class="fa-solid fa-circle-info" style="color:#0284c7;"></i> Live GPS Ready. Start walking navigation anytime.`;
+            gpsStatusBox.innerHTML = `<i class="fa-solid fa-location-crosshairs" style="color:#0284c7;"></i> Live GPS Ready. Tap GPS button to center your position.`;
           }
         },
         { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
@@ -289,13 +302,19 @@ document.addEventListener('DOMContentLoaded', async () => {
 
       if (watchPositionId) navigator.geolocation.clearWatch(watchPositionId);
 
+      // Continuously watch and update user position in real time as they walk
       watchPositionId = navigator.geolocation.watchPosition(
         (pos) => {
           const lat = pos.coords.latitude;
           const lon = pos.coords.longitude;
           const accuracy = pos.coords.accuracy;
-          
+
           updateUserLivePosition(lat, lon, accuracy, false);
+
+          if (!isInitialLiveCenterDone && map) {
+            map.flyTo([lat, lon], 18, { animate: true, duration: 1.2 });
+            isInitialLiveCenterDone = true;
+          }
         },
         (err) => {
           console.warn('Geolocation watch notice:', err.message);
@@ -309,7 +328,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     userLivePos = { lat, lon, accuracy };
 
     if (gpsStatusBox) {
-      gpsStatusBox.innerHTML = `<i class="fa-solid fa-circle-check" style="color:var(--accent-emerald);"></i> 📍 Actual Live GPS Position Acquired (±${Math.round(accuracy)}m)`;
+      gpsStatusBox.innerHTML = `<i class="fa-solid fa-circle-check" style="color:var(--accent-emerald);"></i> 📍 Realtime GPS Location Active (±${Math.round(accuracy)}m)`;
     }
 
     if (!userLiveMarker) {
@@ -334,7 +353,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       userAccuracyCircle.setRadius(accuracy);
     }
 
-    // Smoothly pan map camera to follow user's live position during active navigation (like Google Maps)
+    // Smoothly pan map camera to follow user's live position during active walking navigation
     if (currentDestLoc && map) {
       map.panTo([lat, lon], { animate: true, duration: 0.5 });
       recalculateLiveRoute();
