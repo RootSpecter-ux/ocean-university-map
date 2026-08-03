@@ -236,13 +236,18 @@ document.addEventListener('DOMContentLoaded', async () => {
         pane: 'bldgDrawingsPane',
         style: (feature) => {
           const name = feature.properties ? (feature.properties.name || feature.properties.Name || '') : '';
-          const color = getCategoryColor(name);
+          const categoryColor = getCategoryColor(name);
+          const fColor = feature.properties ? (feature.properties.fillColor || categoryColor) : categoryColor;
+          const sColor = feature.properties ? (feature.properties.color || '#1e293b') : '#1e293b';
+          const fOpacity = feature.properties ? (feature.properties.fillOpacity || 0.65) : 0.65;
+          const sWeight = feature.properties ? (feature.properties.weight || 2.5) : 2.5;
+
           return {
-            color: '#ffffff',
-            weight: 2.5,
+            color: sColor,
+            weight: sWeight,
             opacity: 1.0,
-            fillColor: color,
-            fillOpacity: 0.65
+            fillColor: fColor,
+            fillOpacity: fOpacity
           };
         },
         onEachFeature: (feature, layer) => {
@@ -315,21 +320,30 @@ document.addEventListener('DOMContentLoaded', async () => {
           
           layer.on('mouseover', () => {
             if (layer.setStyle) {
-              layer.setStyle({ weight: 4, color: '#f59e0b', fillOpacity: 0.9 });
+              layer.setStyle({ weight: 3.5, color: '#38bdf8', fillOpacity: 0.85 });
             }
           });
           
           layer.on('mouseout', () => {
             if (layer.setStyle) {
-              layer.setStyle({ weight: 2.5, color: '#ffffff', fillOpacity: 0.65 });
+              const origColor = feature.properties ? (feature.properties.color || '#1e293b') : '#1e293b';
+              const origFill = feature.properties ? (feature.properties.fillColor || color) : color;
+              const origOp = feature.properties ? (feature.properties.fillOpacity || 0.65) : 0.65;
+              layer.setStyle({ weight: 2.5, color: origColor, fillColor: origFill, fillOpacity: origOp });
             }
-          });
-
-          layer.on('click', () => {
-            if (loc && window.openBuildingInfoModal) window.openBuildingInfoModal(loc);
           });
         }
       }).addTo(map);
+
+      // Fit map view to show all 35 Google My Maps vector drawings on initial load
+      if (geojsonLayer && map && !isInitialLiveCenterDone) {
+        try {
+          const bounds = geojsonLayer.getBounds();
+          if (bounds.isValid()) {
+            map.fitBounds(bounds, { padding: [40, 40] });
+          }
+        } catch(e){}
+      }
     }
   }
 

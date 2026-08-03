@@ -6,6 +6,10 @@
       "properties": {
         "name": "Sport Room",
         "Name": "Sport Room",
+        "fillColor": "#0288d1",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for Sport Room"
       },
       "geometry": {
@@ -21,6 +25,10 @@
       "properties": {
         "name": "UNION ROOM",
         "Name": "UNION ROOM",
+        "fillColor": "#0288d1",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for UNION ROOM"
       },
       "geometry": {
@@ -36,6 +44,10 @@
       "properties": {
         "name": "MTL HALL 04",
         "Name": "MTL HALL 04",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for MTL HALL 04"
       },
       "geometry": {
@@ -71,6 +83,10 @@
       "properties": {
         "name": "UNION ROOM",
         "Name": "UNION ROOM",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for UNION ROOM"
       },
       "geometry": {
@@ -106,6 +122,10 @@
       "properties": {
         "name": "SPORT ROOM",
         "Name": "SPORT ROOM",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for SPORT ROOM"
       },
       "geometry": {
@@ -141,6 +161,10 @@
       "properties": {
         "name": "MTL HALL 03",
         "Name": "MTL HALL 03",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for MTL HALL 03"
       },
       "geometry": {
@@ -176,6 +200,10 @@
       "properties": {
         "name": "LECTURERS WASHROOM",
         "Name": "LECTURERS WASHROOM",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for LECTURERS WASHROOM"
       },
       "geometry": {
@@ -211,6 +239,10 @@
       "properties": {
         "name": "CLASS ROOM 07",
         "Name": "CLASS ROOM 07",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for CLASS ROOM 07"
       },
       "geometry": {
@@ -246,6 +278,10 @@
       "properties": {
         "name": "VOLLY BALL COURT",
         "Name": "VOLLY BALL COURT",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for VOLLY BALL COURT"
       },
       "geometry": {
@@ -281,6 +317,10 @@
       "properties": {
         "name": "BADMINTON COURT",
         "Name": "BADMINTON COURT",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for BADMINTON COURT"
       },
       "geometry": {
@@ -316,6 +356,10 @@
       "properties": {
         "name": "LECTUERE'S ROOM",
         "Name": "LECTUERE'S ROOM",
+        "fillColor": "#673ab7",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for LECTUERE'S ROOM"
       },
       "geometry": {
@@ -351,6 +395,10 @@
       "properties": {
         "name": "TRAINING AND ACCOUNT DIVISION",
         "Name": "TRAINING AND ACCOUNT DIVISION",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for TRAINING AND ACCOUNT DIVISION"
       },
       "geometry": {
@@ -390,6 +438,10 @@
       "properties": {
         "name": "AUDITORIUM",
         "Name": "AUDITORIUM",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for AUDITORIUM"
       },
       "geometry": {
@@ -425,6 +477,10 @@
       "properties": {
         "name": "MTL HALL 02",
         "Name": "MTL HALL 02",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for MTL HALL 02"
       },
       "geometry": {
@@ -460,6 +516,10 @@
       "properties": {
         "name": "STORAGE ROOM",
         "Name": "STORAGE ROOM",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for STORAGE ROOM"
       },
       "geometry": {
@@ -495,6 +555,10 @@
       "properties": {
         "name": "MTL HALL 01",
         "Name": "MTL HALL 01",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for MTL HALL 01"
       },
       "geometry": {
@@ -530,6 +594,10 @@
       "properties": {
         "name": "CLASS ROOM 02",
         "Name": "CLASS ROOM 02",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for CLASS ROOM 02"
       },
       "geometry": {
@@ -565,6 +633,10 @@
       "properties": {
         "name": "CLASS ROOM 03",
         "Name": "CLASS ROOM 03",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for CLASS ROOM 03"
       },
       "geometry": {
@@ -600,6 +672,10 @@
       "properties": {
         "name": "DRAWING ROOM",
         "Name": "DRAWING ROOM",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for DRAWING ROOM"
       },
       "geometry": {
@@ -635,6 +711,10 @@
       "properties": {
         "name": "CLASS ROOM 04",
         "Name": "CLASS ROOM 04",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for CLASS ROOM 04"
       },
       "geometry": {
@@ -670,6 +750,10 @@
       "properties": {
         "name": "STUDENTS WASH ROOM",
         "Name": "STUDENTS WASH ROOM",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for STUDENTS WASH ROOM"
       },
       "geometry": {
@@ -705,6 +789,10 @@
       "properties": {
         "name": "TRANSPORT DIVISION",
         "Name": "TRANSPORT DIVISION",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for TRANSPORT DIVISION"
       },
       "geometry": {
@@ -740,6 +828,10 @@
       "properties": {
         "name": "IT LAB",
         "Name": "IT LAB",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for IT LAB"
       },
       "geometry": {
@@ -775,6 +867,10 @@
       "properties": {
         "name": "CHART ROOM",
         "Name": "CHART ROOM",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for CHART ROOM"
       },
       "geometry": {
@@ -810,6 +906,10 @@
       "properties": {
         "name": "WORKSHOP",
         "Name": "WORKSHOP",
+        "fillColor": "#558b2f",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for WORKSHOP"
       },
       "geometry": {
@@ -845,6 +945,10 @@
       "properties": {
         "name": "WELDING WORKSHOP",
         "Name": "WELDING WORKSHOP",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for WELDING WORKSHOP"
       },
       "geometry": {
@@ -880,6 +984,10 @@
       "properties": {
         "name": "CANTEEN",
         "Name": "CANTEEN",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for CANTEEN"
       },
       "geometry": {
@@ -915,6 +1023,10 @@
       "properties": {
         "name": "GYM",
         "Name": "GYM",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for GYM"
       },
       "geometry": {
@@ -950,6 +1062,10 @@
       "properties": {
         "name": "BOYS HOSTALS",
         "Name": "BOYS HOSTALS",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for BOYS HOSTALS"
       },
       "geometry": {
@@ -985,6 +1101,10 @@
       "properties": {
         "name": "REGIONAL CENTER MATTAKKULIYA",
         "Name": "REGIONAL CENTER MATTAKKULIYA",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for REGIONAL CENTER MATTAKKULIYA"
       },
       "geometry": {
@@ -1020,6 +1140,10 @@
       "properties": {
         "name": "CLASS ROOM 08",
         "Name": "CLASS ROOM 08",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for CLASS ROOM 08"
       },
       "geometry": {
@@ -1055,6 +1179,10 @@
       "properties": {
         "name": "LAB",
         "Name": "LAB",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for LAB"
       },
       "geometry": {
@@ -1090,6 +1218,10 @@
       "properties": {
         "name": "classrooms",
         "Name": "classrooms",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for classrooms"
       },
       "geometry": {
@@ -1125,6 +1257,10 @@
       "properties": {
         "name": "MTL HALL 04",
         "Name": "MTL HALL 04",
+        "fillColor": "#0288d1",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for MTL HALL 04"
       },
       "geometry": {
@@ -1140,6 +1276,10 @@
       "properties": {
         "name": "Security Room",
         "Name": "Security Room",
+        "fillColor": "#64748b",
+        "fillOpacity": 0.65,
+        "color": "#1e293b",
+        "weight": 2,
         "description": "Official Google My Maps Drawing for Security Room"
       },
       "geometry": {
