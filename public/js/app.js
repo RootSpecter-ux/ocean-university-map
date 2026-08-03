@@ -106,7 +106,32 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // 1. Initialize Google My Maps Exclusive Primary Engine
   function initMap() {
-    console.log('Google My Maps Exclusive Engine initialized.');
+    if (map) return;
+
+    // Initialize Leaflet Map centered on Ocean University Sri Lanka (Mattakkuliya)
+    map = L.map('map', {
+      center: [6.9744, 79.8705],
+      zoom: 18,
+      zoomControl: false,
+      attributionControl: false,
+      tap: true,
+      touchZoom: true
+    });
+
+    // Add High-Definition Google Maps Base Tiles
+    L.tileLayer('https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+      maxZoom: 22,
+      subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
+    }).addTo(map);
+
+    // Create Custom Panes for Layers Ordering
+    map.createPane('bldgDrawingsPane');
+    map.getPane('bldgDrawingsPane').style.zIndex = 500;
+
+    map.createPane('gmapsRoutePane');
+    map.getPane('gmapsRoutePane').style.zIndex = 650;
+
+    console.log('Google My Maps Exclusive Engine initialized successfully.');
   }
 
   // 2. Load Data with Instant Failsafe Fallback
@@ -208,6 +233,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const targetGeoJSON = rawGeoJSON || EMBEDDED_GEOJSON_DRAWINGS;
     if (targetGeoJSON) {
       geojsonLayer = L.geoJSON(targetGeoJSON, {
+        pane: 'bldgDrawingsPane',
         style: (feature) => {
           const name = feature.properties ? (feature.properties.name || feature.properties.Name || '') : '';
           const color = getCategoryColor(name);
@@ -520,8 +546,9 @@ document.addEventListener('DOMContentLoaded', async () => {
       }
     }
 
-    // Google Maps Style Blue Navigation Path Polyline
+    // Google Maps Style Blue Navigation Path Polyline (Rendered on gmapsRoutePane)
     activeRouteOuterGlow = L.polyline(routeResult.coordinates, {
+      pane: 'gmapsRoutePane',
       color: '#4285f4',
       weight: 12,
       opacity: 0.35,
@@ -530,6 +557,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }).addTo(map);
 
     activeRoutePolyline = L.polyline(routeResult.coordinates, {
+      pane: 'gmapsRoutePane',
       color: '#1a73e8',
       weight: 7,
       opacity: 0.95,
