@@ -1,27 +1,6 @@
-const CACHE_NAME = 'ocean-uni-map-v96';
-const ASSETS_TO_CACHE = [
-  './',
-  './index.html',
-  './manifest.json',
-  './css/style.css?v=96.0.0',
-  './css/leaflet.css?v=55.0.0',
-  './js/leaflet.js?v=96.0.0',
-  './js/campus_data_fallback.js?v=96.0.0',
-  './js/i18n.js?v=96.0.0',
-  './js/routing.js?v=96.0.0',
-  './js/cms.js?v=96.0.0',
-  './js/app.js?v=96.0.0',
-  './data/Drawing.geojson',
-  './data/campus_data.json'
-];
+const CACHE_NAME = 'ocean-uni-map-v101';
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      console.log('[PWA SW] Pre-caching core campus navigation assets...');
-      return cache.addAll(ASSETS_TO_CACHE).catch(err => console.log('[PWA SW] Pre-cache warning:', err));
-    })
-  );
   self.skipWaiting();
 });
 
@@ -31,7 +10,7 @@ self.addEventListener('activate', (event) => {
       return Promise.all(
         cacheNames.map((cache) => {
           if (cache !== CACHE_NAME) {
-            console.log('[PWA SW] Clearing old cache:', cache);
+            console.log('[PWA SW] Deleting stale cache:', cache);
             return caches.delete(cache);
           }
         })
@@ -41,19 +20,19 @@ self.addEventListener('activate', (event) => {
   self.clients.claim();
 });
 
+// Network-First Strategy to ensure users always get the latest campus drawings & code
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
+  
   event.respondWith(
-    caches.match(event.request).then((cachedResponse) => {
-      if (cachedResponse) {
-        fetch(event.request).then((networkResponse) => {
-          if (networkResponse && networkResponse.status === 200) {
-            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, networkResponse));
-          }
-        }).catch(() => {});
-        return cachedResponse;
+    fetch(event.request).then((networkResponse) => {
+      if (networkResponse && networkResponse.status === 200) {
+        const responseClone = networkResponse.clone();
+        caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseClone));
       }
-      return fetch(event.request);
+      return networkResponse;
+    }).catch(() => {
+      return caches.match(event.request);
     })
   );
 });

@@ -230,10 +230,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     bldgMarkers.forEach(m => map.removeLayer(m));
     bldgMarkers = [];
 
-    const targetGeoJSON = rawGeoJSON || EMBEDDED_GEOJSON_DRAWINGS;
+    const targetGeoJSON = rawGeoJSON || window.EMBEDDED_GEOJSON_DRAWINGS || (typeof EMBEDDED_GEOJSON_DRAWINGS !== 'undefined' ? EMBEDDED_GEOJSON_DRAWINGS : null);
     if (targetGeoJSON) {
       geojsonLayer = L.geoJSON(targetGeoJSON, {
-        pane: 'bldgDrawingsPane',
         style: (feature) => {
           const name = feature.properties ? (feature.properties.name || feature.properties.Name || '') : '';
           const categoryColor = getCategoryColor(name);
