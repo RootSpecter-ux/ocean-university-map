@@ -5,7 +5,8 @@
       "type": "Feature",
       "properties": {
         "name": "Sport Room",
-        "description": ""
+        "Name": "Sport Room",
+        "description": "Official Google My Maps Drawing for Sport Room"
       },
       "geometry": {
         "type": "Point",
@@ -19,7 +20,8 @@
       "type": "Feature",
       "properties": {
         "name": "UNION ROOM",
-        "description": ""
+        "Name": "UNION ROOM",
+        "description": "Official Google My Maps Drawing for UNION ROOM"
       },
       "geometry": {
         "type": "Point",
@@ -33,7 +35,8 @@
       "type": "Feature",
       "properties": {
         "name": "MTL HALL 04",
-        "description": ""
+        "Name": "MTL HALL 04",
+        "description": "Official Google My Maps Drawing for MTL HALL 04"
       },
       "geometry": {
         "type": "Polygon",
@@ -67,7 +70,8 @@
       "type": "Feature",
       "properties": {
         "name": "UNION ROOM",
-        "description": ""
+        "Name": "UNION ROOM",
+        "description": "Official Google My Maps Drawing for UNION ROOM"
       },
       "geometry": {
         "type": "Polygon",
@@ -101,7 +105,8 @@
       "type": "Feature",
       "properties": {
         "name": "SPORT ROOM",
-        "description": ""
+        "Name": "SPORT ROOM",
+        "description": "Official Google My Maps Drawing for SPORT ROOM"
       },
       "geometry": {
         "type": "Polygon",
@@ -135,7 +140,8 @@
       "type": "Feature",
       "properties": {
         "name": "MTL HALL 03",
-        "description": ""
+        "Name": "MTL HALL 03",
+        "description": "Official Google My Maps Drawing for MTL HALL 03"
       },
       "geometry": {
         "type": "Polygon",
@@ -169,7 +175,8 @@
       "type": "Feature",
       "properties": {
         "name": "LECTURERS WASHROOM",
-        "description": ""
+        "Name": "LECTURERS WASHROOM",
+        "description": "Official Google My Maps Drawing for LECTURERS WASHROOM"
       },
       "geometry": {
         "type": "Polygon",
@@ -203,7 +210,8 @@
       "type": "Feature",
       "properties": {
         "name": "CLASS ROOM 07",
-        "description": ""
+        "Name": "CLASS ROOM 07",
+        "description": "Official Google My Maps Drawing for CLASS ROOM 07"
       },
       "geometry": {
         "type": "Polygon",
@@ -237,7 +245,8 @@
       "type": "Feature",
       "properties": {
         "name": "VOLLY BALL COURT",
-        "description": ""
+        "Name": "VOLLY BALL COURT",
+        "description": "Official Google My Maps Drawing for VOLLY BALL COURT"
       },
       "geometry": {
         "type": "Polygon",
@@ -271,7 +280,8 @@
       "type": "Feature",
       "properties": {
         "name": "BADMINTON COURT",
-        "description": ""
+        "Name": "BADMINTON COURT",
+        "description": "Official Google My Maps Drawing for BADMINTON COURT"
       },
       "geometry": {
         "type": "Polygon",
@@ -305,7 +315,8 @@
       "type": "Feature",
       "properties": {
         "name": "LECTUERE'S ROOM",
-        "description": ""
+        "Name": "LECTUERE'S ROOM",
+        "description": "Official Google My Maps Drawing for LECTUERE'S ROOM"
       },
       "geometry": {
         "type": "Polygon",
@@ -339,7 +350,8 @@
       "type": "Feature",
       "properties": {
         "name": "TRAINING AND ACCOUNT DIVISION",
-        "description": ""
+        "Name": "TRAINING AND ACCOUNT DIVISION",
+        "description": "Official Google My Maps Drawing for TRAINING AND ACCOUNT DIVISION"
       },
       "geometry": {
         "type": "Polygon",
@@ -377,7 +389,8 @@
       "type": "Feature",
       "properties": {
         "name": "AUDITORIUM",
-        "description": ""
+        "Name": "AUDITORIUM",
+        "description": "Official Google My Maps Drawing for AUDITORIUM"
       },
       "geometry": {
         "type": "Polygon",
@@ -411,7 +424,8 @@
       "type": "Feature",
       "properties": {
         "name": "MTL HALL 02",
-        "description": ""
+        "Name": "MTL HALL 02",
+        "description": "Official Google My Maps Drawing for MTL HALL 02"
       },
       "geometry": {
         "type": "Polygon",
@@ -445,7 +459,8 @@
       "type": "Feature",
       "properties": {
         "name": "STORAGE ROOM",
-        "description": ""
+        "Name": "STORAGE ROOM",
+        "description": "Official Google My Maps Drawing for STORAGE ROOM"
       },
       "geometry": {
         "type": "Polygon",
@@ -479,7 +494,8 @@
       "type": "Feature",
       "properties": {
         "name": "MTL HALL 01",
-        "description": ""
+        "Name": "MTL HALL 01",
+        "description": "Official Google My Maps Drawing for MTL HALL 01"
       },
       "geometry": {
         "type": "Polygon",
@@ -513,7 +529,8 @@
       "type": "Feature",
       "properties": {
         "name": "CLASS ROOM 02",
-        "description": ""
+        "Name": "CLASS ROOM 02",
+        "description": "Official Google My Maps Drawing for CLASS ROOM 02"
       },
       "geometry": {
         "type": "Polygon",
@@ -547,7 +564,8 @@
       "type": "Feature",
       "properties": {
         "name": "CLASS ROOM 03",
-        "description": ""
+        "Name": "CLASS ROOM 03",
+        "description": "Official Google My Maps Drawing for CLASS ROOM 03"
       },
       "geometry": {
         "type": "Polygon",
@@ -581,7 +599,8 @@
       "type": "Feature",
       "properties": {
         "name": "DRAWING ROOM",
-        "description": ""
+        "Name": "DRAWING ROOM",
+        "description": "Official Google My Maps Drawing for DRAWING ROOM"
       },
       "geometry": {
         "type": "Polygon",
@@ -615,7 +634,8 @@
       "type": "Feature",
       "properties": {
         "name": "CLASS ROOM 04",
-        "description": ""
+        "Name": "CLASS ROOM 04",
+        "description": "Official Google My Maps Drawing for CLASS ROOM 04"
       },
       "geometry": {
         "type": "Polygon",
@@ -649,7 +669,8 @@
       "type": "Feature",
       "properties": {
         "name": "STUDENTS WASH ROOM",
-        "description": ""
+        "Name": "STUDENTS WASH ROOM",
+        "description": "Official Google My Maps Drawing for STUDENTS WASH ROOM"
       },
       "geometry": {
         "type": "Polygon",
@@ -683,7 +704,8 @@
       "type": "Feature",
       "properties": {
         "name": "TRANSPORT DIVISION",
-        "description": ""
+        "Name": "TRANSPORT DIVISION",
+        "description": "Official Google My Maps Drawing for TRANSPORT DIVISION"
       },
       "geometry": {
         "type": "Polygon",
@@ -717,7 +739,8 @@
       "type": "Feature",
       "properties": {
         "name": "IT LAB",
-        "description": ""
+        "Name": "IT LAB",
+        "description": "Official Google My Maps Drawing for IT LAB"
       },
       "geometry": {
         "type": "Polygon",
@@ -751,7 +774,8 @@
       "type": "Feature",
       "properties": {
         "name": "CHART ROOM",
-        "description": ""
+        "Name": "CHART ROOM",
+        "description": "Official Google My Maps Drawing for CHART ROOM"
       },
       "geometry": {
         "type": "Polygon",
@@ -785,7 +809,8 @@
       "type": "Feature",
       "properties": {
         "name": "WORKSHOP",
-        "description": ""
+        "Name": "WORKSHOP",
+        "description": "Official Google My Maps Drawing for WORKSHOP"
       },
       "geometry": {
         "type": "Polygon",
@@ -819,7 +844,8 @@
       "type": "Feature",
       "properties": {
         "name": "WELDING WORKSHOP",
-        "description": ""
+        "Name": "WELDING WORKSHOP",
+        "description": "Official Google My Maps Drawing for WELDING WORKSHOP"
       },
       "geometry": {
         "type": "Polygon",
@@ -853,7 +879,8 @@
       "type": "Feature",
       "properties": {
         "name": "CANTEEN",
-        "description": ""
+        "Name": "CANTEEN",
+        "description": "Official Google My Maps Drawing for CANTEEN"
       },
       "geometry": {
         "type": "Polygon",
@@ -887,7 +914,8 @@
       "type": "Feature",
       "properties": {
         "name": "GYM",
-        "description": ""
+        "Name": "GYM",
+        "description": "Official Google My Maps Drawing for GYM"
       },
       "geometry": {
         "type": "Polygon",
@@ -921,7 +949,8 @@
       "type": "Feature",
       "properties": {
         "name": "BOYS HOSTALS",
-        "description": ""
+        "Name": "BOYS HOSTALS",
+        "description": "Official Google My Maps Drawing for BOYS HOSTALS"
       },
       "geometry": {
         "type": "Polygon",
@@ -955,7 +984,8 @@
       "type": "Feature",
       "properties": {
         "name": "REGIONAL CENTER MATTAKKULIYA",
-        "description": ""
+        "Name": "REGIONAL CENTER MATTAKKULIYA",
+        "description": "Official Google My Maps Drawing for REGIONAL CENTER MATTAKKULIYA"
       },
       "geometry": {
         "type": "Polygon",
@@ -989,7 +1019,8 @@
       "type": "Feature",
       "properties": {
         "name": "CLASS ROOM 08",
-        "description": ""
+        "Name": "CLASS ROOM 08",
+        "description": "Official Google My Maps Drawing for CLASS ROOM 08"
       },
       "geometry": {
         "type": "Polygon",
@@ -1023,7 +1054,8 @@
       "type": "Feature",
       "properties": {
         "name": "LAB",
-        "description": ""
+        "Name": "LAB",
+        "description": "Official Google My Maps Drawing for LAB"
       },
       "geometry": {
         "type": "Polygon",
@@ -1057,7 +1089,8 @@
       "type": "Feature",
       "properties": {
         "name": "classrooms",
-        "description": ""
+        "Name": "classrooms",
+        "description": "Official Google My Maps Drawing for classrooms"
       },
       "geometry": {
         "type": "Polygon",
@@ -1091,7 +1124,8 @@
       "type": "Feature",
       "properties": {
         "name": "MTL HALL 04",
-        "description": "MTL LECTURE HALL 04"
+        "Name": "MTL HALL 04",
+        "description": "Official Google My Maps Drawing for MTL HALL 04"
       },
       "geometry": {
         "type": "Point",
@@ -1105,7 +1139,8 @@
       "type": "Feature",
       "properties": {
         "name": "Security Room",
-        "description": ""
+        "Name": "Security Room",
+        "description": "Official Google My Maps Drawing for Security Room"
       },
       "geometry": {
         "type": "Polygon",
