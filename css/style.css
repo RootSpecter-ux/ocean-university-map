@@ -1344,3 +1344,55 @@ body, html {
     padding: 8px 10px !important;
   }
 }
+
+/* Official Google Translate Plugin Dark Theme Integration */
+#google_translate_element {
+  display: inline-block !important;
+}
+
+.goog-te-gadget {
+  font-family: var(--font-body) !important;
+  font-size: 0.82rem !important;
+  color: #ffffff !important;
+}
+
+.goog-te-gadget .goog-te-combo {
+  background: rgba(15, 23, 42, 0.95) !important;
+  border: 1px solid var(--primary-500) !important;
+  color: #ffffff !important;
+  padding: 5px 10px !important;
+  border-radius: 12px !important;
+  font-size: 0.82rem !important;
+  font-weight: 600 !important;
+  outline: none !important;
+  cursor: pointer !important;
+}
+
+/* Hide Google Translate top banner frame & powered-by branding for clean UI */
+.goog-te-banner-frame.skiptranslate,
+iframe.goog-te-banner-frame {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
+}
+
+.goog-te-gadget-icon,
+.goog-te-gadget-simple img {
+  display: none !important;
+}
+
+.goog-te-gadget-simple {
+  background-color: rgba(15, 23, 42, 0.95) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  padding: 4px 10px !important;
+  border-radius: 16px !important;
+  font-size: 0.82rem !important;
+  color: #ffffff !important;
+  cursor: pointer !important;
+}
+
+.goog-te-menu-value span {
+  color: #ffffff !important;
+}

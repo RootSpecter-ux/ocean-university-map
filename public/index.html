@@ -51,14 +51,10 @@
       </div>
       
       <div class="navbar-actions">
-        <!-- Multi-Language Selector -->
-        <div class="lang-selector-wrapper">
-          <i class="fa-solid fa-globe lang-icon"></i>
-          <select id="lang-select" class="lang-selector" aria-label="Select Language" onchange="i18n.setLanguage(this.value)">
-            <option value="en">English</option>
-            <option value="si">සිංහල</option>
-            <option value="ta">தமிழ்</option>
-          </select>
+        <!-- Official Google Translate Plugin Widget -->
+        <div class="lang-selector-wrapper" style="display:flex; align-items:center; gap:6px;">
+          <i class="fa-solid fa-language lang-icon" style="color: #38bdf8; font-size: 1.1rem;"></i>
+          <div id="google_translate_element"></div>
         </div>
 
         <!-- Admin Portal Trigger Button -->
@@ -391,11 +387,23 @@
   </div>
 
   <!-- Application Scripts -->
-  <script src="js/leaflet.js?v=89.0.0"></script>
-  <script src="js/campus_data_fallback.js?v=89.0.0"></script>
-  <script src="js/i18n.js?v=89.0.0"></script>
-  <script src="js/routing.js?v=89.0.0"></script>
-  <script src="js/cms.js?v=89.0.0"></script>
-  <script src="js/app.js?v=89.0.0"></script>
+  <script src="js/leaflet.js?v=90.0.0"></script>
+  <script src="js/campus_data_fallback.js?v=90.0.0"></script>
+  <script src="js/i18n.js?v=90.0.0"></script>
+  <script src="js/routing.js?v=90.0.0"></script>
+  <script src="js/cms.js?v=90.0.0"></script>
+  <script src="js/app.js?v=90.0.0"></script>
+
+  <!-- Official Google Translate Plugin Initialization -->
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+        autoDisplay: false
+      }, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
