@@ -1560,3 +1560,122 @@ body {
   50% { width: 65%; }
   100% { width: 100%; }
 }
+
+/* Google My Maps Exact Popup Card Styling (Screenshot 2026-08-03 183624.png) */
+.leaflet-popup-content-wrapper {
+  background: #ffffff !important;
+  color: #0f172a !important;
+  border-radius: 12px !important;
+  padding: 0 !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25) !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+}
+
+.leaflet-popup-content {
+  margin: 0 !important;
+  line-height: 1.4 !important;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  top: 12px !important;
+  right: 14px !important;
+  color: #64748b !important;
+  font-size: 1.2rem !important;
+  font-weight: 700 !important;
+}
+
+.gmymaps-popup-card {
+  padding: 16px 18px 14px 18px !important;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+  min-width: 270px !important;
+  max-width: 310px !important;
+}
+
+.gmymaps-popup-header {
+  padding-right: 24px !important;
+  margin-bottom: 12px !important;
+}
+
+.gmymaps-popup-title {
+  font-size: 1.05rem !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
+  letter-spacing: 0.02em !important;
+  margin: 0 !important;
+  line-height: 1.3 !important;
+  text-transform: uppercase !important;
+}
+
+.gmymaps-popup-metrics {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  color: #64748b !important;
+  font-size: 0.82rem !important;
+  font-weight: 600 !important;
+  padding-top: 10px !important;
+  border-top: 1px solid #f1f5f9 !important;
+  margin-top: 10px !important;
+}
+
+.metrics-left {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+}
+
+.metrics-actions {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  color: #64748b !important;
+  font-size: 0.95rem !important;
+}
+
+.metrics-actions i {
+  cursor: pointer !important;
+  transition: color 0.2s ease !important;
+}
+
+.metrics-actions i:hover {
+  color: #1a73e8 !important;
+}
+
+.gmymaps-popup-buttons {
+  display: flex !important;
+  gap: 8px !important;
+  margin-top: 12px !important;
+}
+
+.gmymaps-btn-start {
+  flex: 1 !important;
+  background: #f1f5f9 !important;
+  color: #334155 !important;
+  border: 1px solid #cbd5e1 !important;
+  padding: 8px 12px !important;
+  border-radius: 8px !important;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 6px !important;
+}
+
+.gmymaps-btn-nav {
+  flex: 1.2 !important;
+  background: #1a73e8 !important;
+  color: #ffffff !important;
+  border: none !important;
+  padding: 8px 12px !important;
+  border-radius: 8px !important;
+  font-weight: 700 !important;
+  font-size: 0.82rem !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 6px !important;
+  box-shadow: 0 4px 12px rgba(26, 115, 232, 0.3) !important;
+}
