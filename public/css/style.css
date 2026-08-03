@@ -1396,3 +1396,107 @@ body {
 .goog-te-menu-value span {
   color: #ffffff !important;
 }
+
+/* ✨ Quick Automatic JS Welcome Splash Screen Overlay */
+.welcome-splash-overlay {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: 999999 !important;
+  background: radial-gradient(circle at center, #1e1b4b 0%, #0b0f19 100%) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1), transform 0.8s ease-out !important;
+}
+
+.splash-card {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+  padding: 30px 24px !important;
+  max-width: 440px !important;
+  width: 90% !important;
+}
+
+.splash-logo-circle {
+  width: 80px !important;
+  height: 80px !important;
+  background: linear-gradient(135deg, #6366f1, #06b6d4) !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 2.2rem !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 40px rgba(99, 102, 241, 0.6) !important;
+  margin-bottom: 20px !important;
+  animation: splashPulse 2s infinite ease-in-out !important;
+}
+
+.splash-compass-icon {
+  animation: splashSpin 12s infinite linear !important;
+}
+
+.splash-title {
+  font-family: var(--font-heading) !important;
+  font-size: 1.6rem !important;
+  font-weight: 800 !important;
+  color: #ffffff !important;
+  letter-spacing: -0.02em !important;
+  background: linear-gradient(135deg, #ffffff 30%, #38bdf8 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  margin-bottom: 8px !important;
+  animation: splashFadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards !important;
+}
+
+.splash-subtitle {
+  font-size: 0.88rem !important;
+  color: #94a3b8 !important;
+  font-weight: 500 !important;
+  margin-bottom: 24px !important;
+  animation: splashFadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards !important;
+}
+
+.splash-progress-track {
+  width: 100% !important;
+  height: 4px !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-radius: 2px !important;
+  overflow: hidden !important;
+}
+
+.splash-progress-bar {
+  width: 0% !important;
+  height: 100% !important;
+  background: linear-gradient(90deg, #6366f1, #38bdf8) !important;
+  border-radius: 2px !important;
+  animation: splashProgress 2.1s ease-in-out forwards !important;
+}
+
+@keyframes splashPulse {
+  0%, 100% { transform: scale(1); box-shadow: 0 0 30px rgba(99, 102, 241, 0.6); }
+  50% { transform: scale(1.08); box-shadow: 0 0 50px rgba(56, 189, 248, 0.8); }
+}
+
+@keyframes splashSpin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes splashFadeUp {
+  0% { opacity: 0; transform: translateY(15px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes splashProgress {
+  0% { width: 0%; }
+  50% { width: 65%; }
+  100% { width: 100%; }
+}

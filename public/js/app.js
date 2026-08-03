@@ -57,8 +57,25 @@ document.addEventListener('DOMContentLoaded', async () => {
   const adminPasscode = document.getElementById('admin-passcode');
   const adminLoginBtn = document.getElementById('admin-login-btn');
 
+  // Automatic Welcome Splash Screen Animation Controller
+  function initWelcomeSplashScreen() {
+    const splashOverlay = document.getElementById('welcome-splash-overlay');
+    if (!splashOverlay) return;
+
+    setTimeout(() => {
+      splashOverlay.style.opacity = '0';
+      splashOverlay.style.transform = 'scale(1.05)';
+      setTimeout(() => {
+        if (splashOverlay && splashOverlay.parentNode) {
+          splashOverlay.parentNode.removeChild(splashOverlay);
+        }
+      }, 800);
+    }, 2200);
+  }
+
   // Initialize Application
   async function init() {
+    initWelcomeSplashScreen();
     initMap();
     
     // Always assign in-memory embedded dataset synchronously on startup
