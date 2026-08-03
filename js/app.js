@@ -79,8 +79,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     initMap();
     
     // Always assign in-memory embedded dataset synchronously on startup
-    campusData = EMBEDDED_CAMPUS_DATA || window.FALLBACK_CAMPUS_DATA;
-    rawGeoJSON = EMBEDDED_GEOJSON_DRAWINGS || window.FALLBACK_RAW_GEOJSON;
+    campusData = window.FALLBACK_CAMPUS_DATA || (typeof EMBEDDED_CAMPUS_DATA !== 'undefined' ? EMBEDDED_CAMPUS_DATA : null);
+    rawGeoJSON = window.EMBEDDED_GEOJSON_DRAWINGS || (typeof EMBEDDED_GEOJSON_DRAWINGS !== 'undefined' ? EMBEDDED_GEOJSON_DRAWINGS : null);
 
     if (campusData && campusData.graph) {
       router = new CampusRouter(campusData.graph.nodes, campusData.graph.edges);
