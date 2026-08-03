@@ -317,7 +317,9 @@ document.addEventListener('DOMContentLoaded', async () => {
       userAccuracyCircle.setRadius(accuracy);
     }
 
-    if (currentDestLoc) {
+    // Smoothly pan map camera to follow user's live position during active navigation (like Google Maps)
+    if (currentDestLoc && map) {
+      map.panTo([lat, lon], { animate: true, duration: 0.5 });
       recalculateLiveRoute();
     }
   }
