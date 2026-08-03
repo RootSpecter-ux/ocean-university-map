@@ -19,7 +19,22 @@ class CampusRouter {
       this.adjacency[id] = [];
     });
 
-    if (!Array.isArray(this.edges)) return;
+    // Auto-generate spatial proximity edges if no explicit edges provided in campus_data.json
+    if (!Array.isArray(this.edges) || this.edges.length === 0) {
+      const nodeKeys = Object.keys(this.nodes);
+      for (let i = 0; i < nodeKeys.length; i++) {
+        for (let j = i + 1; j < nodeKeys.length; j++) {
+          const n1 = this.nodes[nodeKeys[i]];
+          const n2 = this.nodes[nodeKeys[j]];
+          if (n1 && n2 && n1.lat && n1.lon && n2.lat && n2.lon) {
+            const dist = Math.round(this.haversine(n1.lat, n1.lon, n2.lat, n2.lon));
+            this.adjacency[n1.id].push({ target: n2.id, distance: dist, isAccessible: true });
+            this.adjacency[n2.id].push({ target: n1.id, distance: dist, isAccessible: true });
+          }
+        }
+      }
+      return;
+    }
 
     this.edges.forEach(edge => {
       const from = edge.from || edge.source;

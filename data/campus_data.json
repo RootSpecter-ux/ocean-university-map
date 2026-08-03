@@ -477,3600 +477,3598 @@
       }
     }
   ],
-  "graph": {
-    "nodes": {
-      "sport_room": {
-        "id": "sport_room",
-        "name": "SPORT ROOM",
-        "lat": 6.974967,
-        "lon": 79.871751,
-        "accessible": true
-      },
-      "union_room": {
-        "id": "union_room",
-        "name": "UNION ROOM",
-        "lat": 6.974925,
-        "lon": 79.871756,
-        "accessible": true
-      },
-      "mtl_hall_04": {
-        "id": "mtl_hall_04",
-        "name": "MTL HALL 04",
-        "lat": 6.97495,
-        "lon": 79.871835,
-        "accessible": true
-      },
-      "mtl_hall_03": {
-        "id": "mtl_hall_03",
-        "name": "MTL HALL 03",
-        "lat": 6.975017,
-        "lon": 79.872136,
-        "accessible": true
-      },
-      "lecturers_washroom": {
-        "id": "lecturers_washroom",
-        "name": "LECTURERS WASHROOM",
-        "lat": 6.975025,
-        "lon": 79.872181,
-        "accessible": true
-      },
-      "class_room_07": {
-        "id": "class_room_07",
-        "name": "CLASS ROOM 07",
-        "lat": 6.975032,
-        "lon": 79.872228,
-        "accessible": true
-      },
-      "volly_ball_court": {
-        "id": "volly_ball_court",
-        "name": "VOLLY BALL COURT",
-        "lat": 6.975081,
-        "lon": 79.872339,
-        "accessible": true
-      },
-      "badminton_court": {
-        "id": "badminton_court",
-        "name": "BADMINTON COURT",
-        "lat": 6.975122,
-        "lon": 79.871982,
-        "accessible": true
-      },
-      "lectueres_room": {
-        "id": "lectueres_room",
-        "name": "LECTUERE'S ROOM",
-        "lat": 6.974975,
-        "lon": 79.871961,
-        "accessible": true
-      },
-      "training_and_account_division": {
-        "id": "training_and_account_division",
-        "name": "TRAINING AND ACCOUNT DIVISION",
-        "lat": 6.975271,
-        "lon": 79.871749,
-        "accessible": true
-      },
-      "auditorium": {
-        "id": "auditorium",
-        "name": "AUDITORIUM",
-        "lat": 6.975307,
-        "lon": 79.871853,
-        "accessible": true
-      },
-      "mtl_hall_02": {
-        "id": "mtl_hall_02",
-        "name": "MTL HALL 02",
-        "lat": 6.975284,
-        "lon": 79.871976,
-        "accessible": true
-      },
-      "storage_room": {
-        "id": "storage_room",
-        "name": "STORAGE ROOM",
-        "lat": 6.975277,
-        "lon": 79.871932,
-        "accessible": true
-      },
-      "mtl_hall_01": {
-        "id": "mtl_hall_01",
-        "name": "MTL HALL 01",
-        "lat": 6.975216,
-        "lon": 79.872489,
-        "accessible": true
-      },
-      "class_room_02": {
-        "id": "class_room_02",
-        "name": "CLASS ROOM 02",
-        "lat": 6.975211,
-        "lon": 79.872391,
-        "accessible": true
-      },
-      "class_room_03": {
-        "id": "class_room_03",
-        "name": "CLASS ROOM 03",
-        "lat": 6.9752,
-        "lon": 79.872326,
-        "accessible": true
-      },
-      "drawing_room": {
-        "id": "drawing_room",
-        "name": "DRAWING ROOM",
-        "lat": 6.975187,
-        "lon": 79.872236,
-        "accessible": true
-      },
-      "class_room_04": {
-        "id": "class_room_04",
-        "name": "CLASS ROOM 04",
-        "lat": 6.975172,
-        "lon": 79.872135,
-        "accessible": true
-      },
-      "students_wash_room": {
-        "id": "students_wash_room",
-        "name": "STUDENTS WASH ROOM",
-        "lat": 6.975247,
-        "lon": 79.872123,
-        "accessible": true
-      },
-      "transport_division": {
-        "id": "transport_division",
-        "name": "TRANSPORT DIVISION",
-        "lat": 6.975272,
-        "lon": 79.872121,
-        "accessible": true
-      },
-      "it_lab": {
-        "id": "it_lab",
-        "name": "IT LAB",
-        "lat": 6.975313,
-        "lon": 79.872116,
-        "accessible": true
-      },
-      "chart_room": {
-        "id": "chart_room",
-        "name": "CHART ROOM",
-        "lat": 6.975378,
-        "lon": 79.872105,
-        "accessible": true
-      },
-      "workshop": {
-        "id": "workshop",
-        "name": "WORKSHOP",
-        "lat": 6.975516,
-        "lon": 79.871993,
-        "accessible": true
-      },
-      "welding_workshop": {
-        "id": "welding_workshop",
-        "name": "WELDING WORKSHOP",
-        "lat": 6.975661,
-        "lon": 79.872153,
-        "accessible": true
-      },
-      "canteen": {
-        "id": "canteen",
-        "name": "CANTEEN",
-        "lat": 6.97567,
-        "lon": 79.871643,
-        "accessible": true
-      },
-      "gym": {
-        "id": "gym",
-        "name": "GYM",
-        "lat": 6.975828,
-        "lon": 79.871616,
-        "accessible": true
-      },
-      "boys_hostals": {
-        "id": "boys_hostals",
-        "name": "BOYS HOSTALS",
-        "lat": 6.975762,
-        "lon": 79.87183,
-        "accessible": true
-      },
-      "regional_center_mattakkuliya": {
-        "id": "regional_center_mattakkuliya",
-        "name": "REGIONAL CENTER MATTAKKULIYA",
-        "lat": 6.976034,
-        "lon": 79.87184,
-        "accessible": true
-      },
-      "class_room_08": {
-        "id": "class_room_08",
-        "name": "CLASS ROOM 08",
-        "lat": 6.974928,
-        "lon": 79.872288,
-        "accessible": true
-      },
-      "lab": {
-        "id": "lab",
-        "name": "LAB",
-        "lat": 6.974902,
-        "lon": 79.87214,
-        "accessible": true
-      },
-      "classrooms": {
-        "id": "classrooms",
-        "name": "classrooms",
-        "lat": 6.975126,
-        "lon": 79.871873,
-        "accessible": true
-      },
-      "security_room": {
-        "id": "security_room",
-        "name": "Security Room",
-        "lat": 6.974777,
-        "lon": 79.871803,
-        "accessible": true
-      }
+  "nodes": {
+    "sport_room": {
+      "id": "sport_room",
+      "name": "SPORT ROOM",
+      "lat": 6.974967,
+      "lon": 79.871751,
+      "accessible": true
     },
-    "edges": [
-      {
-        "from": "sport_room",
-        "to": "union_room",
-        "weight": 5.4,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "mtl_hall_04",
-        "weight": 11.8,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "union_room",
-        "weight": 5.7,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "sport_room",
-        "weight": 2.2,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "mtl_hall_03",
-        "weight": 45.3,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "lecturers_washroom",
-        "weight": 50.3,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "class_room_07",
-        "weight": 55.6,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "volly_ball_court",
-        "weight": 68.6,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "badminton_court",
-        "weight": 32.6,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "lectueres_room",
-        "weight": 25.5,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "training_and_account_division",
-        "weight": 33.5,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "auditorium",
-        "weight": 39.8,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "mtl_hall_02",
-        "weight": 44.2,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "storage_room",
-        "weight": 40.7,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "mtl_hall_01",
-        "weight": 88.5,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "class_room_02",
-        "weight": 78.0,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "class_room_03",
-        "weight": 70.8,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "drawing_room",
-        "weight": 61.0,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "class_room_04",
-        "weight": 50.1,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "students_wash_room",
-        "weight": 53.3,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "transport_division",
-        "weight": 54.8,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "it_lab",
-        "weight": 57.2,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "chart_room",
-        "weight": 61.4,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "workshop",
-        "weight": 67.2,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "welding_workshop",
-        "weight": 89.9,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "canteen",
-        "weight": 78.3,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "gym",
-        "weight": 96.1,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "boys_hostals",
-        "weight": 88.6,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "regional_center_mattakkuliya",
-        "weight": 118.7,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "class_room_08",
-        "weight": 62.0,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "lab",
-        "weight": 46.0,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "classrooms",
-        "weight": 23.4,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "security_room",
-        "weight": 22.9,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "mtl_hall_04",
-        "weight": 12.7,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "union_room",
-        "weight": 3.6,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "sport_room",
-        "weight": 5.8,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "mtl_hall_03",
-        "weight": 46.9,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "lecturers_washroom",
-        "weight": 52.0,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "class_room_07",
-        "weight": 57.3,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "volly_ball_court",
-        "weight": 70.5,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "badminton_court",
-        "weight": 36.2,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "lectueres_room",
-        "weight": 27.0,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "training_and_account_division",
-        "weight": 38.8,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "auditorium",
-        "weight": 45.1,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "mtl_hall_02",
-        "weight": 49.0,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "storage_room",
-        "weight": 45.7,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "mtl_hall_01",
-        "weight": 91.0,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "class_room_02",
-        "weight": 80.7,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "class_room_03",
-        "weight": 73.6,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "drawing_room",
-        "weight": 64.0,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "class_room_04",
-        "weight": 53.4,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "students_wash_room",
-        "weight": 57.1,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "transport_division",
-        "weight": 58.7,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "it_lab",
-        "weight": 61.5,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "chart_room",
-        "weight": 66.0,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "workshop",
-        "weight": 72.4,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "welding_workshop",
-        "weight": 94.8,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "canteen",
-        "weight": 83.5,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "gym",
-        "weight": 101.3,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "boys_hostals",
-        "weight": 94.0,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "regional_center_mattakkuliya",
-        "weight": 124.1,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "class_room_08",
-        "weight": 62.6,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "lab",
-        "weight": 46.2,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "classrooms",
-        "weight": 28.0,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "security_room",
-        "weight": 18.3,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "union_room",
-        "weight": 9.2,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "sport_room",
-        "weight": 9.5,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "mtl_hall_03",
-        "weight": 34.2,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "lecturers_washroom",
-        "weight": 39.3,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "class_room_07",
-        "weight": 44.6,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "volly_ball_court",
-        "weight": 57.8,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "badminton_court",
-        "weight": 25.1,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "lectueres_room",
-        "weight": 14.3,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "training_and_account_division",
-        "weight": 36.9,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "auditorium",
-        "weight": 39.7,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "mtl_hall_02",
-        "weight": 40.2,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "storage_room",
-        "weight": 37.9,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "mtl_hall_01",
-        "weight": 78.4,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "class_room_02",
-        "weight": 68.2,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "class_room_03",
-        "weight": 61.2,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "drawing_room",
-        "weight": 51.7,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "class_room_04",
-        "weight": 41.4,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "students_wash_room",
-        "weight": 45.9,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "transport_division",
-        "weight": 47.8,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "it_lab",
-        "weight": 51.0,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "chart_room",
-        "weight": 56.2,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "workshop",
-        "weight": 65.2,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "welding_workshop",
-        "weight": 86.5,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "canteen",
-        "weight": 82.7,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "gym",
-        "weight": 100.4,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "boys_hostals",
-        "weight": 90.1,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "regional_center_mattakkuliya",
-        "weight": 120.3,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "class_room_08",
-        "weight": 50.3,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "lab",
-        "weight": 34.3,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "classrooms",
-        "weight": 20.0,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_04",
-        "to": "security_room",
-        "weight": 19.5,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "sport_room",
-        "weight": 4.7,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "mtl_hall_03",
-        "weight": 43.4,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "lecturers_washroom",
-        "weight": 48.5,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "class_room_07",
-        "weight": 53.7,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "volly_ball_court",
-        "weight": 67.0,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "badminton_court",
-        "weight": 33.3,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "lectueres_room",
-        "weight": 23.4,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "training_and_account_division",
-        "weight": 38.4,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "auditorium",
-        "weight": 43.7,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "mtl_hall_02",
-        "weight": 46.7,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "storage_room",
-        "weight": 43.7,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "mtl_hall_01",
-        "weight": 87.5,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "class_room_02",
-        "weight": 77.3,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "class_room_03",
-        "weight": 70.2,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "drawing_room",
-        "weight": 60.7,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "class_room_04",
-        "weight": 50.2,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "students_wash_room",
-        "weight": 54.2,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "transport_division",
-        "weight": 55.9,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "it_lab",
-        "weight": 58.8,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "chart_room",
-        "weight": 63.5,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "workshop",
-        "weight": 70.7,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "welding_workshop",
-        "weight": 92.8,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "canteen",
-        "weight": 83.6,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "gym",
-        "weight": 101.4,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "boys_hostals",
-        "weight": 93.3,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "regional_center_mattakkuliya",
-        "weight": 123.5,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "class_room_08",
-        "weight": 59.1,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "lab",
-        "weight": 42.7,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "classrooms",
-        "weight": 25.8,
-        "accessible": true
-      },
-      {
-        "from": "union_room",
-        "to": "security_room",
-        "weight": 17.2,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "mtl_hall_03",
-        "weight": 43.1,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "lecturers_washroom",
-        "weight": 48.2,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "class_room_07",
-        "weight": 53.4,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "volly_ball_court",
-        "weight": 66.5,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "badminton_court",
-        "weight": 30.9,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "lectueres_room",
-        "weight": 23.3,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "training_and_account_division",
-        "weight": 33.7,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "auditorium",
-        "weight": 39.4,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "mtl_hall_02",
-        "weight": 43.1,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "storage_room",
-        "weight": 39.8,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "mtl_hall_01",
-        "weight": 86.5,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "class_room_02",
-        "weight": 76.0,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "class_room_03",
-        "weight": 68.9,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "drawing_room",
-        "weight": 59.1,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "class_room_04",
-        "weight": 48.3,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "students_wash_room",
-        "weight": 51.7,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "transport_division",
-        "weight": 53.2,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "it_lab",
-        "weight": 55.8,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "chart_room",
-        "weight": 60.2,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "workshop",
-        "weight": 66.6,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "welding_workshop",
-        "weight": 89.0,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "canteen",
-        "weight": 78.9,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "gym",
-        "weight": 96.7,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "boys_hostals",
-        "weight": 88.7,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "regional_center_mattakkuliya",
-        "weight": 118.8,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "class_room_08",
-        "weight": 59.8,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "lab",
-        "weight": 43.8,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "classrooms",
-        "weight": 22.2,
-        "accessible": true
-      },
-      {
-        "from": "sport_room",
-        "to": "security_room",
-        "weight": 21.9,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "lecturers_washroom",
-        "weight": 5.1,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "class_room_07",
-        "weight": 10.3,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "volly_ball_court",
-        "weight": 23.6,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "badminton_court",
-        "weight": 20.7,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "lectueres_room",
-        "weight": 20.0,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "training_and_account_division",
-        "weight": 51.4,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "auditorium",
-        "weight": 45.0,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "mtl_hall_02",
-        "weight": 34.6,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "storage_room",
-        "weight": 36.7,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "mtl_hall_01",
-        "weight": 45.0,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "class_room_02",
-        "weight": 35.6,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "class_room_03",
-        "weight": 29.3,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "drawing_room",
-        "weight": 21.9,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "class_room_04",
-        "weight": 17.2,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "students_wash_room",
-        "weight": 25.6,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "transport_division",
-        "weight": 28.4,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "it_lab",
-        "weight": 32.9,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "chart_room",
-        "weight": 40.2,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "workshop",
-        "weight": 57.6,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "welding_workshop",
-        "weight": 71.5,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "canteen",
-        "weight": 90.8,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "gym",
-        "weight": 106.9,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "boys_hostals",
-        "weight": 89.4,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "regional_center_mattakkuliya",
-        "weight": 117.6,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "class_room_08",
-        "weight": 19.6,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "lab",
-        "weight": 12.8,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "classrooms",
-        "weight": 31.6,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_03",
-        "to": "security_room",
-        "weight": 45.6,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "class_room_07",
-        "weight": 5.3,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "volly_ball_court",
-        "weight": 18.6,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "badminton_court",
-        "weight": 24.6,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "lectueres_room",
-        "weight": 25.0,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "training_and_account_division",
-        "weight": 55.2,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "auditorium",
-        "weight": 48.0,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "mtl_hall_02",
-        "weight": 36.7,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "storage_room",
-        "weight": 39.3,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "mtl_hall_01",
-        "weight": 40.2,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "class_room_02",
-        "weight": 31.1,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "class_room_03",
-        "weight": 25.2,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "drawing_room",
-        "weight": 19.0,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "class_room_04",
-        "weight": 17.1,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "students_wash_room",
-        "weight": 25.5,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "transport_division",
-        "weight": 28.2,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "it_lab",
-        "weight": 32.8,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "chart_room",
-        "weight": 40.1,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "workshop",
-        "weight": 58.4,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "welding_workshop",
-        "weight": 70.7,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "canteen",
-        "weight": 93.2,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "gym",
-        "weight": 109.0,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "boys_hostals",
-        "weight": 90.6,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "regional_center_mattakkuliya",
-        "weight": 118.2,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "class_room_08",
-        "weight": 16.0,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "lab",
-        "weight": 14.4,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "classrooms",
-        "weight": 36.0,
-        "accessible": true
-      },
-      {
-        "from": "lecturers_washroom",
-        "to": "security_room",
-        "weight": 50.2,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "volly_ball_court",
-        "weight": 13.5,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "badminton_court",
-        "weight": 29.1,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "lectueres_room",
-        "weight": 30.3,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "training_and_account_division",
-        "weight": 59.4,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "auditorium",
-        "weight": 51.6,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "mtl_hall_02",
-        "weight": 39.6,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "storage_room",
-        "weight": 42.7,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "mtl_hall_01",
-        "weight": 35.4,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "class_room_02",
-        "weight": 26.9,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "class_room_03",
-        "weight": 21.6,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "drawing_room",
-        "weight": 17.2,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "class_room_04",
-        "weight": 18.7,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "students_wash_room",
-        "weight": 26.6,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "transport_division",
-        "weight": 29.2,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "it_lab",
-        "weight": 33.6,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "chart_room",
-        "weight": 40.8,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "workshop",
-        "weight": 59.7,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "welding_workshop",
-        "weight": 70.3,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "canteen",
-        "weight": 96.1,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "gym",
-        "weight": 111.5,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "boys_hostals",
-        "weight": 92.3,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "regional_center_mattakkuliya",
-        "weight": 119.3,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "class_room_08",
-        "weight": 13.3,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "lab",
-        "weight": 17.4,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "classrooms",
-        "weight": 40.8,
-        "accessible": true
-      },
-      {
-        "from": "class_room_07",
-        "to": "security_room",
-        "weight": 55.0,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "badminton_court",
-        "weight": 39.9,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "lectueres_room",
-        "weight": 43.6,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "training_and_account_division",
-        "weight": 68.8,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "auditorium",
-        "weight": 59.5,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "mtl_hall_02",
-        "weight": 46.2,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "storage_room",
-        "weight": 50.1,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "mtl_hall_01",
-        "weight": 22.4,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "class_room_02",
-        "weight": 15.5,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "class_room_03",
-        "weight": 13.3,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "drawing_room",
-        "weight": 16.4,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "class_room_04",
-        "weight": 24.8,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "students_wash_room",
-        "weight": 30.2,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "transport_division",
-        "weight": 32.2,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "it_lab",
-        "weight": 35.7,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "chart_room",
-        "weight": 42.0,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "workshop",
-        "weight": 61.7,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "welding_workshop",
-        "weight": 67.6,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "canteen",
-        "weight": 101.2,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "gym",
-        "weight": 115.4,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "boys_hostals",
-        "weight": 94.4,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "regional_center_mattakkuliya",
-        "weight": 119.4,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "class_room_08",
-        "weight": 17.9,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "lab",
-        "weight": 29.7,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "classrooms",
-        "weight": 52.0,
-        "accessible": true
-      },
-      {
-        "from": "volly_ball_court",
-        "to": "security_room",
-        "weight": 68.4,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "lectueres_room",
-        "weight": 16.5,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "training_and_account_division",
-        "weight": 30.7,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "auditorium",
-        "weight": 25.0,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "mtl_hall_02",
-        "weight": 18.0,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "storage_room",
-        "weight": 18.1,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "mtl_hall_01",
-        "weight": 57.2,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "class_room_02",
-        "weight": 46.5,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "class_room_03",
-        "weight": 39.2,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "drawing_room",
-        "weight": 29.1,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "class_room_04",
-        "weight": 17.9,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "students_wash_room",
-        "weight": 20.9,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "transport_division",
-        "weight": 22.7,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "it_lab",
-        "weight": 25.9,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "chart_room",
-        "weight": 31.5,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "workshop",
-        "weight": 43.8,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "welding_workshop",
-        "weight": 62.8,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "canteen",
-        "weight": 71.5,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "gym",
-        "weight": 88.3,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "boys_hostals",
-        "weight": 73.0,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "regional_center_mattakkuliya",
-        "weight": 102.5,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "class_room_08",
-        "weight": 40.2,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "lab",
-        "weight": 30.1,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "classrooms",
-        "weight": 12.1,
-        "accessible": true
-      },
-      {
-        "from": "badminton_court",
-        "to": "security_room",
-        "weight": 43.1,
-        "accessible": true
-      },
-      {
-        "from": "lectueres_room",
-        "to": "training_and_account_division",
-        "weight": 40.4,
-        "accessible": true
-      },
-      {
-        "from": "lectueres_room",
-        "to": "auditorium",
-        "weight": 38.8,
-        "accessible": true
-      },
-      {
-        "from": "lectueres_room",
-        "to": "mtl_hall_02",
-        "weight": 34.3,
-        "accessible": true
-      },
-      {
-        "from": "lectueres_room",
-        "to": "storage_room",
-        "weight": 33.7,
-        "accessible": true
-      },
-      {
-        "from": "lectueres_room",
-        "to": "mtl_hall_01",
-        "weight": 64.4,
-        "accessible": true
-      },
-      {
-        "from": "lectueres_room",
-        "to": "class_room_02",
-        "weight": 54.4,
-        "accessible": true
-      },
-      {
-        "from": "lectueres_room",
-        "to": "class_room_03",
-        "weight": 47.6,
-        "accessible": true
-      },
-      {
-        "from": "lectueres_room",
-        "to": "drawing_room",
-        "weight": 38.5,
-        "accessible": true
-      },
-      {
-        "from": "lectueres_room",
-        "to": "class_room_04",
-        "weight": 29.2,
-        "accessible": true
-      },
-      {
-        "from": "lectueres_room",
-        "to": "students_wash_room",
-        "weight": 35.1,
-        "accessible": true
-      },
-      {
-        "from": "lectueres_room",
-        "to": "transport_division",
-        "weight": 37.4,
-        "accessible": true
-      },
-      {
-        "from": "lectueres_room",
-        "to": "it_lab",
-        "weight": 41.3,
-        "accessible": true
-      },
-      {
-        "from": "lectueres_room",
-        "to": "chart_room",
-        "weight": 47.5,
-        "accessible": true
-      },
-      {
-        "from": "lectueres_room",
-        "to": "workshop",
-        "weight": 60.2,
-        "accessible": true
-      },
-      {
-        "from": "lectueres_room",
-        "to": "welding_workshop",
-        "weight": 79.1,
-        "accessible": true
-      },
-      {
-        "from": "lectueres_room",
-        "to": "canteen",
-        "weight": 84.8,
-        "accessible": true
-      },
-      {
-        "from": "lectueres_room",
-        "to": "gym",
-        "weight": 102.1,
-        "accessible": true
-      },
-      {
-        "from": "lectueres_room",
-        "to": "boys_hostals",
-        "weight": 88.6,
-        "accessible": true
-      },
-      {
-        "from": "lectueres_room",
-        "to": "regional_center_mattakkuliya",
-        "weight": 118.3,
-        "accessible": true
-      },
-      {
-        "from": "lectueres_room",
-        "to": "class_room_08",
-        "weight": 36.7,
-        "accessible": true
-      },
-      {
-        "from": "lectueres_room",
-        "to": "lab",
-        "weight": 21.5,
-        "accessible": true
-      },
-      {
-        "from": "lectueres_room",
-        "to": "classrooms",
-        "weight": 19.4,
-        "accessible": true
-      },
-      {
-        "from": "lectueres_room",
-        "to": "security_room",
-        "weight": 28.1,
-        "accessible": true
-      },
-      {
-        "from": "training_and_account_division",
-        "to": "auditorium",
-        "weight": 12.2,
-        "accessible": true
-      },
-      {
-        "from": "training_and_account_division",
-        "to": "mtl_hall_02",
-        "weight": 25.2,
-        "accessible": true
-      },
-      {
-        "from": "training_and_account_division",
-        "to": "storage_room",
-        "weight": 20.3,
-        "accessible": true
-      },
-      {
-        "from": "training_and_account_division",
-        "to": "mtl_hall_01",
-        "weight": 82.4,
-        "accessible": true
-      },
-      {
-        "from": "training_and_account_division",
-        "to": "class_room_02",
-        "weight": 71.6,
-        "accessible": true
-      },
-      {
-        "from": "training_and_account_division",
-        "to": "class_room_03",
-        "weight": 64.5,
-        "accessible": true
-      },
-      {
-        "from": "training_and_account_division",
-        "to": "drawing_room",
-        "weight": 54.9,
-        "accessible": true
-      },
-      {
-        "from": "training_and_account_division",
-        "to": "class_room_04",
-        "weight": 44.2,
-        "accessible": true
-      },
-      {
-        "from": "training_and_account_division",
-        "to": "students_wash_room",
-        "weight": 41.6,
-        "accessible": true
-      },
-      {
-        "from": "training_and_account_division",
-        "to": "transport_division",
-        "weight": 41.3,
-        "accessible": true
-      },
-      {
-        "from": "training_and_account_division",
-        "to": "it_lab",
-        "weight": 41.0,
-        "accessible": true
-      },
-      {
-        "from": "training_and_account_division",
-        "to": "chart_room",
-        "weight": 41.3,
-        "accessible": true
-      },
-      {
-        "from": "training_and_account_division",
-        "to": "workshop",
-        "weight": 38.4,
-        "accessible": true
-      },
-      {
-        "from": "training_and_account_division",
-        "to": "welding_workshop",
-        "weight": 62.3,
-        "accessible": true
-      },
-      {
-        "from": "training_and_account_division",
-        "to": "canteen",
-        "weight": 45.8,
-        "accessible": true
-      },
-      {
-        "from": "training_and_account_division",
-        "to": "gym",
-        "weight": 63.6,
-        "accessible": true
-      },
-      {
-        "from": "training_and_account_division",
-        "to": "boys_hostals",
-        "weight": 55.2,
-        "accessible": true
-      },
-      {
-        "from": "training_and_account_division",
-        "to": "regional_center_mattakkuliya",
-        "weight": 85.3,
-        "accessible": true
-      },
-      {
-        "from": "training_and_account_division",
-        "to": "class_room_08",
-        "weight": 70.9,
-        "accessible": true
-      },
-      {
-        "from": "training_and_account_division",
-        "to": "lab",
-        "weight": 59.7,
-        "accessible": true
-      },
-      {
-        "from": "training_and_account_division",
-        "to": "classrooms",
-        "weight": 21.2,
-        "accessible": true
-      },
-      {
-        "from": "training_and_account_division",
-        "to": "security_room",
-        "weight": 55.2,
-        "accessible": true
-      },
-      {
-        "from": "auditorium",
-        "to": "mtl_hall_02",
-        "weight": 13.9,
-        "accessible": true
-      },
-      {
-        "from": "auditorium",
-        "to": "storage_room",
-        "weight": 9.4,
-        "accessible": true
-      },
-      {
-        "from": "auditorium",
-        "to": "mtl_hall_01",
-        "weight": 71.3,
-        "accessible": true
-      },
-      {
-        "from": "auditorium",
-        "to": "class_room_02",
-        "weight": 60.7,
-        "accessible": true
-      },
-      {
-        "from": "auditorium",
-        "to": "class_room_03",
-        "weight": 53.8,
-        "accessible": true
-      },
-      {
-        "from": "auditorium",
-        "to": "drawing_room",
-        "weight": 44.6,
-        "accessible": true
-      },
-      {
-        "from": "auditorium",
-        "to": "class_room_04",
-        "weight": 34.7,
-        "accessible": true
-      },
-      {
-        "from": "auditorium",
-        "to": "students_wash_room",
-        "weight": 30.7,
-        "accessible": true
-      },
-      {
-        "from": "auditorium",
-        "to": "transport_division",
-        "weight": 30.0,
-        "accessible": true
-      },
-      {
-        "from": "auditorium",
-        "to": "it_lab",
-        "weight": 29.2,
-        "accessible": true
-      },
-      {
-        "from": "auditorium",
-        "to": "chart_room",
-        "weight": 29.1,
-        "accessible": true
-      },
-      {
-        "from": "auditorium",
-        "to": "workshop",
-        "weight": 27.9,
-        "accessible": true
-      },
-      {
-        "from": "auditorium",
-        "to": "welding_workshop",
-        "weight": 51.5,
-        "accessible": true
-      },
-      {
-        "from": "auditorium",
-        "to": "canteen",
-        "weight": 46.5,
-        "accessible": true
-      },
-      {
-        "from": "auditorium",
-        "to": "gym",
-        "weight": 63.5,
-        "accessible": true
-      },
-      {
-        "from": "auditorium",
-        "to": "boys_hostals",
-        "weight": 50.6,
-        "accessible": true
-      },
-      {
-        "from": "auditorium",
-        "to": "regional_center_mattakkuliya",
-        "weight": 80.7,
-        "accessible": true
-      },
-      {
-        "from": "auditorium",
-        "to": "class_room_08",
-        "weight": 64.0,
-        "accessible": true
-      },
-      {
-        "from": "auditorium",
-        "to": "lab",
-        "weight": 55.1,
-        "accessible": true
-      },
-      {
-        "from": "auditorium",
-        "to": "classrooms",
-        "weight": 20.2,
-        "accessible": true
-      },
-      {
-        "from": "auditorium",
-        "to": "security_room",
-        "weight": 59.1,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_02",
-        "to": "storage_room",
-        "weight": 4.9,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_02",
-        "to": "mtl_hall_01",
-        "weight": 57.4,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_02",
-        "to": "class_room_02",
-        "weight": 46.8,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_02",
-        "to": "class_room_03",
-        "weight": 40.0,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_02",
-        "to": "drawing_room",
-        "weight": 30.8,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_02",
-        "to": "class_room_04",
-        "weight": 21.6,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_02",
-        "to": "students_wash_room",
-        "weight": 16.8,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_02",
-        "to": "transport_division",
-        "weight": 16.2,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_02",
-        "to": "it_lab",
-        "weight": 15.9,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_02",
-        "to": "chart_room",
-        "weight": 17.7,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_02",
-        "to": "workshop",
-        "weight": 25.8,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_02",
-        "to": "welding_workshop",
-        "weight": 46.2,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_02",
-        "to": "canteen",
-        "weight": 56.6,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_02",
-        "to": "gym",
-        "weight": 72.4,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_02",
-        "to": "boys_hostals",
-        "weight": 55.5,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_02",
-        "to": "regional_center_mattakkuliya",
-        "weight": 84.6,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_02",
-        "to": "class_room_08",
-        "weight": 52.5,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_02",
-        "to": "lab",
-        "weight": 46.1,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_02",
-        "to": "classrooms",
-        "weight": 20.9,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_02",
-        "to": "security_room",
-        "weight": 59.5,
-        "accessible": true
-      },
-      {
-        "from": "storage_room",
-        "to": "mtl_hall_01",
-        "weight": 62.2,
-        "accessible": true
-      },
-      {
-        "from": "storage_room",
-        "to": "class_room_02",
-        "weight": 51.5,
-        "accessible": true
-      },
-      {
-        "from": "storage_room",
-        "to": "class_room_03",
-        "weight": 44.6,
-        "accessible": true
-      },
-      {
-        "from": "storage_room",
-        "to": "drawing_room",
-        "weight": 35.2,
-        "accessible": true
-      },
-      {
-        "from": "storage_room",
-        "to": "class_room_04",
-        "weight": 25.4,
-        "accessible": true
-      },
-      {
-        "from": "storage_room",
-        "to": "students_wash_room",
-        "weight": 21.5,
-        "accessible": true
-      },
-      {
-        "from": "storage_room",
-        "to": "transport_division",
-        "weight": 21.0,
-        "accessible": true
-      },
-      {
-        "from": "storage_room",
-        "to": "it_lab",
-        "weight": 20.8,
-        "accessible": true
-      },
-      {
-        "from": "storage_room",
-        "to": "chart_room",
-        "weight": 22.2,
-        "accessible": true
-      },
-      {
-        "from": "storage_room",
-        "to": "workshop",
-        "weight": 27.4,
-        "accessible": true
-      },
-      {
-        "from": "storage_room",
-        "to": "welding_workshop",
-        "weight": 49.2,
-        "accessible": true
-      },
-      {
-        "from": "storage_room",
-        "to": "canteen",
-        "weight": 54.1,
-        "accessible": true
-      },
-      {
-        "from": "storage_room",
-        "to": "gym",
-        "weight": 70.5,
-        "accessible": true
-      },
-      {
-        "from": "storage_room",
-        "to": "boys_hostals",
-        "weight": 55.0,
-        "accessible": true
-      },
-      {
-        "from": "storage_room",
-        "to": "regional_center_mattakkuliya",
-        "weight": 84.6,
-        "accessible": true
-      },
-      {
-        "from": "storage_room",
-        "to": "class_room_08",
-        "weight": 55.3,
-        "accessible": true
-      },
-      {
-        "from": "storage_room",
-        "to": "lab",
-        "weight": 47.6,
-        "accessible": true
-      },
-      {
-        "from": "storage_room",
-        "to": "classrooms",
-        "weight": 18.0,
-        "accessible": true
-      },
-      {
-        "from": "storage_room",
-        "to": "security_room",
-        "weight": 57.3,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_01",
-        "to": "class_room_02",
-        "weight": 10.9,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_01",
-        "to": "class_room_03",
-        "weight": 18.2,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_01",
-        "to": "drawing_room",
-        "weight": 28.3,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_01",
-        "to": "class_room_04",
-        "weight": 39.6,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_01",
-        "to": "students_wash_room",
-        "weight": 40.8,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_01",
-        "to": "transport_division",
-        "weight": 41.3,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_01",
-        "to": "it_lab",
-        "weight": 42.8,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_01",
-        "to": "chart_room",
-        "weight": 46.3,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_01",
-        "to": "workshop",
-        "weight": 64.3,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_01",
-        "to": "welding_workshop",
-        "weight": 61.9,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_01",
-        "to": "canteen",
-        "weight": 106.6,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_01",
-        "to": "gym",
-        "weight": 118.3,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_01",
-        "to": "boys_hostals",
-        "weight": 95.0,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_01",
-        "to": "regional_center_mattakkuliya",
-        "weight": 115.9,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_01",
-        "to": "class_room_08",
-        "weight": 39.0,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_01",
-        "to": "lab",
-        "weight": 52.1,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_01",
-        "to": "classrooms",
-        "weight": 69.1,
-        "accessible": true
-      },
-      {
-        "from": "mtl_hall_01",
-        "to": "security_room",
-        "weight": 90.4,
-        "accessible": true
-      },
-      {
-        "from": "class_room_02",
-        "to": "class_room_03",
-        "weight": 7.3,
-        "accessible": true
-      },
-      {
-        "from": "class_room_02",
-        "to": "drawing_room",
-        "weight": 17.4,
-        "accessible": true
-      },
-      {
-        "from": "class_room_02",
-        "to": "class_room_04",
-        "weight": 28.7,
-        "accessible": true
-      },
-      {
-        "from": "class_room_02",
-        "to": "students_wash_room",
-        "weight": 30.0,
-        "accessible": true
-      },
-      {
-        "from": "class_room_02",
-        "to": "transport_division",
-        "weight": 30.7,
-        "accessible": true
-      },
-      {
-        "from": "class_room_02",
-        "to": "it_lab",
-        "weight": 32.6,
-        "accessible": true
-      },
-      {
-        "from": "class_room_02",
-        "to": "chart_room",
-        "weight": 36.8,
-        "accessible": true
-      },
-      {
-        "from": "class_room_02",
-        "to": "workshop",
-        "weight": 55.7,
-        "accessible": true
-      },
-      {
-        "from": "class_room_02",
-        "to": "welding_workshop",
-        "weight": 56.5,
-        "accessible": true
-      },
-      {
-        "from": "class_room_02",
-        "to": "canteen",
-        "weight": 97.4,
-        "accessible": true
-      },
-      {
-        "from": "class_room_02",
-        "to": "gym",
-        "weight": 110.0,
-        "accessible": true
-      },
-      {
-        "from": "class_room_02",
-        "to": "boys_hostals",
-        "weight": 87.3,
-        "accessible": true
-      },
-      {
-        "from": "class_room_02",
-        "to": "regional_center_mattakkuliya",
-        "weight": 109.9,
-        "accessible": true
-      },
-      {
-        "from": "class_room_02",
-        "to": "class_room_08",
-        "weight": 33.4,
-        "accessible": true
-      },
-      {
-        "from": "class_room_02",
-        "to": "lab",
-        "weight": 44.2,
-        "accessible": true
-      },
-      {
-        "from": "class_room_02",
-        "to": "classrooms",
-        "weight": 58.3,
-        "accessible": true
-      },
-      {
-        "from": "class_room_02",
-        "to": "security_room",
-        "weight": 81.1,
-        "accessible": true
-      },
-      {
-        "from": "class_room_03",
-        "to": "drawing_room",
-        "weight": 10.1,
-        "accessible": true
-      },
-      {
-        "from": "class_room_03",
-        "to": "class_room_04",
-        "weight": 21.4,
-        "accessible": true
-      },
-      {
-        "from": "class_room_03",
-        "to": "students_wash_room",
-        "weight": 23.1,
-        "accessible": true
-      },
-      {
-        "from": "class_room_03",
-        "to": "transport_division",
-        "weight": 24.1,
-        "accessible": true
-      },
-      {
-        "from": "class_room_03",
-        "to": "it_lab",
-        "weight": 26.5,
-        "accessible": true
-      },
-      {
-        "from": "class_room_03",
-        "to": "chart_room",
-        "weight": 31.5,
-        "accessible": true
-      },
-      {
-        "from": "class_room_03",
-        "to": "workshop",
-        "weight": 51.0,
-        "accessible": true
-      },
-      {
-        "from": "class_room_03",
-        "to": "welding_workshop",
-        "weight": 54.7,
-        "accessible": true
-      },
-      {
-        "from": "class_room_03",
-        "to": "canteen",
-        "weight": 92.0,
-        "accessible": true
-      },
-      {
-        "from": "class_room_03",
-        "to": "gym",
-        "weight": 105.2,
-        "accessible": true
-      },
-      {
-        "from": "class_room_03",
-        "to": "boys_hostals",
-        "weight": 83.2,
-        "accessible": true
-      },
-      {
-        "from": "class_room_03",
-        "to": "regional_center_mattakkuliya",
-        "weight": 107.1,
-        "accessible": true
-      },
-      {
-        "from": "class_room_03",
-        "to": "class_room_08",
-        "weight": 30.5,
-        "accessible": true
-      },
-      {
-        "from": "class_room_03",
-        "to": "lab",
-        "weight": 39.0,
-        "accessible": true
-      },
-      {
-        "from": "class_room_03",
-        "to": "classrooms",
-        "weight": 50.9,
-        "accessible": true
-      },
-      {
-        "from": "class_room_03",
-        "to": "security_room",
-        "weight": 74.7,
-        "accessible": true
-      },
-      {
-        "from": "drawing_room",
-        "to": "class_room_04",
-        "weight": 11.3,
-        "accessible": true
-      },
-      {
-        "from": "drawing_room",
-        "to": "students_wash_room",
-        "weight": 14.2,
-        "accessible": true
-      },
-      {
-        "from": "drawing_room",
-        "to": "transport_division",
-        "weight": 15.9,
-        "accessible": true
-      },
-      {
-        "from": "drawing_room",
-        "to": "it_lab",
-        "weight": 19.3,
-        "accessible": true
-      },
-      {
-        "from": "drawing_room",
-        "to": "chart_room",
-        "weight": 25.7,
-        "accessible": true
-      },
-      {
-        "from": "drawing_room",
-        "to": "workshop",
-        "weight": 45.4,
-        "accessible": true
-      },
-      {
-        "from": "drawing_room",
-        "to": "welding_workshop",
-        "weight": 53.4,
-        "accessible": true
-      },
-      {
-        "from": "drawing_room",
-        "to": "canteen",
-        "weight": 84.9,
-        "accessible": true
-      },
-      {
-        "from": "drawing_room",
-        "to": "gym",
-        "weight": 99.0,
-        "accessible": true
-      },
-      {
-        "from": "drawing_room",
-        "to": "boys_hostals",
-        "weight": 78.1,
-        "accessible": true
-      },
-      {
-        "from": "drawing_room",
-        "to": "regional_center_mattakkuliya",
-        "weight": 103.8,
-        "accessible": true
-      },
-      {
-        "from": "drawing_room",
-        "to": "class_room_08",
-        "weight": 29.3,
-        "accessible": true
-      },
-      {
-        "from": "drawing_room",
-        "to": "lab",
-        "weight": 33.4,
-        "accessible": true
-      },
-      {
-        "from": "drawing_room",
-        "to": "classrooms",
-        "weight": 40.9,
-        "accessible": true
-      },
-      {
-        "from": "drawing_room",
-        "to": "security_room",
-        "weight": 66.2,
-        "accessible": true
-      },
-      {
-        "from": "class_room_04",
-        "to": "students_wash_room",
-        "weight": 8.4,
-        "accessible": true
-      },
-      {
-        "from": "class_room_04",
-        "to": "transport_division",
-        "weight": 11.2,
-        "accessible": true
-      },
-      {
-        "from": "class_room_04",
-        "to": "it_lab",
-        "weight": 15.8,
-        "accessible": true
-      },
-      {
-        "from": "class_room_04",
-        "to": "chart_room",
-        "weight": 23.1,
-        "accessible": true
-      },
-      {
-        "from": "class_room_04",
-        "to": "workshop",
-        "weight": 41.3,
-        "accessible": true
-      },
-      {
-        "from": "class_room_04",
-        "to": "welding_workshop",
-        "weight": 54.3,
-        "accessible": true
-      },
-      {
-        "from": "class_room_04",
-        "to": "canteen",
-        "weight": 77.7,
-        "accessible": true
-      },
-      {
-        "from": "class_room_04",
-        "to": "gym",
-        "weight": 92.8,
-        "accessible": true
-      },
-      {
-        "from": "class_room_04",
-        "to": "boys_hostals",
-        "weight": 73.7,
-        "accessible": true
-      },
-      {
-        "from": "class_room_04",
-        "to": "regional_center_mattakkuliya",
-        "weight": 101.1,
-        "accessible": true
-      },
-      {
-        "from": "class_room_04",
-        "to": "class_room_08",
-        "weight": 32.0,
-        "accessible": true
-      },
-      {
-        "from": "class_room_04",
-        "to": "lab",
-        "weight": 30.0,
-        "accessible": true
-      },
-      {
-        "from": "class_room_04",
-        "to": "classrooms",
-        "weight": 29.5,
-        "accessible": true
-      },
-      {
-        "from": "class_room_04",
-        "to": "security_room",
-        "weight": 57.3,
-        "accessible": true
-      },
-      {
-        "from": "students_wash_room",
-        "to": "transport_division",
-        "weight": 2.8,
-        "accessible": true
-      },
-      {
-        "from": "students_wash_room",
-        "to": "it_lab",
-        "weight": 7.4,
-        "accessible": true
-      },
-      {
-        "from": "students_wash_room",
-        "to": "chart_room",
-        "weight": 14.7,
-        "accessible": true
-      },
-      {
-        "from": "students_wash_room",
-        "to": "workshop",
-        "weight": 33.2,
-        "accessible": true
-      },
-      {
-        "from": "students_wash_room",
-        "to": "welding_workshop",
-        "weight": 46.1,
-        "accessible": true
-      },
-      {
-        "from": "students_wash_room",
-        "to": "canteen",
-        "weight": 71.0,
-        "accessible": true
-      },
-      {
-        "from": "students_wash_room",
-        "to": "gym",
-        "weight": 85.6,
-        "accessible": true
-      },
-      {
-        "from": "students_wash_room",
-        "to": "boys_hostals",
-        "weight": 65.8,
-        "accessible": true
-      },
-      {
-        "from": "students_wash_room",
-        "to": "regional_center_mattakkuliya",
-        "weight": 92.8,
-        "accessible": true
-      },
-      {
-        "from": "students_wash_room",
-        "to": "class_room_08",
-        "weight": 39.9,
-        "accessible": true
-      },
-      {
-        "from": "students_wash_room",
-        "to": "lab",
-        "weight": 38.3,
-        "accessible": true
-      },
-      {
-        "from": "students_wash_room",
-        "to": "classrooms",
-        "weight": 30.8,
-        "accessible": true
-      },
-      {
-        "from": "students_wash_room",
-        "to": "security_room",
-        "weight": 63.1,
-        "accessible": true
-      },
-      {
-        "from": "transport_division",
-        "to": "it_lab",
-        "weight": 4.6,
-        "accessible": true
-      },
-      {
-        "from": "transport_division",
-        "to": "chart_room",
-        "weight": 11.9,
-        "accessible": true
-      },
-      {
-        "from": "transport_division",
-        "to": "workshop",
-        "weight": 30.6,
-        "accessible": true
-      },
-      {
-        "from": "transport_division",
-        "to": "welding_workshop",
-        "weight": 43.3,
-        "accessible": true
-      },
-      {
-        "from": "transport_division",
-        "to": "canteen",
-        "weight": 69.0,
-        "accessible": true
-      },
-      {
-        "from": "transport_division",
-        "to": "gym",
-        "weight": 83.4,
-        "accessible": true
-      },
-      {
-        "from": "transport_division",
-        "to": "boys_hostals",
-        "weight": 63.3,
-        "accessible": true
-      },
-      {
-        "from": "transport_division",
-        "to": "regional_center_mattakkuliya",
-        "weight": 90.1,
-        "accessible": true
-      },
-      {
-        "from": "transport_division",
-        "to": "class_room_08",
-        "weight": 42.4,
-        "accessible": true
-      },
-      {
-        "from": "transport_division",
-        "to": "lab",
-        "weight": 41.1,
-        "accessible": true
-      },
-      {
-        "from": "transport_division",
-        "to": "classrooms",
-        "weight": 31.9,
-        "accessible": true
-      },
-      {
-        "from": "transport_division",
-        "to": "security_room",
-        "weight": 65.3,
-        "accessible": true
-      },
-      {
-        "from": "it_lab",
-        "to": "chart_room",
-        "weight": 7.3,
-        "accessible": true
-      },
-      {
-        "from": "it_lab",
-        "to": "workshop",
-        "weight": 26.3,
-        "accessible": true
-      },
-      {
-        "from": "it_lab",
-        "to": "welding_workshop",
-        "weight": 38.8,
-        "accessible": true
-      },
-      {
-        "from": "it_lab",
-        "to": "canteen",
-        "weight": 65.8,
-        "accessible": true
-      },
-      {
-        "from": "it_lab",
-        "to": "gym",
-        "weight": 79.7,
-        "accessible": true
-      },
-      {
-        "from": "it_lab",
-        "to": "boys_hostals",
-        "weight": 59.1,
-        "accessible": true
-      },
-      {
-        "from": "it_lab",
-        "to": "regional_center_mattakkuliya",
-        "weight": 85.7,
-        "accessible": true
-      },
-      {
-        "from": "it_lab",
-        "to": "class_room_08",
-        "weight": 46.8,
-        "accessible": true
-      },
-      {
-        "from": "it_lab",
-        "to": "lab",
-        "weight": 45.7,
-        "accessible": true
-      },
-      {
-        "from": "it_lab",
-        "to": "classrooms",
-        "weight": 34.0,
-        "accessible": true
-      },
-      {
-        "from": "it_lab",
-        "to": "security_room",
-        "weight": 68.9,
-        "accessible": true
-      },
-      {
-        "from": "chart_room",
-        "to": "workshop",
-        "weight": 19.7,
-        "accessible": true
-      },
-      {
-        "from": "chart_room",
-        "to": "welding_workshop",
-        "weight": 31.9,
-        "accessible": true
-      },
-      {
-        "from": "chart_room",
-        "to": "canteen",
-        "weight": 60.7,
-        "accessible": true
-      },
-      {
-        "from": "chart_room",
-        "to": "gym",
-        "weight": 73.8,
-        "accessible": true
-      },
-      {
-        "from": "chart_room",
-        "to": "boys_hostals",
-        "weight": 52.4,
-        "accessible": true
-      },
-      {
-        "from": "chart_room",
-        "to": "regional_center_mattakkuliya",
-        "weight": 78.5,
-        "accessible": true
-      },
-      {
-        "from": "chart_room",
-        "to": "class_room_08",
-        "weight": 53.9,
-        "accessible": true
-      },
-      {
-        "from": "chart_room",
-        "to": "lab",
-        "weight": 53.0,
-        "accessible": true
-      },
-      {
-        "from": "chart_room",
-        "to": "classrooms",
-        "weight": 38.0,
-        "accessible": true
-      },
-      {
-        "from": "chart_room",
-        "to": "security_room",
-        "weight": 74.7,
-        "accessible": true
-      },
-      {
-        "from": "workshop",
-        "to": "welding_workshop",
-        "weight": 24.0,
-        "accessible": true
-      },
-      {
-        "from": "workshop",
-        "to": "canteen",
-        "weight": 42.4,
-        "accessible": true
-      },
-      {
-        "from": "workshop",
-        "to": "gym",
-        "weight": 54.3,
-        "accessible": true
-      },
-      {
-        "from": "workshop",
-        "to": "boys_hostals",
-        "weight": 32.8,
-        "accessible": true
-      },
-      {
-        "from": "workshop",
-        "to": "regional_center_mattakkuliya",
-        "weight": 60.0,
-        "accessible": true
-      },
-      {
-        "from": "workshop",
-        "to": "class_room_08",
-        "weight": 73.0,
-        "accessible": true
-      },
-      {
-        "from": "workshop",
-        "to": "lab",
-        "weight": 70.1,
-        "accessible": true
-      },
-      {
-        "from": "workshop",
-        "to": "classrooms",
-        "weight": 45.3,
-        "accessible": true
-      },
-      {
-        "from": "workshop",
-        "to": "security_room",
-        "weight": 84.7,
-        "accessible": true
-      },
-      {
-        "from": "welding_workshop",
-        "to": "canteen",
-        "weight": 56.6,
-        "accessible": true
-      },
-      {
-        "from": "welding_workshop",
-        "to": "gym",
-        "weight": 62.4,
-        "accessible": true
-      },
-      {
-        "from": "welding_workshop",
-        "to": "boys_hostals",
-        "weight": 37.6,
-        "accessible": true
-      },
-      {
-        "from": "welding_workshop",
-        "to": "regional_center_mattakkuliya",
-        "weight": 54.0,
-        "accessible": true
-      },
-      {
-        "from": "welding_workshop",
-        "to": "class_room_08",
-        "weight": 82.7,
-        "accessible": true
-      },
-      {
-        "from": "welding_workshop",
-        "to": "lab",
-        "weight": 84.3,
-        "accessible": true
-      },
-      {
-        "from": "welding_workshop",
-        "to": "classrooms",
-        "weight": 67.0,
-        "accessible": true
-      },
-      {
-        "from": "welding_workshop",
-        "to": "security_room",
-        "weight": 105.5,
-        "accessible": true
-      },
-      {
-        "from": "canteen",
-        "to": "gym",
-        "weight": 17.8,
-        "accessible": true
-      },
-      {
-        "from": "canteen",
-        "to": "boys_hostals",
-        "weight": 23.1,
-        "accessible": true
-      },
-      {
-        "from": "canteen",
-        "to": "regional_center_mattakkuliya",
-        "weight": 45.9,
-        "accessible": true
-      },
-      {
-        "from": "canteen",
-        "to": "class_room_08",
-        "weight": 109.1,
-        "accessible": true
-      },
-      {
-        "from": "canteen",
-        "to": "lab",
-        "weight": 101.5,
-        "accessible": true
-      },
-      {
-        "from": "canteen",
-        "to": "classrooms",
-        "weight": 65.6,
-        "accessible": true
-      },
-      {
-        "from": "canteen",
-        "to": "security_room",
-        "weight": 100.7,
-        "accessible": true
-      },
-      {
-        "from": "gym",
-        "to": "boys_hostals",
-        "weight": 24.9,
-        "accessible": true
-      },
-      {
-        "from": "gym",
-        "to": "regional_center_mattakkuliya",
-        "weight": 33.8,
-        "accessible": true
-      },
-      {
-        "from": "gym",
-        "to": "class_room_08",
-        "weight": 124.7,
-        "accessible": true
-      },
-      {
-        "from": "gym",
-        "to": "lab",
-        "weight": 118.1,
-        "accessible": true
-      },
-      {
-        "from": "gym",
-        "to": "classrooms",
-        "weight": 83.0,
-        "accessible": true
-      },
-      {
-        "from": "gym",
-        "to": "security_room",
-        "weight": 118.5,
-        "accessible": true
-      },
-      {
-        "from": "boys_hostals",
-        "to": "regional_center_mattakkuliya",
-        "weight": 30.2,
-        "accessible": true
-      },
-      {
-        "from": "boys_hostals",
-        "to": "class_room_08",
-        "weight": 105.6,
-        "accessible": true
-      },
-      {
-        "from": "boys_hostals",
-        "to": "lab",
-        "weight": 101.5,
-        "accessible": true
-      },
-      {
-        "from": "boys_hostals",
-        "to": "classrooms",
-        "weight": 70.8,
-        "accessible": true
-      },
-      {
-        "from": "boys_hostals",
-        "to": "security_room",
-        "weight": 109.4,
-        "accessible": true
-      },
-      {
-        "from": "regional_center_mattakkuliya",
-        "to": "class_room_08",
-        "weight": 132.5,
-        "accessible": true
-      },
-      {
-        "from": "regional_center_mattakkuliya",
-        "to": "lab",
-        "weight": 130.0,
-        "accessible": true
-      },
-      {
-        "from": "regional_center_mattakkuliya",
-        "to": "classrooms",
-        "weight": 100.9,
-        "accessible": true
-      },
-      {
-        "from": "regional_center_mattakkuliya",
-        "to": "security_room",
-        "weight": 139.6,
-        "accessible": true
-      },
-      {
-        "from": "class_room_08",
-        "to": "lab",
-        "weight": 16.7,
-        "accessible": true
-      },
-      {
-        "from": "class_room_08",
-        "to": "classrooms",
-        "weight": 51.0,
-        "accessible": true
-      },
-      {
-        "from": "class_room_08",
-        "to": "security_room",
-        "weight": 56.4,
-        "accessible": true
-      },
-      {
-        "from": "lab",
-        "to": "classrooms",
-        "weight": 38.7,
-        "accessible": true
-      },
-      {
-        "from": "lab",
-        "to": "security_room",
-        "weight": 39.9,
-        "accessible": true
-      },
-      {
-        "from": "classrooms",
-        "to": "security_room",
-        "weight": 39.5,
-        "accessible": true
-      }
-    ]
-  }
+    "union_room": {
+      "id": "union_room",
+      "name": "UNION ROOM",
+      "lat": 6.974925,
+      "lon": 79.871756,
+      "accessible": true
+    },
+    "mtl_hall_04": {
+      "id": "mtl_hall_04",
+      "name": "MTL HALL 04",
+      "lat": 6.97495,
+      "lon": 79.871835,
+      "accessible": true
+    },
+    "mtl_hall_03": {
+      "id": "mtl_hall_03",
+      "name": "MTL HALL 03",
+      "lat": 6.975017,
+      "lon": 79.872136,
+      "accessible": true
+    },
+    "lecturers_washroom": {
+      "id": "lecturers_washroom",
+      "name": "LECTURERS WASHROOM",
+      "lat": 6.975025,
+      "lon": 79.872181,
+      "accessible": true
+    },
+    "class_room_07": {
+      "id": "class_room_07",
+      "name": "CLASS ROOM 07",
+      "lat": 6.975032,
+      "lon": 79.872228,
+      "accessible": true
+    },
+    "volly_ball_court": {
+      "id": "volly_ball_court",
+      "name": "VOLLY BALL COURT",
+      "lat": 6.975081,
+      "lon": 79.872339,
+      "accessible": true
+    },
+    "badminton_court": {
+      "id": "badminton_court",
+      "name": "BADMINTON COURT",
+      "lat": 6.975122,
+      "lon": 79.871982,
+      "accessible": true
+    },
+    "lectueres_room": {
+      "id": "lectueres_room",
+      "name": "LECTUERE'S ROOM",
+      "lat": 6.974975,
+      "lon": 79.871961,
+      "accessible": true
+    },
+    "training_and_account_division": {
+      "id": "training_and_account_division",
+      "name": "TRAINING AND ACCOUNT DIVISION",
+      "lat": 6.975271,
+      "lon": 79.871749,
+      "accessible": true
+    },
+    "auditorium": {
+      "id": "auditorium",
+      "name": "AUDITORIUM",
+      "lat": 6.975307,
+      "lon": 79.871853,
+      "accessible": true
+    },
+    "mtl_hall_02": {
+      "id": "mtl_hall_02",
+      "name": "MTL HALL 02",
+      "lat": 6.975284,
+      "lon": 79.871976,
+      "accessible": true
+    },
+    "storage_room": {
+      "id": "storage_room",
+      "name": "STORAGE ROOM",
+      "lat": 6.975277,
+      "lon": 79.871932,
+      "accessible": true
+    },
+    "mtl_hall_01": {
+      "id": "mtl_hall_01",
+      "name": "MTL HALL 01",
+      "lat": 6.975216,
+      "lon": 79.872489,
+      "accessible": true
+    },
+    "class_room_02": {
+      "id": "class_room_02",
+      "name": "CLASS ROOM 02",
+      "lat": 6.975211,
+      "lon": 79.872391,
+      "accessible": true
+    },
+    "class_room_03": {
+      "id": "class_room_03",
+      "name": "CLASS ROOM 03",
+      "lat": 6.9752,
+      "lon": 79.872326,
+      "accessible": true
+    },
+    "drawing_room": {
+      "id": "drawing_room",
+      "name": "DRAWING ROOM",
+      "lat": 6.975187,
+      "lon": 79.872236,
+      "accessible": true
+    },
+    "class_room_04": {
+      "id": "class_room_04",
+      "name": "CLASS ROOM 04",
+      "lat": 6.975172,
+      "lon": 79.872135,
+      "accessible": true
+    },
+    "students_wash_room": {
+      "id": "students_wash_room",
+      "name": "STUDENTS WASH ROOM",
+      "lat": 6.975247,
+      "lon": 79.872123,
+      "accessible": true
+    },
+    "transport_division": {
+      "id": "transport_division",
+      "name": "TRANSPORT DIVISION",
+      "lat": 6.975272,
+      "lon": 79.872121,
+      "accessible": true
+    },
+    "it_lab": {
+      "id": "it_lab",
+      "name": "IT LAB",
+      "lat": 6.975313,
+      "lon": 79.872116,
+      "accessible": true
+    },
+    "chart_room": {
+      "id": "chart_room",
+      "name": "CHART ROOM",
+      "lat": 6.975378,
+      "lon": 79.872105,
+      "accessible": true
+    },
+    "workshop": {
+      "id": "workshop",
+      "name": "WORKSHOP",
+      "lat": 6.975516,
+      "lon": 79.871993,
+      "accessible": true
+    },
+    "welding_workshop": {
+      "id": "welding_workshop",
+      "name": "WELDING WORKSHOP",
+      "lat": 6.975661,
+      "lon": 79.872153,
+      "accessible": true
+    },
+    "canteen": {
+      "id": "canteen",
+      "name": "CANTEEN",
+      "lat": 6.97567,
+      "lon": 79.871643,
+      "accessible": true
+    },
+    "gym": {
+      "id": "gym",
+      "name": "GYM",
+      "lat": 6.975828,
+      "lon": 79.871616,
+      "accessible": true
+    },
+    "boys_hostals": {
+      "id": "boys_hostals",
+      "name": "BOYS HOSTALS",
+      "lat": 6.975762,
+      "lon": 79.87183,
+      "accessible": true
+    },
+    "regional_center_mattakkuliya": {
+      "id": "regional_center_mattakkuliya",
+      "name": "REGIONAL CENTER MATTAKKULIYA",
+      "lat": 6.976034,
+      "lon": 79.87184,
+      "accessible": true
+    },
+    "class_room_08": {
+      "id": "class_room_08",
+      "name": "CLASS ROOM 08",
+      "lat": 6.974928,
+      "lon": 79.872288,
+      "accessible": true
+    },
+    "lab": {
+      "id": "lab",
+      "name": "LAB",
+      "lat": 6.974902,
+      "lon": 79.87214,
+      "accessible": true
+    },
+    "classrooms": {
+      "id": "classrooms",
+      "name": "classrooms",
+      "lat": 6.975126,
+      "lon": 79.871873,
+      "accessible": true
+    },
+    "security_room": {
+      "id": "security_room",
+      "name": "Security Room",
+      "lat": 6.974777,
+      "lon": 79.871803,
+      "accessible": true
+    }
+  },
+  "paths": [
+    {
+      "from": "sport_room",
+      "to": "union_room",
+      "weight": 5.4,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "mtl_hall_04",
+      "weight": 11.8,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "union_room",
+      "weight": 5.7,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "sport_room",
+      "weight": 2.2,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "mtl_hall_03",
+      "weight": 45.3,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "lecturers_washroom",
+      "weight": 50.3,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "class_room_07",
+      "weight": 55.6,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "volly_ball_court",
+      "weight": 68.6,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "badminton_court",
+      "weight": 32.6,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "lectueres_room",
+      "weight": 25.5,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "training_and_account_division",
+      "weight": 33.5,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "auditorium",
+      "weight": 39.8,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "mtl_hall_02",
+      "weight": 44.2,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "storage_room",
+      "weight": 40.7,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "mtl_hall_01",
+      "weight": 88.5,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "class_room_02",
+      "weight": 78,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "class_room_03",
+      "weight": 70.8,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "drawing_room",
+      "weight": 61,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "class_room_04",
+      "weight": 50.1,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "students_wash_room",
+      "weight": 53.3,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "transport_division",
+      "weight": 54.8,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "it_lab",
+      "weight": 57.2,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "chart_room",
+      "weight": 61.4,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "workshop",
+      "weight": 67.2,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "welding_workshop",
+      "weight": 89.9,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "canteen",
+      "weight": 78.3,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "gym",
+      "weight": 96.1,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "boys_hostals",
+      "weight": 88.6,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "regional_center_mattakkuliya",
+      "weight": 118.7,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "class_room_08",
+      "weight": 62,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "lab",
+      "weight": 46,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "classrooms",
+      "weight": 23.4,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "security_room",
+      "weight": 22.9,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "mtl_hall_04",
+      "weight": 12.7,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "union_room",
+      "weight": 3.6,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "sport_room",
+      "weight": 5.8,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "mtl_hall_03",
+      "weight": 46.9,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "lecturers_washroom",
+      "weight": 52,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "class_room_07",
+      "weight": 57.3,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "volly_ball_court",
+      "weight": 70.5,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "badminton_court",
+      "weight": 36.2,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "lectueres_room",
+      "weight": 27,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "training_and_account_division",
+      "weight": 38.8,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "auditorium",
+      "weight": 45.1,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "mtl_hall_02",
+      "weight": 49,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "storage_room",
+      "weight": 45.7,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "mtl_hall_01",
+      "weight": 91,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "class_room_02",
+      "weight": 80.7,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "class_room_03",
+      "weight": 73.6,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "drawing_room",
+      "weight": 64,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "class_room_04",
+      "weight": 53.4,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "students_wash_room",
+      "weight": 57.1,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "transport_division",
+      "weight": 58.7,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "it_lab",
+      "weight": 61.5,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "chart_room",
+      "weight": 66,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "workshop",
+      "weight": 72.4,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "welding_workshop",
+      "weight": 94.8,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "canteen",
+      "weight": 83.5,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "gym",
+      "weight": 101.3,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "boys_hostals",
+      "weight": 94,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "regional_center_mattakkuliya",
+      "weight": 124.1,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "class_room_08",
+      "weight": 62.6,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "lab",
+      "weight": 46.2,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "classrooms",
+      "weight": 28,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "security_room",
+      "weight": 18.3,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "union_room",
+      "weight": 9.2,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "sport_room",
+      "weight": 9.5,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "mtl_hall_03",
+      "weight": 34.2,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "lecturers_washroom",
+      "weight": 39.3,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "class_room_07",
+      "weight": 44.6,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "volly_ball_court",
+      "weight": 57.8,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "badminton_court",
+      "weight": 25.1,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "lectueres_room",
+      "weight": 14.3,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "training_and_account_division",
+      "weight": 36.9,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "auditorium",
+      "weight": 39.7,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "mtl_hall_02",
+      "weight": 40.2,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "storage_room",
+      "weight": 37.9,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "mtl_hall_01",
+      "weight": 78.4,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "class_room_02",
+      "weight": 68.2,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "class_room_03",
+      "weight": 61.2,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "drawing_room",
+      "weight": 51.7,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "class_room_04",
+      "weight": 41.4,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "students_wash_room",
+      "weight": 45.9,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "transport_division",
+      "weight": 47.8,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "it_lab",
+      "weight": 51,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "chart_room",
+      "weight": 56.2,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "workshop",
+      "weight": 65.2,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "welding_workshop",
+      "weight": 86.5,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "canteen",
+      "weight": 82.7,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "gym",
+      "weight": 100.4,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "boys_hostals",
+      "weight": 90.1,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "regional_center_mattakkuliya",
+      "weight": 120.3,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "class_room_08",
+      "weight": 50.3,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "lab",
+      "weight": 34.3,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "classrooms",
+      "weight": 20,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_04",
+      "to": "security_room",
+      "weight": 19.5,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "sport_room",
+      "weight": 4.7,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "mtl_hall_03",
+      "weight": 43.4,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "lecturers_washroom",
+      "weight": 48.5,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "class_room_07",
+      "weight": 53.7,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "volly_ball_court",
+      "weight": 67,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "badminton_court",
+      "weight": 33.3,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "lectueres_room",
+      "weight": 23.4,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "training_and_account_division",
+      "weight": 38.4,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "auditorium",
+      "weight": 43.7,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "mtl_hall_02",
+      "weight": 46.7,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "storage_room",
+      "weight": 43.7,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "mtl_hall_01",
+      "weight": 87.5,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "class_room_02",
+      "weight": 77.3,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "class_room_03",
+      "weight": 70.2,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "drawing_room",
+      "weight": 60.7,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "class_room_04",
+      "weight": 50.2,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "students_wash_room",
+      "weight": 54.2,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "transport_division",
+      "weight": 55.9,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "it_lab",
+      "weight": 58.8,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "chart_room",
+      "weight": 63.5,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "workshop",
+      "weight": 70.7,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "welding_workshop",
+      "weight": 92.8,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "canteen",
+      "weight": 83.6,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "gym",
+      "weight": 101.4,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "boys_hostals",
+      "weight": 93.3,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "regional_center_mattakkuliya",
+      "weight": 123.5,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "class_room_08",
+      "weight": 59.1,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "lab",
+      "weight": 42.7,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "classrooms",
+      "weight": 25.8,
+      "accessible": true
+    },
+    {
+      "from": "union_room",
+      "to": "security_room",
+      "weight": 17.2,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "mtl_hall_03",
+      "weight": 43.1,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "lecturers_washroom",
+      "weight": 48.2,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "class_room_07",
+      "weight": 53.4,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "volly_ball_court",
+      "weight": 66.5,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "badminton_court",
+      "weight": 30.9,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "lectueres_room",
+      "weight": 23.3,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "training_and_account_division",
+      "weight": 33.7,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "auditorium",
+      "weight": 39.4,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "mtl_hall_02",
+      "weight": 43.1,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "storage_room",
+      "weight": 39.8,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "mtl_hall_01",
+      "weight": 86.5,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "class_room_02",
+      "weight": 76,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "class_room_03",
+      "weight": 68.9,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "drawing_room",
+      "weight": 59.1,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "class_room_04",
+      "weight": 48.3,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "students_wash_room",
+      "weight": 51.7,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "transport_division",
+      "weight": 53.2,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "it_lab",
+      "weight": 55.8,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "chart_room",
+      "weight": 60.2,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "workshop",
+      "weight": 66.6,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "welding_workshop",
+      "weight": 89,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "canteen",
+      "weight": 78.9,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "gym",
+      "weight": 96.7,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "boys_hostals",
+      "weight": 88.7,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "regional_center_mattakkuliya",
+      "weight": 118.8,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "class_room_08",
+      "weight": 59.8,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "lab",
+      "weight": 43.8,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "classrooms",
+      "weight": 22.2,
+      "accessible": true
+    },
+    {
+      "from": "sport_room",
+      "to": "security_room",
+      "weight": 21.9,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "lecturers_washroom",
+      "weight": 5.1,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "class_room_07",
+      "weight": 10.3,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "volly_ball_court",
+      "weight": 23.6,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "badminton_court",
+      "weight": 20.7,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "lectueres_room",
+      "weight": 20,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "training_and_account_division",
+      "weight": 51.4,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "auditorium",
+      "weight": 45,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "mtl_hall_02",
+      "weight": 34.6,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "storage_room",
+      "weight": 36.7,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "mtl_hall_01",
+      "weight": 45,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "class_room_02",
+      "weight": 35.6,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "class_room_03",
+      "weight": 29.3,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "drawing_room",
+      "weight": 21.9,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "class_room_04",
+      "weight": 17.2,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "students_wash_room",
+      "weight": 25.6,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "transport_division",
+      "weight": 28.4,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "it_lab",
+      "weight": 32.9,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "chart_room",
+      "weight": 40.2,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "workshop",
+      "weight": 57.6,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "welding_workshop",
+      "weight": 71.5,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "canteen",
+      "weight": 90.8,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "gym",
+      "weight": 106.9,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "boys_hostals",
+      "weight": 89.4,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "regional_center_mattakkuliya",
+      "weight": 117.6,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "class_room_08",
+      "weight": 19.6,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "lab",
+      "weight": 12.8,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "classrooms",
+      "weight": 31.6,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_03",
+      "to": "security_room",
+      "weight": 45.6,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "class_room_07",
+      "weight": 5.3,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "volly_ball_court",
+      "weight": 18.6,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "badminton_court",
+      "weight": 24.6,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "lectueres_room",
+      "weight": 25,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "training_and_account_division",
+      "weight": 55.2,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "auditorium",
+      "weight": 48,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "mtl_hall_02",
+      "weight": 36.7,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "storage_room",
+      "weight": 39.3,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "mtl_hall_01",
+      "weight": 40.2,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "class_room_02",
+      "weight": 31.1,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "class_room_03",
+      "weight": 25.2,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "drawing_room",
+      "weight": 19,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "class_room_04",
+      "weight": 17.1,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "students_wash_room",
+      "weight": 25.5,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "transport_division",
+      "weight": 28.2,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "it_lab",
+      "weight": 32.8,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "chart_room",
+      "weight": 40.1,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "workshop",
+      "weight": 58.4,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "welding_workshop",
+      "weight": 70.7,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "canteen",
+      "weight": 93.2,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "gym",
+      "weight": 109,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "boys_hostals",
+      "weight": 90.6,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "regional_center_mattakkuliya",
+      "weight": 118.2,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "class_room_08",
+      "weight": 16,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "lab",
+      "weight": 14.4,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "classrooms",
+      "weight": 36,
+      "accessible": true
+    },
+    {
+      "from": "lecturers_washroom",
+      "to": "security_room",
+      "weight": 50.2,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "volly_ball_court",
+      "weight": 13.5,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "badminton_court",
+      "weight": 29.1,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "lectueres_room",
+      "weight": 30.3,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "training_and_account_division",
+      "weight": 59.4,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "auditorium",
+      "weight": 51.6,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "mtl_hall_02",
+      "weight": 39.6,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "storage_room",
+      "weight": 42.7,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "mtl_hall_01",
+      "weight": 35.4,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "class_room_02",
+      "weight": 26.9,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "class_room_03",
+      "weight": 21.6,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "drawing_room",
+      "weight": 17.2,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "class_room_04",
+      "weight": 18.7,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "students_wash_room",
+      "weight": 26.6,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "transport_division",
+      "weight": 29.2,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "it_lab",
+      "weight": 33.6,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "chart_room",
+      "weight": 40.8,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "workshop",
+      "weight": 59.7,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "welding_workshop",
+      "weight": 70.3,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "canteen",
+      "weight": 96.1,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "gym",
+      "weight": 111.5,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "boys_hostals",
+      "weight": 92.3,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "regional_center_mattakkuliya",
+      "weight": 119.3,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "class_room_08",
+      "weight": 13.3,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "lab",
+      "weight": 17.4,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "classrooms",
+      "weight": 40.8,
+      "accessible": true
+    },
+    {
+      "from": "class_room_07",
+      "to": "security_room",
+      "weight": 55,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "badminton_court",
+      "weight": 39.9,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "lectueres_room",
+      "weight": 43.6,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "training_and_account_division",
+      "weight": 68.8,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "auditorium",
+      "weight": 59.5,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "mtl_hall_02",
+      "weight": 46.2,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "storage_room",
+      "weight": 50.1,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "mtl_hall_01",
+      "weight": 22.4,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "class_room_02",
+      "weight": 15.5,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "class_room_03",
+      "weight": 13.3,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "drawing_room",
+      "weight": 16.4,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "class_room_04",
+      "weight": 24.8,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "students_wash_room",
+      "weight": 30.2,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "transport_division",
+      "weight": 32.2,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "it_lab",
+      "weight": 35.7,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "chart_room",
+      "weight": 42,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "workshop",
+      "weight": 61.7,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "welding_workshop",
+      "weight": 67.6,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "canteen",
+      "weight": 101.2,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "gym",
+      "weight": 115.4,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "boys_hostals",
+      "weight": 94.4,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "regional_center_mattakkuliya",
+      "weight": 119.4,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "class_room_08",
+      "weight": 17.9,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "lab",
+      "weight": 29.7,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "classrooms",
+      "weight": 52,
+      "accessible": true
+    },
+    {
+      "from": "volly_ball_court",
+      "to": "security_room",
+      "weight": 68.4,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "lectueres_room",
+      "weight": 16.5,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "training_and_account_division",
+      "weight": 30.7,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "auditorium",
+      "weight": 25,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "mtl_hall_02",
+      "weight": 18,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "storage_room",
+      "weight": 18.1,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "mtl_hall_01",
+      "weight": 57.2,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "class_room_02",
+      "weight": 46.5,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "class_room_03",
+      "weight": 39.2,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "drawing_room",
+      "weight": 29.1,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "class_room_04",
+      "weight": 17.9,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "students_wash_room",
+      "weight": 20.9,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "transport_division",
+      "weight": 22.7,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "it_lab",
+      "weight": 25.9,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "chart_room",
+      "weight": 31.5,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "workshop",
+      "weight": 43.8,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "welding_workshop",
+      "weight": 62.8,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "canteen",
+      "weight": 71.5,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "gym",
+      "weight": 88.3,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "boys_hostals",
+      "weight": 73,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "regional_center_mattakkuliya",
+      "weight": 102.5,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "class_room_08",
+      "weight": 40.2,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "lab",
+      "weight": 30.1,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "classrooms",
+      "weight": 12.1,
+      "accessible": true
+    },
+    {
+      "from": "badminton_court",
+      "to": "security_room",
+      "weight": 43.1,
+      "accessible": true
+    },
+    {
+      "from": "lectueres_room",
+      "to": "training_and_account_division",
+      "weight": 40.4,
+      "accessible": true
+    },
+    {
+      "from": "lectueres_room",
+      "to": "auditorium",
+      "weight": 38.8,
+      "accessible": true
+    },
+    {
+      "from": "lectueres_room",
+      "to": "mtl_hall_02",
+      "weight": 34.3,
+      "accessible": true
+    },
+    {
+      "from": "lectueres_room",
+      "to": "storage_room",
+      "weight": 33.7,
+      "accessible": true
+    },
+    {
+      "from": "lectueres_room",
+      "to": "mtl_hall_01",
+      "weight": 64.4,
+      "accessible": true
+    },
+    {
+      "from": "lectueres_room",
+      "to": "class_room_02",
+      "weight": 54.4,
+      "accessible": true
+    },
+    {
+      "from": "lectueres_room",
+      "to": "class_room_03",
+      "weight": 47.6,
+      "accessible": true
+    },
+    {
+      "from": "lectueres_room",
+      "to": "drawing_room",
+      "weight": 38.5,
+      "accessible": true
+    },
+    {
+      "from": "lectueres_room",
+      "to": "class_room_04",
+      "weight": 29.2,
+      "accessible": true
+    },
+    {
+      "from": "lectueres_room",
+      "to": "students_wash_room",
+      "weight": 35.1,
+      "accessible": true
+    },
+    {
+      "from": "lectueres_room",
+      "to": "transport_division",
+      "weight": 37.4,
+      "accessible": true
+    },
+    {
+      "from": "lectueres_room",
+      "to": "it_lab",
+      "weight": 41.3,
+      "accessible": true
+    },
+    {
+      "from": "lectueres_room",
+      "to": "chart_room",
+      "weight": 47.5,
+      "accessible": true
+    },
+    {
+      "from": "lectueres_room",
+      "to": "workshop",
+      "weight": 60.2,
+      "accessible": true
+    },
+    {
+      "from": "lectueres_room",
+      "to": "welding_workshop",
+      "weight": 79.1,
+      "accessible": true
+    },
+    {
+      "from": "lectueres_room",
+      "to": "canteen",
+      "weight": 84.8,
+      "accessible": true
+    },
+    {
+      "from": "lectueres_room",
+      "to": "gym",
+      "weight": 102.1,
+      "accessible": true
+    },
+    {
+      "from": "lectueres_room",
+      "to": "boys_hostals",
+      "weight": 88.6,
+      "accessible": true
+    },
+    {
+      "from": "lectueres_room",
+      "to": "regional_center_mattakkuliya",
+      "weight": 118.3,
+      "accessible": true
+    },
+    {
+      "from": "lectueres_room",
+      "to": "class_room_08",
+      "weight": 36.7,
+      "accessible": true
+    },
+    {
+      "from": "lectueres_room",
+      "to": "lab",
+      "weight": 21.5,
+      "accessible": true
+    },
+    {
+      "from": "lectueres_room",
+      "to": "classrooms",
+      "weight": 19.4,
+      "accessible": true
+    },
+    {
+      "from": "lectueres_room",
+      "to": "security_room",
+      "weight": 28.1,
+      "accessible": true
+    },
+    {
+      "from": "training_and_account_division",
+      "to": "auditorium",
+      "weight": 12.2,
+      "accessible": true
+    },
+    {
+      "from": "training_and_account_division",
+      "to": "mtl_hall_02",
+      "weight": 25.2,
+      "accessible": true
+    },
+    {
+      "from": "training_and_account_division",
+      "to": "storage_room",
+      "weight": 20.3,
+      "accessible": true
+    },
+    {
+      "from": "training_and_account_division",
+      "to": "mtl_hall_01",
+      "weight": 82.4,
+      "accessible": true
+    },
+    {
+      "from": "training_and_account_division",
+      "to": "class_room_02",
+      "weight": 71.6,
+      "accessible": true
+    },
+    {
+      "from": "training_and_account_division",
+      "to": "class_room_03",
+      "weight": 64.5,
+      "accessible": true
+    },
+    {
+      "from": "training_and_account_division",
+      "to": "drawing_room",
+      "weight": 54.9,
+      "accessible": true
+    },
+    {
+      "from": "training_and_account_division",
+      "to": "class_room_04",
+      "weight": 44.2,
+      "accessible": true
+    },
+    {
+      "from": "training_and_account_division",
+      "to": "students_wash_room",
+      "weight": 41.6,
+      "accessible": true
+    },
+    {
+      "from": "training_and_account_division",
+      "to": "transport_division",
+      "weight": 41.3,
+      "accessible": true
+    },
+    {
+      "from": "training_and_account_division",
+      "to": "it_lab",
+      "weight": 41,
+      "accessible": true
+    },
+    {
+      "from": "training_and_account_division",
+      "to": "chart_room",
+      "weight": 41.3,
+      "accessible": true
+    },
+    {
+      "from": "training_and_account_division",
+      "to": "workshop",
+      "weight": 38.4,
+      "accessible": true
+    },
+    {
+      "from": "training_and_account_division",
+      "to": "welding_workshop",
+      "weight": 62.3,
+      "accessible": true
+    },
+    {
+      "from": "training_and_account_division",
+      "to": "canteen",
+      "weight": 45.8,
+      "accessible": true
+    },
+    {
+      "from": "training_and_account_division",
+      "to": "gym",
+      "weight": 63.6,
+      "accessible": true
+    },
+    {
+      "from": "training_and_account_division",
+      "to": "boys_hostals",
+      "weight": 55.2,
+      "accessible": true
+    },
+    {
+      "from": "training_and_account_division",
+      "to": "regional_center_mattakkuliya",
+      "weight": 85.3,
+      "accessible": true
+    },
+    {
+      "from": "training_and_account_division",
+      "to": "class_room_08",
+      "weight": 70.9,
+      "accessible": true
+    },
+    {
+      "from": "training_and_account_division",
+      "to": "lab",
+      "weight": 59.7,
+      "accessible": true
+    },
+    {
+      "from": "training_and_account_division",
+      "to": "classrooms",
+      "weight": 21.2,
+      "accessible": true
+    },
+    {
+      "from": "training_and_account_division",
+      "to": "security_room",
+      "weight": 55.2,
+      "accessible": true
+    },
+    {
+      "from": "auditorium",
+      "to": "mtl_hall_02",
+      "weight": 13.9,
+      "accessible": true
+    },
+    {
+      "from": "auditorium",
+      "to": "storage_room",
+      "weight": 9.4,
+      "accessible": true
+    },
+    {
+      "from": "auditorium",
+      "to": "mtl_hall_01",
+      "weight": 71.3,
+      "accessible": true
+    },
+    {
+      "from": "auditorium",
+      "to": "class_room_02",
+      "weight": 60.7,
+      "accessible": true
+    },
+    {
+      "from": "auditorium",
+      "to": "class_room_03",
+      "weight": 53.8,
+      "accessible": true
+    },
+    {
+      "from": "auditorium",
+      "to": "drawing_room",
+      "weight": 44.6,
+      "accessible": true
+    },
+    {
+      "from": "auditorium",
+      "to": "class_room_04",
+      "weight": 34.7,
+      "accessible": true
+    },
+    {
+      "from": "auditorium",
+      "to": "students_wash_room",
+      "weight": 30.7,
+      "accessible": true
+    },
+    {
+      "from": "auditorium",
+      "to": "transport_division",
+      "weight": 30,
+      "accessible": true
+    },
+    {
+      "from": "auditorium",
+      "to": "it_lab",
+      "weight": 29.2,
+      "accessible": true
+    },
+    {
+      "from": "auditorium",
+      "to": "chart_room",
+      "weight": 29.1,
+      "accessible": true
+    },
+    {
+      "from": "auditorium",
+      "to": "workshop",
+      "weight": 27.9,
+      "accessible": true
+    },
+    {
+      "from": "auditorium",
+      "to": "welding_workshop",
+      "weight": 51.5,
+      "accessible": true
+    },
+    {
+      "from": "auditorium",
+      "to": "canteen",
+      "weight": 46.5,
+      "accessible": true
+    },
+    {
+      "from": "auditorium",
+      "to": "gym",
+      "weight": 63.5,
+      "accessible": true
+    },
+    {
+      "from": "auditorium",
+      "to": "boys_hostals",
+      "weight": 50.6,
+      "accessible": true
+    },
+    {
+      "from": "auditorium",
+      "to": "regional_center_mattakkuliya",
+      "weight": 80.7,
+      "accessible": true
+    },
+    {
+      "from": "auditorium",
+      "to": "class_room_08",
+      "weight": 64,
+      "accessible": true
+    },
+    {
+      "from": "auditorium",
+      "to": "lab",
+      "weight": 55.1,
+      "accessible": true
+    },
+    {
+      "from": "auditorium",
+      "to": "classrooms",
+      "weight": 20.2,
+      "accessible": true
+    },
+    {
+      "from": "auditorium",
+      "to": "security_room",
+      "weight": 59.1,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_02",
+      "to": "storage_room",
+      "weight": 4.9,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_02",
+      "to": "mtl_hall_01",
+      "weight": 57.4,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_02",
+      "to": "class_room_02",
+      "weight": 46.8,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_02",
+      "to": "class_room_03",
+      "weight": 40,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_02",
+      "to": "drawing_room",
+      "weight": 30.8,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_02",
+      "to": "class_room_04",
+      "weight": 21.6,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_02",
+      "to": "students_wash_room",
+      "weight": 16.8,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_02",
+      "to": "transport_division",
+      "weight": 16.2,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_02",
+      "to": "it_lab",
+      "weight": 15.9,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_02",
+      "to": "chart_room",
+      "weight": 17.7,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_02",
+      "to": "workshop",
+      "weight": 25.8,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_02",
+      "to": "welding_workshop",
+      "weight": 46.2,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_02",
+      "to": "canteen",
+      "weight": 56.6,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_02",
+      "to": "gym",
+      "weight": 72.4,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_02",
+      "to": "boys_hostals",
+      "weight": 55.5,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_02",
+      "to": "regional_center_mattakkuliya",
+      "weight": 84.6,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_02",
+      "to": "class_room_08",
+      "weight": 52.5,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_02",
+      "to": "lab",
+      "weight": 46.1,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_02",
+      "to": "classrooms",
+      "weight": 20.9,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_02",
+      "to": "security_room",
+      "weight": 59.5,
+      "accessible": true
+    },
+    {
+      "from": "storage_room",
+      "to": "mtl_hall_01",
+      "weight": 62.2,
+      "accessible": true
+    },
+    {
+      "from": "storage_room",
+      "to": "class_room_02",
+      "weight": 51.5,
+      "accessible": true
+    },
+    {
+      "from": "storage_room",
+      "to": "class_room_03",
+      "weight": 44.6,
+      "accessible": true
+    },
+    {
+      "from": "storage_room",
+      "to": "drawing_room",
+      "weight": 35.2,
+      "accessible": true
+    },
+    {
+      "from": "storage_room",
+      "to": "class_room_04",
+      "weight": 25.4,
+      "accessible": true
+    },
+    {
+      "from": "storage_room",
+      "to": "students_wash_room",
+      "weight": 21.5,
+      "accessible": true
+    },
+    {
+      "from": "storage_room",
+      "to": "transport_division",
+      "weight": 21,
+      "accessible": true
+    },
+    {
+      "from": "storage_room",
+      "to": "it_lab",
+      "weight": 20.8,
+      "accessible": true
+    },
+    {
+      "from": "storage_room",
+      "to": "chart_room",
+      "weight": 22.2,
+      "accessible": true
+    },
+    {
+      "from": "storage_room",
+      "to": "workshop",
+      "weight": 27.4,
+      "accessible": true
+    },
+    {
+      "from": "storage_room",
+      "to": "welding_workshop",
+      "weight": 49.2,
+      "accessible": true
+    },
+    {
+      "from": "storage_room",
+      "to": "canteen",
+      "weight": 54.1,
+      "accessible": true
+    },
+    {
+      "from": "storage_room",
+      "to": "gym",
+      "weight": 70.5,
+      "accessible": true
+    },
+    {
+      "from": "storage_room",
+      "to": "boys_hostals",
+      "weight": 55,
+      "accessible": true
+    },
+    {
+      "from": "storage_room",
+      "to": "regional_center_mattakkuliya",
+      "weight": 84.6,
+      "accessible": true
+    },
+    {
+      "from": "storage_room",
+      "to": "class_room_08",
+      "weight": 55.3,
+      "accessible": true
+    },
+    {
+      "from": "storage_room",
+      "to": "lab",
+      "weight": 47.6,
+      "accessible": true
+    },
+    {
+      "from": "storage_room",
+      "to": "classrooms",
+      "weight": 18,
+      "accessible": true
+    },
+    {
+      "from": "storage_room",
+      "to": "security_room",
+      "weight": 57.3,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_01",
+      "to": "class_room_02",
+      "weight": 10.9,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_01",
+      "to": "class_room_03",
+      "weight": 18.2,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_01",
+      "to": "drawing_room",
+      "weight": 28.3,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_01",
+      "to": "class_room_04",
+      "weight": 39.6,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_01",
+      "to": "students_wash_room",
+      "weight": 40.8,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_01",
+      "to": "transport_division",
+      "weight": 41.3,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_01",
+      "to": "it_lab",
+      "weight": 42.8,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_01",
+      "to": "chart_room",
+      "weight": 46.3,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_01",
+      "to": "workshop",
+      "weight": 64.3,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_01",
+      "to": "welding_workshop",
+      "weight": 61.9,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_01",
+      "to": "canteen",
+      "weight": 106.6,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_01",
+      "to": "gym",
+      "weight": 118.3,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_01",
+      "to": "boys_hostals",
+      "weight": 95,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_01",
+      "to": "regional_center_mattakkuliya",
+      "weight": 115.9,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_01",
+      "to": "class_room_08",
+      "weight": 39,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_01",
+      "to": "lab",
+      "weight": 52.1,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_01",
+      "to": "classrooms",
+      "weight": 69.1,
+      "accessible": true
+    },
+    {
+      "from": "mtl_hall_01",
+      "to": "security_room",
+      "weight": 90.4,
+      "accessible": true
+    },
+    {
+      "from": "class_room_02",
+      "to": "class_room_03",
+      "weight": 7.3,
+      "accessible": true
+    },
+    {
+      "from": "class_room_02",
+      "to": "drawing_room",
+      "weight": 17.4,
+      "accessible": true
+    },
+    {
+      "from": "class_room_02",
+      "to": "class_room_04",
+      "weight": 28.7,
+      "accessible": true
+    },
+    {
+      "from": "class_room_02",
+      "to": "students_wash_room",
+      "weight": 30,
+      "accessible": true
+    },
+    {
+      "from": "class_room_02",
+      "to": "transport_division",
+      "weight": 30.7,
+      "accessible": true
+    },
+    {
+      "from": "class_room_02",
+      "to": "it_lab",
+      "weight": 32.6,
+      "accessible": true
+    },
+    {
+      "from": "class_room_02",
+      "to": "chart_room",
+      "weight": 36.8,
+      "accessible": true
+    },
+    {
+      "from": "class_room_02",
+      "to": "workshop",
+      "weight": 55.7,
+      "accessible": true
+    },
+    {
+      "from": "class_room_02",
+      "to": "welding_workshop",
+      "weight": 56.5,
+      "accessible": true
+    },
+    {
+      "from": "class_room_02",
+      "to": "canteen",
+      "weight": 97.4,
+      "accessible": true
+    },
+    {
+      "from": "class_room_02",
+      "to": "gym",
+      "weight": 110,
+      "accessible": true
+    },
+    {
+      "from": "class_room_02",
+      "to": "boys_hostals",
+      "weight": 87.3,
+      "accessible": true
+    },
+    {
+      "from": "class_room_02",
+      "to": "regional_center_mattakkuliya",
+      "weight": 109.9,
+      "accessible": true
+    },
+    {
+      "from": "class_room_02",
+      "to": "class_room_08",
+      "weight": 33.4,
+      "accessible": true
+    },
+    {
+      "from": "class_room_02",
+      "to": "lab",
+      "weight": 44.2,
+      "accessible": true
+    },
+    {
+      "from": "class_room_02",
+      "to": "classrooms",
+      "weight": 58.3,
+      "accessible": true
+    },
+    {
+      "from": "class_room_02",
+      "to": "security_room",
+      "weight": 81.1,
+      "accessible": true
+    },
+    {
+      "from": "class_room_03",
+      "to": "drawing_room",
+      "weight": 10.1,
+      "accessible": true
+    },
+    {
+      "from": "class_room_03",
+      "to": "class_room_04",
+      "weight": 21.4,
+      "accessible": true
+    },
+    {
+      "from": "class_room_03",
+      "to": "students_wash_room",
+      "weight": 23.1,
+      "accessible": true
+    },
+    {
+      "from": "class_room_03",
+      "to": "transport_division",
+      "weight": 24.1,
+      "accessible": true
+    },
+    {
+      "from": "class_room_03",
+      "to": "it_lab",
+      "weight": 26.5,
+      "accessible": true
+    },
+    {
+      "from": "class_room_03",
+      "to": "chart_room",
+      "weight": 31.5,
+      "accessible": true
+    },
+    {
+      "from": "class_room_03",
+      "to": "workshop",
+      "weight": 51,
+      "accessible": true
+    },
+    {
+      "from": "class_room_03",
+      "to": "welding_workshop",
+      "weight": 54.7,
+      "accessible": true
+    },
+    {
+      "from": "class_room_03",
+      "to": "canteen",
+      "weight": 92,
+      "accessible": true
+    },
+    {
+      "from": "class_room_03",
+      "to": "gym",
+      "weight": 105.2,
+      "accessible": true
+    },
+    {
+      "from": "class_room_03",
+      "to": "boys_hostals",
+      "weight": 83.2,
+      "accessible": true
+    },
+    {
+      "from": "class_room_03",
+      "to": "regional_center_mattakkuliya",
+      "weight": 107.1,
+      "accessible": true
+    },
+    {
+      "from": "class_room_03",
+      "to": "class_room_08",
+      "weight": 30.5,
+      "accessible": true
+    },
+    {
+      "from": "class_room_03",
+      "to": "lab",
+      "weight": 39,
+      "accessible": true
+    },
+    {
+      "from": "class_room_03",
+      "to": "classrooms",
+      "weight": 50.9,
+      "accessible": true
+    },
+    {
+      "from": "class_room_03",
+      "to": "security_room",
+      "weight": 74.7,
+      "accessible": true
+    },
+    {
+      "from": "drawing_room",
+      "to": "class_room_04",
+      "weight": 11.3,
+      "accessible": true
+    },
+    {
+      "from": "drawing_room",
+      "to": "students_wash_room",
+      "weight": 14.2,
+      "accessible": true
+    },
+    {
+      "from": "drawing_room",
+      "to": "transport_division",
+      "weight": 15.9,
+      "accessible": true
+    },
+    {
+      "from": "drawing_room",
+      "to": "it_lab",
+      "weight": 19.3,
+      "accessible": true
+    },
+    {
+      "from": "drawing_room",
+      "to": "chart_room",
+      "weight": 25.7,
+      "accessible": true
+    },
+    {
+      "from": "drawing_room",
+      "to": "workshop",
+      "weight": 45.4,
+      "accessible": true
+    },
+    {
+      "from": "drawing_room",
+      "to": "welding_workshop",
+      "weight": 53.4,
+      "accessible": true
+    },
+    {
+      "from": "drawing_room",
+      "to": "canteen",
+      "weight": 84.9,
+      "accessible": true
+    },
+    {
+      "from": "drawing_room",
+      "to": "gym",
+      "weight": 99,
+      "accessible": true
+    },
+    {
+      "from": "drawing_room",
+      "to": "boys_hostals",
+      "weight": 78.1,
+      "accessible": true
+    },
+    {
+      "from": "drawing_room",
+      "to": "regional_center_mattakkuliya",
+      "weight": 103.8,
+      "accessible": true
+    },
+    {
+      "from": "drawing_room",
+      "to": "class_room_08",
+      "weight": 29.3,
+      "accessible": true
+    },
+    {
+      "from": "drawing_room",
+      "to": "lab",
+      "weight": 33.4,
+      "accessible": true
+    },
+    {
+      "from": "drawing_room",
+      "to": "classrooms",
+      "weight": 40.9,
+      "accessible": true
+    },
+    {
+      "from": "drawing_room",
+      "to": "security_room",
+      "weight": 66.2,
+      "accessible": true
+    },
+    {
+      "from": "class_room_04",
+      "to": "students_wash_room",
+      "weight": 8.4,
+      "accessible": true
+    },
+    {
+      "from": "class_room_04",
+      "to": "transport_division",
+      "weight": 11.2,
+      "accessible": true
+    },
+    {
+      "from": "class_room_04",
+      "to": "it_lab",
+      "weight": 15.8,
+      "accessible": true
+    },
+    {
+      "from": "class_room_04",
+      "to": "chart_room",
+      "weight": 23.1,
+      "accessible": true
+    },
+    {
+      "from": "class_room_04",
+      "to": "workshop",
+      "weight": 41.3,
+      "accessible": true
+    },
+    {
+      "from": "class_room_04",
+      "to": "welding_workshop",
+      "weight": 54.3,
+      "accessible": true
+    },
+    {
+      "from": "class_room_04",
+      "to": "canteen",
+      "weight": 77.7,
+      "accessible": true
+    },
+    {
+      "from": "class_room_04",
+      "to": "gym",
+      "weight": 92.8,
+      "accessible": true
+    },
+    {
+      "from": "class_room_04",
+      "to": "boys_hostals",
+      "weight": 73.7,
+      "accessible": true
+    },
+    {
+      "from": "class_room_04",
+      "to": "regional_center_mattakkuliya",
+      "weight": 101.1,
+      "accessible": true
+    },
+    {
+      "from": "class_room_04",
+      "to": "class_room_08",
+      "weight": 32,
+      "accessible": true
+    },
+    {
+      "from": "class_room_04",
+      "to": "lab",
+      "weight": 30,
+      "accessible": true
+    },
+    {
+      "from": "class_room_04",
+      "to": "classrooms",
+      "weight": 29.5,
+      "accessible": true
+    },
+    {
+      "from": "class_room_04",
+      "to": "security_room",
+      "weight": 57.3,
+      "accessible": true
+    },
+    {
+      "from": "students_wash_room",
+      "to": "transport_division",
+      "weight": 2.8,
+      "accessible": true
+    },
+    {
+      "from": "students_wash_room",
+      "to": "it_lab",
+      "weight": 7.4,
+      "accessible": true
+    },
+    {
+      "from": "students_wash_room",
+      "to": "chart_room",
+      "weight": 14.7,
+      "accessible": true
+    },
+    {
+      "from": "students_wash_room",
+      "to": "workshop",
+      "weight": 33.2,
+      "accessible": true
+    },
+    {
+      "from": "students_wash_room",
+      "to": "welding_workshop",
+      "weight": 46.1,
+      "accessible": true
+    },
+    {
+      "from": "students_wash_room",
+      "to": "canteen",
+      "weight": 71,
+      "accessible": true
+    },
+    {
+      "from": "students_wash_room",
+      "to": "gym",
+      "weight": 85.6,
+      "accessible": true
+    },
+    {
+      "from": "students_wash_room",
+      "to": "boys_hostals",
+      "weight": 65.8,
+      "accessible": true
+    },
+    {
+      "from": "students_wash_room",
+      "to": "regional_center_mattakkuliya",
+      "weight": 92.8,
+      "accessible": true
+    },
+    {
+      "from": "students_wash_room",
+      "to": "class_room_08",
+      "weight": 39.9,
+      "accessible": true
+    },
+    {
+      "from": "students_wash_room",
+      "to": "lab",
+      "weight": 38.3,
+      "accessible": true
+    },
+    {
+      "from": "students_wash_room",
+      "to": "classrooms",
+      "weight": 30.8,
+      "accessible": true
+    },
+    {
+      "from": "students_wash_room",
+      "to": "security_room",
+      "weight": 63.1,
+      "accessible": true
+    },
+    {
+      "from": "transport_division",
+      "to": "it_lab",
+      "weight": 4.6,
+      "accessible": true
+    },
+    {
+      "from": "transport_division",
+      "to": "chart_room",
+      "weight": 11.9,
+      "accessible": true
+    },
+    {
+      "from": "transport_division",
+      "to": "workshop",
+      "weight": 30.6,
+      "accessible": true
+    },
+    {
+      "from": "transport_division",
+      "to": "welding_workshop",
+      "weight": 43.3,
+      "accessible": true
+    },
+    {
+      "from": "transport_division",
+      "to": "canteen",
+      "weight": 69,
+      "accessible": true
+    },
+    {
+      "from": "transport_division",
+      "to": "gym",
+      "weight": 83.4,
+      "accessible": true
+    },
+    {
+      "from": "transport_division",
+      "to": "boys_hostals",
+      "weight": 63.3,
+      "accessible": true
+    },
+    {
+      "from": "transport_division",
+      "to": "regional_center_mattakkuliya",
+      "weight": 90.1,
+      "accessible": true
+    },
+    {
+      "from": "transport_division",
+      "to": "class_room_08",
+      "weight": 42.4,
+      "accessible": true
+    },
+    {
+      "from": "transport_division",
+      "to": "lab",
+      "weight": 41.1,
+      "accessible": true
+    },
+    {
+      "from": "transport_division",
+      "to": "classrooms",
+      "weight": 31.9,
+      "accessible": true
+    },
+    {
+      "from": "transport_division",
+      "to": "security_room",
+      "weight": 65.3,
+      "accessible": true
+    },
+    {
+      "from": "it_lab",
+      "to": "chart_room",
+      "weight": 7.3,
+      "accessible": true
+    },
+    {
+      "from": "it_lab",
+      "to": "workshop",
+      "weight": 26.3,
+      "accessible": true
+    },
+    {
+      "from": "it_lab",
+      "to": "welding_workshop",
+      "weight": 38.8,
+      "accessible": true
+    },
+    {
+      "from": "it_lab",
+      "to": "canteen",
+      "weight": 65.8,
+      "accessible": true
+    },
+    {
+      "from": "it_lab",
+      "to": "gym",
+      "weight": 79.7,
+      "accessible": true
+    },
+    {
+      "from": "it_lab",
+      "to": "boys_hostals",
+      "weight": 59.1,
+      "accessible": true
+    },
+    {
+      "from": "it_lab",
+      "to": "regional_center_mattakkuliya",
+      "weight": 85.7,
+      "accessible": true
+    },
+    {
+      "from": "it_lab",
+      "to": "class_room_08",
+      "weight": 46.8,
+      "accessible": true
+    },
+    {
+      "from": "it_lab",
+      "to": "lab",
+      "weight": 45.7,
+      "accessible": true
+    },
+    {
+      "from": "it_lab",
+      "to": "classrooms",
+      "weight": 34,
+      "accessible": true
+    },
+    {
+      "from": "it_lab",
+      "to": "security_room",
+      "weight": 68.9,
+      "accessible": true
+    },
+    {
+      "from": "chart_room",
+      "to": "workshop",
+      "weight": 19.7,
+      "accessible": true
+    },
+    {
+      "from": "chart_room",
+      "to": "welding_workshop",
+      "weight": 31.9,
+      "accessible": true
+    },
+    {
+      "from": "chart_room",
+      "to": "canteen",
+      "weight": 60.7,
+      "accessible": true
+    },
+    {
+      "from": "chart_room",
+      "to": "gym",
+      "weight": 73.8,
+      "accessible": true
+    },
+    {
+      "from": "chart_room",
+      "to": "boys_hostals",
+      "weight": 52.4,
+      "accessible": true
+    },
+    {
+      "from": "chart_room",
+      "to": "regional_center_mattakkuliya",
+      "weight": 78.5,
+      "accessible": true
+    },
+    {
+      "from": "chart_room",
+      "to": "class_room_08",
+      "weight": 53.9,
+      "accessible": true
+    },
+    {
+      "from": "chart_room",
+      "to": "lab",
+      "weight": 53,
+      "accessible": true
+    },
+    {
+      "from": "chart_room",
+      "to": "classrooms",
+      "weight": 38,
+      "accessible": true
+    },
+    {
+      "from": "chart_room",
+      "to": "security_room",
+      "weight": 74.7,
+      "accessible": true
+    },
+    {
+      "from": "workshop",
+      "to": "welding_workshop",
+      "weight": 24,
+      "accessible": true
+    },
+    {
+      "from": "workshop",
+      "to": "canteen",
+      "weight": 42.4,
+      "accessible": true
+    },
+    {
+      "from": "workshop",
+      "to": "gym",
+      "weight": 54.3,
+      "accessible": true
+    },
+    {
+      "from": "workshop",
+      "to": "boys_hostals",
+      "weight": 32.8,
+      "accessible": true
+    },
+    {
+      "from": "workshop",
+      "to": "regional_center_mattakkuliya",
+      "weight": 60,
+      "accessible": true
+    },
+    {
+      "from": "workshop",
+      "to": "class_room_08",
+      "weight": 73,
+      "accessible": true
+    },
+    {
+      "from": "workshop",
+      "to": "lab",
+      "weight": 70.1,
+      "accessible": true
+    },
+    {
+      "from": "workshop",
+      "to": "classrooms",
+      "weight": 45.3,
+      "accessible": true
+    },
+    {
+      "from": "workshop",
+      "to": "security_room",
+      "weight": 84.7,
+      "accessible": true
+    },
+    {
+      "from": "welding_workshop",
+      "to": "canteen",
+      "weight": 56.6,
+      "accessible": true
+    },
+    {
+      "from": "welding_workshop",
+      "to": "gym",
+      "weight": 62.4,
+      "accessible": true
+    },
+    {
+      "from": "welding_workshop",
+      "to": "boys_hostals",
+      "weight": 37.6,
+      "accessible": true
+    },
+    {
+      "from": "welding_workshop",
+      "to": "regional_center_mattakkuliya",
+      "weight": 54,
+      "accessible": true
+    },
+    {
+      "from": "welding_workshop",
+      "to": "class_room_08",
+      "weight": 82.7,
+      "accessible": true
+    },
+    {
+      "from": "welding_workshop",
+      "to": "lab",
+      "weight": 84.3,
+      "accessible": true
+    },
+    {
+      "from": "welding_workshop",
+      "to": "classrooms",
+      "weight": 67,
+      "accessible": true
+    },
+    {
+      "from": "welding_workshop",
+      "to": "security_room",
+      "weight": 105.5,
+      "accessible": true
+    },
+    {
+      "from": "canteen",
+      "to": "gym",
+      "weight": 17.8,
+      "accessible": true
+    },
+    {
+      "from": "canteen",
+      "to": "boys_hostals",
+      "weight": 23.1,
+      "accessible": true
+    },
+    {
+      "from": "canteen",
+      "to": "regional_center_mattakkuliya",
+      "weight": 45.9,
+      "accessible": true
+    },
+    {
+      "from": "canteen",
+      "to": "class_room_08",
+      "weight": 109.1,
+      "accessible": true
+    },
+    {
+      "from": "canteen",
+      "to": "lab",
+      "weight": 101.5,
+      "accessible": true
+    },
+    {
+      "from": "canteen",
+      "to": "classrooms",
+      "weight": 65.6,
+      "accessible": true
+    },
+    {
+      "from": "canteen",
+      "to": "security_room",
+      "weight": 100.7,
+      "accessible": true
+    },
+    {
+      "from": "gym",
+      "to": "boys_hostals",
+      "weight": 24.9,
+      "accessible": true
+    },
+    {
+      "from": "gym",
+      "to": "regional_center_mattakkuliya",
+      "weight": 33.8,
+      "accessible": true
+    },
+    {
+      "from": "gym",
+      "to": "class_room_08",
+      "weight": 124.7,
+      "accessible": true
+    },
+    {
+      "from": "gym",
+      "to": "lab",
+      "weight": 118.1,
+      "accessible": true
+    },
+    {
+      "from": "gym",
+      "to": "classrooms",
+      "weight": 83,
+      "accessible": true
+    },
+    {
+      "from": "gym",
+      "to": "security_room",
+      "weight": 118.5,
+      "accessible": true
+    },
+    {
+      "from": "boys_hostals",
+      "to": "regional_center_mattakkuliya",
+      "weight": 30.2,
+      "accessible": true
+    },
+    {
+      "from": "boys_hostals",
+      "to": "class_room_08",
+      "weight": 105.6,
+      "accessible": true
+    },
+    {
+      "from": "boys_hostals",
+      "to": "lab",
+      "weight": 101.5,
+      "accessible": true
+    },
+    {
+      "from": "boys_hostals",
+      "to": "classrooms",
+      "weight": 70.8,
+      "accessible": true
+    },
+    {
+      "from": "boys_hostals",
+      "to": "security_room",
+      "weight": 109.4,
+      "accessible": true
+    },
+    {
+      "from": "regional_center_mattakkuliya",
+      "to": "class_room_08",
+      "weight": 132.5,
+      "accessible": true
+    },
+    {
+      "from": "regional_center_mattakkuliya",
+      "to": "lab",
+      "weight": 130,
+      "accessible": true
+    },
+    {
+      "from": "regional_center_mattakkuliya",
+      "to": "classrooms",
+      "weight": 100.9,
+      "accessible": true
+    },
+    {
+      "from": "regional_center_mattakkuliya",
+      "to": "security_room",
+      "weight": 139.6,
+      "accessible": true
+    },
+    {
+      "from": "class_room_08",
+      "to": "lab",
+      "weight": 16.7,
+      "accessible": true
+    },
+    {
+      "from": "class_room_08",
+      "to": "classrooms",
+      "weight": 51,
+      "accessible": true
+    },
+    {
+      "from": "class_room_08",
+      "to": "security_room",
+      "weight": 56.4,
+      "accessible": true
+    },
+    {
+      "from": "lab",
+      "to": "classrooms",
+      "weight": 38.7,
+      "accessible": true
+    },
+    {
+      "from": "lab",
+      "to": "security_room",
+      "weight": 39.9,
+      "accessible": true
+    },
+    {
+      "from": "classrooms",
+      "to": "security_room",
+      "weight": 39.5,
+      "accessible": true
+    }
+  ]
 }
