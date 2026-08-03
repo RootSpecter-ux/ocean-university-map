@@ -1,0 +1,16 @@
+{
+  "name": "Ocean University Campus Navigator",
+  "short_name": "Campus Map",
+  "description": "Interactive Zero-App Campus Navigation System for Ocean University of Sri Lanka",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0f19",
+  "theme_color": "#0b0f19",
+  "icons": [
+    {
+      "src": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/svgs/solid/compass.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
