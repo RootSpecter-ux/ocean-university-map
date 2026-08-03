@@ -108,10 +108,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   function initMap() {
     if (map) return;
 
-    // Initialize Leaflet Map centered on Ocean University Sri Lanka (Mattakkuliya)
+    // Initialize Leaflet Map centered directly on Ocean University Campus Drawings
     map = L.map('map', {
-      center: [6.9744, 79.8705],
-      zoom: 18,
+      center: [6.97543, 79.87206],
+      zoom: 19,
       zoomControl: false,
       attributionControl: false,
       tap: true,
@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     // Add High-Definition Google Maps Base Tiles
-    L.tileLayer('https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+    const gmapsRoadmap = L.tileLayer('https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
       maxZoom: 22,
       subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
     }).addTo(map);
@@ -331,6 +331,26 @@ document.addEventListener('DOMContentLoaded', async () => {
               layer.setStyle({ weight: 2.5, color: origColor, fillColor: origFill, fillOpacity: origOp });
             }
           });
+
+          // Add visible permanent label badge on polygon centroid (like Google My Maps)
+          if (feature.geometry && feature.geometry.type === 'Polygon') {
+            try {
+              const coords = feature.geometry.coordinates[0];
+              let sumLat = 0, sumLon = 0;
+              coords.forEach(p => { sumLon += p[0]; sumLat += p[1]; });
+              const cenLat = sumLat / coords.length;
+              const cenLon = sumLon / coords.length;
+              
+              const textIcon = L.divIcon({
+                className: 'bldg-center-label-icon',
+                html: `<div class="bldg-center-label-badge">${transName}</div>`,
+                iconSize: [120, 20],
+                iconAnchor: [60, 10]
+              });
+              const textMarker = L.marker([cenLat, cenLon], { icon: textIcon, interactive: false }).addTo(map);
+              bldgMarkers.push(textMarker);
+            } catch(e){}
+          }
         }
       }).addTo(map);
 
