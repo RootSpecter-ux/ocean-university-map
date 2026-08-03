@@ -1079,6 +1079,15 @@ document.addEventListener('DOMContentLoaded', async () => {
     urlDisplay.textContent = targetUrl;
   }
 
+  // Register PWA Service Worker for Offline Campus Reliability
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js')
+        .then(reg => console.log('[PWA SW] Service worker registered successfully:', reg.scope))
+        .catch(err => console.log('[PWA SW] Service worker registration failed:', err));
+    });
+  }
+
   // Start application
   init();
 });
